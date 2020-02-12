@@ -29,7 +29,9 @@ namespace AppTaxi2020.Web
             services.AddDbContextPool<AppDataContext>(options => 
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
-            });            
+            });
+
+            services.AddScoped<SeedDb>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
