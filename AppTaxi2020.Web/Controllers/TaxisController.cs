@@ -130,19 +130,21 @@ namespace AppTaxi2020.Web.Controllers
                 return NotFound();
             }
 
-            return View(taxiEntity);
-        }
-
-        // POST: Taxis/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            TaxiEntity taxiEntity = await _context.Taxis.FindAsync(id);
+           
             _context.Taxis.Remove(taxiEntity);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+
+        
         }
+
+        //// POST: Taxis/Delete/5
+        //[HttpPost, ActionName("Delete")]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> DeleteConfirmed(int id)
+        //{
+
+        //}
 
         private bool TaxiEntityExists(int id)
         {
