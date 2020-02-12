@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AppTaxi2020.Web.Migrations
 {
     [DbContext(typeof(AppDataContext))]
-    [Migration("20200207221226_InitialDB")]
-    partial class InitialDB
+    [Migration("20200212123043_inital")]
+    partial class inital
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

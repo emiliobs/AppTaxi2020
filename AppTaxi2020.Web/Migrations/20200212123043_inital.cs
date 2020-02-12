@@ -2,7 +2,7 @@
 
 namespace AppTaxi2020.Web.Migrations
 {
-    public partial class InitialDB : Migration
+    public partial class inital : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
