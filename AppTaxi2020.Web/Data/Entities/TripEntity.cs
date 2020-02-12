@@ -13,15 +13,13 @@ namespace AppTaxi2020.Web.Data.Entities
         [DataType(DataType.DateTime)]
         [Display(Name = "Start Date")]
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy hh:mm}", ApplyFormatInEditMode = false)]
-        public DateTime StartDate { get; set; }
-
+        public DateTime StartDate { get; set; }       
         public DateTime StartDateLocal => StartDate.ToLocalTime();
 
         [DataType(DataType.DateTime)]
-        [Display(Name = "Start Date")]
+        [Display(Name = "End Date")]
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy hh:mm}", ApplyFormatInEditMode = false)]
-        public DateTime? EndDate { get; set; }
-
+        public DateTime? EndDate { get; set; }           
         public DateTime? EndDateLocal => EndDate?.ToLocalTime();
 
         [MaxLength(100, ErrorMessage = "The {0} field must have {1} characters.")]
@@ -43,6 +41,7 @@ namespace AppTaxi2020.Web.Data.Entities
         public string Remarks { get; set; }
 
         public TaxiEntity Taxi { get; set; }
+        public ICollection<TripDetailEntity> TripDetails { get; set; }
 
     }
 }

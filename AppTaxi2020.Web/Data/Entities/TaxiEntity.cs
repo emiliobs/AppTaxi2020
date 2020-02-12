@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace AppTaxi2020.Web.Data.Entities
 {
@@ -11,5 +13,7 @@ namespace AppTaxi2020.Web.Data.Entities
         [StringLength(6, MinimumLength = 6, ErrorMessage = "The field {0} must start three character and ends with numbers.")]
         [Required(ErrorMessage = "The field {0} is mandatory.")]
         public string Plaque { get; set; }
+
+        public ICollection<TripEntity> Trips { get; set; }
     }
 }
