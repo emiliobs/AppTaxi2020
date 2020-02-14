@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace AppTaxi2020.Web.Data
 {
-    
+
     public class SeedDb
     {
-       
+
         private readonly AppDataContext _dataContext;
 
         public SeedDb(AppDataContext dataContext)
         {
-           
+
             _dataContext = dataContext;
-           
+
         }
 
         public async Task SeedAsync()
@@ -29,20 +29,20 @@ namespace AppTaxi2020.Web.Data
         {
             if (!_dataContext.Taxis.Any())
             {
-                _dataContext.Taxis.Add(new TaxiEntity 
+                _dataContext.Taxis.Add(new TaxiEntity
                 {
-                   Plaque = "CGQ123",
-                   Trips = new List<TripEntity>() 
+                    Plaque = "CGQ123",
+                    Trips = new List<TripEntity>()
                    {
                        new TripEntity
-                       { 
-                           StartDate = DateTime.UtcNow, 
+                       {
+                           StartDate = DateTime.UtcNow,
                            EndDate = DateTime.UtcNow.AddMinutes(30),
                            Qualification =4.5f,
                            Source = "Whitechapel",
                            Target = "London Centre",
                            Remarks = "Excellent Service",
-                           
+
                        } ,
 
                         new TripEntity
