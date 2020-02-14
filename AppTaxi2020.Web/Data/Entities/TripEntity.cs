@@ -42,6 +42,8 @@ namespace AppTaxi2020.Web.Data.Entities
 
         public TaxiEntity Taxi { get; set; }
         public ICollection<TripDetailEntity> TripDetails { get; set; }
+        public UserEntity UserEntity { get; set; }
+
 
     }
 }

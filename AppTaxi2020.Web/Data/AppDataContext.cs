@@ -1,4 +1,5 @@
 ﻿using AppTaxi2020.Web.Data.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AppTaxi2020.Web.Data
 {
-    public class AppDataContext :  DbContext
+    public class AppDataContext : IdentityDbContext<UserEntity>
     {
         public AppDataContext(DbContextOptions<AppDataContext> options):base(options)
         {
@@ -17,6 +18,7 @@ namespace AppTaxi2020.Web.Data
         public DbSet<TaxiEntity> Taxis { get; set; }
         public DbSet<TripDetailEntity> TripDetails { get; set; }
         public DbSet<TripEntity> Trips { get; set; }
+        public DbSet<UserGroupEntity> UserGroupEntities { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
