@@ -1,8 +1,5 @@
 ﻿using AppTaxi2020.Web.Data.Entities;
 using Microsoft.AspNetCore.Identity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace AppTaxi2020.Web.Helpers
@@ -11,36 +8,50 @@ namespace AppTaxi2020.Web.Helpers
     {
         private readonly UserManager<UserEntity> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        
 
-        public UserHelper(UserManager<UserEntity> userManager, RoleManager<IdentityRole> roleManager)
+        public UserHelper(
+            UserManager<UserEntity> userManager,
+            RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _roleManager = roleManager;
+         
         }
 
-        public Task<IdentityResult> AddUserAsync(UserEntity userEntity, string password)
+        public async Task<IdentityResult> AddUserAsync(UserEntity user, string password)
         {
-            throw new NotImplementedException();
+            return await _userManager.CreateAsync(user, password);
         }
 
-        public async Task AddUserToRoleAsync(UserEntity userEntity, string roleName)
+        public async Task AddUserToRoleAsync(UserEntity user, string roleName)
         {
-            throw new NotImplementedException();
+            await _userManager.AddToRoleAsync(user, roleName);
         }
 
-        public async Task CheckRoleAsyn(string roleName)
+        public async Task CheckRoleAsync(string roleName)
         {
-            throw new NotImplementedException();
+            bool roleExists = await _roleManager.RoleExistsAsync(roleName);
+            if (!roleExists)
+            {
+                await _roleManager.CreateAsync(new IdentityRole
+                {
+                    Name = roleName
+                });
+            }
         }
 
         public async Task<UserEntity> GetUserByEmailAsync(string email)
         {
-            throw new NotImplementedException();
+            return await _userManager.FindByEmailAsync(email);
         }
 
-        public async Task<bool> IsUserInRoleAsync(UserEntity userEntity, string roleName)
+        public async Task<bool> IsUserInRoleAsync(UserEntity user, string roleName)
         {
-            throw new NotImplementedException();
+            return await _userManager.IsInRoleAsync(user, roleName);
         }
+
+
+
     }
 }

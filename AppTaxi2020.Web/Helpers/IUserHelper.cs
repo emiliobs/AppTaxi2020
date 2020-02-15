@@ -10,9 +10,13 @@ namespace AppTaxi2020.Web.Helpers
     public interface IUserHelper
     {
         Task<UserEntity> GetUserByEmailAsync(string email);
-        Task<IdentityResult> AddUserAsync(UserEntity userEntity, string password);
-        Task CheckRoleAsyn(string roleName);
-        Task AddUserToRoleAsync(UserEntity userEntity, string roleName);
-        Task<bool> IsUserInRoleAsync(UserEntity userEntity, string roleName);
+
+        Task<IdentityResult> AddUserAsync(UserEntity user, string password);
+
+        Task CheckRoleAsync(string roleName);
+
+        Task AddUserToRoleAsync(UserEntity user, string roleName);
+
+        Task<bool> IsUserInRoleAsync(UserEntity user, string roleName);
     }
 }
