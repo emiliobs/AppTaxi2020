@@ -4,32 +4,87 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Taxis</h1>
 
-<p>
-    <a asp-action="Create" class="btn btn-primary">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Plaque)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Plaque)
-            </td>
-            <td>
-                <a asp-action="Edit" class="btn btn-info" asp-route-id="@item.Id">Edit</a> 
-                <a asp-action="Details" class="btn btn-warning" asp-route-id="@item.Id">Details</a> 
-                <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" />
+<br />
+
+<div class="container">
+    <p>
+        <a asp-action="Create" class="btn btn-primary"><i class="fas fa-plus"></i>Create New</a>
+    </p>
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="card">
+                <div class="card-header">
+                    Taxis
+                </div>
+                <div class="card-body">
+
+                    <table id="example" class="table table-hover  table-striped" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Plaque)
+                                </th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Plaque)
+                                    </td>
+                                    <td>
+                                        <a asp-action="Edit" asp-route-id="@item.Id" title="Edit" class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i>Edit</a>
+                                        <a asp-action="Details" asp-route-id="@item.Id" title="Details" class="btn btn-info"><i class="glyphicon glyphicon glyphicon-align-justify"></i>Details</a>
+                                        <button data-id="@item.Id" title="Delete" class="btn btn-danger deleteItem" data-toggle="modal" data-target="#deleteDialog"><i class="glyphicon glyphicon-trash"></i>Delete</button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <partial name="_DeleteDialog" />
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+        <script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+                $('#example').DataTable();
+
+
+                // Delete item
+                var item_to_delete;
+
+                $('.deleteItem').click((e) => {
+                    item_to_delete = e.currentTarget.dataset.id;
+                });
+
+                $("#btnYesDelete").click(function () {
+                    window.location.href = '/Taxis/Delete/' + item_to_delete;
+                });
+            });
+        </script>
+
+    }
+
+
+
+
+
