@@ -1,4 +1,5 @@
 ﻿using AppTaxi2020.Web.Data.Entities;
+using AppTaxi2020.Web.Models;
 using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
 
@@ -8,15 +9,16 @@ namespace AppTaxi2020.Web.Helpers
     {
         private readonly UserManager<UserEntity> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
-        
+        private readonly SignInManager<UserEntity> _signInManager;
 
         public UserHelper(
             UserManager<UserEntity> userManager,
-            RoleManager<IdentityRole> roleManager)
+            RoleManager<IdentityRole> roleManager,
+            SignInManager<UserEntity> signInManager)
         {
             _userManager = userManager;
             _roleManager = roleManager;
-         
+            _signInManager = signInManager;
         }
 
         public async Task<IdentityResult> AddUserAsync(UserEntity user, string password)
@@ -51,7 +53,17 @@ namespace AppTaxi2020.Web.Helpers
             return await _userManager.IsInRoleAsync(user, roleName);
         }
 
+        public async Task<SignInResult> LoginAsync(LoginViewModel loginViewModel)
+        {
+            return await _signInManager.PasswordSignInAsync(
+                loginViewModel.Username, 
+                loginViewModel.Password,
+                loginViewModel.RememberMe, false);  
+        }
 
-
+        public async Task LogoutAsync()
+        {
+            await _signInManager.SignOutAsync();
+        }
     }
 }

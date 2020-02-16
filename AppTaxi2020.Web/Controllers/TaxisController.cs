@@ -1,5 +1,6 @@
 ﻿using AppTaxi2020.Web.Data;
 using AppTaxi2020.Web.Data.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -8,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace AppTaxi2020.Web.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class TaxisController : Controller
     {
         private readonly AppDataContext _context;
@@ -166,7 +168,7 @@ namespace AppTaxi2020.Web.Controllers
            
             _context.Taxis.Remove(taxiEntity);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index","Taxis");
 
         
         }
