@@ -1,7 +1,7 @@
-﻿using Prism;
-using Prism.Ioc;
-using AppTaxi2020.Prison.ViewModels;
+﻿using AppTaxi2020.Prison.ViewModels;
 using AppTaxi2020.Prison.Views;
+using Prism;
+using Prism.Ioc;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -23,13 +23,14 @@ namespace AppTaxi2020.Prison
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/MainPage");
+            await NavigationService.NavigateAsync("NavigationPage/HomePage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
-            containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
+            
+            containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>();
         }
     }
 }
