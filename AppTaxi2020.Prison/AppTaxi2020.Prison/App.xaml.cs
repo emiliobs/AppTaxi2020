@@ -1,4 +1,5 @@
-﻿using AppTaxi2020.Prison.ViewModels;
+﻿using AppTaxi2020.Common.Services;
+using AppTaxi2020.Prison.ViewModels;
 using AppTaxi2020.Prison.Views;
 using Prism;
 using Prism.Ioc;
@@ -30,6 +31,7 @@ namespace AppTaxi2020.Prison
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             
+            containerRegistry.Register<IGeolocatorService, GeolocatorService>();
             containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>();
             containerRegistry.RegisterForNavigation<TaxiMasterDetailPage, TaxiMasterDetailPageViewModel>();
             containerRegistry.RegisterForNavigation<TaxiHistoryPage, TaxiHistoryPageViewModel>();
