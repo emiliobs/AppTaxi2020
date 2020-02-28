@@ -1,5 +1,6 @@
 ﻿using AppTaxi2020.Common.Models;
 using Newtonsoft.Json;
+using Plugin.Connectivity;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
@@ -10,7 +11,18 @@ namespace AppTaxi2020.Common.Services
 {
     public class ApiService : IApiService
     {
-        public async Task<Response> GetTaxiAsync(string plaque, string urlBase, string servicePrefix, string controller)
+		[Obsolete]
+		public async Task<bool> CheckConnectionAsync(string url)
+		{
+			if (!CrossConnectivity.Current.IsConnected)
+			{
+				return false;
+			}
+
+			return await CrossConnectivity.Current.IsRemoteReachable(url);
+		}
+
+		public async Task<Response> GetTaxiAsync(string plaque, string urlBase, string servicePrefix, string controller)
         {
 			try
 			{

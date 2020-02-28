@@ -60,8 +60,15 @@ namespace AppTaxi2020.Prison.ViewModels
             IsRunning = true;
 
             var url = App.Current.Resources["UrlAPI"].ToString();
+            var connection = await _apiService.CheckConnectionAsync(url);
+            if (!connection)
+            {
+                IsRunning = false;
+                await App.Current.MainPage.DisplayAlert("Error","Check the Internet conecction.","Accept");
+                return;
+            }
+        
             var response = await _apiService.GetTaxiAsync(Plaque, url,"api","/Taxis");
-            
             IsRunning = false;
 
             if (!response.IsSuccess)
