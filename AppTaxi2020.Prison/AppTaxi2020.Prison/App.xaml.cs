@@ -3,6 +3,7 @@ using AppTaxi2020.Prison.ViewModels;
 using AppTaxi2020.Prison.Views;
 using Prism;
 using Prism.Ioc;
+using Syncfusion.Licensing;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -22,6 +23,7 @@ namespace AppTaxi2020.Prison
 
         protected override async void OnInitialized()
         {
+            SyncfusionLicenseProvider.RegisterLicense("MjE3MTI3QDMxMzcyZTM0MmUzMGtsUXJvczdHUTl3SjV1YTcvZzFhckpHVENKRWMwS2NxK1ZObEp4ZGZMb2s9");
             InitializeComponent();
 
             await NavigationService.NavigateAsync("/TaxiMasterDetailPage/NavigationPage/HomePage");
