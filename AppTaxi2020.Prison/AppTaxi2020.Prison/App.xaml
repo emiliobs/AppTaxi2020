@@ -5,7 +5,13 @@
              x:Class="AppTaxi2020.Prison.App">
 	<Application.Resources>
 
-		<!-- Application resource dictionary -->
+        <ResourceDictionary>
 
-	</Application.Resources>
+            <!-- Parameters -->
+            <x:String x:Key="UrlAPI">https://taxiweb3.azurewebsites.net/</x:String>
+
+        </ResourceDictionary>
+
+
+    </Application.Resources>
 </prism:PrismApplication>

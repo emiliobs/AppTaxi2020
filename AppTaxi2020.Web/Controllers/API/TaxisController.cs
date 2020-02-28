@@ -39,7 +39,14 @@ namespace AppTaxi2020.Web.Controllers.API
 
             if (taxiEntity == null)
             {
-                return NotFound();
+                taxiEntity = new TaxiEntity 
+                {
+                   Plaque = plaque.ToUpper(),
+                };
+                _context.Taxis.Add(taxiEntity);
+                await _context.SaveChangesAsync();
+
+
             }
 
             return Ok(_converterHelper.ToTaxiResponse(taxiEntity));
