@@ -3,12 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
+             xmlns:busyindicator="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
              x:Class="AppTaxi2020.Prison.Views.TaxiHistoryPage"
              Title="{Binding Title}">
-    
-    <StackLayout Padding="5">
-        
-        <StackLayout Orientation="Horizontal">
+
+    <AbsoluteLayout>
+
+        <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,1"
+                     AbsoluteLayout.LayoutFlags="All" 
+                     Padding="5">
+            
+            <StackLayout Orientation="Horizontal">
             <Label Text="Plaque"
                    VerticalOptions="Center"/>
             <Entry HorizontalOptions="FillAndExpand" 
@@ -86,5 +91,21 @@
             </CollectionView.ItemTemplate>
         </CollectionView>
     </StackLayout>
+
+        <busyindicator:SfBusyIndicator AnimationType="Gear" 
+                                       AbsoluteLayout.LayoutBounds=".5,.5,.5,.5"
+                	                   AbsoluteLayout.LayoutFlags="All"
+                	                   BackgroundColor="Silver"
+                	                   HorizontalOptions="Center"
+                	                   TextColor="Magenta"
+                	                   IsVisible="{Binding IsRunning}"
+                	                   Title="Loading..."
+                	                   VerticalOptions="Center"
+                	                   ViewBoxWidth="80"
+                	                   ViewBoxHeight="80" />
+
+
+    </AbsoluteLayout>
+    
     
 </ContentPage>

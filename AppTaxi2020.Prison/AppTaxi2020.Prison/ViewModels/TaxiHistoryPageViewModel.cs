@@ -15,6 +15,7 @@ namespace AppTaxi2020.Prison.ViewModels
         private readonly IApiService _apiService;
         private TaxiResponse _taxi;
         private DelegateCommand _checkPlaqueCommand;
+        private bool _isRunning;
 
         public TaxiHistoryPageViewModel(INavigationService navigationService, IApiService apiService):base(navigationService)
         {
@@ -22,6 +23,13 @@ namespace AppTaxi2020.Prison.ViewModels
             this._apiService = apiService;
         }
 
+
+        public bool IsRunning
+        {
+            get => _isRunning;
+
+            set => SetProperty(ref _isRunning, value);
+        }
 
         public TaxiResponse Taxi
         {
@@ -48,14 +56,23 @@ namespace AppTaxi2020.Prison.ViewModels
                 return;
             }
 
+
+            IsRunning = true;
+
             var url = App.Current.Resources["UrlAPI"].ToString();
             var response = await _apiService.GetTaxiAsync(Plaque, url,"api","/Taxis");
+            
+            IsRunning = false;
+
             if (!response.IsSuccess)
             {
                 await App.Current.MainPage.DisplayAlert("Error",response.Message,"Acecpt");
                 return;
             }
+
             Taxi = (TaxiResponse)response.Result;
+
+
         }
     }
 }
