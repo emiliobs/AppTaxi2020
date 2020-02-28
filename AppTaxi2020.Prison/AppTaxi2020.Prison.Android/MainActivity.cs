@@ -6,6 +6,7 @@ using Plugin.Permissions;
 using Prism;
 using Prism.Ioc;
 using Syncfusion.SfBusyIndicator.XForms.Droid;
+using Syncfusion.SfRating.XForms.Droid;
 
 namespace AppTaxi2020.Prison.Droid
 {
@@ -21,6 +22,7 @@ namespace AppTaxi2020.Prison.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             new SfBusyIndicatorRenderer();
+            new SfRatingRenderer();
             CrossCurrentActivity.Current.Init(this, bundle);
             LoadApplication(new App(new AndroidInitializer()));
         }
