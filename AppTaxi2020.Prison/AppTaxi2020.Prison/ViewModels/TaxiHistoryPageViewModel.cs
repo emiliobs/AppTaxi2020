@@ -12,17 +12,27 @@ namespace AppTaxi2020.Prison.ViewModels
 {
     public class TaxiHistoryPageViewModel : ViewModelBase
     {
+        private readonly INavigationService _navigationService;
         private readonly IApiService _apiService;
         private TaxiResponse _taxi;
         private DelegateCommand _checkPlaqueCommand;
+        private List<TripItemViewModel> _details;
         private bool _isRunning;
 
         public TaxiHistoryPageViewModel(INavigationService navigationService, IApiService apiService):base(navigationService)
         {
             Title = "See Taxi History";
+            this._navigationService = navigationService;
             this._apiService = apiService;
         }
 
+
+
+        public List<TripItemViewModel> Details 
+        {
+            get => _details;
+            set => SetProperty(ref _details, value); 
+        }
 
         public bool IsRunning
         {
@@ -37,7 +47,7 @@ namespace AppTaxi2020.Prison.ViewModels
             set => SetProperty(ref _taxi, value);
         }
 
-        public string Plaque { get; set; }
+        public string Plaque { get; set; } = "TPQ123";
 
         public DelegateCommand CheckPlaqueCommand => _checkPlaqueCommand ?? (_checkPlaqueCommand = new DelegateCommand(CheckPlaqueAsync));
 
@@ -78,6 +88,26 @@ namespace AppTaxi2020.Prison.ViewModels
             }
 
             Taxi = (TaxiResponse)response.Result;
+
+            Details = Taxi.Trips.Select(t =>  new TripItemViewModel(_navigationService) 
+            {
+
+                EndDate = t.EndDate,
+                Id = t.Id,
+                Qualification = t.Qualification,
+                Remarks = t.Remarks,
+                Source = t.Source,
+                SourceLatitude = t.SourceLatitude,
+                SourceLongitude = t.SourceLongitude,
+                StartDate = t.StartDate,
+                Target = t.Target,
+                TargetLatitude = t.TargetLatitude,
+                TargetLongitude = t.TargetLongitude,
+                TripDetails = t.TripDetails,
+                User = t.User
+
+
+            }).ToList();
 
 
         }

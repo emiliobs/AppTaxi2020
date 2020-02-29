@@ -42,6 +42,7 @@ namespace AppTaxi2020.Prison
             containerRegistry.RegisterForNavigation<ModifyUserPage, ModifyUserPageViewModel>();
             containerRegistry.RegisterForNavigation<ReportPage, ReportPageViewModel>();
             containerRegistry.RegisterForNavigation<LoginPage, LoginPageViewModel>();
+            containerRegistry.RegisterForNavigation<TripDetailPage, TripDetailPageViewModel>();
         }
     }
 }
