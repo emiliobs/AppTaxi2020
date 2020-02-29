@@ -5,18 +5,16 @@
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="AppTaxi2020.Prison.Views.HomePage"
+             BackgroundColor="{StaticResource ColorBackgroud}"
              Title="{Binding Title}">
 
     <StackLayout>
         <maps:Map x:Name="MyMap" MapType="Street"></maps:Map>
         <StackLayout Padding="5">
-            <Button 
-                BackgroundColor="Green"
-                CornerRadius="20" 
-                HeightRequest="40" 
+            <Button BackgroundColor="Navy" 
                 Margin="10,0" 
-                Text="Start Trip" 
-                TextColor="White">                
+                Text="Start Trip"
+                Style="{StaticResource SecondaryButton}">                
             </Button>
         </StackLayout>
     </StackLayout>

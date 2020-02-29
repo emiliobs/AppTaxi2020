@@ -6,6 +6,7 @@
              xmlns:busyindicator="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
              xmlns:rating="clr-namespace:Syncfusion.SfRating.XForms;assembly=Syncfusion.SfRating.XForms"
              x:Class="AppTaxi2020.Prison.Views.TaxiHistoryPage"
+             BackgroundColor="{StaticResource ColorBackgroud}"
              Title="{Binding Title}">
 
     <AbsoluteLayout>
@@ -23,15 +24,12 @@
                    VerticalOptions="Center"/>
                 <Button BackgroundColor="Navy"
                     Command="{Binding CheckPlaqueCommand}"
-                    CornerRadius="20"
-                    HeightRequest="40"
                     Margin="10,0"
                     Text="Check Plaque"
-                    TextColor="White"/>
+                    Style="{StaticResource SecondaryButton}"/>
             </StackLayout>
 
-            <rating:SfRating HorizontalOptions="Center" 
-                            
+            <rating:SfRating HorizontalOptions="Center"                             
                              IsEnabled="False"
                              Margin="0,5"
                              Precision="Exact"
@@ -102,16 +100,17 @@
         </StackLayout>
 
         <busyindicator:SfBusyIndicator AnimationType="Gear" 
-                                       AbsoluteLayout.LayoutBounds=".5,.5,.5,.5"
-                	                   AbsoluteLayout.LayoutFlags="All"
-                	                   BackgroundColor="Silver"
-                	                   HorizontalOptions="Center"
-                	                   TextColor="Magenta"
-                	                   IsVisible="{Binding IsRunning}"
-                	                   Title="Loading..."
-                	                   VerticalOptions="Center"
-                	                   ViewBoxWidth="80"
-                	                   ViewBoxHeight="80" />
+                                    AbsoluteLayout.LayoutBounds=".5,.5,.5,.5"
+                	                AbsoluteLayout.LayoutFlags="All"
+                	                BackgroundColor="{StaticResource ColorDanger}"
+                	                HorizontalOptions="Center"
+                	                TextColor="{StaticResource ColorFontInverse}"
+                	                IsVisible="{Binding IsRunning}"
+                	                Title="Loading"
+                	                VerticalOptions="Center"
+                	                ViewBoxWidth="80"
+                	                ViewBoxHeight="80" />
+
 
 
     </AbsoluteLayout>

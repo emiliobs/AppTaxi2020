@@ -4,6 +4,7 @@
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="AppTaxi2020.Prison.Views.LoginPage"
+             BackgroundColor="{StaticResource ColorBackgroud}"
              Title="{Binding Title}">
   
 </ContentPage>
