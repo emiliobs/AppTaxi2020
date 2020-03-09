@@ -3,6 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+ios:Page.UseSafeArea="true"
+
              x:Class="AppTaxi2020.Prison.Views.ModifyUserPage"
             BackgroundColor="{StaticResource ColorBackgroud}"
              Title="{Binding Title}">

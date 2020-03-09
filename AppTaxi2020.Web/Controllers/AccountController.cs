@@ -54,6 +54,17 @@ namespace AppTaxi2020.Web.Controllers
             await _userHelper.LogoutAsync();
             return RedirectToAction("Index", "Home");
         }
+
+        public IActionResult NotAuthorized()
+        {
+            return View();
+        }
+
+        [Route("error/404")]
+        public IActionResult Error404()
+        {
+            return View();
+        }
     }
 }
 

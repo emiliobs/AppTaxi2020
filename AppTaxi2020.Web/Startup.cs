@@ -36,6 +36,12 @@ namespace AppTaxi2020.Web
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.ConfigureApplicationCookie(options => 
+            {
+                options.LoginPath = "/Account/NotAuthorized";
+                options.AccessDeniedPath = "/Account/NotAuthorized";
+            });
+
 
             services.AddIdentity<UserEntity, IdentityRole>(cfg =>
             {
@@ -68,7 +74,7 @@ namespace AppTaxi2020.Web
             }
 
 
-
+            app.UseStatusCodePagesWithReExecute("/error/{0}");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
