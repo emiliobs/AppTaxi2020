@@ -20,6 +20,32 @@ namespace AppTaxi2020.Web.Controllers
             _combosHelper = combosHelper;
         }
 
+        public IActionResult ChangePassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ChangePassword(ChangePasswordViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await _userHelper.GetUserByEmailAsync(User.Identity.Name);
+               
+                    var result = await _userHelper.ChangePasswordAsync(user, model.OldPassword, model.NewPassword);
+                    if (result.Succeeded)
+                    {
+                        return RedirectToAction("ChangeUser");
+                    }
+                    else
+                    {
+                        ModelState.AddModelError(string.Empty, result.Errors.FirstOrDefault().Description);
+                    }
+                
+            }
+
+            return View(model);
+        }
         public async Task<IActionResult> ChangeUser()
         {
             Data.Entities.UserEntity user = await _userHelper.GetUserByEmailAsync(User.Identity.Name);
