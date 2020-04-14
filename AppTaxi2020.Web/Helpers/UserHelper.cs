@@ -1,4 +1,5 @@
-﻿using AppTaxi2020.Web.Data.Entities;
+﻿using AppTaxi2020.Common.Enums;
+using AppTaxi2020.Web.Data.Entities;
 using AppTaxi2020.Web.Models;
 using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
@@ -26,10 +27,38 @@ namespace AppTaxi2020.Web.Helpers
             return await _userManager.CreateAsync(user, password);
         }
 
+        public async Task<UserEntity> AddUserAsync(AddUserViewModel model, string path)
+        {
+            var userEntity = new UserEntity
+            {
+                    Address = model.Address,
+                    Document = model.Document,
+                    Email = model.Username,
+                    FirstName = model.FirstName,
+                    LastName = model.LastName,
+                    PicturePath = path,
+                    PhoneNumber = model.PhoneNumber,
+                    UserName= model.Username,
+                    UserType = model.UserTypeId == 1 ? UserType.Driver : UserType.User,
+            };
+
+            var result = await _userManager.CreateAsync(userEntity, model.Password);
+            if (result != IdentityResult.Success)
+            {
+                return null;
+            }
+
+            var newUser = await GetUserByEmailAsync(model.Username);
+            await AddUserToRoleAsync(newUser, userEntity.UserType.ToString());
+            return newUser;
+        }
+
         public async Task AddUserToRoleAsync(UserEntity user, string roleName)
         {
             await _userManager.AddToRoleAsync(user, roleName);
         }
+
+       
 
         public async Task CheckRoleAsync(string roleName)
         {
@@ -64,6 +93,16 @@ namespace AppTaxi2020.Web.Helpers
         public async Task LogoutAsync()
         {
             await _signInManager.SignOutAsync();
+        }
+
+        public async Task<IdentityResult> ChangePasswordAsync(UserEntity user, string oldPassword, string newPassword)
+        {
+            return await _userManager.ChangePasswordAsync(user, oldPassword, newPassword);
+        }
+
+        public async Task<IdentityResult> UpdateUserAsync(UserEntity user)
+        {
+            return await _userManager.UpdateAsync(user);
         }
     }
 }

@@ -19,5 +19,10 @@ namespace AppTaxi2020.Web.Helpers
 
         Task<SignInResult> LoginAsync(LoginViewModel loginViewModel);
         Task LogoutAsync();
+        Task<UserEntity> AddUserAsync(AddUserViewModel model, string path);
+        Task<IdentityResult> ChangePasswordAsync(UserEntity user, string oldPassword, string newPassword);
+
+        Task<IdentityResult> UpdateUserAsync(UserEntity user);
+
     }
 }
