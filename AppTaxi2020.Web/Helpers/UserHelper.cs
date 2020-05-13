@@ -2,6 +2,7 @@
 using AppTaxi2020.Web.Data.Entities;
 using AppTaxi2020.Web.Models;
 using Microsoft.AspNetCore.Identity;
+using System;
 using System.Threading.Tasks;
 
 namespace AppTaxi2020.Web.Helpers
@@ -48,7 +49,7 @@ namespace AppTaxi2020.Web.Helpers
                 return null;
             }
 
-            var newUser = await GetUserByEmailAsync(model.Username);
+            var newUser = await GetUserAsync(model.Username);
             await AddUserToRoleAsync(newUser, userEntity.UserType.ToString());
             return newUser;
         }
@@ -72,11 +73,7 @@ namespace AppTaxi2020.Web.Helpers
             }
         }
 
-        public async Task<UserEntity> GetUserByEmailAsync(string email)
-        {
-            return await _userManager.FindByEmailAsync(email);
-        }
-
+       
         public async Task<bool> IsUserInRoleAsync(UserEntity user, string roleName)
         {
             return await _userManager.IsInRoleAsync(user, roleName);
@@ -103,6 +100,16 @@ namespace AppTaxi2020.Web.Helpers
         public async Task<IdentityResult> UpdateUserAsync(UserEntity user)
         {
             return await _userManager.UpdateAsync(user);
+        }
+
+        public async Task<UserEntity> GetUserAsync(string email)
+        {
+            return await _userManager.FindByEmailAsync(email);
+        }
+
+        public async Task<UserEntity> GetUserAsync(Guid userId)
+        {
+            return await _userManager.FindByIdAsync(userId.ToString()); 
         }
     }
 }

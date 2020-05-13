@@ -41,7 +41,7 @@ namespace AppTaxi2020.Web.Data
             string address,
             UserType userType)
         {
-            AppTaxi2020.Web.Data.Entities.UserEntity user = await _userHelper.GetUserByEmailAsync(email);
+            AppTaxi2020.Web.Data.Entities.UserEntity user = await _userHelper.GetUserAsync(email);
             if (user == null)
             {
                 user = new UserEntity

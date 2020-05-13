@@ -30,7 +30,7 @@ namespace AppTaxi2020.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = await _userHelper.GetUserByEmailAsync(User.Identity.Name);
+                var user = await _userHelper.GetUserAsync(User.Identity.Name);
                
                     var result = await _userHelper.ChangePasswordAsync(user, model.OldPassword, model.NewPassword);
                     if (result.Succeeded)
@@ -48,7 +48,7 @@ namespace AppTaxi2020.Web.Controllers
         }
         public async Task<IActionResult> ChangeUser()
         {
-            Data.Entities.UserEntity user = await _userHelper.GetUserByEmailAsync(User.Identity.Name);
+            Data.Entities.UserEntity user = await _userHelper.GetUserAsync(User.Identity.Name);
             EditUserViewModel model = new EditUserViewModel
             {
                 Address = user.Address,
@@ -75,7 +75,7 @@ namespace AppTaxi2020.Web.Controllers
                     path = await _imageHelper.UploadImageAsync(model.PictureFile, "Users");
                 }
 
-                UserEntity user = await _userHelper.GetUserByEmailAsync(User.Identity.Name);
+                UserEntity user = await _userHelper.GetUserAsync(User.Identity.Name);
 
                 user.Document = model.Document;
                 user.FirstName = model.FirstName;
