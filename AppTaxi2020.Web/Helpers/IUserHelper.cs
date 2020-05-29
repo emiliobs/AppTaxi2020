@@ -8,6 +8,9 @@ namespace AppTaxi2020.Web.Helpers
 {
     public interface IUserHelper
     {
+
+        Task<string> GenerateEmailConfirmationTokenAsync(UserEntity user);
+        Task<IdentityResult> ConfirmEmailAsync(UserEntity user, string token);
         Task<UserEntity> GetUserAsync(string email);
         Task<UserEntity> GetUserAsync(Guid  userId);
         Task<IdentityResult> AddUserAsync(UserEntity user, string password);

@@ -41,7 +41,7 @@ namespace AppTaxi2020.Web.Data
             string address,
             UserType userType)
         {
-            AppTaxi2020.Web.Data.Entities.UserEntity user = await _userHelper.GetUserAsync(email);
+            UserEntity user = await _userHelper.GetUserAsync(email);
             if (user == null)
             {
                 user = new UserEntity
@@ -58,6 +58,10 @@ namespace AppTaxi2020.Web.Data
 
                 await _userHelper.AddUserAsync(user, "Eabs123.");
                 await _userHelper.AddUserToRoleAsync(user, userType.ToString());
+
+                //Aqui los autentico a mano.
+                string token = await _userHelper.GenerateEmailConfirmationTokenAsync(user);
+                await _userHelper.ConfirmEmailAsync(user, token);
             }
 
             return user;

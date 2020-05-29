@@ -44,19 +44,22 @@ namespace AppTaxi2020.Web
                 options.AccessDeniedPath = "/Account/NotAuthorized";
             });
 
-
+            //Users Configurations:
             services.AddIdentity<UserEntity, IdentityRole>(cfg =>
             {
+                cfg.Tokens.AuthenticatorTokenProvider = TokenOptions.DefaultAuthenticatorProvider;
+                cfg.SignIn.RequireConfirmedEmail = true;
                 cfg.User.RequireUniqueEmail = true;
                 cfg.Password.RequireDigit = false;
                 cfg.Password.RequiredUniqueChars = 0;
                 cfg.Password.RequireLowercase = false;
                 cfg.Password.RequireNonAlphanumeric = false;
                 cfg.Password.RequireUppercase = false;
-            }).AddEntityFrameworkStores<AppDataContext>();
+            }).AddDefaultTokenProviders()
+              .AddEntityFrameworkStores<AppDataContext>();
 
             //service to Authentication:
-            services.AddAuthentication().AddCookie().AddJwtBearer(cfg => 
+            services.AddAuthentication().AddCookie().AddJwtBearer(cfg =>
             {
                 cfg.TokenValidationParameters = new TokenValidationParameters
                 {
@@ -71,6 +74,7 @@ namespace AppTaxi2020.Web
             services.AddScoped<IConverterHelper, ConverterHelper>();
             services.AddScoped<ICombosHelper, CombosHelper>();
             services.AddScoped<IImageHelper, ImageHelper>();
+            services.AddScoped<IMailHelper, MailHelper>();
 
         }
 

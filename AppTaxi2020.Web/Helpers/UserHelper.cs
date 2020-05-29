@@ -57,9 +57,7 @@ namespace AppTaxi2020.Web.Helpers
         public async Task AddUserToRoleAsync(UserEntity user, string roleName)
         {
             await _userManager.AddToRoleAsync(user, roleName);
-        }
-
-       
+        }            
 
         public async Task CheckRoleAsync(string roleName)
         {
@@ -72,7 +70,6 @@ namespace AppTaxi2020.Web.Helpers
                 });
             }
         }
-
        
         public async Task<bool> IsUserInRoleAsync(UserEntity user, string roleName)
         {
@@ -117,5 +114,17 @@ namespace AppTaxi2020.Web.Helpers
             return await _signInManager.CheckPasswordSignInAsync(user, password, false);
 
         }
+
+        public async Task<string> GenerateEmailConfirmationTokenAsync(UserEntity user)
+        {
+            return await _userManager.GenerateEmailConfirmationTokenAsync(user);
+        }
+
+        public async Task<IdentityResult> ConfirmEmailAsync(UserEntity user, string token)
+        {
+            return await _userManager.ConfirmEmailAsync(user, token);
+        }
+
+
     }
 }

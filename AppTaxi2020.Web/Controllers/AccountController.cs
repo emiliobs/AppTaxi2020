@@ -19,16 +19,41 @@ namespace AppTaxi2020.Web.Controllers
         private readonly IImageHelper _imageHelper;
         private readonly ICombosHelper _combosHelper;
         private readonly IConfiguration _configuration;
+        private readonly IMailHelper _mailHelper;
 
         public AccountController(IUserHelper userHelper, IImageHelper imageHelper, ICombosHelper combosHelper,
-                                 IConfiguration configuration)
+                                 IConfiguration configuration, IMailHelper mailHelper)
         {
             _userHelper = userHelper;
             _imageHelper = imageHelper;
             _combosHelper = combosHelper;
             _configuration = configuration;
+            _mailHelper = mailHelper;
         }
 
+
+        public async Task<IActionResult> ConfirmEmail(string userId, string token)
+        {
+            if (string.IsNullOrEmpty(userId) || string.IsNullOrEmpty(token))
+            {
+                return NotFound();
+            }
+
+            var user = await _userHelper.GetUserAsync(new Guid(userId));
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            var result = await _userHelper.ConfirmEmailAsync(user,token);
+            if (!result.Succeeded)
+            {
+                return NotFound();
+            }
+
+            return View();
+        }
 
         [HttpPost]
         public async Task<IActionResult> CreateToken([FromBody] LoginViewModel model)
@@ -204,7 +229,7 @@ namespace AppTaxi2020.Web.Controllers
                     path = await _imageHelper.UploadImageAsync(model.PictureFile, "Users");
                 }
 
-                Data.Entities.UserEntity user = await _userHelper.AddUserAsync(model, path);
+                UserEntity user = await _userHelper.AddUserAsync(model, path);
                 if (user == null)
                 {
                     ModelState.AddModelError(string.Empty, "This email is already used.");
@@ -212,18 +237,35 @@ namespace AppTaxi2020.Web.Controllers
                     return View(model);
                 }
 
-                //Aqui logeo al uasuario nuevo:
-                LoginViewModel loginViewModel = new LoginViewModel
+                var myToken = await _userHelper.GenerateEmailConfirmationTokenAsync(user);
+                var tokenLink = Url.Action("ConfirmEmail", "Account", new 
                 {
-                    Password = model.Password,
-                    RememberMe = false,
-                    Username = model.Username,
-                };
-                Microsoft.AspNetCore.Identity.SignInResult logIn = await _userHelper.LoginAsync(loginViewModel);
-                if (logIn.Succeeded)
+                    userId = user.Id,
+                    token = myToken
+                }, protocol: HttpContext.Request.Scheme);
+
+                var response = _mailHelper.SendMail(model.Username, "EmailConfirmation",$"<h1>Email Confirmation</h1>" +
+                              $"To allow the user. please click in thi link</br></br><a href=\"{tokenLink}\">Confirm Email.</a>");
+                if (response.IsSuccess)
                 {
-                    return RedirectToAction("Index", "Home");
+                    ViewBag.Message = "The instructions to allow your user has been sent to email.";
+                    return View(model);
                 }
+
+                ModelState.AddModelError(string.Empty, response.Message);
+
+                ////Aqui logeo al uasuario nuevo:
+                //LoginViewModel loginViewModel = new LoginViewModel
+                //{
+                //    Password = model.Password,
+                //    RememberMe = false,
+                //    Username = model.Username,
+                //};
+                //Microsoft.AspNetCore.Identity.SignInResult logIn = await _userHelper.LoginAsync(loginViewModel);
+                //if (logIn.Succeeded)
+                //{
+                //    return RedirectToAction("Index", "Home");
+                //}
 
             }
             model.UserTypes = _combosHelper.GetComboRoles();
