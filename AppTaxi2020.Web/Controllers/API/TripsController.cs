@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+
 using System.Linq;
 using System.Threading.Tasks;
 using AppTaxi2020.Common.Models;
 using AppTaxi2020.Web.Data;
 using AppTaxi2020.Web.Data.Entities;
 using AppTaxi2020.Web.Helpers;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,6 +17,7 @@ using Microsoft.EntityFrameworkCore;
 namespace AppTaxi2020.Web.Controllers.API
 {
     [Route("api/[controller]")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [ApiController]
     public class TripsController : ControllerBase
     {

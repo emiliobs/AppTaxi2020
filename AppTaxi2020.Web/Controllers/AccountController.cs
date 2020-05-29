@@ -2,7 +2,13 @@
 using AppTaxi2020.Web.Helpers;
 using AppTaxi2020.Web.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using System;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace AppTaxi2020.Web.Controllers
@@ -12,13 +18,60 @@ namespace AppTaxi2020.Web.Controllers
         private readonly IUserHelper _userHelper;
         private readonly IImageHelper _imageHelper;
         private readonly ICombosHelper _combosHelper;
+        private readonly IConfiguration _configuration;
 
-        public AccountController(IUserHelper userHelper, IImageHelper imageHelper, ICombosHelper combosHelper)
+        public AccountController(IUserHelper userHelper, IImageHelper imageHelper, ICombosHelper combosHelper,
+                                 IConfiguration configuration)
         {
             _userHelper = userHelper;
             _imageHelper = imageHelper;
             _combosHelper = combosHelper;
+            _configuration = configuration;
         }
+
+
+        [HttpPost]
+        public async Task<IActionResult> CreateToken([FromBody] LoginViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                UserEntity user = await _userHelper.GetUserAsync(model.Username);
+                if (user != null)
+                {
+                    Microsoft.AspNetCore.Identity.SignInResult result = await _userHelper.ValidatePasswordAsync(user, model.Password);
+
+                    if (result.Succeeded)
+                    {
+                        Claim[] claims = new[]
+                        {
+                            new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+                            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+                        };
+
+                        SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Tokens:Key"]));
+                        SigningCredentials credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+                        JwtSecurityToken token = new JwtSecurityToken(
+                              _configuration["Tokens:Issuer"],
+                              _configuration["Tokens:Audience"],
+                              claims,
+                              expires: DateTime.UtcNow.AddDays(15),
+                              signingCredentials: credentials
+                              );
+
+                        var results = new
+                        {
+                            token = new JwtSecurityTokenHandler().WriteToken(token),
+                            expiration = token.ValidTo
+                        };
+                        return Created(string.Empty, results);
+                    }
+                }
+            }
+
+            return BadRequest();
+
+        }
+
 
         public IActionResult ChangePassword()
         {
@@ -30,18 +83,18 @@ namespace AppTaxi2020.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = await _userHelper.GetUserAsync(User.Identity.Name);
-               
-                    var result = await _userHelper.ChangePasswordAsync(user, model.OldPassword, model.NewPassword);
-                    if (result.Succeeded)
-                    {
-                        return RedirectToAction("ChangeUser");
-                    }
-                    else
-                    {
-                        ModelState.AddModelError(string.Empty, result.Errors.FirstOrDefault().Description);
-                    }
-                
+                UserEntity user = await _userHelper.GetUserAsync(User.Identity.Name);
+
+                Microsoft.AspNetCore.Identity.IdentityResult result = await _userHelper.ChangePasswordAsync(user, model.OldPassword, model.NewPassword);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("ChangeUser");
+                }
+                else
+                {
+                    ModelState.AddModelError(string.Empty, result.Errors.FirstOrDefault().Description);
+                }
+
             }
 
             return View(model);
