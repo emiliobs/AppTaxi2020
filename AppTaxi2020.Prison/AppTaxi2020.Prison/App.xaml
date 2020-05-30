@@ -6,9 +6,10 @@
 	<Application.Resources>
 
         <ResourceDictionary>
-
+            
             <!-- Parameters -->
-            <x:String x:Key="UrlAPI">https://taxiweb3.azurewebsites.net/</x:String>
+            <!--<x:String x:Key="UrlAPI">https://taxiweb3.azurewebsites.net/</x:String>-->
+            <x:String x:Key="UrlAPI">https://apptaxi2020.azurewebsites.net/</x:String>
 
             <!-- Colors -->
             <Color x:Key="ColorBackgroud">#FFFF05</Color>
