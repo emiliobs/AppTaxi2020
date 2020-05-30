@@ -1,5 +1,6 @@
 ﻿using AppTaxi2020.Common.Models;
 using AppTaxi2020.Common.Services;
+using AppTaxi2020.Prison.Helpers;
 using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
@@ -21,12 +22,10 @@ namespace AppTaxi2020.Prison.ViewModels
 
         public TaxiHistoryPageViewModel(INavigationService navigationService, IApiService apiService):base(navigationService)
         {
-            Title = "See Taxi History";
+            Title = Languages.TaxiHistory;
             this._navigationService = navigationService;
             this._apiService = apiService;
         }
-
-
 
         public List<TripItemViewModel> Details 
         {
@@ -55,14 +54,14 @@ namespace AppTaxi2020.Prison.ViewModels
         {
             if (string.IsNullOrEmpty(Plaque))
             {
-                await App.Current.MainPage.DisplayAlert("Error","You Must enter a Plaque","Accept");
+                await App.Current.MainPage.DisplayAlert(Languages.Error,Languages.PlaqueError1,Languages.Accept);
                 return;
             }
 
             var regex = new Regex(@"^([A-Za-z]{3}\d{3})$");
             if (!regex.IsMatch(Plaque))
             {
-                await App.Current.MainPage.DisplayAlert("Error","The plaque must start wint three letters and with three numbers.","Accept");
+                await App.Current.MainPage.DisplayAlert(Languages.Error, Languages.PlaqueError2, Languages.Accept);
                 return;
             }
 
@@ -74,7 +73,7 @@ namespace AppTaxi2020.Prison.ViewModels
             if (!connection)
             {
                 IsRunning = false;
-                await App.Current.MainPage.DisplayAlert("Error","Check the Internet conecction.","Accept");
+                await App.Current.MainPage.DisplayAlert(Languages.Error, Languages.ConnectionError, Languages.Accept);
                 return;
             }
         
@@ -83,7 +82,7 @@ namespace AppTaxi2020.Prison.ViewModels
 
             if (!response.IsSuccess)
             {
-                await App.Current.MainPage.DisplayAlert("Error",response.Message,"Acecpt");
+                await App.Current.MainPage.DisplayAlert(Languages.Error, response.Message, Languages.Accept);
                 return;
             }
 
