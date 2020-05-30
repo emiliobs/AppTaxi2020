@@ -135,4 +135,55 @@
   <data name="PlaqueError2" xml:space="preserve">
     <value>La plaque doit commencer par trois lettres et se terminer par trois chiffres.</value>
   </data>
+  <data name="Plaque" xml:space="preserve">
+    <value>Plaque</value>
+  </data>
+  <data name="PlaquePlaceHolder" xml:space="preserve">
+    <value>ABC123</value>
+  </data>
+  <data name="CheckPlaque" xml:space="preserve">
+    <value>Vérifiez la plaque!</value>
+  </data>
+  <data name="Qualification" xml:space="preserve">
+    <value>Qualification</value>
+  </data>
+  <data name="NumberOfTrips" xml:space="preserve">
+    <value>Nombre de courses</value>
+  </data>
+  <data name="Driver" xml:space="preserve">
+    <value>pilote</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Date de début</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="Remarks" xml:space="preserve">
+    <value>Remarques :</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Chargement...</value>
+  </data>
+  <data name="StartTrip" xml:space="preserve">
+    <value>Commencer le trajet</value>
+  </data>
+  <data name="NewTrip" xml:space="preserve">
+    <value>Nouveau déplacement</value>
+  </data>
+  <data name="SeeTaxiHistory" xml:space="preserve">
+    <value>Voir l&amp;#39;historique des taxis!</value>
+  </data>
+  <data name="AdminMyUserGroup" xml:space="preserve">
+    <value>Admin mon groupe d&amp;#39;utilisateurs!</value>
+  </data>
+  <data name="ModifyUser" xml:space="preserve">
+    <value>Modifier l'utilisateur</value>
+  </data>
+  <data name="ReportAnIncident" xml:space="preserve">
+    <value>Signaler un incident</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>Se connecter</value>
+  </data>
 </root>

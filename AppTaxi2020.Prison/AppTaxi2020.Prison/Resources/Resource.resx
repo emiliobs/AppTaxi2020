@@ -135,5 +135,56 @@
   <data name="ConnectionError" xml:space="preserve">
     <value>Check the internet connection.</value>
   </data>
+  <data name="Plaque" xml:space="preserve">
+    <value>Plaque</value>
+  </data>
+  <data name="PlaquePlaceHolder" xml:space="preserve">
+    <value>ABC123</value>
+  </data>
+  <data name="CheckPlaque" xml:space="preserve">
+    <value>Check Plaque</value>
+  </data>
+  <data name="Qualification" xml:space="preserve">
+    <value>Qualification</value>
+  </data>
+  <data name="NumberOfTrips" xml:space="preserve">
+    <value>Number of trips</value>
+  </data>
+  <data name="Driver" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="Remarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="StartTrip" xml:space="preserve">
+    <value>Start Trip</value>
+  </data>
+  <data name="NewTrip" xml:space="preserve">
+    <value>New trip</value>
+  </data>
+  <data name="SeeTaxiHistory" xml:space="preserve">
+    <value>See taxi history</value>
+  </data>
+  <data name="AdminMyUserGroup" xml:space="preserve">
+    <value>Admin my user group</value>
+  </data>
+  <data name="ModifyUser" xml:space="preserve">
+    <value>Modify user</value>
+  </data>
+  <data name="ReportAnIncident" xml:space="preserve">
+    <value>Report an incident</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>Log in</value>
+  </data>
 
 </root>

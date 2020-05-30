@@ -70,6 +70,24 @@ namespace AppTaxi2020.Prison.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Admin my user group.
+        /// </summary>
+        public static string AdminMyUserGroup {
+            get {
+                return ResourceManager.GetString("AdminMyUserGroup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Check Plaque.
+        /// </summary>
+        public static string CheckPlaque {
+            get {
+                return ResourceManager.GetString("CheckPlaque", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Check the internet connection..
         /// </summary>
         public static string ConnectionError {
@@ -79,11 +97,74 @@ namespace AppTaxi2020.Prison.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Driver.
+        /// </summary>
+        public static string Driver {
+            get {
+                return ResourceManager.GetString("Driver", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
         public static string Error {
             get {
                 return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Loading....
+        /// </summary>
+        public static string Loading {
+            get {
+                return ResourceManager.GetString("Loading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Log in.
+        /// </summary>
+        public static string LogIn {
+            get {
+                return ResourceManager.GetString("LogIn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Modify user.
+        /// </summary>
+        public static string ModifyUser {
+            get {
+                return ResourceManager.GetString("ModifyUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New trip.
+        /// </summary>
+        public static string NewTrip {
+            get {
+                return ResourceManager.GetString("NewTrip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Number of trips.
+        /// </summary>
+        public static string NumberOfTrips {
+            get {
+                return ResourceManager.GetString("NumberOfTrips", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Plaque.
+        /// </summary>
+        public static string Plaque {
+            get {
+                return ResourceManager.GetString("Plaque", resourceCulture);
             }
         }
         
@@ -102,6 +183,78 @@ namespace AppTaxi2020.Prison.Resources {
         public static string PlaqueError2 {
             get {
                 return ResourceManager.GetString("PlaqueError2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ABC123.
+        /// </summary>
+        public static string PlaquePlaceHolder {
+            get {
+                return ResourceManager.GetString("PlaquePlaceHolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Qualification.
+        /// </summary>
+        public static string Qualification {
+            get {
+                return ResourceManager.GetString("Qualification", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remarks.
+        /// </summary>
+        public static string Remarks {
+            get {
+                return ResourceManager.GetString("Remarks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Report an incident.
+        /// </summary>
+        public static string ReportAnIncident {
+            get {
+                return ResourceManager.GetString("ReportAnIncident", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Score.
+        /// </summary>
+        public static string Score {
+            get {
+                return ResourceManager.GetString("Score", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to See taxi history.
+        /// </summary>
+        public static string SeeTaxiHistory {
+            get {
+                return ResourceManager.GetString("SeeTaxiHistory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Start Date.
+        /// </summary>
+        public static string StartDate {
+            get {
+                return ResourceManager.GetString("StartDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Start Trip.
+        /// </summary>
+        public static string StartTrip {
+            get {
+                return ResourceManager.GetString("StartTrip", resourceCulture);
             }
         }
         

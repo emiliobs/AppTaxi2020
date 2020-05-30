@@ -4,52 +4,46 @@
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
-ios:Page.UseSafeArea="true"
-
+               ios:Page.UseSafeArea="true"
+             xmlns:i18n="clr-namespace:AppTaxi2020.Prison.Helpers"
              xmlns:busyindicator="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
              xmlns:rating="clr-namespace:Syncfusion.SfRating.XForms;assembly=Syncfusion.SfRating.XForms"
              x:Class="AppTaxi2020.Prison.Views.TaxiHistoryPage"
              BackgroundColor="{StaticResource ColorBackgroud}"
              Title="{Binding Title}">
-
         <AbsoluteLayout>
-
-
             <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,1"
                      AbsoluteLayout.LayoutFlags="All" 
                      Padding="5">
-
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="Plaque"
+                    <Label Text="{i18n:Translate Plaque}"
                    VerticalOptions="Center"/>
                     <Entry HorizontalOptions="FillAndExpand" 
-                   Placeholder="Enter plaque..." 
+                   Placeholder="{i18n:Translate PlaquePlaceHolder}" 
                    Text="{Binding Plaque}"
                    VerticalOptions="Center"/>
                     <Button BackgroundColor="Navy"
                     Command="{Binding CheckPlaqueCommand}"
                     Margin="10,0"
-                    Text="Check Plaque"
+                    Text="{i18n:Translate CheckPlaque}"
                     Style="{StaticResource SecondaryButton}"/>
                 </StackLayout>
 
-                <rating:SfRating HorizontalOptions="Center"                             
-                             IsEnabled="False"
-                             Margin="0,5"
-                             Precision="Exact"
-                             Value="{Binding Taxi.Qualification}" />
-
+            <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
                 <Label FontAttributes="Bold" 
-               FontSize="48"
-               HorizontalOptions="Center"
-               Text="{Binding Taxi.Qualification, StringFormat='{0:N2}'}"/>
+                       FontSize="Large"
+                       Text="{i18n:Translate Qualification}"/>
+                <Label FontAttributes="Bold" 
+                       FontSize="Large"
+                       Text="{Binding Taxi.Qualification, StringFormat='{0:N2}'}"/>
+            </StackLayout>
 
-                <StackLayout Orientation="Horizontal">
-                    <Label Text="Number of trips:"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{i18n:Translate NumberOfTrips}"/>
                     <Label Text="{Binding Taxi.NumberOfTrips, StringFormat='{0:N0}'}"/>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="Driver:"/>
+                <Label Text="{i18n:Translate Driver}"/>
                     <Label Text="{Binding Taxi.User.FullName, StringFormat='{0:N0}'}"/>
                 </StackLayout>
                 <Grid>
@@ -65,13 +59,13 @@ ios:Page.UseSafeArea="true"
                     </Grid.ColumnDefinitions>
                     <Label Grid.Column="0"
                    FontAttributes="Bold"
-                   Text="Start Date"/>
+                   Text="{i18n:Translate StartDate}"/>
                     <Label Grid.Column="1"
                    FontAttributes="Bold"
-                   Text="Score"/>
+                   Text="{i18n:Translate Score }"/>
                     <Label Grid.Column="2"
                    FontAttributes="Bold"                                          
-                   Text="Remarks"/>
+                   Text="{i18n:Translate Remarks}"/>
                 </Grid>
 
                 <CollectionView ItemsSource="{Binding Details}">
@@ -118,7 +112,7 @@ ios:Page.UseSafeArea="true"
                 	                HorizontalOptions="Center"
                 	                TextColor="{StaticResource ColorFontInverse}"
                 	                IsVisible="{Binding IsRunning}"
-                	                Title="Loading"
+                	                Title="{i18n:Translate Loading}"
                 	                VerticalOptions="Center"
                 	                ViewBoxWidth="80"
                 	                ViewBoxHeight="80" />

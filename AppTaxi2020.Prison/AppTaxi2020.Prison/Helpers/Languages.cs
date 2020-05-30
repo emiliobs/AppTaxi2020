@@ -28,6 +28,42 @@ namespace AppTaxi2020.Prison.Helpers
 
         public static string TaxiHistory => Resource.TaxiHistory;
 
+        public static string Plaque => Resource.Plaque;
+
+        public static string PlaquePlaceHolder => Resource.PlaquePlaceHolder;
+
+        public static string CheckPlaque => Resource.CheckPlaque;
+
+        public static string Qualification => Resource.Qualification;
+
+        public static string NumberOfTrips => Resource.NumberOfTrips;
+
+        public static string Driver => Resource.Driver;
+
+        public static string StartDate => Resource.StartDate;
+
+        public static string Score => Resource.Score;
+
+        public static string Remarks => Resource.Remarks;
+
+        public static string Loading => Resource.Loading;
+
+        public static string StartTrip => Resource.StartTrip;
+
+        public static string NewTrip => Resource.NewTrip;
+
+        public static string SeeTaxiHistory => Resource.SeeTaxiHistory;
+
+        public static string AdminMyUserGroup => Resource.AdminMyUserGroup;
+
+        public static string ModifyUser => Resource.ModifyUser;
+
+        public static string ReportAnIncident => Resource.ReportAnIncident;
+
+        public static string LogIn => Resource.LogIn;
+
+
+
 
     }
 }

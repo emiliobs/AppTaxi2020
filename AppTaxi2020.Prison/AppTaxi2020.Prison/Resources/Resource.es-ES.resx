@@ -135,4 +135,55 @@
   <data name="PlaqueError1" xml:space="preserve">
     <value>Debes entrar en una placa.</value>
   </data>
+  <data name="Plaque" xml:space="preserve">
+    <value>Placa</value>
+  </data>
+  <data name="PlaquePlaceHolder" xml:space="preserve">
+    <value>ABC123</value>
+  </data>
+  <data name="CheckPlaque" xml:space="preserve">
+    <value>Comprobar la placa.</value>
+  </data>
+  <data name="Qualification" xml:space="preserve">
+    <value>Calificaión</value>
+  </data>
+  <data name="NumberOfTrips" xml:space="preserve">
+    <value>Número de Viajes</value>
+  </data>
+  <data name="Driver" xml:space="preserve">
+    <value>Conductor(a)</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Fecha de comienzo</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Puntuación</value>
+  </data>
+  <data name="Remarks" xml:space="preserve">
+    <value>Notas:</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Cargando...</value>
+  </data>
+  <data name="StartTrip" xml:space="preserve">
+    <value>Iniciar viaje</value>
+  </data>
+  <data name="NewTrip" xml:space="preserve">
+    <value>Nuevo trayecto</value>
+  </data>
+  <data name="SeeTaxiHistory" xml:space="preserve">
+    <value>Ver historial de taxis!</value>
+  </data>
+  <data name="AdminMyUserGroup" xml:space="preserve">
+    <value>Admin mi grupo de usuarios!</value>
+  </data>
+  <data name="ModifyUser" xml:space="preserve">
+    <value>Modificar usuario</value>
+  </data>
+  <data name="ReportAnIncident" xml:space="preserve">
+    <value>Informa de una incidencia</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>Iniciar sesión</value>
+  </data>
 </root>
