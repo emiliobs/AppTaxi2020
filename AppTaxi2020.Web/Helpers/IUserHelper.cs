@@ -9,6 +9,8 @@ namespace AppTaxi2020.Web.Helpers
     public interface IUserHelper
     {
 
+        Task<string> GeneratePasswordResetTokenAsync(UserEntity user);
+        Task<IdentityResult> ResetPasswordAsync(UserEntity user, string token, string password);
         Task<string> GenerateEmailConfirmationTokenAsync(UserEntity user);
         Task<IdentityResult> ConfirmEmailAsync(UserEntity user, string token);
         Task<UserEntity> GetUserAsync(string email);

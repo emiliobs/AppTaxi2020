@@ -31,6 +31,65 @@ namespace AppTaxi2020.Web.Controllers
             _mailHelper = mailHelper;
         }
 
+        [HttpGet]
+        public IActionResult RecoverPassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RecoverPassword(RecoverPasswordViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await _userHelper.GetUserAsync(model.Email);
+                if (user == null)
+                {
+                    ModelState.AddModelError(string.Empty, "The email doesn't correspont to a registered user.");
+                    return View(model);
+                }
+
+                var myToken = await _userHelper.GeneratePasswordResetTokenAsync(user);
+                string link = Url.Action("ResetPassword","Account",new { token = myToken }, protocol: HttpContext.Request.Scheme);
+                _mailHelper.SendMail(model.Email, "Taxi Password Reset", $"<h1>Taxi Password Reset</h1>" +
+                    $"To reset the password click in this link:</br></br>" +
+                    $"<a href = \"{link}\">Reset Password</a>");
+
+                ViewBag.Message = "The instructions to recover your password has been sent to email.";
+                return View();
+
+            }
+
+            return View(model);
+        }
+
+        [HttpGet]
+        public IActionResult ResetPassword(string token)
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult>  ResetPassword(ResetPasswordViewModel model)
+        {
+            var user = await _userHelper.GetUserAsync(model.UserName);
+            if (user != null)
+            {
+                var result = await _userHelper.ResetPasswordAsync(user, model.Token, model.Password);
+                if (result.Succeeded)
+                {
+                    ViewBag.Message = "Password reset successful.";
+                    return View();
+                }
+
+                ViewBag.Message = "Error while resetting the password.";
+                return View(model);
+            }
+
+            ViewBag.Messsage = "User not found.";
+            return View(model);
+        }
+
 
         public async Task<IActionResult> ConfirmEmail(string userId, string token)
         {
@@ -46,7 +105,7 @@ namespace AppTaxi2020.Web.Controllers
                 return NotFound();
             }
 
-            var result = await _userHelper.ConfirmEmailAsync(user,token);
+            var result = await _userHelper.ConfirmEmailAsync(user, token);
             if (!result.Succeeded)
             {
                 return NotFound();
@@ -238,13 +297,13 @@ namespace AppTaxi2020.Web.Controllers
                 }
 
                 var myToken = await _userHelper.GenerateEmailConfirmationTokenAsync(user);
-                var tokenLink = Url.Action("ConfirmEmail", "Account", new 
+                var tokenLink = Url.Action("ConfirmEmail", "Account", new
                 {
                     userId = user.Id,
                     token = myToken
                 }, protocol: HttpContext.Request.Scheme);
 
-                var response = _mailHelper.SendMail(model.Username, "EmailConfirmation",$"<h1>Email Confirmation</h1>" +
+                var response = _mailHelper.SendMail(model.Username, "EmailConfirmation", $"<h1>Email Confirmation</h1>" +
                               $"To allow the user. please click in thi link</br></br><a href=\"{tokenLink}\">Confirm Email.</a>");
                 if (response.IsSuccess)
                 {
