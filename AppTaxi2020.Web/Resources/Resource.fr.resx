@@ -120,9 +120,6 @@
   <data name="Hello" xml:space="preserve">
     <value>Bonjour</value>
   </data>
-  <data name="UserNotFoundError" xml:space="preserve">
-    <value>L'utilisateur n'existe pas !</value>
-  </data>
   <data name="UserAlreadyExists" xml:space="preserve">
     <value>L'utilisateur existe déjà.</value>
   </data>
@@ -131,9 +128,6 @@
   </data>
   <data name="EmailConfirmationBody" xml:space="preserve">
     <value>Pour autoriser l&amp;#39;utilisateur, veuillez cliquer sur ce lien:!</value>
-  </data>
-  <data name="EmailConfirmationSent" xml:space="preserve">
-    <value>Un e-mail de confirmation a été envoyé. Veuillez confirmer votre compte et vous connecter à l&amp;#39;application.!</value>
   </data>
   <data name="ConfirmEmail" xml:space="preserve">
     <value>Confirmer l'adresse de messagerie</value>
@@ -176,5 +170,11 @@
   </data>
   <data name="RequestJoinGroupEmailSent" xml:space="preserve">
     <value>Un e-mail a été envoyé à l&amp;#39;utilisateur avec votre demande, nous espérons y répondre prochainement !!</value>
+  </data>
+  <data name="EmailConfirmationSent" xml:space="preserve">
+    <value>Un e-mail de confirmation a été envoyé. Veuillez confirmer votre compte et vous connecter à l&amp;#39;application.!</value>
+  </data>
+  <data name="UserNotFoundError" xml:space="preserve">
+    <value>L'utilisateur n'existe pas !</value>
   </data>
 </root>
