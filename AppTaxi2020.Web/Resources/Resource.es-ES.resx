@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Hello" xml:space="preserve">
-    <value>Hola</value>
-  </data>
   <data name="UserNotFoundError" xml:space="preserve">
     <value>El usuario no existe</value>
   </data>
@@ -139,7 +136,7 @@
     <value>Confirmar correo electrónico</value>
   </data>
   <data name="RecoverPasswordSubject" xml:space="preserve">
-    <value>Recuperar Contraseña</value>
+    <value>Recuperar contraseña</value>
   </data>
   <data name="RecoverPasswordBody" xml:space="preserve">
     <value>Para restablecer la contraseña, haga clic en este enlace :!</value>
@@ -148,7 +145,7 @@
     <value>Se envió un email con instrucciones sobre cómo cambiar la contraseña.</value>
   </data>
   <data name="ChangePasswordSuccess" xml:space="preserve">
-    <value>Su contraseña ha sido modificada con éxito.</value>
+    <value>La contraseña se cambió correctamente.</value>
   </data>
   <data name="UserAlreadyBelogToGroup" xml:space="preserve">
     <value>El usuario ya pertenece a su grupo.</value>
@@ -157,7 +154,7 @@
     <value>Solicite unirse a un grupo!</value>
   </data>
   <data name="TheUser" xml:space="preserve">
-    <value>El usuario</value>
+    <value>el usuario.</value>
   </data>
   <data name="RequestJoinGroupBody" xml:space="preserve">
     <value>ha solicitado que sea miembro de su grupo de usuarios en la aplicación TAXI.</value>
@@ -176,5 +173,8 @@
   </data>
   <data name="RequestJoinGroupEmailSent" xml:space="preserve">
     <value>Se ha enviado un correo electrónico al usuario con su solicitud, ¡esperamos responder pronto!</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Hola</value>
   </data>
 </root>

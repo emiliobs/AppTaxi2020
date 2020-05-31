@@ -107,5 +107,45 @@ namespace AppTaxi2020.Web.Controllers.API
             });
         }
 
+        [HttpPost]
+        [Route("RecoverPassword")]
+        public async Task<IActionResult> RecoverPassword([FromBody] EmailRequest emailRequest)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(new Response
+                {
+                    IsSuccess = false,
+                    Message = "Bad request",
+                    Result = ModelState,
+                });
+            }
+
+            var cultureInfo = new CultureInfo(emailRequest.CultureInfo);
+            Resource.Culture = cultureInfo;
+
+            var user = await _userHelper.GetUserAsync(emailRequest.Email);
+            if (user == null)
+            {
+                return BadRequest(new Response
+                {
+                    IsSuccess = false,
+                    Message = Resource.UserNotFoundError,
+                });
+            }
+
+            var myToken = await _userHelper.GeneratePasswordResetTokenAsync(user);
+            var link = Url.Action("ResetPassword", "Account", new { token = myToken }, protocol: HttpContext.Request.Scheme);
+            _mailHelper.SendMail(emailRequest.Email, Resource.RecoverPasswordSubject, $"<h1>{Resource.RecoverPasswordSubject}</h1>" +
+                $"{Resource.RecoverPasswordBody}</br></br><a href=\"{link}\">{Resource.RecoverPasswordSubject}</a>");
+
+
+            return Ok(new Response 
+            {
+              IsSuccess = true,
+              Message = Resource.RecoverPasswordEmailSent
+            });
+        }
+
     }
 }
