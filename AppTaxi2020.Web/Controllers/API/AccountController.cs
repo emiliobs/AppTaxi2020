@@ -25,18 +25,44 @@ namespace AppTaxi2020.Web.Controllers.API
         private readonly IUserHelper _userHelper;
         private readonly IMailHelper _mailHelper;
         private readonly IImageHelper _imageHelper;
+        private readonly IConverterHelper _converterHelper;
 
         public AccountController(
             AppDataContext dataContext,
             IUserHelper userHelper,
             IMailHelper mailHelper,
-            IImageHelper imageHelper)
+            IImageHelper imageHelper,
+            IConverterHelper converterHelper)
         {
             _dataContext = dataContext;
             _userHelper = userHelper;
             _mailHelper = mailHelper;
             _imageHelper = imageHelper;
+            this._converterHelper = converterHelper;
         }
+
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpPost]
+        [Route("GetUserByEmail")]
+        public async Task<IActionResult> GetUserByEmail([FromBody] EmailRequest emailRequest)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+
+            CultureInfo cultureInfo = new CultureInfo(emailRequest.CultureInfo);
+            Resource.Culture = cultureInfo;
+
+            UserEntity userEntity = await _userHelper.GetUserAsync(emailRequest.Email);
+            if (userEntity == null)
+            {
+                return NotFound(Resource.UserNotFoundError);
+            }
+
+            return Ok(_converterHelper.ToUserResponse(userEntity));
+        }
+
 
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpPost]

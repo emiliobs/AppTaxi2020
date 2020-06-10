@@ -70,7 +70,7 @@ namespace AppTaxi2020.Web.Helpers
             };
         }
 
-        private UserResponse ToUserResponse(UserEntity user)
+        public UserResponse ToUserResponse(UserEntity user)
         {
             if (user == null)
             {
@@ -91,8 +91,7 @@ namespace AppTaxi2020.Web.Helpers
             };
         }
 
-
-
+       
     }
 
 }
