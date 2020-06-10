@@ -1,12 +1,19 @@
-﻿using AppTaxi2020.Web.Data.Entities;
+﻿using AppTaxi2020.Common.Models;
+using AppTaxi2020.Web.Data.Entities;
 using AppTaxi2020.Web.Helpers;
 using AppTaxi2020.Web.Models;
+using AppTaxi2020.Web.Resources;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using Org.BouncyCastle.Asn1.Ocsp;
 using System;
+using System.Globalization;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,6 +37,8 @@ namespace AppTaxi2020.Web.Controllers
             _configuration = configuration;
             _mailHelper = mailHelper;
         }
+
+       
 
         [HttpGet]
         public IActionResult RecoverPassword()
