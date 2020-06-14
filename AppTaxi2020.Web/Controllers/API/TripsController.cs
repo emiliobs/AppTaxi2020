@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-using System.Linq;
-using System.Threading.Tasks;
-using AppTaxi2020.Common.Models;
+﻿using AppTaxi2020.Common.Models;
 using AppTaxi2020.Web.Data;
 using AppTaxi2020.Web.Data.Entities;
 using AppTaxi2020.Web.Helpers;
@@ -11,6 +6,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -27,9 +25,27 @@ namespace AppTaxi2020.Web.Controllers.API
 
         public TripsController(AppDataContext context, IUserHelper userHelper, IConverterHelper converterHelper)
         {
-            this._context = context;
-            this._userHelper = userHelper;
-            this._converterHelper = converterHelper;
+            _context = context;
+            _userHelper = userHelper;
+            _converterHelper = converterHelper;
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetTripEntity( int id)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var tripEntity = await _context.Trips.Include(t  => t.TripDetails).FirstOrDefaultAsync(t => t.Id == id);
+
+            if (tripEntity == null)
+            {
+                return BadRequest("Trip not found.");
+            }
+
+            return Ok(_converterHelper.ToTripResponse(tripEntity));
         }
 
         [HttpPost]
@@ -40,26 +56,26 @@ namespace AppTaxi2020.Web.Controllers.API
                 return BadRequest(ModelState);
             }
 
-            var userEntity = await _userHelper.GetUserAsync(tripRequest.UserId);
+            UserEntity userEntity = await _userHelper.GetUserAsync(tripRequest.UserId);
             if (userEntity == null)
             {
                 return BadRequest("User doesn't exists.");
             }
 
-            var taxEntity = await _context.Taxis.FirstOrDefaultAsync(t => t.Plaque == tripRequest.Plaque);
+            TaxiEntity taxEntity = await _context.Taxis.FirstOrDefaultAsync(t => t.Plaque == tripRequest.Plaque);
             if (taxEntity == null)
             {
-                _context.Taxis.Add(new TaxiEntity 
-                { 
-                   Plaque = tripRequest.Plaque.ToUpper(),
-                   
+                _context.Taxis.Add(new TaxiEntity
+                {
+                    Plaque = tripRequest.Plaque.ToUpper(),
+
                 });
 
                 await _context.SaveChangesAsync();
                 taxEntity = await _context.Taxis.FirstOrDefaultAsync(t => t.Plaque == tripRequest.Plaque);
             }
 
-            var tripEntity = new TripEntity
+            TripEntity tripEntity = new TripEntity
             {
                 Source = tripRequest.Address,
                 SourceLatitude = tripRequest.Latitude,
@@ -67,7 +83,7 @@ namespace AppTaxi2020.Web.Controllers.API
                 StartDate = DateTime.UtcNow,
                 Taxi = taxEntity,
                 TripDetails = new List<TripDetailEntity>
-                { 
+                {
                     new TripDetailEntity
                     {
                        Date = DateTime.UtcNow,
@@ -76,7 +92,7 @@ namespace AppTaxi2020.Web.Controllers.API
                     }
                 },
                 UserEntity = userEntity,
-            
+
             };
 
             _context.Trips.Add(tripEntity);
@@ -94,7 +110,7 @@ namespace AppTaxi2020.Web.Controllers.API
                 return BadRequest(ModelState);
             }
 
-            var trip = await _context.Trips.Include(t => t.TripDetails).FirstOrDefaultAsync(t => t.Id == completeTripRequest.TripId);
+            TripEntity trip = await _context.Trips.Include(t => t.TripDetails).FirstOrDefaultAsync(t => t.Id == completeTripRequest.TripId);
             if (trip == null)
             {
                 return BadRequest("Trip not found.");
@@ -106,11 +122,11 @@ namespace AppTaxi2020.Web.Controllers.API
             trip.Target = completeTripRequest.Target;
             trip.TargetLatitude = completeTripRequest.TargetLatitude;
             trip.TargetLongitude = completeTripRequest.TargetLongitude;
-            trip.TripDetails.Add(new TripDetailEntity 
-            { 
-               Date = DateTime.UtcNow,
-               Latitude = completeTripRequest.TargetLatitude,
-               Longitude = completeTripRequest.TargetLongitude,
+            trip.TripDetails.Add(new TripDetailEntity
+            {
+                Date = DateTime.UtcNow,
+                Latitude = completeTripRequest.TargetLatitude,
+                Longitude = completeTripRequest.TargetLongitude,
             });
 
             _context.Trips.Update(trip);

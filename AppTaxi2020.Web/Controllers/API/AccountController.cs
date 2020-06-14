@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Threading.Tasks;
-using AppTaxi2020.Common.Enums;
+﻿using AppTaxi2020.Common.Enums;
 using AppTaxi2020.Common.Models;
 using AppTaxi2020.Web.Data;
 using AppTaxi2020.Web.Data.Entities;
@@ -14,6 +9,9 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Globalization;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace AppTaxi2020.Web.Controllers.API
 {
@@ -38,7 +36,7 @@ namespace AppTaxi2020.Web.Controllers.API
             _userHelper = userHelper;
             _mailHelper = mailHelper;
             _imageHelper = imageHelper;
-            this._converterHelper = converterHelper;
+            _converterHelper = converterHelper;
         }
 
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
@@ -82,7 +80,7 @@ namespace AppTaxi2020.Web.Controllers.API
             CultureInfo cultureInfo = new CultureInfo(request.CultureInfo);
             Resource.Culture = cultureInfo;
 
-            var user = await _userHelper.GetUserAsync(request.Email);
+            UserEntity user = await _userHelper.GetUserAsync(request.Email);
             if (user == null)
             {
                 return BadRequest(new Response
@@ -92,7 +90,7 @@ namespace AppTaxi2020.Web.Controllers.API
                 });
             }
 
-            var result = await _userHelper.ChangePasswordAsync(user, request.OldPassword, request.NewPassword);
+            IdentityResult result = await _userHelper.ChangePasswordAsync(user, request.OldPassword, request.NewPassword);
             if (!result.Succeeded)
             {
                 return BadRequest(new Response
@@ -194,10 +192,10 @@ namespace AppTaxi2020.Web.Controllers.API
                 });
             }
 
-            var cultureInfo = new CultureInfo(emailRequest.CultureInfo);
+            CultureInfo cultureInfo = new CultureInfo(emailRequest.CultureInfo);
             Resource.Culture = cultureInfo;
 
-            var user = await _userHelper.GetUserAsync(emailRequest.Email);
+            UserEntity user = await _userHelper.GetUserAsync(emailRequest.Email);
             if (user == null)
             {
                 return BadRequest(new Response
@@ -207,16 +205,16 @@ namespace AppTaxi2020.Web.Controllers.API
                 });
             }
 
-            var myToken = await _userHelper.GeneratePasswordResetTokenAsync(user);
-            var link = Url.Action("ResetPassword", "Account", new { token = myToken }, protocol: HttpContext.Request.Scheme);
+            string myToken = await _userHelper.GeneratePasswordResetTokenAsync(user);
+            string link = Url.Action("ResetPassword", "Account", new { token = myToken }, protocol: HttpContext.Request.Scheme);
             _mailHelper.SendMail(emailRequest.Email, Resource.RecoverPasswordSubject, $"<h1>{Resource.RecoverPasswordSubject}</h1>" +
                 $"{Resource.RecoverPasswordBody}</br></br><a href=\"{link}\">{Resource.RecoverPasswordSubject}</a>");
 
 
-            return Ok(new Response 
+            return Ok(new Response
             {
-              IsSuccess = true,
-              Message = Resource.RecoverPasswordEmailSent
+                IsSuccess = true,
+                Message = Resource.RecoverPasswordEmailSent
             });
         }
 
