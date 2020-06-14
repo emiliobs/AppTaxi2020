@@ -70,6 +70,41 @@ namespace AppTaxi2020.Web.Helpers
             };
         }
 
+        public List<TripResponseWithTaxi> ToTripResponse(List<TripEntity> tripEntities)
+        {
+            return tripEntities.Select(t => new TripResponseWithTaxi
+            {
+                EndDate = t.EndDate,
+                Id = t.Id,
+                Qualification = t.Qualification,
+                Remarks = t.Remarks,
+                Source = t.Source,
+                SourceLatitude = t.SourceLatitude,
+                SourceLongitude = t.SourceLongitude,
+                StartDate = t.StartDate,
+                Target = t.Target,
+                TargetLatitude = t.TargetLatitude,
+                TargetLongitude = t.TargetLongitude ,
+                Taxi = ToTaxiResponse2(t.Taxi),
+                TripDetails = t.TripDetails.Select(td => new TripDetailResponse
+                {
+                    Date = td.Date,
+                    Id = td.Id,
+                    Latitude = td.Latitude,
+                    Longitude = td.Longitude
+                }).ToList()
+            }).ToList();
+        }
+
+        private TaxiResponse ToTaxiResponse2(TaxiEntity taxiEntity)
+        {
+            return  new TaxiResponse
+            {
+                Id = taxiEntity.Id,
+                Plaque = taxiEntity.Plaque,
+                User = ToUserResponse(taxiEntity.UserEntity)
+            };
+        }
         public UserResponse ToUserResponse(UserEntity user)
         {
             if (user == null)

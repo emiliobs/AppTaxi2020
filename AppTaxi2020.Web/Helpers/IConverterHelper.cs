@@ -9,6 +9,7 @@ namespace AppTaxi2020.Web.Helpers
 {
     public interface IConverterHelper
     {
+        List<TripResponseWithTaxi> ToTripResponse(List<TripEntity> tripEntities);
         TaxiResponse ToTaxiResponse(TaxiEntity taxiEntity);
         TripResponse ToTripResponse(TripEntity tripEntity);
         UserResponse ToUserResponse(UserEntity userEntity);

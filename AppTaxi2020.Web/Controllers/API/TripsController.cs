@@ -32,6 +32,29 @@ namespace AppTaxi2020.Web.Controllers.API
         }
 
         [HttpPost]
+        [Route("GetMyTrips")]
+        public async Task<IActionResult> GetMyTrips([FromBody] MyTripsRequest request)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var tripEntities = await _context.Trips
+                .Include(t => t.UserEntity)
+                .Include(t => t.TripDetails)
+                .Include(t => t.Taxi)
+                .Where(t => t.UserEntity.Id == request.UserId &&
+                            t.StartDate >= request.StartDate &&
+                            t.StartDate <= request.EndDate)
+                .OrderByDescending(t => t.StartDate)
+                .ToListAsync();
+
+            return Ok(_converterHelper.ToTripResponse(tripEntities));
+        }
+
+
+        [HttpPost]
         [Route("AddTripDetails")]
         public async Task<IActionResult> AddTripDetails([FromBody] TripDetailsRequest tripDetailsRequest)
         {
@@ -40,7 +63,7 @@ namespace AppTaxi2020.Web.Controllers.API
                 return BadRequest(ModelState);
             }
 
-            if (tripDetailsRequest.TripDetails  == null || tripDetailsRequest.TripDetails.Count == 0)
+            if (tripDetailsRequest.TripDetails == null || tripDetailsRequest.TripDetails.Count == 0)
             {
                 return NoContent();
             }
@@ -60,17 +83,17 @@ namespace AppTaxi2020.Web.Controllers.API
 
             foreach (var tripDetailRequest in tripDetailsRequest.TripDetails)
             {
-                trip.TripDetails.Add(new TripDetailEntity 
+                trip.TripDetails.Add(new TripDetailEntity
                 {
-                   Date = DateTime.UtcNow,
-                   Longitude = tripDetailRequest.Longitude,
-                   Latitude = tripDetailRequest.Latitude,
+                    Date = DateTime.UtcNow,
+                    Longitude = tripDetailRequest.Longitude,
+                    Latitude = tripDetailRequest.Latitude,
                 });
             }
 
             _context.Trips.Update(trip);
             await _context.SaveChangesAsync();
-           
+
             return NoContent();
         }
 
@@ -82,7 +105,7 @@ namespace AppTaxi2020.Web.Controllers.API
                 return BadRequest(ModelState);
             }
 
-            var tripEntity = await _context.Trips.Include(t => t.TripDetails) .FirstOrDefaultAsync(t => t.Id == id);
+            var tripEntity = await _context.Trips.Include(t => t.TripDetails).FirstOrDefaultAsync(t => t.Id == id);
             if (tripEntity == null)
             {
                 return NotFound();
@@ -103,7 +126,7 @@ namespace AppTaxi2020.Web.Controllers.API
                 return BadRequest(ModelState);
             }
 
-            var tripEntity = await _context.Trips.Include(t  => t.TripDetails).FirstOrDefaultAsync(t => t.Id == id);
+            var tripEntity = await _context.Trips.Include(t => t.TripDetails).FirstOrDefaultAsync(t => t.Id == id);
 
             if (tripEntity == null)
             {
