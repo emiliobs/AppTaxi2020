@@ -19,6 +19,8 @@ namespace AppTaxi2020.Web.Data
         public DbSet<TripDetailEntity> TripDetails { get; set; }
         public DbSet<TripEntity> Trips { get; set; }
         public DbSet<UserGroupEntity> UserGroupEntities { get; set; }
+        public DbSet<UserGroupDetailEntity> UserGroupDetailEntities { get; set; }
+        public DbSet<UserGroupRequestEntity> UserGroupRequestEntities { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

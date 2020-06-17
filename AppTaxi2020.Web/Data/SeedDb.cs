@@ -25,12 +25,46 @@ namespace AppTaxi2020.Web.Data
         {
             await _dataContext.Database.EnsureCreatedAsync();
             await CheckRolesAsync();
-            await CheckUserAsync("1010", "Emilio", "Barrera", "barrera_emilio@hotmail.com", "4407907951284", "London", UserType.Admin);
-            UserEntity driver = await CheckUserAsync("2020", "Emilio", "Barrera", "emiliobarrerasepulveda@gmail.com", "4407907951284", "London", UserType.Driver);
-            UserEntity user1 = await CheckUserAsync("3030", "Emilio", "Barrera", "barrera_emilio@yahoo.es", "4407907951284", "London", UserType.User);
-            UserEntity user2 = await CheckUserAsync("4040", "Emilio", "Barrera", "emilio@gmail.com", "4407907951284", "London", UserType.User);
+            await CheckUserAsync("1010", "Emilio", "Barrera", "barrera_emilio@hotmail.com", "350 634 2747", "Calle Luna Calle Sol", UserType.Admin);
+            UserEntity driver = await CheckUserAsync("2020", "Emilio", "Barrera", "barrera_emilio@yahoo.es", "350 634 2747", "Calle Luna Calle Sol", UserType.Driver);
+            UserEntity user1 = await CheckUserAsync("3030", "Emilio", "Barrera", "emiliobarrerasepulveda@gmail.com", "350 634 2747", "Calle Luna Calle Sol", UserType.User);
+            UserEntity user2 = await CheckUserAsync("5050", "Blanca", "sepulveda", "blanca@yopmail.com", "350 634 2747", "Calle Luna Calle Sol", UserType.User);
+            UserEntity user3 = await CheckUserAsync("6060", "Sandra", "Usuga", "sandra@yopmail.com", "350 634 2747", "Calle Luna Calle Sol", UserType.User);
+            UserEntity user4 = await CheckUserAsync("7070", "Lisa", "Marin", "luisa@yopmail.com", "350 634 2747", "Calle Luna Calle Sol", UserType.User);
             await CheckTaxisAsync(driver, user1, user2);
+            await CheckUserGroups(user1, user2, user3, user4);
         }
+
+        private async Task CheckUserGroups(UserEntity user1, UserEntity user2, UserEntity user3, UserEntity user4)
+        {
+            if (!_dataContext.UserGroupEntities.Any())
+            {
+                _dataContext.UserGroupEntities.Add(new UserGroupEntity
+                {
+                    User = user1,
+                    Users = new List<UserGroupDetailEntity>
+            {
+                new UserGroupDetailEntity { User = user2 },
+                new UserGroupDetailEntity { User = user3 },
+                new UserGroupDetailEntity { User = user4 }
+            }
+                });
+
+                _dataContext.UserGroupEntities.Add(new UserGroupEntity
+                {
+                    User = user2,
+                    Users = new List<UserGroupDetailEntity>
+            {
+                new UserGroupDetailEntity { User = user1 },
+                new UserGroupDetailEntity { User = user3 },
+                new UserGroupDetailEntity { User = user4 }
+            }
+                });
+
+                await _dataContext.SaveChangesAsync();
+            }
+        }
+
 
         private async Task<UserEntity> CheckUserAsync(
             string document,
