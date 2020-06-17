@@ -31,13 +31,13 @@
             },
             {
               "sku": {
-                "name": "Basic",
-                "tier": "Basic",
-                "capacity": 5
+                "name": "Standard",
+                "tier": "Standard",
+                "capacity": 10
               },
               "kind": "v12.0,user",
               "location": "uksouth",
-              "name": "emilioserver/TaxiWeb",
+              "name": "emilioserver/AppTaxi2020.Web_db",
               "type": "Microsoft.Sql/servers/databases",
               "apiVersion": "2017-10-01-preview",
               "dependsOn": [
