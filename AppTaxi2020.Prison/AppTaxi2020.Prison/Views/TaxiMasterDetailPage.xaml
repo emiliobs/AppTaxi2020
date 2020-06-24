@@ -6,7 +6,13 @@
                   x:Class="AppTaxi2020.Prison.Views.TaxiMasterDetailPage">
 
     <MasterDetailPage.Master>
-        <ContentPage Title="Menu" BackgroundColor="{StaticResource ColorBackgroud}">
+        <ContentPage Title="Menu" BackgroundColor="{StaticResource ColorSecondary}">
+            <ContentPage.Padding>
+                <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="Android, uwp">0</On>
+                    <On Platform="iOS">0,20,0,0</On>
+                </OnPlatform>
+            </ContentPage.Padding>
             <StackLayout Padding="20">
                 <Image HeightRequest="150"
                        Source="taxi"/>
