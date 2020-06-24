@@ -16,6 +16,8 @@ namespace AppTaxi2020.Prison.Helpers
 
         public static string Culture { get; set; }
 
+        public static string LoginError => Resource.LoginError;
+
         public static string Accept => Resource.Accept;
 
         public static string ConnectionError => Resource.ConnectionError;
