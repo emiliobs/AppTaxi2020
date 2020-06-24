@@ -1,20 +1,46 @@
 {
   "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
+  "parameters": {
+    "resourceGroupName": {
+      "type": "string",
+      "defaultValue": "Testing",
+      "metadata": {
+        "_parameterType": "resourceGroup",
+        "description": "Name of the resource group for the resource. It is recommended to put resources under same resource group for better tracking."
+      }
+    },
+    "resourceGroupLocation": {
+      "type": "string",
+      "defaultValue": "northeurope",
+      "metadata": {
+        "_parameterType": "location",
+        "description": "Location of the resource group. Resource groups could have different location than resources."
+      }
+    },
+    "resourceLocation": {
+      "type": "string",
+      "defaultValue": "[parameters('resourceGroupLocation')]",
+      "metadata": {
+        "_parameterType": "location",
+        "description": "Location of the resource. By default use resource group's location, unless the resource provider is not supported there."
+      }
+    }
+  },
   "resources": [
     {
       "type": "Microsoft.Resources/resourceGroups",
-      "name": "Testing",
-      "location": "northeurope",
+      "name": "[parameters('resourceGroupName')]",
+      "location": "[parameters('resourceGroupLocation')]",
       "apiVersion": "2019-10-01"
     },
     {
       "type": "Microsoft.Resources/deployments",
-      "name": "[concat('TestingDeployment', uniqueString(subscription().subscriptionId))]",
-      "resourceGroup": "Testing",
+      "name": "[concat(parameters('resourceGroupName'), 'Deployment', uniqueString(concat('TaxiWeb2020_db', subscription().subscriptionId)))]",
+      "resourceGroup": "[parameters('resourceGroupName')]",
       "apiVersion": "2019-10-01",
       "dependsOn": [
-        "Testing"
+        "[parameters('resourceGroupName')]"
       ],
       "properties": {
         "mode": "Incremental",
@@ -24,20 +50,20 @@
           "resources": [
             {
               "kind": "v12.0",
-              "location": "uksouth",
+              "location": "[parameters('resourceLocation')]",
               "name": "emilioserver",
               "type": "Microsoft.Sql/servers",
               "apiVersion": "2017-10-01-preview"
             },
             {
               "sku": {
-                "name": "Standard",
-                "tier": "Standard",
-                "capacity": 10
+                "name": "Basic",
+                "tier": "Basic",
+                "capacity": 5
               },
               "kind": "v12.0,user",
-              "location": "uksouth",
-              "name": "emilioserver/AppTaxi2020.Web_db",
+              "location": "[parameters('resourceLocation')]",
+              "name": "emilioserver/TaxiWeb2020_db",
               "type": "Microsoft.Sql/servers/databases",
               "apiVersion": "2017-10-01-preview",
               "dependsOn": [
@@ -48,5 +74,8 @@
         }
       }
     }
-  ]
+  ],
+  "metadata": {
+    "_dependencyType": "mssql.azure"
+  }
 }
