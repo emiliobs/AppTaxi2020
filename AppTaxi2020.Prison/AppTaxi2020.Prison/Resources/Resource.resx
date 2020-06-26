@@ -184,7 +184,7 @@
     <value>Report an incident</value>
   </data>
   <data name="LogIn" xml:space="preserve">
-    <value>Log in</value>
+    <value>LogIn</value>
   </data>
   <data name="Email" xml:space="preserve">
     <value>Email</value>
@@ -209,5 +209,8 @@
   </data>
   <data name="LoginError" xml:space="preserve">
     <value>LoginError</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>LogOut</value>
   </data>
 </root>

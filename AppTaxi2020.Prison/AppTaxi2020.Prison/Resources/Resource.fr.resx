@@ -210,4 +210,7 @@
   <data name="LoginError" xml:space="preserve">
     <value>Erreur de connexion</value>
   </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Déconnexion</value>
+  </data>
 </root>

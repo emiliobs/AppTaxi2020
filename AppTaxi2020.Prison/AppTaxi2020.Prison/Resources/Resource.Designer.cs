@@ -151,7 +151,7 @@ namespace AppTaxi2020.Prison.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Log in.
+        ///   Looks up a localized string similar to LogIn.
         /// </summary>
         public static string LogIn {
             get {
@@ -165,6 +165,15 @@ namespace AppTaxi2020.Prison.Resources {
         public static string LoginError {
             get {
                 return ResourceManager.GetString("LoginError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to LogOut.
+        /// </summary>
+        public static string Logout {
+            get {
+                return ResourceManager.GetString("Logout", resourceCulture);
             }
         }
         

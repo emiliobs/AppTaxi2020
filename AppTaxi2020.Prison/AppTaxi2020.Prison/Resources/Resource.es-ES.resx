@@ -210,4 +210,7 @@
   <data name="LoginError" xml:space="preserve">
     <value>Error de inicio de sesión</value>
   </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Cerrar sessión</value>
+  </data>
 </root>

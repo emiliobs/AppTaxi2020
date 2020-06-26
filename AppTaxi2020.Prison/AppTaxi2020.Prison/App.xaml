@@ -10,6 +10,7 @@
             <!-- Parameters -->
             <!--<x:String x:Key="UrlAPI">https://taxiweb3.azurewebsites.net/</x:String>-->
             <x:String x:Key="UrlAPI">https://apptaxi2020.azurewebsites.net/</x:String>
+            <!--https://apptaxi2020.azurewebsites.net/-->
 
             <!-- Colors -->
             <Color x:Key="ColorBackgroud">#FFFF05</Color>

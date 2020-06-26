@@ -1,21 +1,33 @@
-﻿using AppTaxi2020.Common.Models;
+﻿using AppTaxi2020.Common.Helpers;
+using AppTaxi2020.Common.Models;
+using AppTaxi2020.Prison.Helpers;
+using Newtonsoft.Json;
 using Prism.Navigation;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using AppTaxi2020.Prison.Helpers;
 
 namespace AppTaxi2020.Prison.ViewModels
 {
     public class TaxiMasterDetailPageViewModel : ViewModelBase
     {
         private readonly INavigationService _navigationService;
+        private UserResponse _user;
 
         public TaxiMasterDetailPageViewModel(INavigationService navigationService) : base(navigationService)
         {
             _navigationService = navigationService;
             LoadMenus();
+            LoadUser();
         }
+
+        public UserResponse User
+        {
+            get => _user;
+            set => SetProperty(ref _user, value);
+        }
+
 
 
         public ObservableCollection<MenuItemViewModel> Menus { get; set; }
@@ -58,19 +70,28 @@ namespace AppTaxi2020.Prison.ViewModels
                 {
                     Icon = "ic_exit_to_app",
                     PageName = "LoginPage",
-                    Title = Languages.LogIn
+                    Title = Settings.IsLogin ? Languages.Logout : Languages.LogIn
                 }
 
             };
 
-            Menus = new ObservableCollection<MenuItemViewModel>(menus.Select( m => new MenuItemViewModel(_navigationService) 
-            { 
-               
+            Menus = new ObservableCollection<MenuItemViewModel>(menus.Select(m => new MenuItemViewModel(_navigationService)
+            {
+
                 Icon = m.Icon,
                 PageName = m.PageName,
                 Title = m.Title,
-              
+
             }).ToList());
         }
+
+        private void LoadUser()
+        {
+            if (Settings.IsLogin)
+            {
+                User = JsonConvert.DeserializeObject<UserResponse>(Settings.User);
+            }
+        }
+
     }
 }
