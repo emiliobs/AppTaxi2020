@@ -202,6 +202,12 @@
     <PackageReference Include="Xam.Plugin.Geolocator">
       <Version>4.6.2-beta</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading.Forms">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading.Transformations">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.7.0.968" />
     <PackageReference Include="Prism.DryIoc.Forms" Version="8.0.0.1740-pre" />
     <PackageReference Include="Xamarin.Forms.Maps">

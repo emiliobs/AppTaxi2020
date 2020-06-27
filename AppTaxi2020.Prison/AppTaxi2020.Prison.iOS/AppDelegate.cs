@@ -24,6 +24,7 @@ namespace AppTaxi2020.Prison.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            FFImageLoading.Forms.Platform.CachedImageRenderer.Init();
             Xamarin.FormsMaps.Init();
             new SfBusyIndicatorRenderer();
             new SfRatingRenderer();
