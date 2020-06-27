@@ -16,7 +16,7 @@
                      Padding="5">
             <Image HeightRequest="150"
                    Margin="0,20,0,0"
-                   Source="taxi"/>
+                   Source="taxi"/>            
             <Grid Margin="20" 
                   VerticalOptions="CenterAndExpand">
                 <Grid.ColumnDefinitions>
@@ -55,17 +55,26 @@
                         Text="{i18n:Translate Register}"
                         Style="{StaticResource DangerButton}"/>
             </StackLayout>
+            <ActivityIndicator
+            
+            HorizontalOptions="Center" 
+            VerticalOptions="Center" 
+            IsRunning="{Binding IsRunning}"
+             IsEnabled="{Binding IsEnabled}">
+            </ActivityIndicator>
         </StackLayout>
-        <busyindicator:SfBusyIndicator AnimationType="Gear" 
+        
+        <!--busyindicator:SfBusyIndicator AnimationType="Gear" 
                                        AbsoluteLayout.LayoutBounds=".5,.5,.5,.5"
                 	                   AbsoluteLayout.LayoutFlags="All"
                 	                   BackgroundColor="{StaticResource ColorAccent}"
                 	                   HorizontalOptions="Center"
                 	                   TextColor="{StaticResource ColorFontInverse}"
                 	                   IsVisible="{Binding IsRunning}"
+                                        
                 	                   Title="{i18n:Translate Loading}"
                 	                   VerticalOptions="Center"
                 	                   ViewBoxWidth="80"
-                	                   ViewBoxHeight="80" />
+                	                   ViewBoxHeight="80" />-->
     </AbsoluteLayout>
 </ContentPage>

@@ -29,5 +29,8 @@ namespace AppTaxi2020.Common.Models
 
         public string FullNameWithDocument => $"{FirstName} {LastName} - {Document}";
 
+        public string PictureFullPath => string.IsNullOrWhiteSpace(PicturePath)
+            ? "https://apptaxi2020.azurewebsites.net//images/noimage.png"
+            : $"https://apptaxi2020.azurewebsites.net{PicturePath.Substring(1)}";
     }
 }

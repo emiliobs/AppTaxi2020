@@ -156,6 +156,188 @@ namespace AppTaxi2020.Prison.Droid
 			global::Plugin.Geolocator.Resource.Styleable.GradientColor_android_startY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Plugin.Geolocator.Resource.Styleable.GradientColor_android_tileMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Plugin.Geolocator.Resource.Styleable.GradientColor_android_type = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Plugin.Permissions.Resource.Attribute.alpha = global::AppTaxi2020.Prison.Droid.Resource.Attribute.alpha;
+			global::Plugin.Permissions.Resource.Attribute.coordinatorLayoutStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Plugin.Permissions.Resource.Attribute.font = global::AppTaxi2020.Prison.Droid.Resource.Attribute.font;
+			global::Plugin.Permissions.Resource.Attribute.fontProviderAuthority = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Plugin.Permissions.Resource.Attribute.fontProviderCerts = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderCerts;
+			global::Plugin.Permissions.Resource.Attribute.fontProviderFetchStrategy = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Plugin.Permissions.Resource.Attribute.fontProviderFetchTimeout = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Plugin.Permissions.Resource.Attribute.fontProviderPackage = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderPackage;
+			global::Plugin.Permissions.Resource.Attribute.fontProviderQuery = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderQuery;
+			global::Plugin.Permissions.Resource.Attribute.fontStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontStyle;
+			global::Plugin.Permissions.Resource.Attribute.fontVariationSettings = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontVariationSettings;
+			global::Plugin.Permissions.Resource.Attribute.fontWeight = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontWeight;
+			global::Plugin.Permissions.Resource.Attribute.keylines = global::AppTaxi2020.Prison.Droid.Resource.Attribute.keylines;
+			global::Plugin.Permissions.Resource.Attribute.layout_anchor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.Permissions.Resource.Attribute.layout_anchorGravity = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.Permissions.Resource.Attribute.layout_behavior = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.Permissions.Resource.Attribute.layout_dodgeInsetEdges = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Plugin.Permissions.Resource.Attribute.layout_insetEdge = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_insetEdge;
+			global::Plugin.Permissions.Resource.Attribute.layout_keyline = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.Permissions.Resource.Attribute.statusBarBackground = global::AppTaxi2020.Prison.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.Permissions.Resource.Attribute.ttcIndex = global::AppTaxi2020.Prison.Droid.Resource.Attribute.ttcIndex;
+			global::Plugin.Permissions.Resource.Color.browser_actions_bg_grey = global::AppTaxi2020.Prison.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Plugin.Permissions.Resource.Color.browser_actions_divider_color = global::AppTaxi2020.Prison.Droid.Resource.Color.browser_actions_divider_color;
+			global::Plugin.Permissions.Resource.Color.browser_actions_text_color = global::AppTaxi2020.Prison.Droid.Resource.Color.browser_actions_text_color;
+			global::Plugin.Permissions.Resource.Color.browser_actions_title_color = global::AppTaxi2020.Prison.Droid.Resource.Color.browser_actions_title_color;
+			global::Plugin.Permissions.Resource.Color.notification_action_color_filter = global::AppTaxi2020.Prison.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.Permissions.Resource.Color.notification_icon_bg_color = global::AppTaxi2020.Prison.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.Permissions.Resource.Color.ripple_material_light = global::AppTaxi2020.Prison.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.Permissions.Resource.Color.secondary_text_default_material_light = global::AppTaxi2020.Prison.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.Permissions.Resource.Dimension.browser_actions_context_menu_max_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Plugin.Permissions.Resource.Dimension.browser_actions_context_menu_min_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Plugin.Permissions.Resource.Dimension.compat_button_inset_horizontal_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Plugin.Permissions.Resource.Dimension.compat_button_inset_vertical_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Plugin.Permissions.Resource.Dimension.compat_button_padding_horizontal_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Plugin.Permissions.Resource.Dimension.compat_button_padding_vertical_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Plugin.Permissions.Resource.Dimension.compat_control_corner_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Plugin.Permissions.Resource.Dimension.compat_notification_large_icon_max_height = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Plugin.Permissions.Resource.Dimension.compat_notification_large_icon_max_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Plugin.Permissions.Resource.Dimension.notification_action_icon_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.Permissions.Resource.Dimension.notification_action_text_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.Permissions.Resource.Dimension.notification_big_circle_margin = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.Permissions.Resource.Dimension.notification_content_margin_start = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.Permissions.Resource.Dimension.notification_large_icon_height = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.Permissions.Resource.Dimension.notification_large_icon_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.Permissions.Resource.Dimension.notification_main_column_padding_top = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.Permissions.Resource.Dimension.notification_media_narrow_margin = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.Permissions.Resource.Dimension.notification_right_icon_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.Permissions.Resource.Dimension.notification_right_side_padding_top = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.Permissions.Resource.Dimension.notification_small_icon_background_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.Permissions.Resource.Dimension.notification_small_icon_size_as_large = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.Permissions.Resource.Dimension.notification_subtext_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.Permissions.Resource.Dimension.notification_top_pad = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.Permissions.Resource.Dimension.notification_top_pad_large_text = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.Permissions.Resource.Drawable.notification_action_background = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.Permissions.Resource.Drawable.notification_bg = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.Permissions.Resource.Drawable.notification_bg_low = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.Permissions.Resource.Drawable.notification_bg_low_normal = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.Permissions.Resource.Drawable.notification_bg_low_pressed = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.Permissions.Resource.Drawable.notification_bg_normal = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.Permissions.Resource.Drawable.notification_bg_normal_pressed = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.Permissions.Resource.Drawable.notification_icon_background = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.Permissions.Resource.Drawable.notification_template_icon_bg = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.Permissions.Resource.Drawable.notification_template_icon_low_bg = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.Permissions.Resource.Drawable.notification_tile_bg = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.Permissions.Resource.Drawable.notify_panel_notification_icon_bg = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.Permissions.Resource.Id.actions = global::AppTaxi2020.Prison.Droid.Resource.Id.actions;
+			global::Plugin.Permissions.Resource.Id.action_container = global::AppTaxi2020.Prison.Droid.Resource.Id.action_container;
+			global::Plugin.Permissions.Resource.Id.action_divider = global::AppTaxi2020.Prison.Droid.Resource.Id.action_divider;
+			global::Plugin.Permissions.Resource.Id.action_image = global::AppTaxi2020.Prison.Droid.Resource.Id.action_image;
+			global::Plugin.Permissions.Resource.Id.action_text = global::AppTaxi2020.Prison.Droid.Resource.Id.action_text;
+			global::Plugin.Permissions.Resource.Id.all = global::AppTaxi2020.Prison.Droid.Resource.Id.all;
+			global::Plugin.Permissions.Resource.Id.async = global::AppTaxi2020.Prison.Droid.Resource.Id.async;
+			global::Plugin.Permissions.Resource.Id.blocking = global::AppTaxi2020.Prison.Droid.Resource.Id.blocking;
+			global::Plugin.Permissions.Resource.Id.bottom = global::AppTaxi2020.Prison.Droid.Resource.Id.bottom;
+			global::Plugin.Permissions.Resource.Id.browser_actions_header_text = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_header_text;
+			global::Plugin.Permissions.Resource.Id.browser_actions_menu_items = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_menu_items;
+			global::Plugin.Permissions.Resource.Id.browser_actions_menu_item_icon = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Plugin.Permissions.Resource.Id.browser_actions_menu_item_text = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Plugin.Permissions.Resource.Id.browser_actions_menu_view = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_menu_view;
+			global::Plugin.Permissions.Resource.Id.center = global::AppTaxi2020.Prison.Droid.Resource.Id.center;
+			global::Plugin.Permissions.Resource.Id.center_horizontal = global::AppTaxi2020.Prison.Droid.Resource.Id.center_horizontal;
+			global::Plugin.Permissions.Resource.Id.center_vertical = global::AppTaxi2020.Prison.Droid.Resource.Id.center_vertical;
+			global::Plugin.Permissions.Resource.Id.chronometer = global::AppTaxi2020.Prison.Droid.Resource.Id.chronometer;
+			global::Plugin.Permissions.Resource.Id.clip_horizontal = global::AppTaxi2020.Prison.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.Permissions.Resource.Id.clip_vertical = global::AppTaxi2020.Prison.Droid.Resource.Id.clip_vertical;
+			global::Plugin.Permissions.Resource.Id.end = global::AppTaxi2020.Prison.Droid.Resource.Id.end;
+			global::Plugin.Permissions.Resource.Id.fill = global::AppTaxi2020.Prison.Droid.Resource.Id.fill;
+			global::Plugin.Permissions.Resource.Id.fill_horizontal = global::AppTaxi2020.Prison.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.Permissions.Resource.Id.fill_vertical = global::AppTaxi2020.Prison.Droid.Resource.Id.fill_vertical;
+			global::Plugin.Permissions.Resource.Id.forever = global::AppTaxi2020.Prison.Droid.Resource.Id.forever;
+			global::Plugin.Permissions.Resource.Id.icon = global::AppTaxi2020.Prison.Droid.Resource.Id.icon;
+			global::Plugin.Permissions.Resource.Id.icon_group = global::AppTaxi2020.Prison.Droid.Resource.Id.icon_group;
+			global::Plugin.Permissions.Resource.Id.info = global::AppTaxi2020.Prison.Droid.Resource.Id.info;
+			global::Plugin.Permissions.Resource.Id.italic = global::AppTaxi2020.Prison.Droid.Resource.Id.italic;
+			global::Plugin.Permissions.Resource.Id.left = global::AppTaxi2020.Prison.Droid.Resource.Id.left;
+			global::Plugin.Permissions.Resource.Id.line1 = global::AppTaxi2020.Prison.Droid.Resource.Id.line1;
+			global::Plugin.Permissions.Resource.Id.line3 = global::AppTaxi2020.Prison.Droid.Resource.Id.line3;
+			global::Plugin.Permissions.Resource.Id.none = global::AppTaxi2020.Prison.Droid.Resource.Id.none;
+			global::Plugin.Permissions.Resource.Id.normal = global::AppTaxi2020.Prison.Droid.Resource.Id.normal;
+			global::Plugin.Permissions.Resource.Id.notification_background = global::AppTaxi2020.Prison.Droid.Resource.Id.notification_background;
+			global::Plugin.Permissions.Resource.Id.notification_main_column = global::AppTaxi2020.Prison.Droid.Resource.Id.notification_main_column;
+			global::Plugin.Permissions.Resource.Id.notification_main_column_container = global::AppTaxi2020.Prison.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.Permissions.Resource.Id.right = global::AppTaxi2020.Prison.Droid.Resource.Id.right;
+			global::Plugin.Permissions.Resource.Id.right_icon = global::AppTaxi2020.Prison.Droid.Resource.Id.right_icon;
+			global::Plugin.Permissions.Resource.Id.right_side = global::AppTaxi2020.Prison.Droid.Resource.Id.right_side;
+			global::Plugin.Permissions.Resource.Id.start = global::AppTaxi2020.Prison.Droid.Resource.Id.start;
+			global::Plugin.Permissions.Resource.Id.tag_transition_group = global::AppTaxi2020.Prison.Droid.Resource.Id.tag_transition_group;
+			global::Plugin.Permissions.Resource.Id.tag_unhandled_key_event_manager = global::AppTaxi2020.Prison.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Plugin.Permissions.Resource.Id.tag_unhandled_key_listeners = global::AppTaxi2020.Prison.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Plugin.Permissions.Resource.Id.text = global::AppTaxi2020.Prison.Droid.Resource.Id.text;
+			global::Plugin.Permissions.Resource.Id.text2 = global::AppTaxi2020.Prison.Droid.Resource.Id.text2;
+			global::Plugin.Permissions.Resource.Id.time = global::AppTaxi2020.Prison.Droid.Resource.Id.time;
+			global::Plugin.Permissions.Resource.Id.title = global::AppTaxi2020.Prison.Droid.Resource.Id.title;
+			global::Plugin.Permissions.Resource.Id.top = global::AppTaxi2020.Prison.Droid.Resource.Id.top;
+			global::Plugin.Permissions.Resource.Integer.status_bar_notification_info_maxnum = global::AppTaxi2020.Prison.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.Permissions.Resource.Layout.browser_actions_context_menu_page = global::AppTaxi2020.Prison.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Plugin.Permissions.Resource.Layout.browser_actions_context_menu_row = global::AppTaxi2020.Prison.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Plugin.Permissions.Resource.Layout.notification_action = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_action;
+			global::Plugin.Permissions.Resource.Layout.notification_action_tombstone = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.Permissions.Resource.Layout.notification_template_custom_big = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.Permissions.Resource.Layout.notification_template_icon_group = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.Permissions.Resource.Layout.notification_template_part_chronometer = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.Permissions.Resource.Layout.notification_template_part_time = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.Permissions.Resource.String.status_bar_notification_info_overflow = global::AppTaxi2020.Prison.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.Permissions.Resource.Style.TextAppearance_Compat_Notification = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Plugin.Permissions.Resource.Style.TextAppearance_Compat_Notification_Info = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Plugin.Permissions.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Plugin.Permissions.Resource.Style.TextAppearance_Compat_Notification_Time = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Plugin.Permissions.Resource.Style.TextAppearance_Compat_Notification_Title = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Plugin.Permissions.Resource.Style.Widget_Compat_NotificationActionContainer = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Plugin.Permissions.Resource.Style.Widget_Compat_NotificationActionText = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Plugin.Permissions.Resource.Style.Widget_Support_CoordinatorLayout = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Plugin.Permissions.Resource.Styleable.ColorStateListItem = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.Permissions.Resource.Styleable.ColorStateListItem_alpha = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.Permissions.Resource.Styleable.ColorStateListItem_android_alpha = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.Permissions.Resource.Styleable.ColorStateListItem_android_color = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.Permissions.Resource.Styleable.CoordinatorLayout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.Permissions.Resource.Styleable.CoordinatorLayout_keylines = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.Permissions.Resource.Styleable.CoordinatorLayout_Layout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Plugin.Permissions.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Plugin.Permissions.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Plugin.Permissions.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Plugin.Permissions.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Plugin.Permissions.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Plugin.Permissions.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Plugin.Permissions.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Plugin.Permissions.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.Permissions.Resource.Styleable.FontFamily = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily;
+			global::Plugin.Permissions.Resource.Styleable.FontFamilyFont = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont;
+			global::Plugin.Permissions.Resource.Styleable.FontFamilyFont_android_font = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Plugin.Permissions.Resource.Styleable.FontFamilyFont_android_fontStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Plugin.Permissions.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Plugin.Permissions.Resource.Styleable.FontFamilyFont_android_fontWeight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Plugin.Permissions.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Plugin.Permissions.Resource.Styleable.FontFamilyFont_font = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Plugin.Permissions.Resource.Styleable.FontFamilyFont_fontStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Plugin.Permissions.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Plugin.Permissions.Resource.Styleable.FontFamilyFont_fontWeight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Plugin.Permissions.Resource.Styleable.FontFamilyFont_ttcIndex = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Plugin.Permissions.Resource.Styleable.FontFamily_fontProviderAuthority = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Plugin.Permissions.Resource.Styleable.FontFamily_fontProviderCerts = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Plugin.Permissions.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Plugin.Permissions.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Plugin.Permissions.Resource.Styleable.FontFamily_fontProviderPackage = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Plugin.Permissions.Resource.Styleable.FontFamily_fontProviderQuery = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.Permissions.Resource.Styleable.GradientColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor;
+			global::Plugin.Permissions.Resource.Styleable.GradientColorItem = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColorItem;
+			global::Plugin.Permissions.Resource.Styleable.GradientColorItem_android_color = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Plugin.Permissions.Resource.Styleable.GradientColorItem_android_offset = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Plugin.Permissions.Resource.Styleable.GradientColor_android_centerColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Plugin.Permissions.Resource.Styleable.GradientColor_android_centerX = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Plugin.Permissions.Resource.Styleable.GradientColor_android_centerY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Plugin.Permissions.Resource.Styleable.GradientColor_android_endColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Plugin.Permissions.Resource.Styleable.GradientColor_android_endX = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Plugin.Permissions.Resource.Styleable.GradientColor_android_endY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Plugin.Permissions.Resource.Styleable.GradientColor_android_gradientRadius = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Plugin.Permissions.Resource.Styleable.GradientColor_android_startColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Plugin.Permissions.Resource.Styleable.GradientColor_android_startX = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Plugin.Permissions.Resource.Styleable.GradientColor_android_startY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Plugin.Permissions.Resource.Styleable.GradientColor_android_tileMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Plugin.Permissions.Resource.Styleable.GradientColor_android_type = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Plugin.Permissions.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::AppTaxi2020.Prison.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::Prism.Resource.Animation.abc_fade_in = global::AppTaxi2020.Prison.Droid.Resource.Animation.abc_fade_in;
 			global::Prism.Resource.Animation.abc_fade_out = global::AppTaxi2020.Prison.Droid.Resource.Animation.abc_fade_out;
 			global::Prism.Resource.Animation.abc_grow_fade_in_from_bottom = global::AppTaxi2020.Prison.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -166,6 +348,8 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Animation.abc_slide_in_top = global::AppTaxi2020.Prison.Droid.Resource.Animation.abc_slide_in_top;
 			global::Prism.Resource.Animation.abc_slide_out_bottom = global::AppTaxi2020.Prison.Droid.Resource.Animation.abc_slide_out_bottom;
 			global::Prism.Resource.Animation.abc_slide_out_top = global::AppTaxi2020.Prison.Droid.Resource.Animation.abc_slide_out_top;
+			global::Prism.Resource.Animation.abc_tooltip_enter = global::AppTaxi2020.Prison.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Prism.Resource.Animation.abc_tooltip_exit = global::AppTaxi2020.Prison.Droid.Resource.Animation.abc_tooltip_exit;
 			global::Prism.Resource.Animation.design_bottom_sheet_slide_in = global::AppTaxi2020.Prison.Droid.Resource.Animation.design_bottom_sheet_slide_in;
 			global::Prism.Resource.Animation.design_bottom_sheet_slide_out = global::AppTaxi2020.Prison.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Prism.Resource.Animation.design_snackbar_in = global::AppTaxi2020.Prison.Droid.Resource.Animation.design_snackbar_in;
@@ -175,6 +359,15 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Animation.ExitToLeft = global::AppTaxi2020.Prison.Droid.Resource.Animation.ExitToLeft;
 			global::Prism.Resource.Animation.ExitToRight = global::AppTaxi2020.Prison.Droid.Resource.Animation.ExitToRight;
 			global::Prism.Resource.Animator.design_appbar_state_list_animator = global::AppTaxi2020.Prison.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Prism.Resource.Animator.design_fab_hide_motion_spec = global::AppTaxi2020.Prison.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Prism.Resource.Animator.design_fab_show_motion_spec = global::AppTaxi2020.Prison.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Prism.Resource.Animator.mtrl_btn_state_list_anim = global::AppTaxi2020.Prison.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Prism.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::AppTaxi2020.Prison.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Prism.Resource.Animator.mtrl_chip_state_list_anim = global::AppTaxi2020.Prison.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Prism.Resource.Animator.mtrl_fab_hide_motion_spec = global::AppTaxi2020.Prison.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Prism.Resource.Animator.mtrl_fab_show_motion_spec = global::AppTaxi2020.Prison.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Prism.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::AppTaxi2020.Prison.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Prism.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::AppTaxi2020.Prison.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
 			global::Prism.Resource.Attribute.actionBarDivider = global::AppTaxi2020.Prison.Droid.Resource.Attribute.actionBarDivider;
 			global::Prism.Resource.Attribute.actionBarItemBackground = global::AppTaxi2020.Prison.Droid.Resource.Attribute.actionBarItemBackground;
 			global::Prism.Resource.Attribute.actionBarPopupTheme = global::AppTaxi2020.Prison.Droid.Resource.Attribute.actionBarPopupTheme;
@@ -231,20 +424,33 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Attribute.backgroundTintMode = global::AppTaxi2020.Prison.Droid.Resource.Attribute.backgroundTintMode;
 			global::Prism.Resource.Attribute.barLength = global::AppTaxi2020.Prison.Droid.Resource.Attribute.barLength;
 			global::Prism.Resource.Attribute.behavior_autoHide = global::AppTaxi2020.Prison.Droid.Resource.Attribute.behavior_autoHide;
+			global::Prism.Resource.Attribute.behavior_fitToContents = global::AppTaxi2020.Prison.Droid.Resource.Attribute.behavior_fitToContents;
 			global::Prism.Resource.Attribute.behavior_hideable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.behavior_hideable;
 			global::Prism.Resource.Attribute.behavior_overlapTop = global::AppTaxi2020.Prison.Droid.Resource.Attribute.behavior_overlapTop;
 			global::Prism.Resource.Attribute.behavior_peekHeight = global::AppTaxi2020.Prison.Droid.Resource.Attribute.behavior_peekHeight;
 			global::Prism.Resource.Attribute.behavior_skipCollapsed = global::AppTaxi2020.Prison.Droid.Resource.Attribute.behavior_skipCollapsed;
 			global::Prism.Resource.Attribute.borderlessButtonStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.borderlessButtonStyle;
 			global::Prism.Resource.Attribute.borderWidth = global::AppTaxi2020.Prison.Droid.Resource.Attribute.borderWidth;
+			global::Prism.Resource.Attribute.bottomAppBarStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Prism.Resource.Attribute.bottomNavigationStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.bottomNavigationStyle;
 			global::Prism.Resource.Attribute.bottomSheetDialogTheme = global::AppTaxi2020.Prison.Droid.Resource.Attribute.bottomSheetDialogTheme;
 			global::Prism.Resource.Attribute.bottomSheetStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Prism.Resource.Attribute.boxBackgroundColor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Prism.Resource.Attribute.boxBackgroundMode = global::AppTaxi2020.Prison.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Prism.Resource.Attribute.boxCollapsedPaddingTop = global::AppTaxi2020.Prison.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Prism.Resource.Attribute.boxCornerRadiusBottomEnd = global::AppTaxi2020.Prison.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Prism.Resource.Attribute.boxCornerRadiusBottomStart = global::AppTaxi2020.Prison.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Prism.Resource.Attribute.boxCornerRadiusTopEnd = global::AppTaxi2020.Prison.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Prism.Resource.Attribute.boxCornerRadiusTopStart = global::AppTaxi2020.Prison.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Prism.Resource.Attribute.boxStrokeColor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.boxStrokeColor;
+			global::Prism.Resource.Attribute.boxStrokeWidth = global::AppTaxi2020.Prison.Droid.Resource.Attribute.boxStrokeWidth;
 			global::Prism.Resource.Attribute.buttonBarButtonStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::Prism.Resource.Attribute.buttonBarNegativeButtonStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::Prism.Resource.Attribute.buttonBarNeutralButtonStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
 			global::Prism.Resource.Attribute.buttonBarPositiveButtonStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
 			global::Prism.Resource.Attribute.buttonBarStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.buttonBarStyle;
 			global::Prism.Resource.Attribute.buttonGravity = global::AppTaxi2020.Prison.Droid.Resource.Attribute.buttonGravity;
+			global::Prism.Resource.Attribute.buttonIconDimen = global::AppTaxi2020.Prison.Droid.Resource.Attribute.buttonIconDimen;
 			global::Prism.Resource.Attribute.buttonPanelSideLayout = global::AppTaxi2020.Prison.Droid.Resource.Attribute.buttonPanelSideLayout;
 			global::Prism.Resource.Attribute.buttonStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.buttonStyle;
 			global::Prism.Resource.Attribute.buttonStyleSmall = global::AppTaxi2020.Prison.Droid.Resource.Attribute.buttonStyleSmall;
@@ -256,9 +462,38 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Attribute.cardMaxElevation = global::AppTaxi2020.Prison.Droid.Resource.Attribute.cardMaxElevation;
 			global::Prism.Resource.Attribute.cardPreventCornerOverlap = global::AppTaxi2020.Prison.Droid.Resource.Attribute.cardPreventCornerOverlap;
 			global::Prism.Resource.Attribute.cardUseCompatPadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Prism.Resource.Attribute.cardViewStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.cardViewStyle;
 			global::Prism.Resource.Attribute.checkboxStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.checkboxStyle;
+			global::Prism.Resource.Attribute.checkedChip = global::AppTaxi2020.Prison.Droid.Resource.Attribute.checkedChip;
+			global::Prism.Resource.Attribute.checkedIcon = global::AppTaxi2020.Prison.Droid.Resource.Attribute.checkedIcon;
+			global::Prism.Resource.Attribute.checkedIconEnabled = global::AppTaxi2020.Prison.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Prism.Resource.Attribute.checkedIconVisible = global::AppTaxi2020.Prison.Droid.Resource.Attribute.checkedIconVisible;
 			global::Prism.Resource.Attribute.checkedTextViewStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Prism.Resource.Attribute.chipBackgroundColor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Prism.Resource.Attribute.chipCornerRadius = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipCornerRadius;
+			global::Prism.Resource.Attribute.chipEndPadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipEndPadding;
+			global::Prism.Resource.Attribute.chipGroupStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipGroupStyle;
+			global::Prism.Resource.Attribute.chipIcon = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipIcon;
+			global::Prism.Resource.Attribute.chipIconEnabled = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipIconEnabled;
+			global::Prism.Resource.Attribute.chipIconSize = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipIconSize;
+			global::Prism.Resource.Attribute.chipIconTint = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipIconTint;
+			global::Prism.Resource.Attribute.chipIconVisible = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipIconVisible;
+			global::Prism.Resource.Attribute.chipMinHeight = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipMinHeight;
+			global::Prism.Resource.Attribute.chipSpacing = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipSpacing;
+			global::Prism.Resource.Attribute.chipSpacingHorizontal = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Prism.Resource.Attribute.chipSpacingVertical = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Prism.Resource.Attribute.chipStandaloneStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Prism.Resource.Attribute.chipStartPadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipStartPadding;
+			global::Prism.Resource.Attribute.chipStrokeColor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipStrokeColor;
+			global::Prism.Resource.Attribute.chipStrokeWidth = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Prism.Resource.Attribute.chipStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.chipStyle;
 			global::Prism.Resource.Attribute.closeIcon = global::AppTaxi2020.Prison.Droid.Resource.Attribute.closeIcon;
+			global::Prism.Resource.Attribute.closeIconEnabled = global::AppTaxi2020.Prison.Droid.Resource.Attribute.closeIconEnabled;
+			global::Prism.Resource.Attribute.closeIconEndPadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Prism.Resource.Attribute.closeIconSize = global::AppTaxi2020.Prison.Droid.Resource.Attribute.closeIconSize;
+			global::Prism.Resource.Attribute.closeIconStartPadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Prism.Resource.Attribute.closeIconTint = global::AppTaxi2020.Prison.Droid.Resource.Attribute.closeIconTint;
+			global::Prism.Resource.Attribute.closeIconVisible = global::AppTaxi2020.Prison.Droid.Resource.Attribute.closeIconVisible;
 			global::Prism.Resource.Attribute.closeItemLayout = global::AppTaxi2020.Prison.Droid.Resource.Attribute.closeItemLayout;
 			global::Prism.Resource.Attribute.collapseContentDescription = global::AppTaxi2020.Prison.Droid.Resource.Attribute.collapseContentDescription;
 			global::Prism.Resource.Attribute.collapsedTitleGravity = global::AppTaxi2020.Prison.Droid.Resource.Attribute.collapsedTitleGravity;
@@ -274,6 +509,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Attribute.colorError = global::AppTaxi2020.Prison.Droid.Resource.Attribute.colorError;
 			global::Prism.Resource.Attribute.colorPrimary = global::AppTaxi2020.Prison.Droid.Resource.Attribute.colorPrimary;
 			global::Prism.Resource.Attribute.colorPrimaryDark = global::AppTaxi2020.Prison.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Prism.Resource.Attribute.colorSecondary = global::AppTaxi2020.Prison.Droid.Resource.Attribute.colorSecondary;
 			global::Prism.Resource.Attribute.colorSwitchThumbNormal = global::AppTaxi2020.Prison.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Prism.Resource.Attribute.commitIcon = global::AppTaxi2020.Prison.Droid.Resource.Attribute.commitIcon;
 			global::Prism.Resource.Attribute.contentDescription = global::AppTaxi2020.Prison.Droid.Resource.Attribute.contentDescription;
@@ -290,12 +526,15 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Attribute.contentPaddingTop = global::AppTaxi2020.Prison.Droid.Resource.Attribute.contentPaddingTop;
 			global::Prism.Resource.Attribute.contentScrim = global::AppTaxi2020.Prison.Droid.Resource.Attribute.contentScrim;
 			global::Prism.Resource.Attribute.controlBackground = global::AppTaxi2020.Prison.Droid.Resource.Attribute.controlBackground;
+			global::Prism.Resource.Attribute.coordinatorLayoutStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Prism.Resource.Attribute.cornerRadius = global::AppTaxi2020.Prison.Droid.Resource.Attribute.cornerRadius;
 			global::Prism.Resource.Attribute.counterEnabled = global::AppTaxi2020.Prison.Droid.Resource.Attribute.counterEnabled;
 			global::Prism.Resource.Attribute.counterMaxLength = global::AppTaxi2020.Prison.Droid.Resource.Attribute.counterMaxLength;
 			global::Prism.Resource.Attribute.counterOverflowTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Attribute.counterOverflowTextAppearance;
 			global::Prism.Resource.Attribute.counterTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Attribute.counterTextAppearance;
 			global::Prism.Resource.Attribute.customNavigationLayout = global::AppTaxi2020.Prison.Droid.Resource.Attribute.customNavigationLayout;
 			global::Prism.Resource.Attribute.defaultQueryHint = global::AppTaxi2020.Prison.Droid.Resource.Attribute.defaultQueryHint;
+			global::Prism.Resource.Attribute.dialogCornerRadius = global::AppTaxi2020.Prison.Droid.Resource.Attribute.dialogCornerRadius;
 			global::Prism.Resource.Attribute.dialogPreferredPadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.dialogPreferredPadding;
 			global::Prism.Resource.Attribute.dialogTheme = global::AppTaxi2020.Prison.Droid.Resource.Attribute.dialogTheme;
 			global::Prism.Resource.Attribute.displayOptions = global::AppTaxi2020.Prison.Droid.Resource.Attribute.displayOptions;
@@ -311,6 +550,8 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Attribute.editTextColor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.editTextColor;
 			global::Prism.Resource.Attribute.editTextStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.editTextStyle;
 			global::Prism.Resource.Attribute.elevation = global::AppTaxi2020.Prison.Droid.Resource.Attribute.elevation;
+			global::Prism.Resource.Attribute.enforceMaterialTheme = global::AppTaxi2020.Prison.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Prism.Resource.Attribute.enforceTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Attribute.enforceTextAppearance;
 			global::Prism.Resource.Attribute.errorEnabled = global::AppTaxi2020.Prison.Droid.Resource.Attribute.errorEnabled;
 			global::Prism.Resource.Attribute.errorTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Attribute.errorTextAppearance;
 			global::Prism.Resource.Attribute.expandActivityOverflowButtonDrawable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
@@ -322,13 +563,19 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Attribute.expandedTitleMarginStart = global::AppTaxi2020.Prison.Droid.Resource.Attribute.expandedTitleMarginStart;
 			global::Prism.Resource.Attribute.expandedTitleMarginTop = global::AppTaxi2020.Prison.Droid.Resource.Attribute.expandedTitleMarginTop;
 			global::Prism.Resource.Attribute.expandedTitleTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Prism.Resource.Attribute.externalRouteEnabledDrawable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Prism.Resource.Attribute.fabAlignmentMode = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Prism.Resource.Attribute.fabCradleMargin = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fabCradleMargin;
+			global::Prism.Resource.Attribute.fabCradleRoundedCornerRadius = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Prism.Resource.Attribute.fabCradleVerticalOffset = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Prism.Resource.Attribute.fabCustomSize = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fabCustomSize;
 			global::Prism.Resource.Attribute.fabSize = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fabSize;
 			global::Prism.Resource.Attribute.fastScrollEnabled = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fastScrollEnabled;
 			global::Prism.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
 			global::Prism.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
 			global::Prism.Resource.Attribute.fastScrollVerticalThumbDrawable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
 			global::Prism.Resource.Attribute.fastScrollVerticalTrackDrawable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Prism.Resource.Attribute.firstBaselineToTopHeight = global::AppTaxi2020.Prison.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Prism.Resource.Attribute.floatingActionButtonStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.floatingActionButtonStyle;
 			global::Prism.Resource.Attribute.font = global::AppTaxi2020.Prison.Droid.Resource.Attribute.font;
 			global::Prism.Resource.Attribute.fontFamily = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontFamily;
 			global::Prism.Resource.Attribute.fontProviderAuthority = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderAuthority;
@@ -338,20 +585,32 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Attribute.fontProviderPackage = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderPackage;
 			global::Prism.Resource.Attribute.fontProviderQuery = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderQuery;
 			global::Prism.Resource.Attribute.fontStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontStyle;
+			global::Prism.Resource.Attribute.fontVariationSettings = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontVariationSettings;
 			global::Prism.Resource.Attribute.fontWeight = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontWeight;
 			global::Prism.Resource.Attribute.foregroundInsidePadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.foregroundInsidePadding;
 			global::Prism.Resource.Attribute.gapBetweenBars = global::AppTaxi2020.Prison.Droid.Resource.Attribute.gapBetweenBars;
 			global::Prism.Resource.Attribute.goIcon = global::AppTaxi2020.Prison.Droid.Resource.Attribute.goIcon;
 			global::Prism.Resource.Attribute.headerLayout = global::AppTaxi2020.Prison.Droid.Resource.Attribute.headerLayout;
 			global::Prism.Resource.Attribute.height = global::AppTaxi2020.Prison.Droid.Resource.Attribute.height;
+			global::Prism.Resource.Attribute.helperText = global::AppTaxi2020.Prison.Droid.Resource.Attribute.helperText;
+			global::Prism.Resource.Attribute.helperTextEnabled = global::AppTaxi2020.Prison.Droid.Resource.Attribute.helperTextEnabled;
+			global::Prism.Resource.Attribute.helperTextTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Prism.Resource.Attribute.hideMotionSpec = global::AppTaxi2020.Prison.Droid.Resource.Attribute.hideMotionSpec;
 			global::Prism.Resource.Attribute.hideOnContentScroll = global::AppTaxi2020.Prison.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Prism.Resource.Attribute.hideOnScroll = global::AppTaxi2020.Prison.Droid.Resource.Attribute.hideOnScroll;
 			global::Prism.Resource.Attribute.hintAnimationEnabled = global::AppTaxi2020.Prison.Droid.Resource.Attribute.hintAnimationEnabled;
 			global::Prism.Resource.Attribute.hintEnabled = global::AppTaxi2020.Prison.Droid.Resource.Attribute.hintEnabled;
 			global::Prism.Resource.Attribute.hintTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Attribute.hintTextAppearance;
 			global::Prism.Resource.Attribute.homeAsUpIndicator = global::AppTaxi2020.Prison.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::Prism.Resource.Attribute.homeLayout = global::AppTaxi2020.Prison.Droid.Resource.Attribute.homeLayout;
+			global::Prism.Resource.Attribute.hoveredFocusedTranslationZ = global::AppTaxi2020.Prison.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
 			global::Prism.Resource.Attribute.icon = global::AppTaxi2020.Prison.Droid.Resource.Attribute.icon;
+			global::Prism.Resource.Attribute.iconEndPadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.iconEndPadding;
+			global::Prism.Resource.Attribute.iconGravity = global::AppTaxi2020.Prison.Droid.Resource.Attribute.iconGravity;
 			global::Prism.Resource.Attribute.iconifiedByDefault = global::AppTaxi2020.Prison.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Prism.Resource.Attribute.iconPadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.iconPadding;
+			global::Prism.Resource.Attribute.iconSize = global::AppTaxi2020.Prison.Droid.Resource.Attribute.iconSize;
+			global::Prism.Resource.Attribute.iconStartPadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.iconStartPadding;
 			global::Prism.Resource.Attribute.iconTint = global::AppTaxi2020.Prison.Droid.Resource.Attribute.iconTint;
 			global::Prism.Resource.Attribute.iconTintMode = global::AppTaxi2020.Prison.Droid.Resource.Attribute.iconTintMode;
 			global::Prism.Resource.Attribute.imageButtonStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.imageButtonStyle;
@@ -360,11 +619,20 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Attribute.insetForeground = global::AppTaxi2020.Prison.Droid.Resource.Attribute.insetForeground;
 			global::Prism.Resource.Attribute.isLightTheme = global::AppTaxi2020.Prison.Droid.Resource.Attribute.isLightTheme;
 			global::Prism.Resource.Attribute.itemBackground = global::AppTaxi2020.Prison.Droid.Resource.Attribute.itemBackground;
+			global::Prism.Resource.Attribute.itemHorizontalPadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Prism.Resource.Attribute.itemHorizontalTranslationEnabled = global::AppTaxi2020.Prison.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Prism.Resource.Attribute.itemIconPadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.itemIconPadding;
+			global::Prism.Resource.Attribute.itemIconSize = global::AppTaxi2020.Prison.Droid.Resource.Attribute.itemIconSize;
 			global::Prism.Resource.Attribute.itemIconTint = global::AppTaxi2020.Prison.Droid.Resource.Attribute.itemIconTint;
 			global::Prism.Resource.Attribute.itemPadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.itemPadding;
+			global::Prism.Resource.Attribute.itemSpacing = global::AppTaxi2020.Prison.Droid.Resource.Attribute.itemSpacing;
 			global::Prism.Resource.Attribute.itemTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Attribute.itemTextAppearance;
+			global::Prism.Resource.Attribute.itemTextAppearanceActive = global::AppTaxi2020.Prison.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Prism.Resource.Attribute.itemTextAppearanceInactive = global::AppTaxi2020.Prison.Droid.Resource.Attribute.itemTextAppearanceInactive;
 			global::Prism.Resource.Attribute.itemTextColor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.itemTextColor;
 			global::Prism.Resource.Attribute.keylines = global::AppTaxi2020.Prison.Droid.Resource.Attribute.keylines;
+			global::Prism.Resource.Attribute.labelVisibilityMode = global::AppTaxi2020.Prison.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Prism.Resource.Attribute.lastBaselineToBottomHeight = global::AppTaxi2020.Prison.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::Prism.Resource.Attribute.layout = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout;
 			global::Prism.Resource.Attribute.layoutManager = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layoutManager;
 			global::Prism.Resource.Attribute.layout_anchor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_anchor;
@@ -377,6 +645,9 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Attribute.layout_keyline = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_keyline;
 			global::Prism.Resource.Attribute.layout_scrollFlags = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_scrollFlags;
 			global::Prism.Resource.Attribute.layout_scrollInterpolator = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Prism.Resource.Attribute.liftOnScroll = global::AppTaxi2020.Prison.Droid.Resource.Attribute.liftOnScroll;
+			global::Prism.Resource.Attribute.lineHeight = global::AppTaxi2020.Prison.Droid.Resource.Attribute.lineHeight;
+			global::Prism.Resource.Attribute.lineSpacing = global::AppTaxi2020.Prison.Droid.Resource.Attribute.lineSpacing;
 			global::Prism.Resource.Attribute.listChoiceBackgroundIndicator = global::AppTaxi2020.Prison.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
 			global::Prism.Resource.Attribute.listDividerAlertDialog = global::AppTaxi2020.Prison.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::Prism.Resource.Attribute.listItemLayout = global::AppTaxi2020.Prison.Droid.Resource.Attribute.listItemLayout;
@@ -390,27 +661,18 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Attribute.listPreferredItemPaddingRight = global::AppTaxi2020.Prison.Droid.Resource.Attribute.listPreferredItemPaddingRight;
 			global::Prism.Resource.Attribute.logo = global::AppTaxi2020.Prison.Droid.Resource.Attribute.logo;
 			global::Prism.Resource.Attribute.logoDescription = global::AppTaxi2020.Prison.Droid.Resource.Attribute.logoDescription;
+			global::Prism.Resource.Attribute.materialButtonStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.materialButtonStyle;
+			global::Prism.Resource.Attribute.materialCardViewStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.materialCardViewStyle;
 			global::Prism.Resource.Attribute.maxActionInlineWidth = global::AppTaxi2020.Prison.Droid.Resource.Attribute.maxActionInlineWidth;
 			global::Prism.Resource.Attribute.maxButtonHeight = global::AppTaxi2020.Prison.Droid.Resource.Attribute.maxButtonHeight;
+			global::Prism.Resource.Attribute.maxImageSize = global::AppTaxi2020.Prison.Droid.Resource.Attribute.maxImageSize;
 			global::Prism.Resource.Attribute.measureWithLargestChild = global::AppTaxi2020.Prison.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Prism.Resource.Attribute.mediaRouteAudioTrackDrawable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
-			global::Prism.Resource.Attribute.mediaRouteButtonStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.mediaRouteButtonStyle;
-			global::Prism.Resource.Attribute.mediaRouteButtonTint = global::AppTaxi2020.Prison.Droid.Resource.Attribute.mediaRouteButtonTint;
-			global::Prism.Resource.Attribute.mediaRouteCloseDrawable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.mediaRouteCloseDrawable;
-			global::Prism.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::AppTaxi2020.Prison.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
-			global::Prism.Resource.Attribute.mediaRouteDefaultIconDrawable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
-			global::Prism.Resource.Attribute.mediaRoutePauseDrawable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.mediaRoutePauseDrawable;
-			global::Prism.Resource.Attribute.mediaRoutePlayDrawable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.mediaRoutePlayDrawable;
-			global::Prism.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
-			global::Prism.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
-			global::Prism.Resource.Attribute.mediaRouteStopDrawable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.mediaRouteStopDrawable;
-			global::Prism.Resource.Attribute.mediaRouteTheme = global::AppTaxi2020.Prison.Droid.Resource.Attribute.mediaRouteTheme;
-			global::Prism.Resource.Attribute.mediaRouteTvIconDrawable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
 			global::Prism.Resource.Attribute.menu = global::AppTaxi2020.Prison.Droid.Resource.Attribute.menu;
 			global::Prism.Resource.Attribute.multiChoiceItemLayout = global::AppTaxi2020.Prison.Droid.Resource.Attribute.multiChoiceItemLayout;
 			global::Prism.Resource.Attribute.navigationContentDescription = global::AppTaxi2020.Prison.Droid.Resource.Attribute.navigationContentDescription;
 			global::Prism.Resource.Attribute.navigationIcon = global::AppTaxi2020.Prison.Droid.Resource.Attribute.navigationIcon;
 			global::Prism.Resource.Attribute.navigationMode = global::AppTaxi2020.Prison.Droid.Resource.Attribute.navigationMode;
+			global::Prism.Resource.Attribute.navigationViewStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.navigationViewStyle;
 			global::Prism.Resource.Attribute.numericModifiers = global::AppTaxi2020.Prison.Droid.Resource.Attribute.numericModifiers;
 			global::Prism.Resource.Attribute.overlapAnchor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.overlapAnchor;
 			global::Prism.Resource.Attribute.paddingBottomNoButtons = global::AppTaxi2020.Prison.Droid.Resource.Attribute.paddingBottomNoButtons;
@@ -441,6 +703,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Attribute.reverseLayout = global::AppTaxi2020.Prison.Droid.Resource.Attribute.reverseLayout;
 			global::Prism.Resource.Attribute.rippleColor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.rippleColor;
 			global::Prism.Resource.Attribute.scrimAnimationDuration = global::AppTaxi2020.Prison.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Prism.Resource.Attribute.scrimBackground = global::AppTaxi2020.Prison.Droid.Resource.Attribute.scrimBackground;
 			global::Prism.Resource.Attribute.scrimVisibleHeightTrigger = global::AppTaxi2020.Prison.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
 			global::Prism.Resource.Attribute.searchHintIcon = global::AppTaxi2020.Prison.Droid.Resource.Attribute.searchHintIcon;
 			global::Prism.Resource.Attribute.searchIcon = global::AppTaxi2020.Prison.Droid.Resource.Attribute.searchIcon;
@@ -450,9 +713,14 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Attribute.selectableItemBackgroundBorderless = global::AppTaxi2020.Prison.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
 			global::Prism.Resource.Attribute.showAsAction = global::AppTaxi2020.Prison.Droid.Resource.Attribute.showAsAction;
 			global::Prism.Resource.Attribute.showDividers = global::AppTaxi2020.Prison.Droid.Resource.Attribute.showDividers;
+			global::Prism.Resource.Attribute.showMotionSpec = global::AppTaxi2020.Prison.Droid.Resource.Attribute.showMotionSpec;
 			global::Prism.Resource.Attribute.showText = global::AppTaxi2020.Prison.Droid.Resource.Attribute.showText;
 			global::Prism.Resource.Attribute.showTitle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.showTitle;
 			global::Prism.Resource.Attribute.singleChoiceItemLayout = global::AppTaxi2020.Prison.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Prism.Resource.Attribute.singleLine = global::AppTaxi2020.Prison.Droid.Resource.Attribute.singleLine;
+			global::Prism.Resource.Attribute.singleSelection = global::AppTaxi2020.Prison.Droid.Resource.Attribute.singleSelection;
+			global::Prism.Resource.Attribute.snackbarButtonStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Prism.Resource.Attribute.snackbarStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.snackbarStyle;
 			global::Prism.Resource.Attribute.spanCount = global::AppTaxi2020.Prison.Droid.Resource.Attribute.spanCount;
 			global::Prism.Resource.Attribute.spinBars = global::AppTaxi2020.Prison.Droid.Resource.Attribute.spinBars;
 			global::Prism.Resource.Attribute.spinnerDropDownItemStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -463,8 +731,12 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Attribute.state_above_anchor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.state_above_anchor;
 			global::Prism.Resource.Attribute.state_collapsed = global::AppTaxi2020.Prison.Droid.Resource.Attribute.state_collapsed;
 			global::Prism.Resource.Attribute.state_collapsible = global::AppTaxi2020.Prison.Droid.Resource.Attribute.state_collapsible;
+			global::Prism.Resource.Attribute.state_liftable = global::AppTaxi2020.Prison.Droid.Resource.Attribute.state_liftable;
+			global::Prism.Resource.Attribute.state_lifted = global::AppTaxi2020.Prison.Droid.Resource.Attribute.state_lifted;
 			global::Prism.Resource.Attribute.statusBarBackground = global::AppTaxi2020.Prison.Droid.Resource.Attribute.statusBarBackground;
 			global::Prism.Resource.Attribute.statusBarScrim = global::AppTaxi2020.Prison.Droid.Resource.Attribute.statusBarScrim;
+			global::Prism.Resource.Attribute.strokeColor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.strokeColor;
+			global::Prism.Resource.Attribute.strokeWidth = global::AppTaxi2020.Prison.Droid.Resource.Attribute.strokeWidth;
 			global::Prism.Resource.Attribute.subMenuArrow = global::AppTaxi2020.Prison.Droid.Resource.Attribute.subMenuArrow;
 			global::Prism.Resource.Attribute.submitBackground = global::AppTaxi2020.Prison.Droid.Resource.Attribute.submitBackground;
 			global::Prism.Resource.Attribute.subtitle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.subtitle;
@@ -479,8 +751,15 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Attribute.tabBackground = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabBackground;
 			global::Prism.Resource.Attribute.tabContentStart = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabContentStart;
 			global::Prism.Resource.Attribute.tabGravity = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabGravity;
+			global::Prism.Resource.Attribute.tabIconTint = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabIconTint;
+			global::Prism.Resource.Attribute.tabIconTintMode = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabIconTintMode;
+			global::Prism.Resource.Attribute.tabIndicator = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabIndicator;
+			global::Prism.Resource.Attribute.tabIndicatorAnimationDuration = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
 			global::Prism.Resource.Attribute.tabIndicatorColor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Prism.Resource.Attribute.tabIndicatorFullWidth = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Prism.Resource.Attribute.tabIndicatorGravity = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabIndicatorGravity;
 			global::Prism.Resource.Attribute.tabIndicatorHeight = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Prism.Resource.Attribute.tabInlineLabel = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabInlineLabel;
 			global::Prism.Resource.Attribute.tabMaxWidth = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabMaxWidth;
 			global::Prism.Resource.Attribute.tabMinWidth = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabMinWidth;
 			global::Prism.Resource.Attribute.tabMode = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabMode;
@@ -489,20 +768,39 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Attribute.tabPaddingEnd = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabPaddingEnd;
 			global::Prism.Resource.Attribute.tabPaddingStart = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabPaddingStart;
 			global::Prism.Resource.Attribute.tabPaddingTop = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabPaddingTop;
+			global::Prism.Resource.Attribute.tabRippleColor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabRippleColor;
 			global::Prism.Resource.Attribute.tabSelectedTextColor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Prism.Resource.Attribute.tabStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabStyle;
 			global::Prism.Resource.Attribute.tabTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabTextAppearance;
 			global::Prism.Resource.Attribute.tabTextColor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabTextColor;
+			global::Prism.Resource.Attribute.tabUnboundedRipple = global::AppTaxi2020.Prison.Droid.Resource.Attribute.tabUnboundedRipple;
 			global::Prism.Resource.Attribute.textAllCaps = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAllCaps;
+			global::Prism.Resource.Attribute.textAppearanceBody1 = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Prism.Resource.Attribute.textAppearanceBody2 = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Prism.Resource.Attribute.textAppearanceButton = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceButton;
+			global::Prism.Resource.Attribute.textAppearanceCaption = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Prism.Resource.Attribute.textAppearanceHeadline1 = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Prism.Resource.Attribute.textAppearanceHeadline2 = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Prism.Resource.Attribute.textAppearanceHeadline3 = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Prism.Resource.Attribute.textAppearanceHeadline4 = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Prism.Resource.Attribute.textAppearanceHeadline5 = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Prism.Resource.Attribute.textAppearanceHeadline6 = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceHeadline6;
 			global::Prism.Resource.Attribute.textAppearanceLargePopupMenu = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
 			global::Prism.Resource.Attribute.textAppearanceListItem = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceListItem;
 			global::Prism.Resource.Attribute.textAppearanceListItemSecondary = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceListItemSecondary;
 			global::Prism.Resource.Attribute.textAppearanceListItemSmall = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Prism.Resource.Attribute.textAppearanceOverline = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceOverline;
 			global::Prism.Resource.Attribute.textAppearancePopupMenuHeader = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
 			global::Prism.Resource.Attribute.textAppearanceSearchResultSubtitle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
 			global::Prism.Resource.Attribute.textAppearanceSearchResultTitle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
 			global::Prism.Resource.Attribute.textAppearanceSmallPopupMenu = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Prism.Resource.Attribute.textAppearanceSubtitle1 = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Prism.Resource.Attribute.textAppearanceSubtitle2 = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textAppearanceSubtitle2;
 			global::Prism.Resource.Attribute.textColorAlertDialogListItem = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textColorAlertDialogListItem;
 			global::Prism.Resource.Attribute.textColorSearchUrl = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Prism.Resource.Attribute.textEndPadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textEndPadding;
+			global::Prism.Resource.Attribute.textInputStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textInputStyle;
+			global::Prism.Resource.Attribute.textStartPadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.textStartPadding;
 			global::Prism.Resource.Attribute.theme = global::AppTaxi2020.Prison.Droid.Resource.Attribute.theme;
 			global::Prism.Resource.Attribute.thickness = global::AppTaxi2020.Prison.Droid.Resource.Attribute.thickness;
 			global::Prism.Resource.Attribute.thumbTextPadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.thumbTextPadding;
@@ -533,7 +831,9 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Attribute.track = global::AppTaxi2020.Prison.Droid.Resource.Attribute.track;
 			global::Prism.Resource.Attribute.trackTint = global::AppTaxi2020.Prison.Droid.Resource.Attribute.trackTint;
 			global::Prism.Resource.Attribute.trackTintMode = global::AppTaxi2020.Prison.Droid.Resource.Attribute.trackTintMode;
+			global::Prism.Resource.Attribute.ttcIndex = global::AppTaxi2020.Prison.Droid.Resource.Attribute.ttcIndex;
 			global::Prism.Resource.Attribute.useCompatPadding = global::AppTaxi2020.Prison.Droid.Resource.Attribute.useCompatPadding;
+			global::Prism.Resource.Attribute.viewInflaterClass = global::AppTaxi2020.Prison.Droid.Resource.Attribute.viewInflaterClass;
 			global::Prism.Resource.Attribute.voiceIcon = global::AppTaxi2020.Prison.Droid.Resource.Attribute.voiceIcon;
 			global::Prism.Resource.Attribute.windowActionBar = global::AppTaxi2020.Prison.Droid.Resource.Attribute.windowActionBar;
 			global::Prism.Resource.Attribute.windowActionBarOverlay = global::AppTaxi2020.Prison.Droid.Resource.Attribute.windowActionBarOverlay;
@@ -548,6 +848,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Boolean.abc_action_bar_embed_tabs = global::AppTaxi2020.Prison.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
 			global::Prism.Resource.Boolean.abc_allow_stacked_button_bar = global::AppTaxi2020.Prison.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
 			global::Prism.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::AppTaxi2020.Prison.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Prism.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::AppTaxi2020.Prison.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
 			global::Prism.Resource.Color.abc_background_cache_hint_selector_material_dark = global::AppTaxi2020.Prison.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
 			global::Prism.Resource.Color.abc_background_cache_hint_selector_material_light = global::AppTaxi2020.Prison.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
 			global::Prism.Resource.Color.abc_btn_colored_borderless_text_material = global::AppTaxi2020.Prison.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
@@ -584,6 +885,10 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Color.bright_foreground_inverse_material_light = global::AppTaxi2020.Prison.Droid.Resource.Color.bright_foreground_inverse_material_light;
 			global::Prism.Resource.Color.bright_foreground_material_dark = global::AppTaxi2020.Prison.Droid.Resource.Color.bright_foreground_material_dark;
 			global::Prism.Resource.Color.bright_foreground_material_light = global::AppTaxi2020.Prison.Droid.Resource.Color.bright_foreground_material_light;
+			global::Prism.Resource.Color.browser_actions_bg_grey = global::AppTaxi2020.Prison.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Prism.Resource.Color.browser_actions_divider_color = global::AppTaxi2020.Prison.Droid.Resource.Color.browser_actions_divider_color;
+			global::Prism.Resource.Color.browser_actions_text_color = global::AppTaxi2020.Prison.Droid.Resource.Color.browser_actions_text_color;
+			global::Prism.Resource.Color.browser_actions_title_color = global::AppTaxi2020.Prison.Droid.Resource.Color.browser_actions_title_color;
 			global::Prism.Resource.Color.button_material_dark = global::AppTaxi2020.Prison.Droid.Resource.Color.button_material_dark;
 			global::Prism.Resource.Color.button_material_light = global::AppTaxi2020.Prison.Droid.Resource.Color.button_material_light;
 			global::Prism.Resource.Color.cardview_dark_background = global::AppTaxi2020.Prison.Droid.Resource.Color.cardview_dark_background;
@@ -591,6 +896,8 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Color.cardview_shadow_end_color = global::AppTaxi2020.Prison.Droid.Resource.Color.cardview_shadow_end_color;
 			global::Prism.Resource.Color.cardview_shadow_start_color = global::AppTaxi2020.Prison.Droid.Resource.Color.cardview_shadow_start_color;
 			global::Prism.Resource.Color.design_bottom_navigation_shadow_color = global::AppTaxi2020.Prison.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Prism.Resource.Color.design_default_color_primary = global::AppTaxi2020.Prison.Droid.Resource.Color.design_default_color_primary;
+			global::Prism.Resource.Color.design_default_color_primary_dark = global::AppTaxi2020.Prison.Droid.Resource.Color.design_default_color_primary_dark;
 			global::Prism.Resource.Color.design_error = global::AppTaxi2020.Prison.Droid.Resource.Color.design_error;
 			global::Prism.Resource.Color.design_fab_shadow_end_color = global::AppTaxi2020.Prison.Droid.Resource.Color.design_fab_shadow_end_color;
 			global::Prism.Resource.Color.design_fab_shadow_mid_color = global::AppTaxi2020.Prison.Droid.Resource.Color.design_fab_shadow_mid_color;
@@ -605,6 +912,8 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Color.dim_foreground_disabled_material_light = global::AppTaxi2020.Prison.Droid.Resource.Color.dim_foreground_disabled_material_light;
 			global::Prism.Resource.Color.dim_foreground_material_dark = global::AppTaxi2020.Prison.Droid.Resource.Color.dim_foreground_material_dark;
 			global::Prism.Resource.Color.dim_foreground_material_light = global::AppTaxi2020.Prison.Droid.Resource.Color.dim_foreground_material_light;
+			global::Prism.Resource.Color.error_color_material_dark = global::AppTaxi2020.Prison.Droid.Resource.Color.error_color_material_dark;
+			global::Prism.Resource.Color.error_color_material_light = global::AppTaxi2020.Prison.Droid.Resource.Color.error_color_material_light;
 			global::Prism.Resource.Color.foreground_material_dark = global::AppTaxi2020.Prison.Droid.Resource.Color.foreground_material_dark;
 			global::Prism.Resource.Color.foreground_material_light = global::AppTaxi2020.Prison.Droid.Resource.Color.foreground_material_light;
 			global::Prism.Resource.Color.highlighted_text_material_dark = global::AppTaxi2020.Prison.Droid.Resource.Color.highlighted_text_material_dark;
@@ -621,6 +930,32 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Color.material_grey_800 = global::AppTaxi2020.Prison.Droid.Resource.Color.material_grey_800;
 			global::Prism.Resource.Color.material_grey_850 = global::AppTaxi2020.Prison.Droid.Resource.Color.material_grey_850;
 			global::Prism.Resource.Color.material_grey_900 = global::AppTaxi2020.Prison.Droid.Resource.Color.material_grey_900;
+			global::Prism.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Prism.Resource.Color.mtrl_bottom_nav_item_tint = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Prism.Resource.Color.mtrl_btn_bg_color_disabled = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::Prism.Resource.Color.mtrl_btn_bg_color_selector = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Prism.Resource.Color.mtrl_btn_ripple_color = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Prism.Resource.Color.mtrl_btn_stroke_color_selector = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Prism.Resource.Color.mtrl_btn_text_btn_ripple_color = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Prism.Resource.Color.mtrl_btn_text_color_disabled = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Prism.Resource.Color.mtrl_btn_text_color_selector = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Prism.Resource.Color.mtrl_btn_transparent_bg_color = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Prism.Resource.Color.mtrl_chip_background_color = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Prism.Resource.Color.mtrl_chip_close_icon_tint = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Prism.Resource.Color.mtrl_chip_ripple_color = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Prism.Resource.Color.mtrl_chip_text_color = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Prism.Resource.Color.mtrl_fab_ripple_color = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Prism.Resource.Color.mtrl_scrim_color = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_scrim_color;
+			global::Prism.Resource.Color.mtrl_tabs_colored_ripple_color = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Prism.Resource.Color.mtrl_tabs_icon_color_selector = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Prism.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Prism.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Prism.Resource.Color.mtrl_tabs_ripple_color = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Prism.Resource.Color.mtrl_textinput_default_box_stroke_color = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Prism.Resource.Color.mtrl_textinput_disabled_color = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Prism.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Prism.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Prism.Resource.Color.mtrl_text_btn_text_color_selector = global::AppTaxi2020.Prison.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
 			global::Prism.Resource.Color.notification_action_color_filter = global::AppTaxi2020.Prison.Droid.Resource.Color.notification_action_color_filter;
 			global::Prism.Resource.Color.notification_icon_bg_color = global::AppTaxi2020.Prison.Droid.Resource.Color.notification_icon_bg_color;
 			global::Prism.Resource.Color.notification_material_background_media_default_color = global::AppTaxi2020.Prison.Droid.Resource.Color.notification_material_background_media_default_color;
@@ -663,6 +998,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Dimension.abc_action_button_min_width_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_action_button_min_width_material;
 			global::Prism.Resource.Dimension.abc_action_button_min_width_overflow_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
 			global::Prism.Resource.Dimension.abc_alert_dialog_button_bar_height = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Prism.Resource.Dimension.abc_alert_dialog_button_dimen = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
 			global::Prism.Resource.Dimension.abc_button_inset_horizontal_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
 			global::Prism.Resource.Dimension.abc_button_inset_vertical_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_button_inset_vertical_material;
 			global::Prism.Resource.Dimension.abc_button_padding_horizontal_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
@@ -672,6 +1008,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Dimension.abc_control_corner_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_control_corner_material;
 			global::Prism.Resource.Dimension.abc_control_inset_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_control_inset_material;
 			global::Prism.Resource.Dimension.abc_control_padding_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Prism.Resource.Dimension.abc_dialog_corner_radius_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
 			global::Prism.Resource.Dimension.abc_dialog_fixed_height_major = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
 			global::Prism.Resource.Dimension.abc_dialog_fixed_height_minor = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
 			global::Prism.Resource.Dimension.abc_dialog_fixed_width_major = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
@@ -719,6 +1056,8 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::Prism.Resource.Dimension.abc_text_size_title_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::Prism.Resource.Dimension.abc_text_size_title_material_toolbar = global::AppTaxi2020.Prison.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Prism.Resource.Dimension.browser_actions_context_menu_max_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Prism.Resource.Dimension.browser_actions_context_menu_min_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
 			global::Prism.Resource.Dimension.cardview_compat_inset_shadow = global::AppTaxi2020.Prison.Droid.Resource.Dimension.cardview_compat_inset_shadow;
 			global::Prism.Resource.Dimension.cardview_default_elevation = global::AppTaxi2020.Prison.Droid.Resource.Dimension.cardview_default_elevation;
 			global::Prism.Resource.Dimension.cardview_default_radius = global::AppTaxi2020.Prison.Droid.Resource.Dimension.cardview_default_radius;
@@ -727,11 +1066,15 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Dimension.compat_button_padding_horizontal_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
 			global::Prism.Resource.Dimension.compat_button_padding_vertical_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_button_padding_vertical_material;
 			global::Prism.Resource.Dimension.compat_control_corner_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Prism.Resource.Dimension.compat_notification_large_icon_max_height = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Prism.Resource.Dimension.compat_notification_large_icon_max_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
 			global::Prism.Resource.Dimension.design_appbar_elevation = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Prism.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Prism.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
 			global::Prism.Resource.Dimension.design_bottom_navigation_active_text_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
 			global::Prism.Resource.Dimension.design_bottom_navigation_elevation = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_bottom_navigation_elevation;
 			global::Prism.Resource.Dimension.design_bottom_navigation_height = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Prism.Resource.Dimension.design_bottom_navigation_icon_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
 			global::Prism.Resource.Dimension.design_bottom_navigation_item_max_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
 			global::Prism.Resource.Dimension.design_bottom_navigation_item_min_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
 			global::Prism.Resource.Dimension.design_bottom_navigation_margin = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_bottom_navigation_margin;
@@ -744,10 +1087,13 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Dimension.design_fab_image_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_fab_image_size;
 			global::Prism.Resource.Dimension.design_fab_size_mini = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_fab_size_mini;
 			global::Prism.Resource.Dimension.design_fab_size_normal = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Prism.Resource.Dimension.design_fab_translation_z_hovered_focused = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
 			global::Prism.Resource.Dimension.design_fab_translation_z_pressed = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_fab_translation_z_pressed;
 			global::Prism.Resource.Dimension.design_navigation_elevation = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_navigation_elevation;
 			global::Prism.Resource.Dimension.design_navigation_icon_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_navigation_icon_padding;
 			global::Prism.Resource.Dimension.design_navigation_icon_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Prism.Resource.Dimension.design_navigation_item_horizontal_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Prism.Resource.Dimension.design_navigation_item_icon_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_navigation_item_icon_padding;
 			global::Prism.Resource.Dimension.design_navigation_max_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_navigation_max_width;
 			global::Prism.Resource.Dimension.design_navigation_padding_bottom = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_navigation_padding_bottom;
 			global::Prism.Resource.Dimension.design_navigation_separator_vertical_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
@@ -765,6 +1111,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Dimension.design_tab_scrollable_min_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_tab_scrollable_min_width;
 			global::Prism.Resource.Dimension.design_tab_text_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_tab_text_size;
 			global::Prism.Resource.Dimension.design_tab_text_size_2line = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Prism.Resource.Dimension.design_textinput_caption_translate_y = global::AppTaxi2020.Prison.Droid.Resource.Dimension.design_textinput_caption_translate_y;
 			global::Prism.Resource.Dimension.disabled_alpha_material_dark = global::AppTaxi2020.Prison.Droid.Resource.Dimension.disabled_alpha_material_dark;
 			global::Prism.Resource.Dimension.disabled_alpha_material_light = global::AppTaxi2020.Prison.Droid.Resource.Dimension.disabled_alpha_material_light;
 			global::Prism.Resource.Dimension.fastscroll_default_thickness = global::AppTaxi2020.Prison.Droid.Resource.Dimension.fastscroll_default_thickness;
@@ -780,12 +1127,54 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::AppTaxi2020.Prison.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::Prism.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::AppTaxi2020.Prison.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::Prism.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::AppTaxi2020.Prison.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Prism.Resource.Dimension.mr_controller_volume_group_list_item_height = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
-			global::Prism.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
-			global::Prism.Resource.Dimension.mr_controller_volume_group_list_max_height = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
-			global::Prism.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
-			global::Prism.Resource.Dimension.mr_dialog_fixed_width_major = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
-			global::Prism.Resource.Dimension.mr_dialog_fixed_width_minor = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Prism.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Prism.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Prism.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Prism.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Prism.Resource.Dimension.mtrl_bottomappbar_height = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Prism.Resource.Dimension.mtrl_btn_corner_radius = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Prism.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Prism.Resource.Dimension.mtrl_btn_disabled_elevation = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Prism.Resource.Dimension.mtrl_btn_disabled_z = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Prism.Resource.Dimension.mtrl_btn_elevation = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Prism.Resource.Dimension.mtrl_btn_focused_z = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Prism.Resource.Dimension.mtrl_btn_hovered_z = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Prism.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Prism.Resource.Dimension.mtrl_btn_icon_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Prism.Resource.Dimension.mtrl_btn_inset = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Prism.Resource.Dimension.mtrl_btn_letter_spacing = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Prism.Resource.Dimension.mtrl_btn_padding_bottom = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Prism.Resource.Dimension.mtrl_btn_padding_left = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Prism.Resource.Dimension.mtrl_btn_padding_right = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Prism.Resource.Dimension.mtrl_btn_padding_top = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Prism.Resource.Dimension.mtrl_btn_pressed_z = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Prism.Resource.Dimension.mtrl_btn_stroke_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Prism.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Prism.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Prism.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Prism.Resource.Dimension.mtrl_btn_text_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Prism.Resource.Dimension.mtrl_btn_z = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Prism.Resource.Dimension.mtrl_card_elevation = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Prism.Resource.Dimension.mtrl_card_spacing = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Prism.Resource.Dimension.mtrl_chip_pressed_translation_z = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Prism.Resource.Dimension.mtrl_chip_text_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Prism.Resource.Dimension.mtrl_fab_elevation = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Prism.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Prism.Resource.Dimension.mtrl_fab_translation_z_pressed = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Prism.Resource.Dimension.mtrl_navigation_elevation = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Prism.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Prism.Resource.Dimension.mtrl_navigation_item_icon_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Prism.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Prism.Resource.Dimension.mtrl_snackbar_margin = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Prism.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::Prism.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Prism.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Prism.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Prism.Resource.Dimension.mtrl_textinput_box_padding_end = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::Prism.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Prism.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Prism.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Prism.Resource.Dimension.mtrl_toolbar_default_height = global::AppTaxi2020.Prison.Droid.Resource.Dimension.mtrl_toolbar_default_height;
 			global::Prism.Resource.Dimension.notification_action_icon_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_action_icon_size;
 			global::Prism.Resource.Dimension.notification_action_text_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_action_text_size;
 			global::Prism.Resource.Dimension.notification_big_circle_margin = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -801,6 +1190,10 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Dimension.notification_subtext_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_subtext_size;
 			global::Prism.Resource.Dimension.notification_top_pad = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_top_pad;
 			global::Prism.Resource.Dimension.notification_top_pad_large_text = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Prism.Resource.Dimension.subtitle_corner_radius = global::AppTaxi2020.Prison.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::Prism.Resource.Dimension.subtitle_outline_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.subtitle_outline_width;
+			global::Prism.Resource.Dimension.subtitle_shadow_offset = global::AppTaxi2020.Prison.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::Prism.Resource.Dimension.subtitle_shadow_radius = global::AppTaxi2020.Prison.Droid.Resource.Dimension.subtitle_shadow_radius;
 			global::Prism.Resource.Dimension.tooltip_corner_radius = global::AppTaxi2020.Prison.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Prism.Resource.Dimension.tooltip_horizontal_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Prism.Resource.Dimension.tooltip_margin = global::AppTaxi2020.Prison.Droid.Resource.Dimension.tooltip_margin;
@@ -849,6 +1242,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Drawable.abc_ic_voice_search_api_material = global::AppTaxi2020.Prison.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
 			global::Prism.Resource.Drawable.abc_item_background_holo_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.abc_item_background_holo_dark;
 			global::Prism.Resource.Drawable.abc_item_background_holo_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Prism.Resource.Drawable.abc_list_divider_material = global::AppTaxi2020.Prison.Droid.Resource.Drawable.abc_list_divider_material;
 			global::Prism.Resource.Drawable.abc_list_divider_mtrl_alpha = global::AppTaxi2020.Prison.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
 			global::Prism.Resource.Drawable.abc_list_focused_holo = global::AppTaxi2020.Prison.Droid.Resource.Drawable.abc_list_focused_holo;
 			global::Prism.Resource.Drawable.abc_list_longpressed_holo = global::AppTaxi2020.Prison.Droid.Resource.Drawable.abc_list_longpressed_holo;
@@ -900,203 +1294,11 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Drawable.design_ic_visibility_off = global::AppTaxi2020.Prison.Droid.Resource.Drawable.design_ic_visibility_off;
 			global::Prism.Resource.Drawable.design_password_eye = global::AppTaxi2020.Prison.Droid.Resource.Drawable.design_password_eye;
 			global::Prism.Resource.Drawable.design_snackbar_background = global::AppTaxi2020.Prison.Droid.Resource.Drawable.design_snackbar_background;
-			global::Prism.Resource.Drawable.ic_audiotrack_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_audiotrack_dark;
-			global::Prism.Resource.Drawable.ic_audiotrack_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_audiotrack_light;
-			global::Prism.Resource.Drawable.ic_dialog_close_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_dialog_close_dark;
-			global::Prism.Resource.Drawable.ic_dialog_close_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_dialog_close_light;
-			global::Prism.Resource.Drawable.ic_group_collapse_00 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_collapse_00;
-			global::Prism.Resource.Drawable.ic_group_collapse_01 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_collapse_01;
-			global::Prism.Resource.Drawable.ic_group_collapse_02 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_collapse_02;
-			global::Prism.Resource.Drawable.ic_group_collapse_03 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_collapse_03;
-			global::Prism.Resource.Drawable.ic_group_collapse_04 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_collapse_04;
-			global::Prism.Resource.Drawable.ic_group_collapse_05 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_collapse_05;
-			global::Prism.Resource.Drawable.ic_group_collapse_06 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_collapse_06;
-			global::Prism.Resource.Drawable.ic_group_collapse_07 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_collapse_07;
-			global::Prism.Resource.Drawable.ic_group_collapse_08 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_collapse_08;
-			global::Prism.Resource.Drawable.ic_group_collapse_09 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_collapse_09;
-			global::Prism.Resource.Drawable.ic_group_collapse_10 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_collapse_10;
-			global::Prism.Resource.Drawable.ic_group_collapse_11 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_collapse_11;
-			global::Prism.Resource.Drawable.ic_group_collapse_12 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_collapse_12;
-			global::Prism.Resource.Drawable.ic_group_collapse_13 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_collapse_13;
-			global::Prism.Resource.Drawable.ic_group_collapse_14 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_collapse_14;
-			global::Prism.Resource.Drawable.ic_group_collapse_15 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_collapse_15;
-			global::Prism.Resource.Drawable.ic_group_expand_00 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_expand_00;
-			global::Prism.Resource.Drawable.ic_group_expand_01 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_expand_01;
-			global::Prism.Resource.Drawable.ic_group_expand_02 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_expand_02;
-			global::Prism.Resource.Drawable.ic_group_expand_03 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_expand_03;
-			global::Prism.Resource.Drawable.ic_group_expand_04 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_expand_04;
-			global::Prism.Resource.Drawable.ic_group_expand_05 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_expand_05;
-			global::Prism.Resource.Drawable.ic_group_expand_06 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_expand_06;
-			global::Prism.Resource.Drawable.ic_group_expand_07 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_expand_07;
-			global::Prism.Resource.Drawable.ic_group_expand_08 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_expand_08;
-			global::Prism.Resource.Drawable.ic_group_expand_09 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_expand_09;
-			global::Prism.Resource.Drawable.ic_group_expand_10 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_expand_10;
-			global::Prism.Resource.Drawable.ic_group_expand_11 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_expand_11;
-			global::Prism.Resource.Drawable.ic_group_expand_12 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_expand_12;
-			global::Prism.Resource.Drawable.ic_group_expand_13 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_expand_13;
-			global::Prism.Resource.Drawable.ic_group_expand_14 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_expand_14;
-			global::Prism.Resource.Drawable.ic_group_expand_15 = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_group_expand_15;
-			global::Prism.Resource.Drawable.ic_media_pause_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_media_pause_dark;
-			global::Prism.Resource.Drawable.ic_media_pause_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_media_pause_light;
-			global::Prism.Resource.Drawable.ic_media_play_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_media_play_dark;
-			global::Prism.Resource.Drawable.ic_media_play_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_media_play_light;
-			global::Prism.Resource.Drawable.ic_media_stop_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_media_stop_dark;
-			global::Prism.Resource.Drawable.ic_media_stop_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_media_stop_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_00_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_00_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_01_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_01_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_02_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_02_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_03_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_03_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_04_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_04_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_05_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_05_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_06_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_06_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_07_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_07_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_08_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_08_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_09_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_09_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_10_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_10_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_11_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_11_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_12_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_12_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_13_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_13_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_14_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_14_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_15_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_15_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_16_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_16_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_17_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_17_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_18_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_18_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_19_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_19_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_20_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_20_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_21_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_21_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_22_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_22_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_23_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_23_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_24_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_24_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_25_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_25_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_26_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_26_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_27_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_27_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_28_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_28_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_29_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_29_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_30_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connected_30_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_00_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_00_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_01_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_01_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_02_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_02_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_03_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_03_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_04_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_04_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_05_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_05_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_06_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_06_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_07_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_07_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_08_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_08_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_09_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_09_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_10_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_10_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_11_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_11_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_12_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_12_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_13_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_13_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_14_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_14_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_15_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_15_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_16_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_16_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_17_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_17_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_18_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_18_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_19_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_19_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_20_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_20_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_21_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_21_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_22_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_22_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_23_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_23_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_24_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_24_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_25_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_25_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_26_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_26_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_27_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_27_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_28_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_28_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_29_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_29_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_30_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_connecting_30_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
-			global::Prism.Resource.Drawable.ic_mr_button_disabled_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_disabled_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_disabled_light;
-			global::Prism.Resource.Drawable.ic_mr_button_disconnected_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
-			global::Prism.Resource.Drawable.ic_mr_button_disconnected_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
-			global::Prism.Resource.Drawable.ic_mr_button_grey = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mr_button_grey;
-			global::Prism.Resource.Drawable.ic_vol_type_speaker_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
-			global::Prism.Resource.Drawable.ic_vol_type_speaker_group_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
-			global::Prism.Resource.Drawable.ic_vol_type_speaker_group_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
-			global::Prism.Resource.Drawable.ic_vol_type_speaker_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_vol_type_speaker_light;
-			global::Prism.Resource.Drawable.ic_vol_type_tv_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_vol_type_tv_dark;
-			global::Prism.Resource.Drawable.ic_vol_type_tv_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_vol_type_tv_light;
-			global::Prism.Resource.Drawable.mr_button_connected_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_button_connected_dark;
-			global::Prism.Resource.Drawable.mr_button_connected_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_button_connected_light;
-			global::Prism.Resource.Drawable.mr_button_connecting_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_button_connecting_dark;
-			global::Prism.Resource.Drawable.mr_button_connecting_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_button_connecting_light;
-			global::Prism.Resource.Drawable.mr_button_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_button_dark;
-			global::Prism.Resource.Drawable.mr_button_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_button_light;
-			global::Prism.Resource.Drawable.mr_dialog_close_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_dialog_close_dark;
-			global::Prism.Resource.Drawable.mr_dialog_close_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_dialog_close_light;
-			global::Prism.Resource.Drawable.mr_dialog_material_background_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_dialog_material_background_dark;
-			global::Prism.Resource.Drawable.mr_dialog_material_background_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_dialog_material_background_light;
-			global::Prism.Resource.Drawable.mr_group_collapse = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_group_collapse;
-			global::Prism.Resource.Drawable.mr_group_expand = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_group_expand;
-			global::Prism.Resource.Drawable.mr_media_pause_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_media_pause_dark;
-			global::Prism.Resource.Drawable.mr_media_pause_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_media_pause_light;
-			global::Prism.Resource.Drawable.mr_media_play_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_media_play_dark;
-			global::Prism.Resource.Drawable.mr_media_play_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_media_play_light;
-			global::Prism.Resource.Drawable.mr_media_stop_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_media_stop_dark;
-			global::Prism.Resource.Drawable.mr_media_stop_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_media_stop_light;
-			global::Prism.Resource.Drawable.mr_vol_type_audiotrack_dark = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
-			global::Prism.Resource.Drawable.mr_vol_type_audiotrack_light = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::Prism.Resource.Drawable.ic_mtrl_chip_checked_black = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Prism.Resource.Drawable.ic_mtrl_chip_checked_circle = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Prism.Resource.Drawable.ic_mtrl_chip_close_circle = global::AppTaxi2020.Prison.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Prism.Resource.Drawable.mtrl_snackbar_background = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::Prism.Resource.Drawable.mtrl_tabs_default_indicator = global::AppTaxi2020.Prison.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::Prism.Resource.Drawable.navigation_empty_icon = global::AppTaxi2020.Prison.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Prism.Resource.Drawable.notification_action_background = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_action_background;
 			global::Prism.Resource.Drawable.notification_bg = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg;
@@ -1144,6 +1346,11 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Id.bottom = global::AppTaxi2020.Prison.Droid.Resource.Id.bottom;
 			global::Prism.Resource.Id.bottomtab_navarea = global::AppTaxi2020.Prison.Droid.Resource.Id.bottomtab_navarea;
 			global::Prism.Resource.Id.bottomtab_tabbar = global::AppTaxi2020.Prison.Droid.Resource.Id.bottomtab_tabbar;
+			global::Prism.Resource.Id.browser_actions_header_text = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_header_text;
+			global::Prism.Resource.Id.browser_actions_menu_items = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_menu_items;
+			global::Prism.Resource.Id.browser_actions_menu_item_icon = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Prism.Resource.Id.browser_actions_menu_item_text = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Prism.Resource.Id.browser_actions_menu_view = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_menu_view;
 			global::Prism.Resource.Id.buttonPanel = global::AppTaxi2020.Prison.Droid.Resource.Id.buttonPanel;
 			global::Prism.Resource.Id.cancel_action = global::AppTaxi2020.Prison.Droid.Resource.Id.cancel_action;
 			global::Prism.Resource.Id.center = global::AppTaxi2020.Prison.Droid.Resource.Id.center;
@@ -1155,6 +1362,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Id.clip_vertical = global::AppTaxi2020.Prison.Droid.Resource.Id.clip_vertical;
 			global::Prism.Resource.Id.collapseActionView = global::AppTaxi2020.Prison.Droid.Resource.Id.collapseActionView;
 			global::Prism.Resource.Id.container = global::AppTaxi2020.Prison.Droid.Resource.Id.container;
+			global::Prism.Resource.Id.content = global::AppTaxi2020.Prison.Droid.Resource.Id.content;
 			global::Prism.Resource.Id.contentPanel = global::AppTaxi2020.Prison.Droid.Resource.Id.contentPanel;
 			global::Prism.Resource.Id.coordinator = global::AppTaxi2020.Prison.Droid.Resource.Id.coordinator;
 			global::Prism.Resource.Id.CTRL = global::AppTaxi2020.Prison.Droid.Resource.Id.CTRL;
@@ -1177,6 +1385,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Id.expanded_menu = global::AppTaxi2020.Prison.Droid.Resource.Id.expanded_menu;
 			global::Prism.Resource.Id.expand_activities_button = global::AppTaxi2020.Prison.Droid.Resource.Id.expand_activities_button;
 			global::Prism.Resource.Id.fill = global::AppTaxi2020.Prison.Droid.Resource.Id.fill;
+			global::Prism.Resource.Id.filled = global::AppTaxi2020.Prison.Droid.Resource.Id.filled;
 			global::Prism.Resource.Id.fill_horizontal = global::AppTaxi2020.Prison.Droid.Resource.Id.fill_horizontal;
 			global::Prism.Resource.Id.fill_vertical = global::AppTaxi2020.Prison.Droid.Resource.Id.fill_vertical;
 			global::Prism.Resource.Id.@fixed = global::AppTaxi2020.Prison.Droid.Resource.Id.@fixed;
@@ -1185,6 +1394,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Id.forever = global::AppTaxi2020.Prison.Droid.Resource.Id.forever;
 			global::Prism.Resource.Id.FUNCTION = global::AppTaxi2020.Prison.Droid.Resource.Id.FUNCTION;
 			global::Prism.Resource.Id.ghost_view = global::AppTaxi2020.Prison.Droid.Resource.Id.ghost_view;
+			global::Prism.Resource.Id.group_divider = global::AppTaxi2020.Prison.Droid.Resource.Id.group_divider;
 			global::Prism.Resource.Id.home = global::AppTaxi2020.Prison.Droid.Resource.Id.home;
 			global::Prism.Resource.Id.homeAsUp = global::AppTaxi2020.Prison.Droid.Resource.Id.homeAsUp;
 			global::Prism.Resource.Id.icon = global::AppTaxi2020.Prison.Droid.Resource.Id.icon;
@@ -1194,6 +1404,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Id.info = global::AppTaxi2020.Prison.Droid.Resource.Id.info;
 			global::Prism.Resource.Id.italic = global::AppTaxi2020.Prison.Droid.Resource.Id.italic;
 			global::Prism.Resource.Id.item_touch_helper_previous_elevation = global::AppTaxi2020.Prison.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Prism.Resource.Id.labeled = global::AppTaxi2020.Prison.Droid.Resource.Id.labeled;
 			global::Prism.Resource.Id.largeLabel = global::AppTaxi2020.Prison.Droid.Resource.Id.largeLabel;
 			global::Prism.Resource.Id.left = global::AppTaxi2020.Prison.Droid.Resource.Id.left;
 			global::Prism.Resource.Id.line1 = global::AppTaxi2020.Prison.Droid.Resource.Id.line1;
@@ -1203,37 +1414,15 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Id.main_appbar = global::AppTaxi2020.Prison.Droid.Resource.Id.main_appbar;
 			global::Prism.Resource.Id.main_tablayout = global::AppTaxi2020.Prison.Droid.Resource.Id.main_tablayout;
 			global::Prism.Resource.Id.main_toolbar = global::AppTaxi2020.Prison.Droid.Resource.Id.main_toolbar;
+			global::Prism.Resource.Id.main_viewpager = global::AppTaxi2020.Prison.Droid.Resource.Id.main_viewpager;
 			global::Prism.Resource.Id.masked = global::AppTaxi2020.Prison.Droid.Resource.Id.masked;
 			global::Prism.Resource.Id.media_actions = global::AppTaxi2020.Prison.Droid.Resource.Id.media_actions;
 			global::Prism.Resource.Id.message = global::AppTaxi2020.Prison.Droid.Resource.Id.message;
 			global::Prism.Resource.Id.META = global::AppTaxi2020.Prison.Droid.Resource.Id.META;
 			global::Prism.Resource.Id.middle = global::AppTaxi2020.Prison.Droid.Resource.Id.middle;
 			global::Prism.Resource.Id.mini = global::AppTaxi2020.Prison.Droid.Resource.Id.mini;
-			global::Prism.Resource.Id.mr_art = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_art;
-			global::Prism.Resource.Id.mr_chooser_list = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_chooser_list;
-			global::Prism.Resource.Id.mr_chooser_route_desc = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_chooser_route_desc;
-			global::Prism.Resource.Id.mr_chooser_route_icon = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_chooser_route_icon;
-			global::Prism.Resource.Id.mr_chooser_route_name = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_chooser_route_name;
-			global::Prism.Resource.Id.mr_chooser_title = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_chooser_title;
-			global::Prism.Resource.Id.mr_close = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_close;
-			global::Prism.Resource.Id.mr_control_divider = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_control_divider;
-			global::Prism.Resource.Id.mr_control_playback_ctrl = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_control_playback_ctrl;
-			global::Prism.Resource.Id.mr_control_subtitle = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_control_subtitle;
-			global::Prism.Resource.Id.mr_control_title = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_control_title;
-			global::Prism.Resource.Id.mr_control_title_container = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_control_title_container;
-			global::Prism.Resource.Id.mr_custom_control = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_custom_control;
-			global::Prism.Resource.Id.mr_default_control = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_default_control;
-			global::Prism.Resource.Id.mr_dialog_area = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_dialog_area;
-			global::Prism.Resource.Id.mr_expandable_area = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_expandable_area;
-			global::Prism.Resource.Id.mr_group_expand_collapse = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_group_expand_collapse;
-			global::Prism.Resource.Id.mr_media_main_control = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_media_main_control;
-			global::Prism.Resource.Id.mr_name = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_name;
-			global::Prism.Resource.Id.mr_playback_control = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_playback_control;
-			global::Prism.Resource.Id.mr_title_bar = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_title_bar;
-			global::Prism.Resource.Id.mr_volume_control = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_volume_control;
-			global::Prism.Resource.Id.mr_volume_group_list = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_volume_group_list;
-			global::Prism.Resource.Id.mr_volume_item_icon = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_volume_item_icon;
-			global::Prism.Resource.Id.mr_volume_slider = global::AppTaxi2020.Prison.Droid.Resource.Id.mr_volume_slider;
+			global::Prism.Resource.Id.mtrl_child_content_container = global::AppTaxi2020.Prison.Droid.Resource.Id.mtrl_child_content_container;
+			global::Prism.Resource.Id.mtrl_internal_children_alpha_tag = global::AppTaxi2020.Prison.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
 			global::Prism.Resource.Id.multiply = global::AppTaxi2020.Prison.Droid.Resource.Id.multiply;
 			global::Prism.Resource.Id.navigation_header_container = global::AppTaxi2020.Prison.Droid.Resource.Id.navigation_header_container;
 			global::Prism.Resource.Id.never = global::AppTaxi2020.Prison.Droid.Resource.Id.never;
@@ -1242,6 +1431,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Id.notification_background = global::AppTaxi2020.Prison.Droid.Resource.Id.notification_background;
 			global::Prism.Resource.Id.notification_main_column = global::AppTaxi2020.Prison.Droid.Resource.Id.notification_main_column;
 			global::Prism.Resource.Id.notification_main_column_container = global::AppTaxi2020.Prison.Droid.Resource.Id.notification_main_column_container;
+			global::Prism.Resource.Id.outline = global::AppTaxi2020.Prison.Droid.Resource.Id.outline;
 			global::Prism.Resource.Id.parallax = global::AppTaxi2020.Prison.Droid.Resource.Id.parallax;
 			global::Prism.Resource.Id.parentPanel = global::AppTaxi2020.Prison.Droid.Resource.Id.parentPanel;
 			global::Prism.Resource.Id.parent_matrix = global::AppTaxi2020.Prison.Droid.Resource.Id.parent_matrix;
@@ -1271,6 +1461,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Id.search_plate = global::AppTaxi2020.Prison.Droid.Resource.Id.search_plate;
 			global::Prism.Resource.Id.search_src_text = global::AppTaxi2020.Prison.Droid.Resource.Id.search_src_text;
 			global::Prism.Resource.Id.search_voice_btn = global::AppTaxi2020.Prison.Droid.Resource.Id.search_voice_btn;
+			global::Prism.Resource.Id.selected = global::AppTaxi2020.Prison.Droid.Resource.Id.selected;
 			global::Prism.Resource.Id.select_dialog_listview = global::AppTaxi2020.Prison.Droid.Resource.Id.select_dialog_listview;
 			global::Prism.Resource.Id.shellcontent_appbar = global::AppTaxi2020.Prison.Droid.Resource.Id.shellcontent_appbar;
 			global::Prism.Resource.Id.shellcontent_toolbar = global::AppTaxi2020.Prison.Droid.Resource.Id.shellcontent_toolbar;
@@ -1283,6 +1474,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Id.snackbar_action = global::AppTaxi2020.Prison.Droid.Resource.Id.snackbar_action;
 			global::Prism.Resource.Id.snackbar_text = global::AppTaxi2020.Prison.Droid.Resource.Id.snackbar_text;
 			global::Prism.Resource.Id.snap = global::AppTaxi2020.Prison.Droid.Resource.Id.snap;
+			global::Prism.Resource.Id.snapMargins = global::AppTaxi2020.Prison.Droid.Resource.Id.snapMargins;
 			global::Prism.Resource.Id.spacer = global::AppTaxi2020.Prison.Droid.Resource.Id.spacer;
 			global::Prism.Resource.Id.split_action_bar = global::AppTaxi2020.Prison.Droid.Resource.Id.split_action_bar;
 			global::Prism.Resource.Id.src_atop = global::AppTaxi2020.Prison.Droid.Resource.Id.src_atop;
@@ -1290,17 +1482,22 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Id.src_over = global::AppTaxi2020.Prison.Droid.Resource.Id.src_over;
 			global::Prism.Resource.Id.start = global::AppTaxi2020.Prison.Droid.Resource.Id.start;
 			global::Prism.Resource.Id.status_bar_latest_event_content = global::AppTaxi2020.Prison.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Prism.Resource.Id.stretch = global::AppTaxi2020.Prison.Droid.Resource.Id.stretch;
 			global::Prism.Resource.Id.submenuarrow = global::AppTaxi2020.Prison.Droid.Resource.Id.submenuarrow;
 			global::Prism.Resource.Id.submit_area = global::AppTaxi2020.Prison.Droid.Resource.Id.submit_area;
 			global::Prism.Resource.Id.SYM = global::AppTaxi2020.Prison.Droid.Resource.Id.SYM;
 			global::Prism.Resource.Id.tabMode = global::AppTaxi2020.Prison.Droid.Resource.Id.tabMode;
 			global::Prism.Resource.Id.tag_transition_group = global::AppTaxi2020.Prison.Droid.Resource.Id.tag_transition_group;
+			global::Prism.Resource.Id.tag_unhandled_key_event_manager = global::AppTaxi2020.Prison.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Prism.Resource.Id.tag_unhandled_key_listeners = global::AppTaxi2020.Prison.Droid.Resource.Id.tag_unhandled_key_listeners;
 			global::Prism.Resource.Id.text = global::AppTaxi2020.Prison.Droid.Resource.Id.text;
 			global::Prism.Resource.Id.text2 = global::AppTaxi2020.Prison.Droid.Resource.Id.text2;
 			global::Prism.Resource.Id.textinput_counter = global::AppTaxi2020.Prison.Droid.Resource.Id.textinput_counter;
 			global::Prism.Resource.Id.textinput_error = global::AppTaxi2020.Prison.Droid.Resource.Id.textinput_error;
+			global::Prism.Resource.Id.textinput_helper_text = global::AppTaxi2020.Prison.Droid.Resource.Id.textinput_helper_text;
 			global::Prism.Resource.Id.textSpacerNoButtons = global::AppTaxi2020.Prison.Droid.Resource.Id.textSpacerNoButtons;
 			global::Prism.Resource.Id.textSpacerNoTitle = global::AppTaxi2020.Prison.Droid.Resource.Id.textSpacerNoTitle;
+			global::Prism.Resource.Id.textStart = global::AppTaxi2020.Prison.Droid.Resource.Id.textStart;
 			global::Prism.Resource.Id.text_input_password_toggle = global::AppTaxi2020.Prison.Droid.Resource.Id.text_input_password_toggle;
 			global::Prism.Resource.Id.time = global::AppTaxi2020.Prison.Droid.Resource.Id.time;
 			global::Prism.Resource.Id.title = global::AppTaxi2020.Prison.Droid.Resource.Id.title;
@@ -1315,11 +1512,11 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Id.transition_scene_layoutid_cache = global::AppTaxi2020.Prison.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::Prism.Resource.Id.transition_transform = global::AppTaxi2020.Prison.Droid.Resource.Id.transition_transform;
 			global::Prism.Resource.Id.uniform = global::AppTaxi2020.Prison.Droid.Resource.Id.uniform;
+			global::Prism.Resource.Id.unlabeled = global::AppTaxi2020.Prison.Droid.Resource.Id.unlabeled;
 			global::Prism.Resource.Id.up = global::AppTaxi2020.Prison.Droid.Resource.Id.up;
 			global::Prism.Resource.Id.useLogo = global::AppTaxi2020.Prison.Droid.Resource.Id.useLogo;
 			global::Prism.Resource.Id.view_offset_helper = global::AppTaxi2020.Prison.Droid.Resource.Id.view_offset_helper;
 			global::Prism.Resource.Id.visible = global::AppTaxi2020.Prison.Droid.Resource.Id.visible;
-			global::Prism.Resource.Id.volume_item_container = global::AppTaxi2020.Prison.Droid.Resource.Id.volume_item_container;
 			global::Prism.Resource.Id.withText = global::AppTaxi2020.Prison.Droid.Resource.Id.withText;
 			global::Prism.Resource.Id.wrap_content = global::AppTaxi2020.Prison.Droid.Resource.Id.wrap_content;
 			global::Prism.Resource.Integer.abc_config_activityDefaultDur = global::AppTaxi2020.Prison.Droid.Resource.Integer.abc_config_activityDefaultDur;
@@ -1329,14 +1526,18 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Integer.cancel_button_image_alpha = global::AppTaxi2020.Prison.Droid.Resource.Integer.cancel_button_image_alpha;
 			global::Prism.Resource.Integer.config_tooltipAnimTime = global::AppTaxi2020.Prison.Droid.Resource.Integer.config_tooltipAnimTime;
 			global::Prism.Resource.Integer.design_snackbar_text_max_lines = global::AppTaxi2020.Prison.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Prism.Resource.Integer.design_tab_indicator_anim_duration_ms = global::AppTaxi2020.Prison.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
 			global::Prism.Resource.Integer.hide_password_duration = global::AppTaxi2020.Prison.Droid.Resource.Integer.hide_password_duration;
-			global::Prism.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::AppTaxi2020.Prison.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
-			global::Prism.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::AppTaxi2020.Prison.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
-			global::Prism.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::AppTaxi2020.Prison.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Prism.Resource.Integer.mtrl_btn_anim_delay_ms = global::AppTaxi2020.Prison.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Prism.Resource.Integer.mtrl_btn_anim_duration_ms = global::AppTaxi2020.Prison.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Prism.Resource.Integer.mtrl_chip_anim_duration = global::AppTaxi2020.Prison.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Prism.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::AppTaxi2020.Prison.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::Prism.Resource.Integer.show_password_duration = global::AppTaxi2020.Prison.Droid.Resource.Integer.show_password_duration;
 			global::Prism.Resource.Integer.status_bar_notification_info_maxnum = global::AppTaxi2020.Prison.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Prism.Resource.Interpolator.mr_fast_out_slow_in = global::AppTaxi2020.Prison.Droid.Resource.Interpolator.mr_fast_out_slow_in;
-			global::Prism.Resource.Interpolator.mr_linear_out_slow_in = global::AppTaxi2020.Prison.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Prism.Resource.Interpolator.mtrl_fast_out_linear_in = global::AppTaxi2020.Prison.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Prism.Resource.Interpolator.mtrl_fast_out_slow_in = global::AppTaxi2020.Prison.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Prism.Resource.Interpolator.mtrl_linear = global::AppTaxi2020.Prison.Droid.Resource.Interpolator.mtrl_linear;
+			global::Prism.Resource.Interpolator.mtrl_linear_out_slow_in = global::AppTaxi2020.Prison.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
 			global::Prism.Resource.Layout.abc_action_bar_title_item = global::AppTaxi2020.Prison.Droid.Resource.Layout.abc_action_bar_title_item;
 			global::Prism.Resource.Layout.abc_action_bar_up_container = global::AppTaxi2020.Prison.Droid.Resource.Layout.abc_action_bar_up_container;
 			global::Prism.Resource.Layout.abc_action_menu_item_layout = global::AppTaxi2020.Prison.Droid.Resource.Layout.abc_action_menu_item_layout;
@@ -1348,6 +1549,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Layout.abc_alert_dialog_button_bar_material = global::AppTaxi2020.Prison.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
 			global::Prism.Resource.Layout.abc_alert_dialog_material = global::AppTaxi2020.Prison.Droid.Resource.Layout.abc_alert_dialog_material;
 			global::Prism.Resource.Layout.abc_alert_dialog_title_material = global::AppTaxi2020.Prison.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Prism.Resource.Layout.abc_cascading_menu_item_layout = global::AppTaxi2020.Prison.Droid.Resource.Layout.abc_cascading_menu_item_layout;
 			global::Prism.Resource.Layout.abc_dialog_title_material = global::AppTaxi2020.Prison.Droid.Resource.Layout.abc_dialog_title_material;
 			global::Prism.Resource.Layout.abc_expanded_menu_layout = global::AppTaxi2020.Prison.Droid.Resource.Layout.abc_expanded_menu_layout;
 			global::Prism.Resource.Layout.abc_list_menu_item_checkbox = global::AppTaxi2020.Prison.Droid.Resource.Layout.abc_list_menu_item_checkbox;
@@ -1363,7 +1565,10 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Layout.abc_search_dropdown_item_icons_2line = global::AppTaxi2020.Prison.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
 			global::Prism.Resource.Layout.abc_search_view = global::AppTaxi2020.Prison.Droid.Resource.Layout.abc_search_view;
 			global::Prism.Resource.Layout.abc_select_dialog_material = global::AppTaxi2020.Prison.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Prism.Resource.Layout.abc_tooltip = global::AppTaxi2020.Prison.Droid.Resource.Layout.abc_tooltip;
 			global::Prism.Resource.Layout.BottomTabLayout = global::AppTaxi2020.Prison.Droid.Resource.Layout.BottomTabLayout;
+			global::Prism.Resource.Layout.browser_actions_context_menu_page = global::AppTaxi2020.Prison.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Prism.Resource.Layout.browser_actions_context_menu_row = global::AppTaxi2020.Prison.Droid.Resource.Layout.browser_actions_context_menu_row;
 			global::Prism.Resource.Layout.design_bottom_navigation_item = global::AppTaxi2020.Prison.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Prism.Resource.Layout.design_bottom_sheet_dialog = global::AppTaxi2020.Prison.Droid.Resource.Layout.design_bottom_sheet_dialog;
 			global::Prism.Resource.Layout.design_layout_snackbar = global::AppTaxi2020.Prison.Droid.Resource.Layout.design_layout_snackbar;
@@ -1379,12 +1584,8 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Layout.design_navigation_menu_item = global::AppTaxi2020.Prison.Droid.Resource.Layout.design_navigation_menu_item;
 			global::Prism.Resource.Layout.design_text_input_password_icon = global::AppTaxi2020.Prison.Droid.Resource.Layout.design_text_input_password_icon;
 			global::Prism.Resource.Layout.FlyoutContent = global::AppTaxi2020.Prison.Droid.Resource.Layout.FlyoutContent;
-			global::Prism.Resource.Layout.mr_chooser_dialog = global::AppTaxi2020.Prison.Droid.Resource.Layout.mr_chooser_dialog;
-			global::Prism.Resource.Layout.mr_chooser_list_item = global::AppTaxi2020.Prison.Droid.Resource.Layout.mr_chooser_list_item;
-			global::Prism.Resource.Layout.mr_controller_material_dialog_b = global::AppTaxi2020.Prison.Droid.Resource.Layout.mr_controller_material_dialog_b;
-			global::Prism.Resource.Layout.mr_controller_volume_item = global::AppTaxi2020.Prison.Droid.Resource.Layout.mr_controller_volume_item;
-			global::Prism.Resource.Layout.mr_playback_control = global::AppTaxi2020.Prison.Droid.Resource.Layout.mr_playback_control;
-			global::Prism.Resource.Layout.mr_volume_control = global::AppTaxi2020.Prison.Droid.Resource.Layout.mr_volume_control;
+			global::Prism.Resource.Layout.mtrl_layout_snackbar = global::AppTaxi2020.Prison.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Prism.Resource.Layout.mtrl_layout_snackbar_include = global::AppTaxi2020.Prison.Droid.Resource.Layout.mtrl_layout_snackbar_include;
 			global::Prism.Resource.Layout.notification_action = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_action;
 			global::Prism.Resource.Layout.notification_action_tombstone = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_action_tombstone;
 			global::Prism.Resource.Layout.notification_media_action = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_media_action;
@@ -1426,6 +1627,16 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.String.abc_font_family_menu_material = global::AppTaxi2020.Prison.Droid.Resource.String.abc_font_family_menu_material;
 			global::Prism.Resource.String.abc_font_family_subhead_material = global::AppTaxi2020.Prison.Droid.Resource.String.abc_font_family_subhead_material;
 			global::Prism.Resource.String.abc_font_family_title_material = global::AppTaxi2020.Prison.Droid.Resource.String.abc_font_family_title_material;
+			global::Prism.Resource.String.abc_menu_alt_shortcut_label = global::AppTaxi2020.Prison.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Prism.Resource.String.abc_menu_ctrl_shortcut_label = global::AppTaxi2020.Prison.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Prism.Resource.String.abc_menu_delete_shortcut_label = global::AppTaxi2020.Prison.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Prism.Resource.String.abc_menu_enter_shortcut_label = global::AppTaxi2020.Prison.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Prism.Resource.String.abc_menu_function_shortcut_label = global::AppTaxi2020.Prison.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Prism.Resource.String.abc_menu_meta_shortcut_label = global::AppTaxi2020.Prison.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Prism.Resource.String.abc_menu_shift_shortcut_label = global::AppTaxi2020.Prison.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Prism.Resource.String.abc_menu_space_shortcut_label = global::AppTaxi2020.Prison.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Prism.Resource.String.abc_menu_sym_shortcut_label = global::AppTaxi2020.Prison.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Prism.Resource.String.abc_prepend_shortcut_label = global::AppTaxi2020.Prison.Droid.Resource.String.abc_prepend_shortcut_label;
 			global::Prism.Resource.String.abc_searchview_description_clear = global::AppTaxi2020.Prison.Droid.Resource.String.abc_searchview_description_clear;
 			global::Prism.Resource.String.abc_searchview_description_query = global::AppTaxi2020.Prison.Droid.Resource.String.abc_searchview_description_query;
 			global::Prism.Resource.String.abc_searchview_description_search = global::AppTaxi2020.Prison.Droid.Resource.String.abc_searchview_description_search;
@@ -1437,28 +1648,12 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.String.abc_toolbar_collapse_description = global::AppTaxi2020.Prison.Droid.Resource.String.abc_toolbar_collapse_description;
 			global::Prism.Resource.String.appbar_scrolling_view_behavior = global::AppTaxi2020.Prison.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Prism.Resource.String.bottom_sheet_behavior = global::AppTaxi2020.Prison.Droid.Resource.String.bottom_sheet_behavior;
+			global::Prism.Resource.String.character_counter_content_description = global::AppTaxi2020.Prison.Droid.Resource.String.character_counter_content_description;
 			global::Prism.Resource.String.character_counter_pattern = global::AppTaxi2020.Prison.Droid.Resource.String.character_counter_pattern;
-			global::Prism.Resource.String.mr_button_content_description = global::AppTaxi2020.Prison.Droid.Resource.String.mr_button_content_description;
-			global::Prism.Resource.String.mr_cast_button_connected = global::AppTaxi2020.Prison.Droid.Resource.String.mr_cast_button_connected;
-			global::Prism.Resource.String.mr_cast_button_connecting = global::AppTaxi2020.Prison.Droid.Resource.String.mr_cast_button_connecting;
-			global::Prism.Resource.String.mr_cast_button_disconnected = global::AppTaxi2020.Prison.Droid.Resource.String.mr_cast_button_disconnected;
-			global::Prism.Resource.String.mr_chooser_searching = global::AppTaxi2020.Prison.Droid.Resource.String.mr_chooser_searching;
-			global::Prism.Resource.String.mr_chooser_title = global::AppTaxi2020.Prison.Droid.Resource.String.mr_chooser_title;
-			global::Prism.Resource.String.mr_controller_album_art = global::AppTaxi2020.Prison.Droid.Resource.String.mr_controller_album_art;
-			global::Prism.Resource.String.mr_controller_casting_screen = global::AppTaxi2020.Prison.Droid.Resource.String.mr_controller_casting_screen;
-			global::Prism.Resource.String.mr_controller_close_description = global::AppTaxi2020.Prison.Droid.Resource.String.mr_controller_close_description;
-			global::Prism.Resource.String.mr_controller_collapse_group = global::AppTaxi2020.Prison.Droid.Resource.String.mr_controller_collapse_group;
-			global::Prism.Resource.String.mr_controller_disconnect = global::AppTaxi2020.Prison.Droid.Resource.String.mr_controller_disconnect;
-			global::Prism.Resource.String.mr_controller_expand_group = global::AppTaxi2020.Prison.Droid.Resource.String.mr_controller_expand_group;
-			global::Prism.Resource.String.mr_controller_no_info_available = global::AppTaxi2020.Prison.Droid.Resource.String.mr_controller_no_info_available;
-			global::Prism.Resource.String.mr_controller_no_media_selected = global::AppTaxi2020.Prison.Droid.Resource.String.mr_controller_no_media_selected;
-			global::Prism.Resource.String.mr_controller_pause = global::AppTaxi2020.Prison.Droid.Resource.String.mr_controller_pause;
-			global::Prism.Resource.String.mr_controller_play = global::AppTaxi2020.Prison.Droid.Resource.String.mr_controller_play;
-			global::Prism.Resource.String.mr_controller_stop = global::AppTaxi2020.Prison.Droid.Resource.String.mr_controller_stop;
-			global::Prism.Resource.String.mr_controller_stop_casting = global::AppTaxi2020.Prison.Droid.Resource.String.mr_controller_stop_casting;
-			global::Prism.Resource.String.mr_controller_volume_slider = global::AppTaxi2020.Prison.Droid.Resource.String.mr_controller_volume_slider;
-			global::Prism.Resource.String.mr_system_route_name = global::AppTaxi2020.Prison.Droid.Resource.String.mr_system_route_name;
-			global::Prism.Resource.String.mr_user_route_category_name = global::AppTaxi2020.Prison.Droid.Resource.String.mr_user_route_category_name;
+			global::Prism.Resource.String.fab_transformation_scrim_behavior = global::AppTaxi2020.Prison.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Prism.Resource.String.fab_transformation_sheet_behavior = global::AppTaxi2020.Prison.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Prism.Resource.String.hide_bottom_view_on_scroll_behavior = global::AppTaxi2020.Prison.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Prism.Resource.String.mtrl_chip_close_icon_content_description = global::AppTaxi2020.Prison.Droid.Resource.String.mtrl_chip_close_icon_content_description;
 			global::Prism.Resource.String.password_toggle_content_description = global::AppTaxi2020.Prison.Droid.Resource.String.password_toggle_content_description;
 			global::Prism.Resource.String.path_password_eye = global::AppTaxi2020.Prison.Droid.Resource.String.path_password_eye;
 			global::Prism.Resource.String.path_password_eye_mask_strike_through = global::AppTaxi2020.Prison.Droid.Resource.String.path_password_eye_mask_strike_through;
@@ -1472,6 +1667,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Style.Animation_AppCompat_DropDownUp = global::AppTaxi2020.Prison.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Prism.Resource.Style.Animation_AppCompat_Tooltip = global::AppTaxi2020.Prison.Droid.Resource.Style.Animation_AppCompat_Tooltip;
 			global::Prism.Resource.Style.Animation_Design_BottomSheetDialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Prism.Resource.Style.AppCompatDialogStyle = global::AppTaxi2020.Prison.Droid.Resource.Style.AppCompatDialogStyle;
 			global::Prism.Resource.Style.Base_AlertDialog_AppCompat = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::Prism.Resource.Style.Base_AlertDialog_AppCompat_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
 			global::Prism.Resource.Style.Base_Animation_AppCompat_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
@@ -1535,6 +1731,8 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
 			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Prism.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Prism.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
 			global::Prism.Resource.Style.Base_Theme_AppCompat = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_AppCompat;
 			global::Prism.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
 			global::Prism.Resource.Style.Base_Theme_AppCompat_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
@@ -1549,6 +1747,32 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
 			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
 			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Prism.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Prism.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Prism.Resource.Style.Base_V14_Theme_MaterialComponents = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Prism.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Prism.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Prism.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Prism.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Prism.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Prism.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
 			global::Prism.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
 			global::Prism.Resource.Style.Base_V21_Theme_AppCompat = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::Prism.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
@@ -1561,6 +1785,8 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Style.Base_V26_Theme_AppCompat = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V26_Theme_AppCompat;
 			global::Prism.Resource.Style.Base_V26_Theme_AppCompat_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
 			global::Prism.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Prism.Resource.Style.Base_V28_Theme_AppCompat = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Prism.Resource.Style.Base_V28_Theme_AppCompat_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
 			global::Prism.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
 			global::Prism.Resource.Style.Base_V7_Theme_AppCompat = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V7_Theme_AppCompat;
 			global::Prism.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
@@ -1627,11 +1853,20 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Style.Base_Widget_AppCompat_Toolbar = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::Prism.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
 			global::Prism.Resource.Style.Base_Widget_Design_TabLayout = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Prism.Resource.Style.Base_Widget_MaterialComponents_Chip = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Prism.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Prism.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
 			global::Prism.Resource.Style.CardView = global::AppTaxi2020.Prison.Droid.Resource.Style.CardView;
 			global::Prism.Resource.Style.CardView_Dark = global::AppTaxi2020.Prison.Droid.Resource.Style.CardView_Dark;
 			global::Prism.Resource.Style.CardView_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.CardView_Light;
+			global::Prism.Resource.Style.MainTheme = global::AppTaxi2020.Prison.Droid.Resource.Style.MainTheme;
+			global::Prism.Resource.Style.MainTheme_Base = global::AppTaxi2020.Prison.Droid.Resource.Style.MainTheme_Base;
 			global::Prism.Resource.Style.Platform_AppCompat = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_AppCompat;
 			global::Prism.Resource.Style.Platform_AppCompat_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Prism.Resource.Style.Platform_MaterialComponents = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Prism.Resource.Style.Platform_MaterialComponents_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Prism.Resource.Style.Platform_MaterialComponents_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Prism.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
 			global::Prism.Resource.Style.Platform_ThemeOverlay_AppCompat = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
 			global::Prism.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
 			global::Prism.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
@@ -1645,7 +1880,10 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::AppTaxi2020.Prison.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
 			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::AppTaxi2020.Prison.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
 			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::AppTaxi2020.Prison.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::AppTaxi2020.Prison.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::AppTaxi2020.Prison.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
 			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::AppTaxi2020.Prison.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::AppTaxi2020.Prison.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
 			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::AppTaxi2020.Prison.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
 			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::AppTaxi2020.Prison.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
 			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::AppTaxi2020.Prison.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
@@ -1716,12 +1954,25 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Style.TextAppearance_Design_Counter = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Design_Counter;
 			global::Prism.Resource.Style.TextAppearance_Design_Counter_Overflow = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
 			global::Prism.Resource.Style.TextAppearance_Design_Error = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Prism.Resource.Style.TextAppearance_Design_HelperText = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Design_HelperText;
 			global::Prism.Resource.Style.TextAppearance_Design_Hint = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Design_Hint;
 			global::Prism.Resource.Style.TextAppearance_Design_Snackbar_Message = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
 			global::Prism.Resource.Style.TextAppearance_Design_Tab = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Prism.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
-			global::Prism.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
-			global::Prism.Resource.Style.TextAppearance_MediaRouter_Title = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Button = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Caption = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Chip = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Overline = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Tab = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
 			global::Prism.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Prism.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Prism.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -1732,8 +1983,18 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Prism.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
-			global::Prism.Resource.Style.ThemeOverlay_MediaRouter_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::AppTaxi2020.Prison.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
 			global::Prism.Resource.Style.Theme_AppCompat = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_AppCompat;
 			global::Prism.Resource.Style.Theme_AppCompat_CompactMenu = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
 			global::Prism.Resource.Style.Theme_AppCompat_DayNight = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_AppCompat_DayNight;
@@ -1761,10 +2022,27 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
 			global::Prism.Resource.Style.Theme_Design_Light_NoActionBar = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
 			global::Prism.Resource.Style.Theme_Design_NoActionBar = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Prism.Resource.Style.Theme_MediaRouter = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MediaRouter;
-			global::Prism.Resource.Style.Theme_MediaRouter_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MediaRouter_Light;
-			global::Prism.Resource.Style.Theme_MediaRouter_LightControlPanel = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
-			global::Prism.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Prism.Resource.Style.Theme_MaterialComponents = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Prism.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Bridge = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_CompactMenu = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_NoActionBar = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Prism.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::AppTaxi2020.Prison.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
 			global::Prism.Resource.Style.Widget_AppCompat_ActionBar = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_AppCompat_ActionBar;
 			global::Prism.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
 			global::Prism.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
@@ -1849,8 +2127,43 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Style.Widget_Design_Snackbar = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::Prism.Resource.Style.Widget_Design_TabLayout = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_Design_TabLayout;
 			global::Prism.Resource.Style.Widget_Design_TextInputLayout = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Prism.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::Prism.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Prism.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Prism.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Prism.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Prism.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Prism.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_Icon = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Prism.Resource.Style.Widget_MaterialComponents_CardView = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Prism.Resource.Style.Widget_MaterialComponents_ChipGroup = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Chip_Action = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Prism.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Prism.Resource.Style.Widget_MaterialComponents_NavigationView = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Snackbar = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TabLayout = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Toolbar = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Prism.Resource.Style.Widget_Support_CoordinatorLayout = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::Prism.Resource.Styleable.ActionBar = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ActionBar;
 			global::Prism.Resource.Styleable.ActionBarLayout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ActionBarLayout;
 			global::Prism.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
@@ -1898,16 +2211,34 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Styleable.ActivityChooserView_initialActivityCount = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
 			global::Prism.Resource.Styleable.AlertDialog = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AlertDialog;
 			global::Prism.Resource.Styleable.AlertDialog_android_layout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Prism.Resource.Styleable.AlertDialog_buttonIconDimen = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
 			global::Prism.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
 			global::Prism.Resource.Styleable.AlertDialog_listItemLayout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AlertDialog_listItemLayout;
 			global::Prism.Resource.Styleable.AlertDialog_listLayout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AlertDialog_listLayout;
 			global::Prism.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
 			global::Prism.Resource.Styleable.AlertDialog_showTitle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AlertDialog_showTitle;
 			global::Prism.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableCompat = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableItem = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableTransition = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
 			global::Prism.Resource.Styleable.AppBarLayout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppBarLayout;
 			global::Prism.Resource.Styleable.AppBarLayoutStates = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppBarLayoutStates;
 			global::Prism.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
 			global::Prism.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Prism.Resource.Styleable.AppBarLayoutStates_state_liftable = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Prism.Resource.Styleable.AppBarLayoutStates_state_lifted = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
 			global::Prism.Resource.Styleable.AppBarLayout_android_background = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppBarLayout_android_background;
 			global::Prism.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
 			global::Prism.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
@@ -1916,6 +2247,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Styleable.AppBarLayout_Layout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppBarLayout_Layout;
 			global::Prism.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
 			global::Prism.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Prism.Resource.Styleable.AppBarLayout_liftOnScroll = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
 			global::Prism.Resource.Styleable.AppCompatImageView = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatImageView;
 			global::Prism.Resource.Styleable.AppCompatImageView_android_src = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Prism.Resource.Styleable.AppCompatImageView_srcCompat = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -1941,7 +2273,10 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
 			global::Prism.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
 			global::Prism.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Prism.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::Prism.Resource.Styleable.AppCompatTextView_fontFamily = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Prism.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Prism.Resource.Styleable.AppCompatTextView_lineHeight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
 			global::Prism.Resource.Styleable.AppCompatTextView_textAllCaps = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
 			global::Prism.Resource.Styleable.AppCompatTheme = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme;
 			global::Prism.Resource.Styleable.AppCompatTheme_actionBarDivider = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
@@ -2003,6 +2338,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
 			global::Prism.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
 			global::Prism.Resource.Styleable.AppCompatTheme_controlBackground = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Prism.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
 			global::Prism.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
 			global::Prism.Resource.Styleable.AppCompatTheme_dialogTheme = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
 			global::Prism.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
@@ -2053,6 +2389,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Styleable.AppCompatTheme_toolbarStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
 			global::Prism.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
 			global::Prism.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Prism.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
 			global::Prism.Resource.Styleable.AppCompatTheme_windowActionBar = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
 			global::Prism.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
 			global::Prism.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
@@ -2063,13 +2400,26 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::Prism.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::Prism.Resource.Styleable.AppCompatTheme_windowNoTitle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Prism.Resource.Styleable.BottomAppBar = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomAppBar;
+			global::Prism.Resource.Styleable.BottomAppBar_backgroundTint = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Prism.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Prism.Resource.Styleable.BottomAppBar_fabCradleMargin = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Prism.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Prism.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Prism.Resource.Styleable.BottomAppBar_hideOnScroll = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
 			global::Prism.Resource.Styleable.BottomNavigationView = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomNavigationView;
 			global::Prism.Resource.Styleable.BottomNavigationView_elevation = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomNavigationView_elevation;
 			global::Prism.Resource.Styleable.BottomNavigationView_itemBackground = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Prism.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Prism.Resource.Styleable.BottomNavigationView_itemIconSize = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
 			global::Prism.Resource.Styleable.BottomNavigationView_itemIconTint = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Prism.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Prism.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
 			global::Prism.Resource.Styleable.BottomNavigationView_itemTextColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Prism.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
 			global::Prism.Resource.Styleable.BottomNavigationView_menu = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomNavigationView_menu;
 			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
 			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
 			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
 			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::AppTaxi2020.Prison.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
@@ -2089,6 +2439,48 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Styleable.CardView_contentPaddingLeft = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CardView_contentPaddingLeft;
 			global::Prism.Resource.Styleable.CardView_contentPaddingRight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CardView_contentPaddingRight;
 			global::Prism.Resource.Styleable.CardView_contentPaddingTop = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Prism.Resource.Styleable.Chip = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip;
+			global::Prism.Resource.Styleable.ChipGroup = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ChipGroup;
+			global::Prism.Resource.Styleable.ChipGroup_checkedChip = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Prism.Resource.Styleable.ChipGroup_chipSpacing = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Prism.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Prism.Resource.Styleable.ChipGroup_chipSpacingVertical = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Prism.Resource.Styleable.ChipGroup_singleLine = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Prism.Resource.Styleable.ChipGroup_singleSelection = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Prism.Resource.Styleable.Chip_android_checkable = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Prism.Resource.Styleable.Chip_android_ellipsize = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Prism.Resource.Styleable.Chip_android_maxWidth = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Prism.Resource.Styleable.Chip_android_text = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_android_text;
+			global::Prism.Resource.Styleable.Chip_android_textAppearance = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Prism.Resource.Styleable.Chip_checkedIcon = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Prism.Resource.Styleable.Chip_checkedIconEnabled = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Prism.Resource.Styleable.Chip_checkedIconVisible = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Prism.Resource.Styleable.Chip_chipBackgroundColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Prism.Resource.Styleable.Chip_chipCornerRadius = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Prism.Resource.Styleable.Chip_chipEndPadding = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Prism.Resource.Styleable.Chip_chipIcon = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Prism.Resource.Styleable.Chip_chipIconEnabled = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Prism.Resource.Styleable.Chip_chipIconSize = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Prism.Resource.Styleable.Chip_chipIconTint = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Prism.Resource.Styleable.Chip_chipIconVisible = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Prism.Resource.Styleable.Chip_chipMinHeight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Prism.Resource.Styleable.Chip_chipStartPadding = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Prism.Resource.Styleable.Chip_chipStrokeColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Prism.Resource.Styleable.Chip_chipStrokeWidth = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Prism.Resource.Styleable.Chip_closeIcon = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Prism.Resource.Styleable.Chip_closeIconEnabled = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Prism.Resource.Styleable.Chip_closeIconEndPadding = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Prism.Resource.Styleable.Chip_closeIconSize = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Prism.Resource.Styleable.Chip_closeIconStartPadding = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Prism.Resource.Styleable.Chip_closeIconTint = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Prism.Resource.Styleable.Chip_closeIconVisible = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Prism.Resource.Styleable.Chip_hideMotionSpec = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Prism.Resource.Styleable.Chip_iconEndPadding = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Prism.Resource.Styleable.Chip_iconStartPadding = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Prism.Resource.Styleable.Chip_rippleColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Prism.Resource.Styleable.Chip_showMotionSpec = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Prism.Resource.Styleable.Chip_textEndPadding = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Prism.Resource.Styleable.Chip_textStartPadding = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Chip_textStartPadding;
 			global::Prism.Resource.Styleable.CollapsingToolbarLayout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CollapsingToolbarLayout;
 			global::Prism.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
 			global::Prism.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
@@ -2147,18 +2539,30 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
 			global::Prism.Resource.Styleable.FloatingActionButton_borderWidth = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
 			global::Prism.Resource.Styleable.FloatingActionButton_elevation = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Prism.Resource.Styleable.FloatingActionButton_fabCustomSize = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
 			global::Prism.Resource.Styleable.FloatingActionButton_fabSize = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Prism.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Prism.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Prism.Resource.Styleable.FloatingActionButton_maxImageSize = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
 			global::Prism.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
 			global::Prism.Resource.Styleable.FloatingActionButton_rippleColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Prism.Resource.Styleable.FloatingActionButton_showMotionSpec = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
 			global::Prism.Resource.Styleable.FloatingActionButton_useCompatPadding = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Prism.Resource.Styleable.FlowLayout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FlowLayout;
+			global::Prism.Resource.Styleable.FlowLayout_itemSpacing = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Prism.Resource.Styleable.FlowLayout_lineSpacing = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FlowLayout_lineSpacing;
 			global::Prism.Resource.Styleable.FontFamily = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily;
 			global::Prism.Resource.Styleable.FontFamilyFont = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont;
 			global::Prism.Resource.Styleable.FontFamilyFont_android_font = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_font;
 			global::Prism.Resource.Styleable.FontFamilyFont_android_fontStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Prism.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
 			global::Prism.Resource.Styleable.FontFamilyFont_android_fontWeight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Prism.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
 			global::Prism.Resource.Styleable.FontFamilyFont_font = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_font;
 			global::Prism.Resource.Styleable.FontFamilyFont_fontStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Prism.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
 			global::Prism.Resource.Styleable.FontFamilyFont_fontWeight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Prism.Resource.Styleable.FontFamilyFont_ttcIndex = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
 			global::Prism.Resource.Styleable.FontFamily_fontProviderAuthority = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
 			global::Prism.Resource.Styleable.FontFamily_fontProviderCerts = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
 			global::Prism.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
@@ -2169,6 +2573,22 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::Prism.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
 			global::Prism.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Prism.Resource.Styleable.GradientColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor;
+			global::Prism.Resource.Styleable.GradientColorItem = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColorItem;
+			global::Prism.Resource.Styleable.GradientColorItem_android_color = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Prism.Resource.Styleable.GradientColorItem_android_offset = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Prism.Resource.Styleable.GradientColor_android_centerColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Prism.Resource.Styleable.GradientColor_android_centerX = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Prism.Resource.Styleable.GradientColor_android_centerY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Prism.Resource.Styleable.GradientColor_android_endColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Prism.Resource.Styleable.GradientColor_android_endX = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Prism.Resource.Styleable.GradientColor_android_endY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Prism.Resource.Styleable.GradientColor_android_gradientRadius = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Prism.Resource.Styleable.GradientColor_android_startColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Prism.Resource.Styleable.GradientColor_android_startX = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Prism.Resource.Styleable.GradientColor_android_startY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Prism.Resource.Styleable.GradientColor_android_tileMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Prism.Resource.Styleable.GradientColor_android_type = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_type;
 			global::Prism.Resource.Styleable.LinearLayoutCompat = global::AppTaxi2020.Prison.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::Prism.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::AppTaxi2020.Prison.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::Prism.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::AppTaxi2020.Prison.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -2187,11 +2607,59 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Styleable.ListPopupWindow = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ListPopupWindow;
 			global::Prism.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::Prism.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Prism.Resource.Styleable.MediaRouteButton = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MediaRouteButton;
-			global::Prism.Resource.Styleable.MediaRouteButton_android_minHeight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::Prism.Resource.Styleable.MediaRouteButton_android_minWidth = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::Prism.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::Prism.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::Prism.Resource.Styleable.MaterialButton = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton;
+			global::Prism.Resource.Styleable.MaterialButton_android_insetBottom = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Prism.Resource.Styleable.MaterialButton_android_insetLeft = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Prism.Resource.Styleable.MaterialButton_android_insetRight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Prism.Resource.Styleable.MaterialButton_android_insetTop = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Prism.Resource.Styleable.MaterialButton_backgroundTint = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Prism.Resource.Styleable.MaterialButton_backgroundTintMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Prism.Resource.Styleable.MaterialButton_cornerRadius = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Prism.Resource.Styleable.MaterialButton_icon = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Prism.Resource.Styleable.MaterialButton_iconGravity = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Prism.Resource.Styleable.MaterialButton_iconPadding = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Prism.Resource.Styleable.MaterialButton_iconSize = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Prism.Resource.Styleable.MaterialButton_iconTint = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Prism.Resource.Styleable.MaterialButton_iconTintMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Prism.Resource.Styleable.MaterialButton_rippleColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Prism.Resource.Styleable.MaterialButton_strokeColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Prism.Resource.Styleable.MaterialButton_strokeWidth = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Prism.Resource.Styleable.MaterialCardView = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialCardView;
+			global::Prism.Resource.Styleable.MaterialCardView_strokeColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Prism.Resource.Styleable.MaterialCardView_strokeWidth = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::Prism.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
 			global::Prism.Resource.Styleable.MenuGroup = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MenuGroup;
 			global::Prism.Resource.Styleable.MenuGroup_android_checkableBehavior = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
 			global::Prism.Resource.Styleable.MenuGroup_android_enabled = global::AppTaxi2020.Prison.Droid.Resource.Styleable.MenuGroup_android_enabled;
@@ -2240,6 +2708,8 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Styleable.NavigationView_elevation = global::AppTaxi2020.Prison.Droid.Resource.Styleable.NavigationView_elevation;
 			global::Prism.Resource.Styleable.NavigationView_headerLayout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.NavigationView_headerLayout;
 			global::Prism.Resource.Styleable.NavigationView_itemBackground = global::AppTaxi2020.Prison.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Prism.Resource.Styleable.NavigationView_itemHorizontalPadding = global::AppTaxi2020.Prison.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Prism.Resource.Styleable.NavigationView_itemIconPadding = global::AppTaxi2020.Prison.Droid.Resource.Styleable.NavigationView_itemIconPadding;
 			global::Prism.Resource.Styleable.NavigationView_itemIconTint = global::AppTaxi2020.Prison.Droid.Resource.Styleable.NavigationView_itemIconTint;
 			global::Prism.Resource.Styleable.NavigationView_itemTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::Prism.Resource.Styleable.NavigationView_itemTextColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.NavigationView_itemTextColor;
@@ -2287,16 +2757,28 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Styleable.SearchView_submitBackground = global::AppTaxi2020.Prison.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::Prism.Resource.Styleable.SearchView_suggestionRowLayout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::Prism.Resource.Styleable.SearchView_voiceIcon = global::AppTaxi2020.Prison.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Prism.Resource.Styleable.Snackbar = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Snackbar;
 			global::Prism.Resource.Styleable.SnackbarLayout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.SnackbarLayout;
 			global::Prism.Resource.Styleable.SnackbarLayout_android_maxWidth = global::AppTaxi2020.Prison.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
 			global::Prism.Resource.Styleable.SnackbarLayout_elevation = global::AppTaxi2020.Prison.Droid.Resource.Styleable.SnackbarLayout_elevation;
 			global::Prism.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::AppTaxi2020.Prison.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Prism.Resource.Styleable.Snackbar_snackbarButtonStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Prism.Resource.Styleable.Snackbar_snackbarStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Snackbar_snackbarStyle;
 			global::Prism.Resource.Styleable.Spinner = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Spinner;
 			global::Prism.Resource.Styleable.Spinner_android_dropDownWidth = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
 			global::Prism.Resource.Styleable.Spinner_android_entries = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Spinner_android_entries;
 			global::Prism.Resource.Styleable.Spinner_android_popupBackground = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Spinner_android_popupBackground;
 			global::Prism.Resource.Styleable.Spinner_android_prompt = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Spinner_android_prompt;
 			global::Prism.Resource.Styleable.Spinner_popupTheme = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Prism.Resource.Styleable.StateListDrawable = global::AppTaxi2020.Prison.Droid.Resource.Styleable.StateListDrawable;
+			global::Prism.Resource.Styleable.StateListDrawableItem = global::AppTaxi2020.Prison.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Prism.Resource.Styleable.StateListDrawableItem_android_drawable = global::AppTaxi2020.Prison.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Prism.Resource.Styleable.StateListDrawable_android_constantSize = global::AppTaxi2020.Prison.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Prism.Resource.Styleable.StateListDrawable_android_dither = global::AppTaxi2020.Prison.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Prism.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::AppTaxi2020.Prison.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Prism.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::AppTaxi2020.Prison.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Prism.Resource.Styleable.StateListDrawable_android_variablePadding = global::AppTaxi2020.Prison.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Prism.Resource.Styleable.StateListDrawable_android_visible = global::AppTaxi2020.Prison.Droid.Resource.Styleable.StateListDrawable_android_visible;
 			global::Prism.Resource.Styleable.SwitchCompat = global::AppTaxi2020.Prison.Droid.Resource.Styleable.SwitchCompat;
 			global::Prism.Resource.Styleable.SwitchCompat_android_textOff = global::AppTaxi2020.Prison.Droid.Resource.Styleable.SwitchCompat_android_textOff;
 			global::Prism.Resource.Styleable.SwitchCompat_android_textOn = global::AppTaxi2020.Prison.Droid.Resource.Styleable.SwitchCompat_android_textOn;
@@ -2320,8 +2802,15 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Styleable.TabLayout_tabBackground = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabBackground;
 			global::Prism.Resource.Styleable.TabLayout_tabContentStart = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabContentStart;
 			global::Prism.Resource.Styleable.TabLayout_tabGravity = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Prism.Resource.Styleable.TabLayout_tabIconTint = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Prism.Resource.Styleable.TabLayout_tabIconTintMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Prism.Resource.Styleable.TabLayout_tabIndicator = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Prism.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
 			global::Prism.Resource.Styleable.TabLayout_tabIndicatorColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Prism.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Prism.Resource.Styleable.TabLayout_tabIndicatorGravity = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
 			global::Prism.Resource.Styleable.TabLayout_tabIndicatorHeight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Prism.Resource.Styleable.TabLayout_tabInlineLabel = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
 			global::Prism.Resource.Styleable.TabLayout_tabMaxWidth = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
 			global::Prism.Resource.Styleable.TabLayout_tabMinWidth = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabMinWidth;
 			global::Prism.Resource.Styleable.TabLayout_tabMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabMode;
@@ -2330,9 +2819,11 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Styleable.TabLayout_tabPaddingEnd = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
 			global::Prism.Resource.Styleable.TabLayout_tabPaddingStart = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
 			global::Prism.Resource.Styleable.TabLayout_tabPaddingTop = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Prism.Resource.Styleable.TabLayout_tabRippleColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabRippleColor;
 			global::Prism.Resource.Styleable.TabLayout_tabSelectedTextColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
 			global::Prism.Resource.Styleable.TabLayout_tabTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
 			global::Prism.Resource.Styleable.TabLayout_tabTextColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Prism.Resource.Styleable.TabLayout_tabUnboundedRipple = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
 			global::Prism.Resource.Styleable.TextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextAppearance;
 			global::Prism.Resource.Styleable.TextAppearance_android_fontFamily = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
 			global::Prism.Resource.Styleable.TextAppearance_android_shadowColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
@@ -2350,12 +2841,24 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Styleable.TextInputLayout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout;
 			global::Prism.Resource.Styleable.TextInputLayout_android_hint = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Prism.Resource.Styleable.TextInputLayout_android_textColorHint = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Prism.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Prism.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Prism.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Prism.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Prism.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Prism.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Prism.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Prism.Resource.Styleable.TextInputLayout_boxStrokeColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Prism.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
 			global::Prism.Resource.Styleable.TextInputLayout_counterEnabled = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
 			global::Prism.Resource.Styleable.TextInputLayout_counterMaxLength = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
 			global::Prism.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
 			global::Prism.Resource.Styleable.TextInputLayout_counterTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
 			global::Prism.Resource.Styleable.TextInputLayout_errorEnabled = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
 			global::Prism.Resource.Styleable.TextInputLayout_errorTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Prism.Resource.Styleable.TextInputLayout_helperText = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Prism.Resource.Styleable.TextInputLayout_helperTextEnabled = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Prism.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
 			global::Prism.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
 			global::Prism.Resource.Styleable.TextInputLayout_hintEnabled = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
 			global::Prism.Resource.Styleable.TextInputLayout_hintTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
@@ -2364,6 +2867,10 @@ namespace AppTaxi2020.Prison.Droid
 			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
 			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleTint = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
 			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Prism.Resource.Styleable.ThemeEnforcement = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Prism.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Prism.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Prism.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
 			global::Prism.Resource.Styleable.Toolbar = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Toolbar;
 			global::Prism.Resource.Styleable.Toolbar_android_gravity = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Toolbar_android_gravity;
 			global::Prism.Resource.Styleable.Toolbar_android_minHeight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.Toolbar_android_minHeight;
@@ -2454,6 +2961,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.battery = global::AppTaxi2020.Prison.Droid.Resource.Id.battery;
 			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.bottom = global::AppTaxi2020.Prison.Droid.Resource.Id.bottom;
 			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.box = global::AppTaxi2020.Prison.Droid.Resource.Id.box;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.cupertino = global::AppTaxi2020.Prison.Droid.Resource.Id.cupertino;
 			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.doubleCircle = global::AppTaxi2020.Prison.Droid.Resource.Id.doubleCircle;
 			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.ecg = global::AppTaxi2020.Prison.Droid.Resource.Id.ecg;
 			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.gearBox = global::AppTaxi2020.Prison.Droid.Resource.Id.gearBox;
@@ -2508,6 +3016,188 @@ namespace AppTaxi2020.Prison.Droid
 			global::Com.Syncfusion.Rating.Resource.Styleable.SfRating_ratingUnratedFill = global::AppTaxi2020.Prison.Droid.Resource.Styleable.SfRating_ratingUnratedFill;
 			global::Com.Syncfusion.Rating.Resource.Styleable.SfRating_ratingUnratedStroke = global::AppTaxi2020.Prison.Droid.Resource.Styleable.SfRating_ratingUnratedStroke;
 			global::Com.Syncfusion.Rating.Resource.Styleable.SfRating_ratingUnratedStrokeWidth = global::AppTaxi2020.Prison.Droid.Resource.Styleable.SfRating_ratingUnratedStrokeWidth;
+			global::Xamarin.Essentials.Resource.Attribute.alpha = global::AppTaxi2020.Prison.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Essentials.Resource.Attribute.font = global::AppTaxi2020.Prison.Droid.Resource.Attribute.font;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchStrategy = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchTimeout = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderPackage = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderQuery = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Essentials.Resource.Attribute.fontStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Essentials.Resource.Attribute.fontVariationSettings = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.Essentials.Resource.Attribute.fontWeight = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Essentials.Resource.Attribute.keylines = global::AppTaxi2020.Prison.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Essentials.Resource.Attribute.layout_anchor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.Essentials.Resource.Attribute.layout_anchorGravity = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Essentials.Resource.Attribute.layout_behavior = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.Essentials.Resource.Attribute.layout_dodgeInsetEdges = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.Essentials.Resource.Attribute.layout_insetEdge = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.Essentials.Resource.Attribute.layout_keyline = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.Essentials.Resource.Attribute.statusBarBackground = global::AppTaxi2020.Prison.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Essentials.Resource.Attribute.ttcIndex = global::AppTaxi2020.Prison.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.Essentials.Resource.Color.browser_actions_bg_grey = global::AppTaxi2020.Prison.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Xamarin.Essentials.Resource.Color.browser_actions_divider_color = global::AppTaxi2020.Prison.Droid.Resource.Color.browser_actions_divider_color;
+			global::Xamarin.Essentials.Resource.Color.browser_actions_text_color = global::AppTaxi2020.Prison.Droid.Resource.Color.browser_actions_text_color;
+			global::Xamarin.Essentials.Resource.Color.browser_actions_title_color = global::AppTaxi2020.Prison.Droid.Resource.Color.browser_actions_title_color;
+			global::Xamarin.Essentials.Resource.Color.notification_action_color_filter = global::AppTaxi2020.Prison.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Essentials.Resource.Color.notification_icon_bg_color = global::AppTaxi2020.Prison.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Essentials.Resource.Color.ripple_material_light = global::AppTaxi2020.Prison.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Essentials.Resource.Color.secondary_text_default_material_light = global::AppTaxi2020.Prison.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_max_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_min_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_horizontal_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_vertical_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_horizontal_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_vertical_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_control_corner_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_notification_large_icon_max_height = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.Essentials.Resource.Dimension.compat_notification_large_icon_max_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Essentials.Resource.Dimension.notification_action_icon_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_action_text_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_big_circle_margin = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Essentials.Resource.Dimension.notification_content_margin_start = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_height = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Essentials.Resource.Dimension.notification_main_column_padding_top = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Essentials.Resource.Dimension.notification_media_narrow_margin = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Essentials.Resource.Dimension.notification_right_icon_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_right_side_padding_top = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_background_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_size_as_large = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Essentials.Resource.Dimension.notification_subtext_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad_large_text = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Essentials.Resource.Drawable.notification_action_background = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_normal = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_pressed = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal_pressed = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Essentials.Resource.Drawable.notification_icon_background = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_bg = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_low_bg = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_tile_bg = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notify_panel_notification_icon_bg = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Essentials.Resource.Id.actions = global::AppTaxi2020.Prison.Droid.Resource.Id.actions;
+			global::Xamarin.Essentials.Resource.Id.action_container = global::AppTaxi2020.Prison.Droid.Resource.Id.action_container;
+			global::Xamarin.Essentials.Resource.Id.action_divider = global::AppTaxi2020.Prison.Droid.Resource.Id.action_divider;
+			global::Xamarin.Essentials.Resource.Id.action_image = global::AppTaxi2020.Prison.Droid.Resource.Id.action_image;
+			global::Xamarin.Essentials.Resource.Id.action_text = global::AppTaxi2020.Prison.Droid.Resource.Id.action_text;
+			global::Xamarin.Essentials.Resource.Id.all = global::AppTaxi2020.Prison.Droid.Resource.Id.all;
+			global::Xamarin.Essentials.Resource.Id.async = global::AppTaxi2020.Prison.Droid.Resource.Id.async;
+			global::Xamarin.Essentials.Resource.Id.blocking = global::AppTaxi2020.Prison.Droid.Resource.Id.blocking;
+			global::Xamarin.Essentials.Resource.Id.bottom = global::AppTaxi2020.Prison.Droid.Resource.Id.bottom;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_header_text = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_header_text;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_items = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_menu_items;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_icon = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_text = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_view = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_menu_view;
+			global::Xamarin.Essentials.Resource.Id.center = global::AppTaxi2020.Prison.Droid.Resource.Id.center;
+			global::Xamarin.Essentials.Resource.Id.center_horizontal = global::AppTaxi2020.Prison.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.Essentials.Resource.Id.center_vertical = global::AppTaxi2020.Prison.Droid.Resource.Id.center_vertical;
+			global::Xamarin.Essentials.Resource.Id.chronometer = global::AppTaxi2020.Prison.Droid.Resource.Id.chronometer;
+			global::Xamarin.Essentials.Resource.Id.clip_horizontal = global::AppTaxi2020.Prison.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.Essentials.Resource.Id.clip_vertical = global::AppTaxi2020.Prison.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.Essentials.Resource.Id.end = global::AppTaxi2020.Prison.Droid.Resource.Id.end;
+			global::Xamarin.Essentials.Resource.Id.fill = global::AppTaxi2020.Prison.Droid.Resource.Id.fill;
+			global::Xamarin.Essentials.Resource.Id.fill_horizontal = global::AppTaxi2020.Prison.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.Essentials.Resource.Id.fill_vertical = global::AppTaxi2020.Prison.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Essentials.Resource.Id.forever = global::AppTaxi2020.Prison.Droid.Resource.Id.forever;
+			global::Xamarin.Essentials.Resource.Id.icon = global::AppTaxi2020.Prison.Droid.Resource.Id.icon;
+			global::Xamarin.Essentials.Resource.Id.icon_group = global::AppTaxi2020.Prison.Droid.Resource.Id.icon_group;
+			global::Xamarin.Essentials.Resource.Id.info = global::AppTaxi2020.Prison.Droid.Resource.Id.info;
+			global::Xamarin.Essentials.Resource.Id.italic = global::AppTaxi2020.Prison.Droid.Resource.Id.italic;
+			global::Xamarin.Essentials.Resource.Id.left = global::AppTaxi2020.Prison.Droid.Resource.Id.left;
+			global::Xamarin.Essentials.Resource.Id.line1 = global::AppTaxi2020.Prison.Droid.Resource.Id.line1;
+			global::Xamarin.Essentials.Resource.Id.line3 = global::AppTaxi2020.Prison.Droid.Resource.Id.line3;
+			global::Xamarin.Essentials.Resource.Id.none = global::AppTaxi2020.Prison.Droid.Resource.Id.none;
+			global::Xamarin.Essentials.Resource.Id.normal = global::AppTaxi2020.Prison.Droid.Resource.Id.normal;
+			global::Xamarin.Essentials.Resource.Id.notification_background = global::AppTaxi2020.Prison.Droid.Resource.Id.notification_background;
+			global::Xamarin.Essentials.Resource.Id.notification_main_column = global::AppTaxi2020.Prison.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Essentials.Resource.Id.notification_main_column_container = global::AppTaxi2020.Prison.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Essentials.Resource.Id.right = global::AppTaxi2020.Prison.Droid.Resource.Id.right;
+			global::Xamarin.Essentials.Resource.Id.right_icon = global::AppTaxi2020.Prison.Droid.Resource.Id.right_icon;
+			global::Xamarin.Essentials.Resource.Id.right_side = global::AppTaxi2020.Prison.Droid.Resource.Id.right_side;
+			global::Xamarin.Essentials.Resource.Id.start = global::AppTaxi2020.Prison.Droid.Resource.Id.start;
+			global::Xamarin.Essentials.Resource.Id.tag_transition_group = global::AppTaxi2020.Prison.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_event_manager = global::AppTaxi2020.Prison.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_listeners = global::AppTaxi2020.Prison.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Essentials.Resource.Id.text = global::AppTaxi2020.Prison.Droid.Resource.Id.text;
+			global::Xamarin.Essentials.Resource.Id.text2 = global::AppTaxi2020.Prison.Droid.Resource.Id.text2;
+			global::Xamarin.Essentials.Resource.Id.time = global::AppTaxi2020.Prison.Droid.Resource.Id.time;
+			global::Xamarin.Essentials.Resource.Id.title = global::AppTaxi2020.Prison.Droid.Resource.Id.title;
+			global::Xamarin.Essentials.Resource.Id.top = global::AppTaxi2020.Prison.Droid.Resource.Id.top;
+			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::AppTaxi2020.Prison.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_page = global::AppTaxi2020.Prison.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_row = global::AppTaxi2020.Prison.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.Essentials.Resource.Layout.notification_action = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Essentials.Resource.Layout.notification_action_tombstone = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_custom_big = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_icon_group = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_part_chronometer = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_part_time = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Essentials.Resource.String.status_bar_notification_info_overflow = global::AppTaxi2020.Prison.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Info = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Time = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Title = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionContainer = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionText = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Essentials.Resource.Style.Widget_Support_CoordinatorLayout = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_alpha = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_alpha = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_color = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_keylines = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontWeight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_font = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontWeight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_ttcIndex = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderAuthority = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderCerts = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderPackage = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderQuery = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_color = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_offset = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerX = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endX = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_gradientRadius = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startX = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::AppTaxi2020.Prison.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_fade_in = global::AppTaxi2020.Prison.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_fade_out = global::AppTaxi2020.Prison.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::AppTaxi2020.Prison.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -2679,6 +3369,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collapsedTitleGravity = global::AppTaxi2020.Prison.Droid.Resource.Attribute.collapsedTitleGravity;
 			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collapsedTitleTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Attribute.collapsedTitleTextAppearance;
 			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collapseIcon = global::AppTaxi2020.Prison.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collectionViewStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.collectionViewStyle;
 			global::Xamarin.Forms.Maps.Android.Resource.Attribute.color = global::AppTaxi2020.Prison.Droid.Resource.Attribute.color;
 			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorAccent = global::AppTaxi2020.Prison.Droid.Resource.Attribute.colorAccent;
 			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorBackgroundFloating = global::AppTaxi2020.Prison.Droid.Resource.Attribute.colorBackgroundFloating;
@@ -3915,6 +4606,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Xamarin.Forms.Maps.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::AppTaxi2020.Prison.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Maps.Android.Resource.Style.Animation_AppCompat_Tooltip = global::AppTaxi2020.Prison.Droid.Resource.Style.Animation_AppCompat_Tooltip;
 			global::Xamarin.Forms.Maps.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.AppCompatDialogStyle = global::AppTaxi2020.Prison.Droid.Resource.Style.AppCompatDialogStyle;
 			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_AlertDialog_AppCompat = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
 			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
@@ -4106,8 +4798,10 @@ namespace AppTaxi2020.Prison.Droid
 			global::Xamarin.Forms.Maps.Android.Resource.Style.CardView = global::AppTaxi2020.Prison.Droid.Resource.Style.CardView;
 			global::Xamarin.Forms.Maps.Android.Resource.Style.CardView_Dark = global::AppTaxi2020.Prison.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Maps.Android.Resource.Style.CardView_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.CardView_Light;
-			global::Xamarin.Forms.Maps.Android.Resource.Style.collectionViewStyle = global::AppTaxi2020.Prison.Droid.Resource.Style.collectionViewStyle;
-			global::Xamarin.Forms.Maps.Android.Resource.Style.NestedScrollBarStyle = global::AppTaxi2020.Prison.Droid.Resource.Style.NestedScrollBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.collectionViewScrollBars = global::AppTaxi2020.Prison.Droid.Resource.Style.collectionViewScrollBars;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.collectionViewTheme = global::AppTaxi2020.Prison.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.MainTheme = global::AppTaxi2020.Prison.Droid.Resource.Style.MainTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.MainTheme_Base = global::AppTaxi2020.Prison.Droid.Resource.Style.MainTheme_Base;
 			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_AppCompat = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_AppCompat;
 			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_AppCompat_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_MaterialComponents = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_MaterialComponents;
@@ -4836,6 +5530,8 @@ namespace AppTaxi2020.Prison.Droid
 			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_startY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_tileMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_type = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ItemsViewRendererTheme = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
 			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat = global::AppTaxi2020.Prison.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::AppTaxi2020.Prison.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::AppTaxi2020.Prison.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -5356,6 +6052,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapsedTitleGravity = global::AppTaxi2020.Prison.Droid.Resource.Attribute.collapsedTitleGravity;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapsedTitleTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Attribute.collapsedTitleTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapseIcon = global::AppTaxi2020.Prison.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collectionViewStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.collectionViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.color = global::AppTaxi2020.Prison.Droid.Resource.Attribute.color;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorAccent = global::AppTaxi2020.Prison.Droid.Resource.Attribute.colorAccent;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorBackgroundFloating = global::AppTaxi2020.Prison.Droid.Resource.Attribute.colorBackgroundFloating;
@@ -6511,6 +7208,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::AppTaxi2020.Prison.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Tooltip = global::AppTaxi2020.Prison.Droid.Resource.Style.Animation_AppCompat_Tooltip;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.AppCompatDialogStyle = global::AppTaxi2020.Prison.Droid.Resource.Style.AppCompatDialogStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
@@ -6702,8 +7400,10 @@ namespace AppTaxi2020.Prison.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView = global::AppTaxi2020.Prison.Droid.Resource.Style.CardView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Dark = global::AppTaxi2020.Prison.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.CardView_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewStyle = global::AppTaxi2020.Prison.Droid.Resource.Style.collectionViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.NestedScrollBarStyle = global::AppTaxi2020.Prison.Droid.Resource.Style.NestedScrollBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewScrollBars = global::AppTaxi2020.Prison.Droid.Resource.Style.collectionViewScrollBars;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewTheme = global::AppTaxi2020.Prison.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme = global::AppTaxi2020.Prison.Droid.Resource.Style.MainTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme_Base = global::AppTaxi2020.Prison.Droid.Resource.Style.MainTheme_Base;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_MaterialComponents = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_MaterialComponents;
@@ -7432,6 +8132,8 @@ namespace AppTaxi2020.Prison.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_startY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_tileMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_type = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ItemsViewRendererTheme = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat = global::AppTaxi2020.Prison.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::AppTaxi2020.Prison.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::AppTaxi2020.Prison.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -7919,6 +8621,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.collapsedTitleGravity = global::AppTaxi2020.Prison.Droid.Resource.Attribute.collapsedTitleGravity;
 			global::Xamarin.Forms.Platform.Resource.Attribute.collapsedTitleTextAppearance = global::AppTaxi2020.Prison.Droid.Resource.Attribute.collapsedTitleTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.collapseIcon = global::AppTaxi2020.Prison.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.Platform.Resource.Attribute.collectionViewStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.collectionViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.color = global::AppTaxi2020.Prison.Droid.Resource.Attribute.color;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorAccent = global::AppTaxi2020.Prison.Droid.Resource.Attribute.colorAccent;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorBackgroundFloating = global::AppTaxi2020.Prison.Droid.Resource.Attribute.colorBackgroundFloating;
@@ -9074,6 +9777,7 @@ namespace AppTaxi2020.Prison.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_DropDownUp = global::AppTaxi2020.Prison.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_Tooltip = global::AppTaxi2020.Prison.Droid.Resource.Style.Animation_AppCompat_Tooltip;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_Design_BottomSheetDialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Resource.Style.AppCompatDialogStyle = global::AppTaxi2020.Prison.Droid.Resource.Style.AppCompatDialogStyle;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_AlertDialog_AppCompat = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_AlertDialog_AppCompat_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Animation_AppCompat_Dialog = global::AppTaxi2020.Prison.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
@@ -9265,8 +9969,10 @@ namespace AppTaxi2020.Prison.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.CardView = global::AppTaxi2020.Prison.Droid.Resource.Style.CardView;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Dark = global::AppTaxi2020.Prison.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.CardView_Light;
-			global::Xamarin.Forms.Platform.Resource.Style.collectionViewStyle = global::AppTaxi2020.Prison.Droid.Resource.Style.collectionViewStyle;
-			global::Xamarin.Forms.Platform.Resource.Style.NestedScrollBarStyle = global::AppTaxi2020.Prison.Droid.Resource.Style.NestedScrollBarStyle;
+			global::Xamarin.Forms.Platform.Resource.Style.collectionViewScrollBars = global::AppTaxi2020.Prison.Droid.Resource.Style.collectionViewScrollBars;
+			global::Xamarin.Forms.Platform.Resource.Style.collectionViewTheme = global::AppTaxi2020.Prison.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Forms.Platform.Resource.Style.MainTheme = global::AppTaxi2020.Prison.Droid.Resource.Style.MainTheme;
+			global::Xamarin.Forms.Platform.Resource.Style.MainTheme_Base = global::AppTaxi2020.Prison.Droid.Resource.Style.MainTheme_Base;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_AppCompat = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_AppCompat_Light = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_MaterialComponents = global::AppTaxi2020.Prison.Droid.Resource.Style.Platform_MaterialComponents;
@@ -9995,6 +10701,8 @@ namespace AppTaxi2020.Prison.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_startY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_tileMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_type = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ItemsViewRendererTheme = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat = global::AppTaxi2020.Prison.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::AppTaxi2020.Prison.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::AppTaxi2020.Prison.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -10893,1180 +11601,1183 @@ namespace AppTaxi2020.Prison.Droid
 			public const int collapseIcon = 2130903187;
 			
 			// aapt resource value: 0x7F030096
-			public const int color = 2130903190;
+			public const int collectionViewStyle = 2130903190;
 			
 			// aapt resource value: 0x7F030097
-			public const int colorAccent = 2130903191;
+			public const int color = 2130903191;
 			
 			// aapt resource value: 0x7F030098
-			public const int colorBackgroundFloating = 2130903192;
+			public const int colorAccent = 2130903192;
 			
 			// aapt resource value: 0x7F030099
-			public const int colorButtonNormal = 2130903193;
+			public const int colorBackgroundFloating = 2130903193;
 			
 			// aapt resource value: 0x7F03009A
-			public const int colorControlActivated = 2130903194;
+			public const int colorButtonNormal = 2130903194;
 			
 			// aapt resource value: 0x7F03009B
-			public const int colorControlHighlight = 2130903195;
+			public const int colorControlActivated = 2130903195;
 			
 			// aapt resource value: 0x7F03009C
-			public const int colorControlNormal = 2130903196;
+			public const int colorControlHighlight = 2130903196;
 			
 			// aapt resource value: 0x7F03009D
-			public const int colorError = 2130903197;
+			public const int colorControlNormal = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int colorPrimary = 2130903198;
+			public const int colorError = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int colorPrimaryDark = 2130903199;
+			public const int colorPrimary = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int colorScheme = 2130903200;
+			public const int colorPrimaryDark = 2130903200;
 			
 			// aapt resource value: 0x7F0300A1
-			public const int colorSecondary = 2130903201;
+			public const int colorScheme = 2130903201;
 			
 			// aapt resource value: 0x7F0300A2
-			public const int colorSwitchThumbNormal = 2130903202;
+			public const int colorSecondary = 2130903202;
 			
 			// aapt resource value: 0x7F0300A3
-			public const int commitIcon = 2130903203;
+			public const int colorSwitchThumbNormal = 2130903203;
 			
 			// aapt resource value: 0x7F0300A4
-			public const int contentDescription = 2130903204;
+			public const int commitIcon = 2130903204;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int contentInsetEnd = 2130903205;
+			public const int contentDescription = 2130903205;
 			
 			// aapt resource value: 0x7F0300A6
-			public const int contentInsetEndWithActions = 2130903206;
+			public const int contentInsetEnd = 2130903206;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int contentInsetLeft = 2130903207;
+			public const int contentInsetEndWithActions = 2130903207;
 			
 			// aapt resource value: 0x7F0300A8
-			public const int contentInsetRight = 2130903208;
+			public const int contentInsetLeft = 2130903208;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int contentInsetStart = 2130903209;
+			public const int contentInsetRight = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int contentInsetStartWithNavigation = 2130903210;
+			public const int contentInsetStart = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int contentPadding = 2130903211;
+			public const int contentInsetStartWithNavigation = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int contentPaddingBottom = 2130903212;
+			public const int contentPadding = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int contentPaddingLeft = 2130903213;
+			public const int contentPaddingBottom = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int contentPaddingRight = 2130903214;
+			public const int contentPaddingLeft = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int contentPaddingTop = 2130903215;
+			public const int contentPaddingRight = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int contentScrim = 2130903216;
+			public const int contentPaddingTop = 2130903216;
 			
 			// aapt resource value: 0x7F0300B1
-			public const int controlBackground = 2130903217;
+			public const int contentScrim = 2130903217;
 			
 			// aapt resource value: 0x7F0300B2
-			public const int coordinatorLayoutStyle = 2130903218;
+			public const int controlBackground = 2130903218;
 			
 			// aapt resource value: 0x7F0300B3
-			public const int cornerRadius = 2130903219;
+			public const int coordinatorLayoutStyle = 2130903219;
 			
 			// aapt resource value: 0x7F0300B4
-			public const int counterEnabled = 2130903220;
+			public const int cornerRadius = 2130903220;
 			
 			// aapt resource value: 0x7F0300B5
-			public const int counterMaxLength = 2130903221;
+			public const int counterEnabled = 2130903221;
 			
 			// aapt resource value: 0x7F0300B6
-			public const int counterOverflowTextAppearance = 2130903222;
+			public const int counterMaxLength = 2130903222;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int counterTextAppearance = 2130903223;
+			public const int counterOverflowTextAppearance = 2130903223;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int customNavigationLayout = 2130903224;
+			public const int counterTextAppearance = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int defaultQueryHint = 2130903225;
+			public const int customNavigationLayout = 2130903225;
 			
 			// aapt resource value: 0x7F0300BA
-			public const int dialogCornerRadius = 2130903226;
+			public const int defaultQueryHint = 2130903226;
 			
 			// aapt resource value: 0x7F0300BB
-			public const int dialogPreferredPadding = 2130903227;
+			public const int dialogCornerRadius = 2130903227;
 			
 			// aapt resource value: 0x7F0300BC
-			public const int dialogTheme = 2130903228;
+			public const int dialogPreferredPadding = 2130903228;
 			
 			// aapt resource value: 0x7F0300BD
-			public const int displayOptions = 2130903229;
+			public const int dialogTheme = 2130903229;
 			
 			// aapt resource value: 0x7F0300BE
-			public const int divider = 2130903230;
+			public const int displayOptions = 2130903230;
 			
 			// aapt resource value: 0x7F0300BF
-			public const int dividerHorizontal = 2130903231;
+			public const int divider = 2130903231;
 			
 			// aapt resource value: 0x7F0300C0
-			public const int dividerPadding = 2130903232;
+			public const int dividerHorizontal = 2130903232;
 			
 			// aapt resource value: 0x7F0300C1
-			public const int dividerVertical = 2130903233;
+			public const int dividerPadding = 2130903233;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int drawableSize = 2130903234;
+			public const int dividerVertical = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int drawerArrowStyle = 2130903235;
-			
-			// aapt resource value: 0x7F0300C5
-			public const int dropdownListPreferredItemHeight = 2130903237;
+			public const int drawableSize = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int dropDownListViewStyle = 2130903236;
+			public const int drawerArrowStyle = 2130903236;
 			
 			// aapt resource value: 0x7F0300C6
-			public const int editTextBackground = 2130903238;
+			public const int dropdownListPreferredItemHeight = 2130903238;
+			
+			// aapt resource value: 0x7F0300C5
+			public const int dropDownListViewStyle = 2130903237;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int editTextColor = 2130903239;
+			public const int editTextBackground = 2130903239;
 			
 			// aapt resource value: 0x7F0300C8
-			public const int editTextStyle = 2130903240;
+			public const int editTextColor = 2130903240;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int elevation = 2130903241;
+			public const int editTextStyle = 2130903241;
 			
 			// aapt resource value: 0x7F0300CA
-			public const int enforceMaterialTheme = 2130903242;
+			public const int elevation = 2130903242;
 			
 			// aapt resource value: 0x7F0300CB
-			public const int enforceTextAppearance = 2130903243;
+			public const int enforceMaterialTheme = 2130903243;
 			
 			// aapt resource value: 0x7F0300CC
-			public const int errorEnabled = 2130903244;
+			public const int enforceTextAppearance = 2130903244;
 			
 			// aapt resource value: 0x7F0300CD
-			public const int errorTextAppearance = 2130903245;
+			public const int errorEnabled = 2130903245;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int expandActivityOverflowButtonDrawable = 2130903246;
+			public const int errorTextAppearance = 2130903246;
 			
 			// aapt resource value: 0x7F0300CF
-			public const int expanded = 2130903247;
+			public const int expandActivityOverflowButtonDrawable = 2130903247;
 			
 			// aapt resource value: 0x7F0300D0
-			public const int expandedTitleGravity = 2130903248;
+			public const int expanded = 2130903248;
 			
 			// aapt resource value: 0x7F0300D1
-			public const int expandedTitleMargin = 2130903249;
+			public const int expandedTitleGravity = 2130903249;
 			
 			// aapt resource value: 0x7F0300D2
-			public const int expandedTitleMarginBottom = 2130903250;
+			public const int expandedTitleMargin = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int expandedTitleMarginEnd = 2130903251;
+			public const int expandedTitleMarginBottom = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int expandedTitleMarginStart = 2130903252;
+			public const int expandedTitleMarginEnd = 2130903252;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int expandedTitleMarginTop = 2130903253;
+			public const int expandedTitleMarginStart = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int expandedTitleTextAppearance = 2130903254;
+			public const int expandedTitleMarginTop = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int externalRouteEnabledDrawable = 2130903255;
+			public const int expandedTitleTextAppearance = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int fabAlignmentMode = 2130903256;
+			public const int externalRouteEnabledDrawable = 2130903256;
 			
 			// aapt resource value: 0x7F0300D9
-			public const int fabCradleMargin = 2130903257;
+			public const int fabAlignmentMode = 2130903257;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int fabCradleRoundedCornerRadius = 2130903258;
+			public const int fabCradleMargin = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int fabCradleVerticalOffset = 2130903259;
+			public const int fabCradleRoundedCornerRadius = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int fabCustomSize = 2130903260;
+			public const int fabCradleVerticalOffset = 2130903260;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int fabSize = 2130903261;
+			public const int fabCustomSize = 2130903261;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int fastScrollEnabled = 2130903262;
+			public const int fabSize = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int fastScrollHorizontalThumbDrawable = 2130903263;
+			public const int fastScrollEnabled = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int fastScrollHorizontalTrackDrawable = 2130903264;
+			public const int fastScrollHorizontalThumbDrawable = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int fastScrollVerticalThumbDrawable = 2130903265;
+			public const int fastScrollHorizontalTrackDrawable = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int fastScrollVerticalTrackDrawable = 2130903266;
+			public const int fastScrollVerticalThumbDrawable = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int firstBaselineToTopHeight = 2130903267;
+			public const int fastScrollVerticalTrackDrawable = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int floatingActionButtonStyle = 2130903268;
+			public const int firstBaselineToTopHeight = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int font = 2130903269;
+			public const int floatingActionButtonStyle = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int fontFamily = 2130903270;
+			public const int font = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int fontProviderAuthority = 2130903271;
+			public const int fontFamily = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int fontProviderCerts = 2130903272;
+			public const int fontProviderAuthority = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int fontProviderFetchStrategy = 2130903273;
+			public const int fontProviderCerts = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int fontProviderFetchTimeout = 2130903274;
+			public const int fontProviderFetchStrategy = 2130903274;
 			
 			// aapt resource value: 0x7F0300EB
-			public const int fontProviderPackage = 2130903275;
+			public const int fontProviderFetchTimeout = 2130903275;
 			
 			// aapt resource value: 0x7F0300EC
-			public const int fontProviderQuery = 2130903276;
+			public const int fontProviderPackage = 2130903276;
 			
 			// aapt resource value: 0x7F0300ED
-			public const int fontStyle = 2130903277;
+			public const int fontProviderQuery = 2130903277;
 			
 			// aapt resource value: 0x7F0300EE
-			public const int fontVariationSettings = 2130903278;
+			public const int fontStyle = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int fontWeight = 2130903279;
+			public const int fontVariationSettings = 2130903279;
 			
 			// aapt resource value: 0x7F0300F0
-			public const int foregroundInsidePadding = 2130903280;
+			public const int fontWeight = 2130903280;
 			
 			// aapt resource value: 0x7F0300F1
-			public const int gapBetweenBars = 2130903281;
+			public const int foregroundInsidePadding = 2130903281;
 			
 			// aapt resource value: 0x7F0300F2
-			public const int goIcon = 2130903282;
+			public const int gapBetweenBars = 2130903282;
 			
 			// aapt resource value: 0x7F0300F3
-			public const int headerLayout = 2130903283;
+			public const int goIcon = 2130903283;
 			
 			// aapt resource value: 0x7F0300F4
-			public const int height = 2130903284;
+			public const int headerLayout = 2130903284;
 			
 			// aapt resource value: 0x7F0300F5
-			public const int helperText = 2130903285;
+			public const int height = 2130903285;
 			
 			// aapt resource value: 0x7F0300F6
-			public const int helperTextEnabled = 2130903286;
+			public const int helperText = 2130903286;
 			
 			// aapt resource value: 0x7F0300F7
-			public const int helperTextTextAppearance = 2130903287;
+			public const int helperTextEnabled = 2130903287;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int hideMotionSpec = 2130903288;
+			public const int helperTextTextAppearance = 2130903288;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int hideOnContentScroll = 2130903289;
+			public const int hideMotionSpec = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int hideOnScroll = 2130903290;
+			public const int hideOnContentScroll = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int hintAnimationEnabled = 2130903291;
+			public const int hideOnScroll = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int hintEnabled = 2130903292;
+			public const int hintAnimationEnabled = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int hintTextAppearance = 2130903293;
+			public const int hintEnabled = 2130903293;
 			
 			// aapt resource value: 0x7F0300FE
-			public const int homeAsUpIndicator = 2130903294;
+			public const int hintTextAppearance = 2130903294;
 			
 			// aapt resource value: 0x7F0300FF
-			public const int homeLayout = 2130903295;
+			public const int homeAsUpIndicator = 2130903295;
 			
 			// aapt resource value: 0x7F030100
-			public const int hoveredFocusedTranslationZ = 2130903296;
+			public const int homeLayout = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int icon = 2130903297;
+			public const int hoveredFocusedTranslationZ = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int iconEndPadding = 2130903298;
+			public const int icon = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int iconGravity = 2130903299;
-			
-			// aapt resource value: 0x7F030109
-			public const int iconifiedByDefault = 2130903305;
+			public const int iconEndPadding = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int iconPadding = 2130903300;
-			
-			// aapt resource value: 0x7F030105
-			public const int iconSize = 2130903301;
-			
-			// aapt resource value: 0x7F030106
-			public const int iconStartPadding = 2130903302;
-			
-			// aapt resource value: 0x7F030107
-			public const int iconTint = 2130903303;
-			
-			// aapt resource value: 0x7F030108
-			public const int iconTintMode = 2130903304;
+			public const int iconGravity = 2130903300;
 			
 			// aapt resource value: 0x7F03010A
-			public const int imageAspectRatio = 2130903306;
+			public const int iconifiedByDefault = 2130903306;
+			
+			// aapt resource value: 0x7F030105
+			public const int iconPadding = 2130903301;
+			
+			// aapt resource value: 0x7F030106
+			public const int iconSize = 2130903302;
+			
+			// aapt resource value: 0x7F030107
+			public const int iconStartPadding = 2130903303;
+			
+			// aapt resource value: 0x7F030108
+			public const int iconTint = 2130903304;
+			
+			// aapt resource value: 0x7F030109
+			public const int iconTintMode = 2130903305;
 			
 			// aapt resource value: 0x7F03010B
-			public const int imageAspectRatioAdjust = 2130903307;
+			public const int imageAspectRatio = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int imageButtonStyle = 2130903308;
+			public const int imageAspectRatioAdjust = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int indeterminateProgressStyle = 2130903309;
+			public const int imageButtonStyle = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int initialActivityCount = 2130903310;
+			public const int indeterminateProgressStyle = 2130903310;
 			
 			// aapt resource value: 0x7F03010F
-			public const int insetForeground = 2130903311;
+			public const int initialActivityCount = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int isLightTheme = 2130903312;
+			public const int insetForeground = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int itemBackground = 2130903313;
+			public const int isLightTheme = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int itemHorizontalPadding = 2130903314;
+			public const int itemBackground = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int itemHorizontalTranslationEnabled = 2130903315;
+			public const int itemHorizontalPadding = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int itemIconPadding = 2130903316;
+			public const int itemHorizontalTranslationEnabled = 2130903316;
 			
 			// aapt resource value: 0x7F030115
-			public const int itemIconSize = 2130903317;
+			public const int itemIconPadding = 2130903317;
 			
 			// aapt resource value: 0x7F030116
-			public const int itemIconTint = 2130903318;
+			public const int itemIconSize = 2130903318;
 			
 			// aapt resource value: 0x7F030117
-			public const int itemPadding = 2130903319;
+			public const int itemIconTint = 2130903319;
 			
 			// aapt resource value: 0x7F030118
-			public const int itemSpacing = 2130903320;
+			public const int itemPadding = 2130903320;
 			
 			// aapt resource value: 0x7F030119
-			public const int itemTextAppearance = 2130903321;
+			public const int itemSpacing = 2130903321;
 			
 			// aapt resource value: 0x7F03011A
-			public const int itemTextAppearanceActive = 2130903322;
+			public const int itemTextAppearance = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int itemTextAppearanceInactive = 2130903323;
+			public const int itemTextAppearanceActive = 2130903323;
 			
 			// aapt resource value: 0x7F03011C
-			public const int itemTextColor = 2130903324;
+			public const int itemTextAppearanceInactive = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int keylines = 2130903325;
+			public const int itemTextColor = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int labelVisibilityMode = 2130903326;
+			public const int keylines = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int lastBaselineToBottomHeight = 2130903327;
+			public const int labelVisibilityMode = 2130903327;
 			
 			// aapt resource value: 0x7F030120
-			public const int latLngBoundsNorthEastLatitude = 2130903328;
+			public const int lastBaselineToBottomHeight = 2130903328;
 			
 			// aapt resource value: 0x7F030121
-			public const int latLngBoundsNorthEastLongitude = 2130903329;
+			public const int latLngBoundsNorthEastLatitude = 2130903329;
 			
 			// aapt resource value: 0x7F030122
-			public const int latLngBoundsSouthWestLatitude = 2130903330;
+			public const int latLngBoundsNorthEastLongitude = 2130903330;
 			
 			// aapt resource value: 0x7F030123
-			public const int latLngBoundsSouthWestLongitude = 2130903331;
+			public const int latLngBoundsSouthWestLatitude = 2130903331;
 			
 			// aapt resource value: 0x7F030124
-			public const int layout = 2130903332;
+			public const int latLngBoundsSouthWestLongitude = 2130903332;
 			
 			// aapt resource value: 0x7F030125
-			public const int layoutManager = 2130903333;
+			public const int layout = 2130903333;
 			
 			// aapt resource value: 0x7F030126
-			public const int layout_anchor = 2130903334;
+			public const int layoutManager = 2130903334;
 			
 			// aapt resource value: 0x7F030127
-			public const int layout_anchorGravity = 2130903335;
+			public const int layout_anchor = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int layout_behavior = 2130903336;
+			public const int layout_anchorGravity = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int layout_collapseMode = 2130903337;
+			public const int layout_behavior = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int layout_collapseParallaxMultiplier = 2130903338;
+			public const int layout_collapseMode = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int layout_dodgeInsetEdges = 2130903339;
+			public const int layout_collapseParallaxMultiplier = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int layout_insetEdge = 2130903340;
+			public const int layout_dodgeInsetEdges = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int layout_keyline = 2130903341;
+			public const int layout_insetEdge = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int layout_scrollFlags = 2130903342;
+			public const int layout_keyline = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int layout_scrollInterpolator = 2130903343;
+			public const int layout_scrollFlags = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int liftOnScroll = 2130903344;
+			public const int layout_scrollInterpolator = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int lineHeight = 2130903345;
+			public const int liftOnScroll = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int lineSpacing = 2130903346;
+			public const int lineHeight = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int listChoiceBackgroundIndicator = 2130903347;
+			public const int lineSpacing = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int listDividerAlertDialog = 2130903348;
+			public const int listChoiceBackgroundIndicator = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int listItemLayout = 2130903349;
+			public const int listDividerAlertDialog = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int listLayout = 2130903350;
+			public const int listItemLayout = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int listMenuViewStyle = 2130903351;
+			public const int listLayout = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int listPopupWindowStyle = 2130903352;
+			public const int listMenuViewStyle = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int listPreferredItemHeight = 2130903353;
+			public const int listPopupWindowStyle = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int listPreferredItemHeightLarge = 2130903354;
+			public const int listPreferredItemHeight = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int listPreferredItemHeightSmall = 2130903355;
+			public const int listPreferredItemHeightLarge = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int listPreferredItemPaddingLeft = 2130903356;
+			public const int listPreferredItemHeightSmall = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int listPreferredItemPaddingRight = 2130903357;
+			public const int listPreferredItemPaddingLeft = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int liteMode = 2130903358;
+			public const int listPreferredItemPaddingRight = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int logo = 2130903359;
+			public const int liteMode = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int logoDescription = 2130903360;
+			public const int logo = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int mapType = 2130903361;
+			public const int logoDescription = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int materialButtonStyle = 2130903362;
+			public const int mapType = 2130903362;
 			
 			// aapt resource value: 0x7F030143
-			public const int materialCardViewStyle = 2130903363;
+			public const int materialButtonStyle = 2130903363;
 			
 			// aapt resource value: 0x7F030144
-			public const int maxActionInlineWidth = 2130903364;
+			public const int materialCardViewStyle = 2130903364;
 			
 			// aapt resource value: 0x7F030145
-			public const int maxButtonHeight = 2130903365;
+			public const int maxActionInlineWidth = 2130903365;
 			
 			// aapt resource value: 0x7F030146
-			public const int maxImageSize = 2130903366;
+			public const int maxButtonHeight = 2130903366;
 			
 			// aapt resource value: 0x7F030147
-			public const int measureWithLargestChild = 2130903367;
+			public const int maxImageSize = 2130903367;
 			
 			// aapt resource value: 0x7F030148
-			public const int mediaRouteAudioTrackDrawable = 2130903368;
+			public const int measureWithLargestChild = 2130903368;
 			
 			// aapt resource value: 0x7F030149
-			public const int mediaRouteButtonStyle = 2130903369;
+			public const int mediaRouteAudioTrackDrawable = 2130903369;
 			
 			// aapt resource value: 0x7F03014A
-			public const int mediaRouteButtonTint = 2130903370;
+			public const int mediaRouteButtonStyle = 2130903370;
 			
 			// aapt resource value: 0x7F03014B
-			public const int mediaRouteCloseDrawable = 2130903371;
+			public const int mediaRouteButtonTint = 2130903371;
 			
 			// aapt resource value: 0x7F03014C
-			public const int mediaRouteControlPanelThemeOverlay = 2130903372;
+			public const int mediaRouteCloseDrawable = 2130903372;
 			
 			// aapt resource value: 0x7F03014D
-			public const int mediaRouteDefaultIconDrawable = 2130903373;
+			public const int mediaRouteControlPanelThemeOverlay = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int mediaRoutePauseDrawable = 2130903374;
+			public const int mediaRouteDefaultIconDrawable = 2130903374;
 			
 			// aapt resource value: 0x7F03014F
-			public const int mediaRoutePlayDrawable = 2130903375;
+			public const int mediaRoutePauseDrawable = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int mediaRouteSpeakerGroupIconDrawable = 2130903376;
+			public const int mediaRoutePlayDrawable = 2130903376;
 			
 			// aapt resource value: 0x7F030151
-			public const int mediaRouteSpeakerIconDrawable = 2130903377;
+			public const int mediaRouteSpeakerGroupIconDrawable = 2130903377;
 			
 			// aapt resource value: 0x7F030152
-			public const int mediaRouteStopDrawable = 2130903378;
+			public const int mediaRouteSpeakerIconDrawable = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int mediaRouteTheme = 2130903379;
+			public const int mediaRouteStopDrawable = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int mediaRouteTvIconDrawable = 2130903380;
+			public const int mediaRouteTheme = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int menu = 2130903381;
+			public const int mediaRouteTvIconDrawable = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int multiChoiceItemLayout = 2130903382;
+			public const int menu = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int navigationContentDescription = 2130903383;
+			public const int multiChoiceItemLayout = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int navigationIcon = 2130903384;
+			public const int navigationContentDescription = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int navigationMode = 2130903385;
+			public const int navigationIcon = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int navigationViewStyle = 2130903386;
+			public const int navigationMode = 2130903386;
 			
 			// aapt resource value: 0x7F03015B
-			public const int numericModifiers = 2130903387;
+			public const int navigationViewStyle = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int overlapAnchor = 2130903388;
+			public const int numericModifiers = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int paddingBottomNoButtons = 2130903389;
+			public const int overlapAnchor = 2130903389;
 			
 			// aapt resource value: 0x7F03015E
-			public const int paddingEnd = 2130903390;
+			public const int paddingBottomNoButtons = 2130903390;
 			
 			// aapt resource value: 0x7F03015F
-			public const int paddingStart = 2130903391;
+			public const int paddingEnd = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int paddingTopNoTitle = 2130903392;
+			public const int paddingStart = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int panelBackground = 2130903393;
+			public const int paddingTopNoTitle = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int panelMenuListTheme = 2130903394;
+			public const int panelBackground = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int panelMenuListWidth = 2130903395;
+			public const int panelMenuListTheme = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int passwordToggleContentDescription = 2130903396;
+			public const int panelMenuListWidth = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int passwordToggleDrawable = 2130903397;
+			public const int passwordToggleContentDescription = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int passwordToggleEnabled = 2130903398;
+			public const int passwordToggleDrawable = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int passwordToggleTint = 2130903399;
+			public const int passwordToggleEnabled = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int passwordToggleTintMode = 2130903400;
+			public const int passwordToggleTint = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int popupMenuStyle = 2130903401;
+			public const int passwordToggleTintMode = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int popupTheme = 2130903402;
+			public const int popupMenuStyle = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int popupWindowStyle = 2130903403;
+			public const int popupTheme = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int preserveIconSpacing = 2130903404;
+			public const int popupWindowStyle = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int pressedTranslationZ = 2130903405;
+			public const int preserveIconSpacing = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int progressBarPadding = 2130903406;
+			public const int pressedTranslationZ = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int progressBarStyle = 2130903407;
+			public const int progressBarPadding = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int queryBackground = 2130903408;
+			public const int progressBarStyle = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int queryHint = 2130903409;
+			public const int queryBackground = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int radioButtonStyle = 2130903410;
+			public const int queryHint = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int ratingBarStyle = 2130903411;
+			public const int radioButtonStyle = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int ratingBarStyleIndicator = 2130903412;
+			public const int ratingBarStyle = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int ratingBarStyleSmall = 2130903413;
+			public const int ratingBarStyleIndicator = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int ratingControlValue = 2130903414;
+			public const int ratingBarStyleSmall = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int ratingEnableAutoSize = 2130903415;
+			public const int ratingControlValue = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int ratingItemCount = 2130903416;
+			public const int ratingEnableAutoSize = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int ratingItemSize = 2130903417;
+			public const int ratingItemCount = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int ratingItemSpacing = 2130903418;
+			public const int ratingItemSize = 2130903418;
 			
 			// aapt resource value: 0x7F03017B
-			public const int ratingPrecision = 2130903419;
+			public const int ratingItemSpacing = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int ratingRatedFill = 2130903420;
+			public const int ratingPrecision = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int ratingRatedStroke = 2130903421;
+			public const int ratingRatedFill = 2130903421;
 			
 			// aapt resource value: 0x7F03017E
-			public const int ratingRatedStrokeWidth = 2130903422;
+			public const int ratingRatedStroke = 2130903422;
 			
 			// aapt resource value: 0x7F03017F
-			public const int ratingUnratedFill = 2130903423;
+			public const int ratingRatedStrokeWidth = 2130903423;
 			
 			// aapt resource value: 0x7F030180
-			public const int ratingUnratedStroke = 2130903424;
+			public const int ratingUnratedFill = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int ratingUnratedStrokeWidth = 2130903425;
+			public const int ratingUnratedStroke = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int reverseLayout = 2130903426;
+			public const int ratingUnratedStrokeWidth = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int rippleColor = 2130903427;
+			public const int reverseLayout = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int scopeUris = 2130903428;
+			public const int rippleColor = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int scrimAnimationDuration = 2130903429;
+			public const int scopeUris = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int scrimBackground = 2130903430;
+			public const int scrimAnimationDuration = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int scrimVisibleHeightTrigger = 2130903431;
+			public const int scrimBackground = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int searchHintIcon = 2130903432;
+			public const int scrimVisibleHeightTrigger = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int searchIcon = 2130903433;
+			public const int searchHintIcon = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int searchViewStyle = 2130903434;
+			public const int searchIcon = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int seekBarStyle = 2130903435;
+			public const int searchViewStyle = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int selectableItemBackground = 2130903436;
+			public const int seekBarStyle = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int selectableItemBackgroundBorderless = 2130903437;
+			public const int selectableItemBackground = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int showAsAction = 2130903438;
+			public const int selectableItemBackgroundBorderless = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int showDividers = 2130903439;
+			public const int showAsAction = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int showMotionSpec = 2130903440;
+			public const int showDividers = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int showText = 2130903441;
+			public const int showMotionSpec = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int showTitle = 2130903442;
+			public const int showText = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int singleChoiceItemLayout = 2130903443;
+			public const int showTitle = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int singleLine = 2130903444;
+			public const int singleChoiceItemLayout = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int singleSelection = 2130903445;
+			public const int singleLine = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int snackbarButtonStyle = 2130903446;
+			public const int singleSelection = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int snackbarStyle = 2130903447;
+			public const int snackbarButtonStyle = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int spanCount = 2130903448;
+			public const int snackbarStyle = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int spinBars = 2130903449;
+			public const int spanCount = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int spinnerDropDownItemStyle = 2130903450;
+			public const int spinBars = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int spinnerStyle = 2130903451;
+			public const int spinnerDropDownItemStyle = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int splitTrack = 2130903452;
+			public const int spinnerStyle = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int srcCompat = 2130903453;
+			public const int splitTrack = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int stackFromEnd = 2130903454;
+			public const int srcCompat = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int state_above_anchor = 2130903455;
+			public const int stackFromEnd = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int state_collapsed = 2130903456;
+			public const int state_above_anchor = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int state_collapsible = 2130903457;
+			public const int state_collapsed = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int state_liftable = 2130903458;
+			public const int state_collapsible = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int state_lifted = 2130903459;
+			public const int state_liftable = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int statusBarBackground = 2130903460;
+			public const int state_lifted = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int statusBarScrim = 2130903461;
+			public const int statusBarBackground = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int strokeColor = 2130903462;
+			public const int statusBarScrim = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int strokeWidth = 2130903463;
+			public const int strokeColor = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int subMenuArrow = 2130903464;
+			public const int strokeWidth = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int submitBackground = 2130903465;
+			public const int subMenuArrow = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int subtitle = 2130903466;
+			public const int submitBackground = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int subtitleTextAppearance = 2130903467;
+			public const int subtitle = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int subtitleTextColor = 2130903468;
+			public const int subtitleTextAppearance = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int subtitleTextStyle = 2130903469;
+			public const int subtitleTextColor = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int suggestionRowLayout = 2130903470;
+			public const int subtitleTextStyle = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int switchMinWidth = 2130903471;
+			public const int suggestionRowLayout = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int switchPadding = 2130903472;
+			public const int switchMinWidth = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int switchStyle = 2130903473;
+			public const int switchPadding = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int switchTextAppearance = 2130903474;
+			public const int switchStyle = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int tabBackground = 2130903475;
+			public const int switchTextAppearance = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int tabContentStart = 2130903476;
+			public const int tabBackground = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int tabGravity = 2130903477;
+			public const int tabContentStart = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int tabIconTint = 2130903478;
+			public const int tabGravity = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int tabIconTintMode = 2130903479;
+			public const int tabIconTint = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int tabIndicator = 2130903480;
+			public const int tabIconTintMode = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int tabIndicatorAnimationDuration = 2130903481;
+			public const int tabIndicator = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int tabIndicatorColor = 2130903482;
+			public const int tabIndicatorAnimationDuration = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int tabIndicatorFullWidth = 2130903483;
+			public const int tabIndicatorColor = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int tabIndicatorGravity = 2130903484;
+			public const int tabIndicatorFullWidth = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int tabIndicatorHeight = 2130903485;
+			public const int tabIndicatorGravity = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int tabInlineLabel = 2130903486;
+			public const int tabIndicatorHeight = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int tabMaxWidth = 2130903487;
+			public const int tabInlineLabel = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int tabMinWidth = 2130903488;
+			public const int tabMaxWidth = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int tabMode = 2130903489;
+			public const int tabMinWidth = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int tabPadding = 2130903490;
+			public const int tabMode = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int tabPaddingBottom = 2130903491;
+			public const int tabPadding = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int tabPaddingEnd = 2130903492;
+			public const int tabPaddingBottom = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int tabPaddingStart = 2130903493;
+			public const int tabPaddingEnd = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int tabPaddingTop = 2130903494;
+			public const int tabPaddingStart = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int tabRippleColor = 2130903495;
+			public const int tabPaddingTop = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int tabSelectedTextColor = 2130903496;
+			public const int tabRippleColor = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int tabStyle = 2130903497;
+			public const int tabSelectedTextColor = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int tabTextAppearance = 2130903498;
+			public const int tabStyle = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int tabTextColor = 2130903499;
+			public const int tabTextAppearance = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int tabUnboundedRipple = 2130903500;
+			public const int tabTextColor = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int textAllCaps = 2130903501;
+			public const int tabUnboundedRipple = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int textAppearanceBody1 = 2130903502;
+			public const int textAllCaps = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int textAppearanceBody2 = 2130903503;
+			public const int textAppearanceBody1 = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int textAppearanceButton = 2130903504;
+			public const int textAppearanceBody2 = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int textAppearanceCaption = 2130903505;
+			public const int textAppearanceButton = 2130903505;
 			
 			// aapt resource value: 0x7F0301D2
-			public const int textAppearanceHeadline1 = 2130903506;
+			public const int textAppearanceCaption = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int textAppearanceHeadline2 = 2130903507;
+			public const int textAppearanceHeadline1 = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int textAppearanceHeadline3 = 2130903508;
+			public const int textAppearanceHeadline2 = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int textAppearanceHeadline4 = 2130903509;
+			public const int textAppearanceHeadline3 = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int textAppearanceHeadline5 = 2130903510;
+			public const int textAppearanceHeadline4 = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int textAppearanceHeadline6 = 2130903511;
+			public const int textAppearanceHeadline5 = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int textAppearanceLargePopupMenu = 2130903512;
+			public const int textAppearanceHeadline6 = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int textAppearanceListItem = 2130903513;
+			public const int textAppearanceLargePopupMenu = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int textAppearanceListItemSecondary = 2130903514;
+			public const int textAppearanceListItem = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int textAppearanceListItemSmall = 2130903515;
+			public const int textAppearanceListItemSecondary = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int textAppearanceOverline = 2130903516;
+			public const int textAppearanceListItemSmall = 2130903516;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int textAppearancePopupMenuHeader = 2130903517;
+			public const int textAppearanceOverline = 2130903517;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int textAppearanceSearchResultSubtitle = 2130903518;
+			public const int textAppearancePopupMenuHeader = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int textAppearanceSearchResultTitle = 2130903519;
+			public const int textAppearanceSearchResultSubtitle = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int textAppearanceSmallPopupMenu = 2130903520;
+			public const int textAppearanceSearchResultTitle = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int textAppearanceSubtitle1 = 2130903521;
+			public const int textAppearanceSmallPopupMenu = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int textAppearanceSubtitle2 = 2130903522;
+			public const int textAppearanceSubtitle1 = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int textColorAlertDialogListItem = 2130903523;
+			public const int textAppearanceSubtitle2 = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int textColorSearchUrl = 2130903524;
+			public const int textColorAlertDialogListItem = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int textEndPadding = 2130903525;
+			public const int textColorSearchUrl = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int textInputStyle = 2130903526;
+			public const int textEndPadding = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int textStartPadding = 2130903527;
+			public const int textInputStyle = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int theme = 2130903528;
+			public const int textStartPadding = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int thickness = 2130903529;
+			public const int theme = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int thumbTextPadding = 2130903530;
+			public const int thickness = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int thumbTint = 2130903531;
+			public const int thumbTextPadding = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int thumbTintMode = 2130903532;
+			public const int thumbTint = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int tickMark = 2130903533;
+			public const int thumbTintMode = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int tickMarkTint = 2130903534;
+			public const int tickMark = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int tickMarkTintMode = 2130903535;
+			public const int tickMarkTint = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int tint = 2130903536;
+			public const int tickMarkTintMode = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int tintMode = 2130903537;
+			public const int tint = 2130903537;
 			
 			// aapt resource value: 0x7F0301F2
-			public const int title = 2130903538;
+			public const int tintMode = 2130903538;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int titleEnabled = 2130903539;
+			public const int title = 2130903539;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int titleMargin = 2130903540;
+			public const int titleEnabled = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int titleMarginBottom = 2130903541;
+			public const int titleMargin = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int titleMarginEnd = 2130903542;
-			
-			// aapt resource value: 0x7F0301F9
-			public const int titleMargins = 2130903545;
+			public const int titleMarginBottom = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int titleMarginStart = 2130903543;
-			
-			// aapt resource value: 0x7F0301F8
-			public const int titleMarginTop = 2130903544;
+			public const int titleMarginEnd = 2130903543;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int titleTextAppearance = 2130903546;
+			public const int titleMargins = 2130903546;
+			
+			// aapt resource value: 0x7F0301F8
+			public const int titleMarginStart = 2130903544;
+			
+			// aapt resource value: 0x7F0301F9
+			public const int titleMarginTop = 2130903545;
 			
 			// aapt resource value: 0x7F0301FB
-			public const int titleTextColor = 2130903547;
+			public const int titleTextAppearance = 2130903547;
 			
 			// aapt resource value: 0x7F0301FC
-			public const int titleTextStyle = 2130903548;
+			public const int titleTextColor = 2130903548;
 			
 			// aapt resource value: 0x7F0301FD
-			public const int toolbarId = 2130903549;
+			public const int titleTextStyle = 2130903549;
 			
 			// aapt resource value: 0x7F0301FE
-			public const int toolbarNavigationButtonStyle = 2130903550;
+			public const int toolbarId = 2130903550;
 			
 			// aapt resource value: 0x7F0301FF
-			public const int toolbarStyle = 2130903551;
+			public const int toolbarNavigationButtonStyle = 2130903551;
 			
 			// aapt resource value: 0x7F030200
-			public const int tooltipForegroundColor = 2130903552;
+			public const int toolbarStyle = 2130903552;
 			
 			// aapt resource value: 0x7F030201
-			public const int tooltipFrameBackground = 2130903553;
+			public const int tooltipForegroundColor = 2130903553;
 			
 			// aapt resource value: 0x7F030202
-			public const int tooltipText = 2130903554;
+			public const int tooltipFrameBackground = 2130903554;
 			
 			// aapt resource value: 0x7F030203
-			public const int track = 2130903555;
+			public const int tooltipText = 2130903555;
 			
 			// aapt resource value: 0x7F030204
-			public const int trackTint = 2130903556;
+			public const int track = 2130903556;
 			
 			// aapt resource value: 0x7F030205
-			public const int trackTintMode = 2130903557;
+			public const int trackTint = 2130903557;
 			
 			// aapt resource value: 0x7F030206
-			public const int ttcIndex = 2130903558;
+			public const int trackTintMode = 2130903558;
 			
 			// aapt resource value: 0x7F030207
-			public const int uiCompass = 2130903559;
+			public const int ttcIndex = 2130903559;
 			
 			// aapt resource value: 0x7F030208
-			public const int uiMapToolbar = 2130903560;
+			public const int uiCompass = 2130903560;
 			
 			// aapt resource value: 0x7F030209
-			public const int uiRotateGestures = 2130903561;
+			public const int uiMapToolbar = 2130903561;
 			
 			// aapt resource value: 0x7F03020A
-			public const int uiScrollGestures = 2130903562;
+			public const int uiRotateGestures = 2130903562;
 			
 			// aapt resource value: 0x7F03020B
-			public const int uiScrollGesturesDuringRotateOrZoom = 2130903563;
+			public const int uiScrollGestures = 2130903563;
 			
 			// aapt resource value: 0x7F03020C
-			public const int uiTiltGestures = 2130903564;
+			public const int uiScrollGesturesDuringRotateOrZoom = 2130903564;
 			
 			// aapt resource value: 0x7F03020D
-			public const int uiZoomControls = 2130903565;
+			public const int uiTiltGestures = 2130903565;
 			
 			// aapt resource value: 0x7F03020E
-			public const int uiZoomGestures = 2130903566;
+			public const int uiZoomControls = 2130903566;
 			
 			// aapt resource value: 0x7F03020F
-			public const int useCompatPadding = 2130903567;
+			public const int uiZoomGestures = 2130903567;
 			
 			// aapt resource value: 0x7F030210
-			public const int useViewLifecycle = 2130903568;
+			public const int useCompatPadding = 2130903568;
 			
 			// aapt resource value: 0x7F030211
-			public const int viewInflaterClass = 2130903569;
+			public const int useViewLifecycle = 2130903569;
 			
 			// aapt resource value: 0x7F030212
-			public const int voiceIcon = 2130903570;
+			public const int viewInflaterClass = 2130903570;
 			
 			// aapt resource value: 0x7F030213
-			public const int windowActionBar = 2130903571;
+			public const int voiceIcon = 2130903571;
 			
 			// aapt resource value: 0x7F030214
-			public const int windowActionBarOverlay = 2130903572;
+			public const int windowActionBar = 2130903572;
 			
 			// aapt resource value: 0x7F030215
-			public const int windowActionModeOverlay = 2130903573;
+			public const int windowActionBarOverlay = 2130903573;
 			
 			// aapt resource value: 0x7F030216
-			public const int windowFixedHeightMajor = 2130903574;
+			public const int windowActionModeOverlay = 2130903574;
 			
 			// aapt resource value: 0x7F030217
-			public const int windowFixedHeightMinor = 2130903575;
+			public const int windowFixedHeightMajor = 2130903575;
 			
 			// aapt resource value: 0x7F030218
-			public const int windowFixedWidthMajor = 2130903576;
+			public const int windowFixedHeightMinor = 2130903576;
 			
 			// aapt resource value: 0x7F030219
-			public const int windowFixedWidthMinor = 2130903577;
+			public const int windowFixedWidthMajor = 2130903577;
 			
 			// aapt resource value: 0x7F03021A
-			public const int windowMinWidthMajor = 2130903578;
+			public const int windowFixedWidthMinor = 2130903578;
 			
 			// aapt resource value: 0x7F03021B
-			public const int windowMinWidthMinor = 2130903579;
+			public const int windowMinWidthMajor = 2130903579;
 			
 			// aapt resource value: 0x7F03021C
-			public const int windowNoTitle = 2130903580;
+			public const int windowMinWidthMinor = 2130903580;
 			
 			// aapt resource value: 0x7F03021D
-			public const int zOrderOnTop = 2130903581;
+			public const int windowNoTitle = 2130903581;
+			
+			// aapt resource value: 0x7F03021E
+			public const int zOrderOnTop = 2130903582;
 			
 			static Attribute()
 			{
@@ -13666,700 +14377,703 @@ namespace AppTaxi2020.Prison.Droid
 			public const int design_snackbar_background = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int googleg_disabled_color_18 = 2131165331;
+			public const int emi = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int googleg_standard_color_18 = 2131165332;
+			public const int googleg_disabled_color_18 = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int ic_account_circle = 2131165333;
+			public const int googleg_standard_color_18 = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int ic_airport_shuttle = 2131165334;
+			public const int ic_account_circle = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int ic_audiotrack_dark = 2131165335;
+			public const int ic_airport_shuttle = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int ic_audiotrack_light = 2131165336;
+			public const int ic_audiotrack_dark = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int ic_dialog_close_dark = 2131165337;
+			public const int ic_audiotrack_light = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int ic_dialog_close_light = 2131165338;
+			public const int ic_dialog_close_dark = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int ic_exit_to_app = 2131165339;
+			public const int ic_dialog_close_light = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int ic_group_collapse_00 = 2131165340;
+			public const int ic_exit_to_app = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int ic_group_collapse_01 = 2131165341;
+			public const int ic_group_collapse_00 = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int ic_group_collapse_02 = 2131165342;
+			public const int ic_group_collapse_01 = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int ic_group_collapse_03 = 2131165343;
+			public const int ic_group_collapse_02 = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int ic_group_collapse_04 = 2131165344;
+			public const int ic_group_collapse_03 = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int ic_group_collapse_05 = 2131165345;
+			public const int ic_group_collapse_04 = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int ic_group_collapse_06 = 2131165346;
+			public const int ic_group_collapse_05 = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int ic_group_collapse_07 = 2131165347;
+			public const int ic_group_collapse_06 = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int ic_group_collapse_08 = 2131165348;
+			public const int ic_group_collapse_07 = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int ic_group_collapse_09 = 2131165349;
+			public const int ic_group_collapse_08 = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int ic_group_collapse_10 = 2131165350;
+			public const int ic_group_collapse_09 = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int ic_group_collapse_11 = 2131165351;
+			public const int ic_group_collapse_10 = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int ic_group_collapse_12 = 2131165352;
+			public const int ic_group_collapse_11 = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int ic_group_collapse_13 = 2131165353;
+			public const int ic_group_collapse_12 = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int ic_group_collapse_14 = 2131165354;
+			public const int ic_group_collapse_13 = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int ic_group_collapse_15 = 2131165355;
+			public const int ic_group_collapse_14 = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int ic_group_expand_00 = 2131165356;
+			public const int ic_group_collapse_15 = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int ic_group_expand_01 = 2131165357;
+			public const int ic_group_expand_00 = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int ic_group_expand_02 = 2131165358;
+			public const int ic_group_expand_01 = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int ic_group_expand_03 = 2131165359;
+			public const int ic_group_expand_02 = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int ic_group_expand_04 = 2131165360;
+			public const int ic_group_expand_03 = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int ic_group_expand_05 = 2131165361;
+			public const int ic_group_expand_04 = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int ic_group_expand_06 = 2131165362;
+			public const int ic_group_expand_05 = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int ic_group_expand_07 = 2131165363;
+			public const int ic_group_expand_06 = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int ic_group_expand_08 = 2131165364;
+			public const int ic_group_expand_07 = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int ic_group_expand_09 = 2131165365;
+			public const int ic_group_expand_08 = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int ic_group_expand_10 = 2131165366;
+			public const int ic_group_expand_09 = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int ic_group_expand_11 = 2131165367;
+			public const int ic_group_expand_10 = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int ic_group_expand_12 = 2131165368;
+			public const int ic_group_expand_11 = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int ic_group_expand_13 = 2131165369;
+			public const int ic_group_expand_12 = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int ic_group_expand_14 = 2131165370;
+			public const int ic_group_expand_13 = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int ic_group_expand_15 = 2131165371;
+			public const int ic_group_expand_14 = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int ic_launcher = 2131165372;
+			public const int ic_group_expand_15 = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int ic_local_taxi = 2131165373;
+			public const int ic_launcher = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int ic_media_pause_dark = 2131165374;
+			public const int ic_local_taxi = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int ic_media_pause_light = 2131165375;
+			public const int ic_media_pause_dark = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int ic_media_play_dark = 2131165376;
+			public const int ic_media_pause_light = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int ic_media_play_light = 2131165377;
+			public const int ic_media_play_dark = 2131165377;
 			
 			// aapt resource value: 0x7F0700C2
-			public const int ic_media_stop_dark = 2131165378;
+			public const int ic_media_play_light = 2131165378;
 			
 			// aapt resource value: 0x7F0700C3
-			public const int ic_media_stop_light = 2131165379;
+			public const int ic_media_stop_dark = 2131165379;
 			
 			// aapt resource value: 0x7F0700C4
-			public const int ic_more_vert = 2131165380;
+			public const int ic_media_stop_light = 2131165380;
 			
 			// aapt resource value: 0x7F0700C5
-			public const int ic_mr_button_connected_00_dark = 2131165381;
+			public const int ic_more_vert = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int ic_mr_button_connected_00_light = 2131165382;
+			public const int ic_mr_button_connected_00_dark = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int ic_mr_button_connected_01_dark = 2131165383;
+			public const int ic_mr_button_connected_00_light = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int ic_mr_button_connected_01_light = 2131165384;
+			public const int ic_mr_button_connected_01_dark = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int ic_mr_button_connected_02_dark = 2131165385;
+			public const int ic_mr_button_connected_01_light = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int ic_mr_button_connected_02_light = 2131165386;
+			public const int ic_mr_button_connected_02_dark = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int ic_mr_button_connected_03_dark = 2131165387;
+			public const int ic_mr_button_connected_02_light = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int ic_mr_button_connected_03_light = 2131165388;
+			public const int ic_mr_button_connected_03_dark = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int ic_mr_button_connected_04_dark = 2131165389;
+			public const int ic_mr_button_connected_03_light = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int ic_mr_button_connected_04_light = 2131165390;
+			public const int ic_mr_button_connected_04_dark = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int ic_mr_button_connected_05_dark = 2131165391;
+			public const int ic_mr_button_connected_04_light = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int ic_mr_button_connected_05_light = 2131165392;
+			public const int ic_mr_button_connected_05_dark = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int ic_mr_button_connected_06_dark = 2131165393;
+			public const int ic_mr_button_connected_05_light = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int ic_mr_button_connected_06_light = 2131165394;
+			public const int ic_mr_button_connected_06_dark = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int ic_mr_button_connected_07_dark = 2131165395;
+			public const int ic_mr_button_connected_06_light = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int ic_mr_button_connected_07_light = 2131165396;
+			public const int ic_mr_button_connected_07_dark = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int ic_mr_button_connected_08_dark = 2131165397;
+			public const int ic_mr_button_connected_07_light = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int ic_mr_button_connected_08_light = 2131165398;
+			public const int ic_mr_button_connected_08_dark = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int ic_mr_button_connected_09_dark = 2131165399;
+			public const int ic_mr_button_connected_08_light = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int ic_mr_button_connected_09_light = 2131165400;
+			public const int ic_mr_button_connected_09_dark = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int ic_mr_button_connected_10_dark = 2131165401;
+			public const int ic_mr_button_connected_09_light = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int ic_mr_button_connected_10_light = 2131165402;
+			public const int ic_mr_button_connected_10_dark = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int ic_mr_button_connected_11_dark = 2131165403;
+			public const int ic_mr_button_connected_10_light = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int ic_mr_button_connected_11_light = 2131165404;
+			public const int ic_mr_button_connected_11_dark = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int ic_mr_button_connected_12_dark = 2131165405;
+			public const int ic_mr_button_connected_11_light = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int ic_mr_button_connected_12_light = 2131165406;
+			public const int ic_mr_button_connected_12_dark = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int ic_mr_button_connected_13_dark = 2131165407;
+			public const int ic_mr_button_connected_12_light = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int ic_mr_button_connected_13_light = 2131165408;
+			public const int ic_mr_button_connected_13_dark = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int ic_mr_button_connected_14_dark = 2131165409;
+			public const int ic_mr_button_connected_13_light = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int ic_mr_button_connected_14_light = 2131165410;
+			public const int ic_mr_button_connected_14_dark = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int ic_mr_button_connected_15_dark = 2131165411;
+			public const int ic_mr_button_connected_14_light = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int ic_mr_button_connected_15_light = 2131165412;
+			public const int ic_mr_button_connected_15_dark = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int ic_mr_button_connected_16_dark = 2131165413;
+			public const int ic_mr_button_connected_15_light = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int ic_mr_button_connected_16_light = 2131165414;
+			public const int ic_mr_button_connected_16_dark = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int ic_mr_button_connected_17_dark = 2131165415;
+			public const int ic_mr_button_connected_16_light = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int ic_mr_button_connected_17_light = 2131165416;
+			public const int ic_mr_button_connected_17_dark = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int ic_mr_button_connected_18_dark = 2131165417;
+			public const int ic_mr_button_connected_17_light = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int ic_mr_button_connected_18_light = 2131165418;
+			public const int ic_mr_button_connected_18_dark = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int ic_mr_button_connected_19_dark = 2131165419;
+			public const int ic_mr_button_connected_18_light = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int ic_mr_button_connected_19_light = 2131165420;
+			public const int ic_mr_button_connected_19_dark = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int ic_mr_button_connected_20_dark = 2131165421;
+			public const int ic_mr_button_connected_19_light = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int ic_mr_button_connected_20_light = 2131165422;
+			public const int ic_mr_button_connected_20_dark = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int ic_mr_button_connected_21_dark = 2131165423;
+			public const int ic_mr_button_connected_20_light = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int ic_mr_button_connected_21_light = 2131165424;
+			public const int ic_mr_button_connected_21_dark = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int ic_mr_button_connected_22_dark = 2131165425;
+			public const int ic_mr_button_connected_21_light = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int ic_mr_button_connected_22_light = 2131165426;
+			public const int ic_mr_button_connected_22_dark = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int ic_mr_button_connected_23_dark = 2131165427;
+			public const int ic_mr_button_connected_22_light = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int ic_mr_button_connected_23_light = 2131165428;
+			public const int ic_mr_button_connected_23_dark = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int ic_mr_button_connected_24_dark = 2131165429;
+			public const int ic_mr_button_connected_23_light = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int ic_mr_button_connected_24_light = 2131165430;
+			public const int ic_mr_button_connected_24_dark = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int ic_mr_button_connected_25_dark = 2131165431;
+			public const int ic_mr_button_connected_24_light = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int ic_mr_button_connected_25_light = 2131165432;
+			public const int ic_mr_button_connected_25_dark = 2131165432;
 			
 			// aapt resource value: 0x7F0700F9
-			public const int ic_mr_button_connected_26_dark = 2131165433;
+			public const int ic_mr_button_connected_25_light = 2131165433;
 			
 			// aapt resource value: 0x7F0700FA
-			public const int ic_mr_button_connected_26_light = 2131165434;
+			public const int ic_mr_button_connected_26_dark = 2131165434;
 			
 			// aapt resource value: 0x7F0700FB
-			public const int ic_mr_button_connected_27_dark = 2131165435;
+			public const int ic_mr_button_connected_26_light = 2131165435;
 			
 			// aapt resource value: 0x7F0700FC
-			public const int ic_mr_button_connected_27_light = 2131165436;
+			public const int ic_mr_button_connected_27_dark = 2131165436;
 			
 			// aapt resource value: 0x7F0700FD
-			public const int ic_mr_button_connected_28_dark = 2131165437;
+			public const int ic_mr_button_connected_27_light = 2131165437;
 			
 			// aapt resource value: 0x7F0700FE
-			public const int ic_mr_button_connected_28_light = 2131165438;
+			public const int ic_mr_button_connected_28_dark = 2131165438;
 			
 			// aapt resource value: 0x7F0700FF
-			public const int ic_mr_button_connected_29_dark = 2131165439;
+			public const int ic_mr_button_connected_28_light = 2131165439;
 			
 			// aapt resource value: 0x7F070100
-			public const int ic_mr_button_connected_29_light = 2131165440;
+			public const int ic_mr_button_connected_29_dark = 2131165440;
 			
 			// aapt resource value: 0x7F070101
-			public const int ic_mr_button_connected_30_dark = 2131165441;
+			public const int ic_mr_button_connected_29_light = 2131165441;
 			
 			// aapt resource value: 0x7F070102
-			public const int ic_mr_button_connected_30_light = 2131165442;
+			public const int ic_mr_button_connected_30_dark = 2131165442;
 			
 			// aapt resource value: 0x7F070103
-			public const int ic_mr_button_connecting_00_dark = 2131165443;
+			public const int ic_mr_button_connected_30_light = 2131165443;
 			
 			// aapt resource value: 0x7F070104
-			public const int ic_mr_button_connecting_00_light = 2131165444;
+			public const int ic_mr_button_connecting_00_dark = 2131165444;
 			
 			// aapt resource value: 0x7F070105
-			public const int ic_mr_button_connecting_01_dark = 2131165445;
+			public const int ic_mr_button_connecting_00_light = 2131165445;
 			
 			// aapt resource value: 0x7F070106
-			public const int ic_mr_button_connecting_01_light = 2131165446;
+			public const int ic_mr_button_connecting_01_dark = 2131165446;
 			
 			// aapt resource value: 0x7F070107
-			public const int ic_mr_button_connecting_02_dark = 2131165447;
+			public const int ic_mr_button_connecting_01_light = 2131165447;
 			
 			// aapt resource value: 0x7F070108
-			public const int ic_mr_button_connecting_02_light = 2131165448;
+			public const int ic_mr_button_connecting_02_dark = 2131165448;
 			
 			// aapt resource value: 0x7F070109
-			public const int ic_mr_button_connecting_03_dark = 2131165449;
+			public const int ic_mr_button_connecting_02_light = 2131165449;
 			
 			// aapt resource value: 0x7F07010A
-			public const int ic_mr_button_connecting_03_light = 2131165450;
+			public const int ic_mr_button_connecting_03_dark = 2131165450;
 			
 			// aapt resource value: 0x7F07010B
-			public const int ic_mr_button_connecting_04_dark = 2131165451;
+			public const int ic_mr_button_connecting_03_light = 2131165451;
 			
 			// aapt resource value: 0x7F07010C
-			public const int ic_mr_button_connecting_04_light = 2131165452;
+			public const int ic_mr_button_connecting_04_dark = 2131165452;
 			
 			// aapt resource value: 0x7F07010D
-			public const int ic_mr_button_connecting_05_dark = 2131165453;
+			public const int ic_mr_button_connecting_04_light = 2131165453;
 			
 			// aapt resource value: 0x7F07010E
-			public const int ic_mr_button_connecting_05_light = 2131165454;
+			public const int ic_mr_button_connecting_05_dark = 2131165454;
 			
 			// aapt resource value: 0x7F07010F
-			public const int ic_mr_button_connecting_06_dark = 2131165455;
+			public const int ic_mr_button_connecting_05_light = 2131165455;
 			
 			// aapt resource value: 0x7F070110
-			public const int ic_mr_button_connecting_06_light = 2131165456;
+			public const int ic_mr_button_connecting_06_dark = 2131165456;
 			
 			// aapt resource value: 0x7F070111
-			public const int ic_mr_button_connecting_07_dark = 2131165457;
+			public const int ic_mr_button_connecting_06_light = 2131165457;
 			
 			// aapt resource value: 0x7F070112
-			public const int ic_mr_button_connecting_07_light = 2131165458;
+			public const int ic_mr_button_connecting_07_dark = 2131165458;
 			
 			// aapt resource value: 0x7F070113
-			public const int ic_mr_button_connecting_08_dark = 2131165459;
+			public const int ic_mr_button_connecting_07_light = 2131165459;
 			
 			// aapt resource value: 0x7F070114
-			public const int ic_mr_button_connecting_08_light = 2131165460;
+			public const int ic_mr_button_connecting_08_dark = 2131165460;
 			
 			// aapt resource value: 0x7F070115
-			public const int ic_mr_button_connecting_09_dark = 2131165461;
+			public const int ic_mr_button_connecting_08_light = 2131165461;
 			
 			// aapt resource value: 0x7F070116
-			public const int ic_mr_button_connecting_09_light = 2131165462;
+			public const int ic_mr_button_connecting_09_dark = 2131165462;
 			
 			// aapt resource value: 0x7F070117
-			public const int ic_mr_button_connecting_10_dark = 2131165463;
+			public const int ic_mr_button_connecting_09_light = 2131165463;
 			
 			// aapt resource value: 0x7F070118
-			public const int ic_mr_button_connecting_10_light = 2131165464;
+			public const int ic_mr_button_connecting_10_dark = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public const int ic_mr_button_connecting_11_dark = 2131165465;
+			public const int ic_mr_button_connecting_10_light = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public const int ic_mr_button_connecting_11_light = 2131165466;
+			public const int ic_mr_button_connecting_11_dark = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int ic_mr_button_connecting_12_dark = 2131165467;
+			public const int ic_mr_button_connecting_11_light = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int ic_mr_button_connecting_12_light = 2131165468;
+			public const int ic_mr_button_connecting_12_dark = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int ic_mr_button_connecting_13_dark = 2131165469;
+			public const int ic_mr_button_connecting_12_light = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int ic_mr_button_connecting_13_light = 2131165470;
+			public const int ic_mr_button_connecting_13_dark = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int ic_mr_button_connecting_14_dark = 2131165471;
+			public const int ic_mr_button_connecting_13_light = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int ic_mr_button_connecting_14_light = 2131165472;
+			public const int ic_mr_button_connecting_14_dark = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int ic_mr_button_connecting_15_dark = 2131165473;
+			public const int ic_mr_button_connecting_14_light = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int ic_mr_button_connecting_15_light = 2131165474;
+			public const int ic_mr_button_connecting_15_dark = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int ic_mr_button_connecting_16_dark = 2131165475;
+			public const int ic_mr_button_connecting_15_light = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int ic_mr_button_connecting_16_light = 2131165476;
+			public const int ic_mr_button_connecting_16_dark = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int ic_mr_button_connecting_17_dark = 2131165477;
+			public const int ic_mr_button_connecting_16_light = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int ic_mr_button_connecting_17_light = 2131165478;
+			public const int ic_mr_button_connecting_17_dark = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int ic_mr_button_connecting_18_dark = 2131165479;
+			public const int ic_mr_button_connecting_17_light = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int ic_mr_button_connecting_18_light = 2131165480;
+			public const int ic_mr_button_connecting_18_dark = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int ic_mr_button_connecting_19_dark = 2131165481;
+			public const int ic_mr_button_connecting_18_light = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int ic_mr_button_connecting_19_light = 2131165482;
+			public const int ic_mr_button_connecting_19_dark = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int ic_mr_button_connecting_20_dark = 2131165483;
+			public const int ic_mr_button_connecting_19_light = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int ic_mr_button_connecting_20_light = 2131165484;
+			public const int ic_mr_button_connecting_20_dark = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int ic_mr_button_connecting_21_dark = 2131165485;
+			public const int ic_mr_button_connecting_20_light = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int ic_mr_button_connecting_21_light = 2131165486;
+			public const int ic_mr_button_connecting_21_dark = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int ic_mr_button_connecting_22_dark = 2131165487;
+			public const int ic_mr_button_connecting_21_light = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int ic_mr_button_connecting_22_light = 2131165488;
+			public const int ic_mr_button_connecting_22_dark = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int ic_mr_button_connecting_23_dark = 2131165489;
+			public const int ic_mr_button_connecting_22_light = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int ic_mr_button_connecting_23_light = 2131165490;
+			public const int ic_mr_button_connecting_23_dark = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int ic_mr_button_connecting_24_dark = 2131165491;
+			public const int ic_mr_button_connecting_23_light = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int ic_mr_button_connecting_24_light = 2131165492;
+			public const int ic_mr_button_connecting_24_dark = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int ic_mr_button_connecting_25_dark = 2131165493;
+			public const int ic_mr_button_connecting_24_light = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int ic_mr_button_connecting_25_light = 2131165494;
+			public const int ic_mr_button_connecting_25_dark = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int ic_mr_button_connecting_26_dark = 2131165495;
+			public const int ic_mr_button_connecting_25_light = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int ic_mr_button_connecting_26_light = 2131165496;
+			public const int ic_mr_button_connecting_26_dark = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int ic_mr_button_connecting_27_dark = 2131165497;
+			public const int ic_mr_button_connecting_26_light = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int ic_mr_button_connecting_27_light = 2131165498;
+			public const int ic_mr_button_connecting_27_dark = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int ic_mr_button_connecting_28_dark = 2131165499;
+			public const int ic_mr_button_connecting_27_light = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int ic_mr_button_connecting_28_light = 2131165500;
+			public const int ic_mr_button_connecting_28_dark = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int ic_mr_button_connecting_29_dark = 2131165501;
+			public const int ic_mr_button_connecting_28_light = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int ic_mr_button_connecting_29_light = 2131165502;
+			public const int ic_mr_button_connecting_29_dark = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int ic_mr_button_connecting_30_dark = 2131165503;
+			public const int ic_mr_button_connecting_29_light = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int ic_mr_button_connecting_30_light = 2131165504;
+			public const int ic_mr_button_connecting_30_dark = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int ic_mr_button_disabled_dark = 2131165505;
+			public const int ic_mr_button_connecting_30_light = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int ic_mr_button_disabled_light = 2131165506;
+			public const int ic_mr_button_disabled_dark = 2131165506;
 			
 			// aapt resource value: 0x7F070143
-			public const int ic_mr_button_disconnected_dark = 2131165507;
+			public const int ic_mr_button_disabled_light = 2131165507;
 			
 			// aapt resource value: 0x7F070144
-			public const int ic_mr_button_disconnected_light = 2131165508;
+			public const int ic_mr_button_disconnected_dark = 2131165508;
 			
 			// aapt resource value: 0x7F070145
-			public const int ic_mr_button_grey = 2131165509;
+			public const int ic_mr_button_disconnected_light = 2131165509;
 			
 			// aapt resource value: 0x7F070146
-			public const int ic_mtrl_chip_checked_black = 2131165510;
+			public const int ic_mr_button_grey = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int ic_mtrl_chip_checked_circle = 2131165511;
+			public const int ic_mtrl_chip_checked_black = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int ic_mtrl_chip_close_circle = 2131165512;
+			public const int ic_mtrl_chip_checked_circle = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int ic_people = 2131165513;
+			public const int ic_mtrl_chip_close_circle = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int ic_report = 2131165514;
+			public const int ic_people = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int ic_vol_type_speaker_dark = 2131165515;
+			public const int ic_report = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int ic_vol_type_speaker_group_dark = 2131165516;
+			public const int ic_vol_type_speaker_dark = 2131165516;
 			
 			// aapt resource value: 0x7F07014D
-			public const int ic_vol_type_speaker_group_light = 2131165517;
+			public const int ic_vol_type_speaker_group_dark = 2131165517;
 			
 			// aapt resource value: 0x7F07014E
-			public const int ic_vol_type_speaker_light = 2131165518;
+			public const int ic_vol_type_speaker_group_light = 2131165518;
 			
 			// aapt resource value: 0x7F07014F
-			public const int ic_vol_type_tv_dark = 2131165519;
+			public const int ic_vol_type_speaker_light = 2131165519;
 			
 			// aapt resource value: 0x7F070150
-			public const int ic_vol_type_tv_light = 2131165520;
-			
-			// aapt resource value: 0x7F070152
-			public const int inputlayout_togglecollapseicon = 2131165522;
-			
-			// aapt resource value: 0x7F070153
-			public const int inputlayout_togglevisibleicon = 2131165523;
+			public const int ic_vol_type_tv_dark = 2131165520;
 			
 			// aapt resource value: 0x7F070151
-			public const int input_layout_drop_down_icon = 2131165521;
+			public const int ic_vol_type_tv_light = 2131165521;
+			
+			// aapt resource value: 0x7F070153
+			public const int inputlayout_togglecollapseicon = 2131165523;
 			
 			// aapt resource value: 0x7F070154
-			public const int mr_button_connected_dark = 2131165524;
+			public const int inputlayout_togglevisibleicon = 2131165524;
+			
+			// aapt resource value: 0x7F070152
+			public const int input_layout_drop_down_icon = 2131165522;
 			
 			// aapt resource value: 0x7F070155
-			public const int mr_button_connected_light = 2131165525;
+			public const int mr_button_connected_dark = 2131165525;
 			
 			// aapt resource value: 0x7F070156
-			public const int mr_button_connecting_dark = 2131165526;
+			public const int mr_button_connected_light = 2131165526;
 			
 			// aapt resource value: 0x7F070157
-			public const int mr_button_connecting_light = 2131165527;
+			public const int mr_button_connecting_dark = 2131165527;
 			
 			// aapt resource value: 0x7F070158
-			public const int mr_button_dark = 2131165528;
+			public const int mr_button_connecting_light = 2131165528;
 			
 			// aapt resource value: 0x7F070159
-			public const int mr_button_light = 2131165529;
+			public const int mr_button_dark = 2131165529;
 			
 			// aapt resource value: 0x7F07015A
-			public const int mr_dialog_close_dark = 2131165530;
+			public const int mr_button_light = 2131165530;
 			
 			// aapt resource value: 0x7F07015B
-			public const int mr_dialog_close_light = 2131165531;
+			public const int mr_dialog_close_dark = 2131165531;
 			
 			// aapt resource value: 0x7F07015C
-			public const int mr_dialog_material_background_dark = 2131165532;
+			public const int mr_dialog_close_light = 2131165532;
 			
 			// aapt resource value: 0x7F07015D
-			public const int mr_dialog_material_background_light = 2131165533;
+			public const int mr_dialog_material_background_dark = 2131165533;
 			
 			// aapt resource value: 0x7F07015E
-			public const int mr_group_collapse = 2131165534;
+			public const int mr_dialog_material_background_light = 2131165534;
 			
 			// aapt resource value: 0x7F07015F
-			public const int mr_group_expand = 2131165535;
+			public const int mr_group_collapse = 2131165535;
 			
 			// aapt resource value: 0x7F070160
-			public const int mr_media_pause_dark = 2131165536;
+			public const int mr_group_expand = 2131165536;
 			
 			// aapt resource value: 0x7F070161
-			public const int mr_media_pause_light = 2131165537;
+			public const int mr_media_pause_dark = 2131165537;
 			
 			// aapt resource value: 0x7F070162
-			public const int mr_media_play_dark = 2131165538;
+			public const int mr_media_pause_light = 2131165538;
 			
 			// aapt resource value: 0x7F070163
-			public const int mr_media_play_light = 2131165539;
+			public const int mr_media_play_dark = 2131165539;
 			
 			// aapt resource value: 0x7F070164
-			public const int mr_media_stop_dark = 2131165540;
+			public const int mr_media_play_light = 2131165540;
 			
 			// aapt resource value: 0x7F070165
-			public const int mr_media_stop_light = 2131165541;
+			public const int mr_media_stop_dark = 2131165541;
 			
 			// aapt resource value: 0x7F070166
-			public const int mr_vol_type_audiotrack_dark = 2131165542;
+			public const int mr_media_stop_light = 2131165542;
 			
 			// aapt resource value: 0x7F070167
-			public const int mr_vol_type_audiotrack_light = 2131165543;
+			public const int mr_vol_type_audiotrack_dark = 2131165543;
 			
 			// aapt resource value: 0x7F070168
-			public const int mtrl_snackbar_background = 2131165544;
+			public const int mr_vol_type_audiotrack_light = 2131165544;
 			
 			// aapt resource value: 0x7F070169
-			public const int mtrl_tabs_default_indicator = 2131165545;
+			public const int mtrl_snackbar_background = 2131165545;
 			
 			// aapt resource value: 0x7F07016A
-			public const int navigation_empty_icon = 2131165546;
+			public const int mtrl_tabs_default_indicator = 2131165546;
 			
 			// aapt resource value: 0x7F07016B
-			public const int notification_action_background = 2131165547;
+			public const int navigation_empty_icon = 2131165547;
 			
 			// aapt resource value: 0x7F07016C
-			public const int notification_bg = 2131165548;
+			public const int notification_action_background = 2131165548;
 			
 			// aapt resource value: 0x7F07016D
-			public const int notification_bg_low = 2131165549;
+			public const int notification_bg = 2131165549;
 			
 			// aapt resource value: 0x7F07016E
-			public const int notification_bg_low_normal = 2131165550;
+			public const int notification_bg_low = 2131165550;
 			
 			// aapt resource value: 0x7F07016F
-			public const int notification_bg_low_pressed = 2131165551;
+			public const int notification_bg_low_normal = 2131165551;
 			
 			// aapt resource value: 0x7F070170
-			public const int notification_bg_normal = 2131165552;
+			public const int notification_bg_low_pressed = 2131165552;
 			
 			// aapt resource value: 0x7F070171
-			public const int notification_bg_normal_pressed = 2131165553;
+			public const int notification_bg_normal = 2131165553;
 			
 			// aapt resource value: 0x7F070172
-			public const int notification_icon_background = 2131165554;
+			public const int notification_bg_normal_pressed = 2131165554;
 			
 			// aapt resource value: 0x7F070173
-			public const int notification_template_icon_bg = 2131165555;
+			public const int notification_icon_background = 2131165555;
 			
 			// aapt resource value: 0x7F070174
-			public const int notification_template_icon_low_bg = 2131165556;
+			public const int notification_template_icon_bg = 2131165556;
 			
 			// aapt resource value: 0x7F070175
-			public const int notification_tile_bg = 2131165557;
+			public const int notification_template_icon_low_bg = 2131165557;
 			
 			// aapt resource value: 0x7F070176
-			public const int notify_panel_notification_icon_bg = 2131165558;
+			public const int notification_tile_bg = 2131165558;
 			
 			// aapt resource value: 0x7F070177
-			public const int taxi = 2131165559;
+			public const int notify_panel_notification_icon_bg = 2131165559;
 			
 			// aapt resource value: 0x7F070178
-			public const int taxi_splash = 2131165560;
+			public const int taxi = 2131165560;
 			
 			// aapt resource value: 0x7F070179
-			public const int tooltip_frame_dark = 2131165561;
+			public const int taxi_splash = 2131165561;
 			
 			// aapt resource value: 0x7F07017A
-			public const int tooltip_frame_light = 2131165562;
+			public const int tooltip_frame_dark = 2131165562;
+			
+			// aapt resource value: 0x7F07017B
+			public const int tooltip_frame_light = 2131165563;
 			
 			static Drawable()
 			{
@@ -14546,676 +15260,679 @@ namespace AppTaxi2020.Prison.Droid
 			public const int CTRL = 2131230721;
 			
 			// aapt resource value: 0x7F08003D
-			public const int custom = 2131230781;
+			public const int cupertino = 2131230781;
 			
 			// aapt resource value: 0x7F08003E
-			public const int customPanel = 2131230782;
+			public const int custom = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int dark = 2131230783;
+			public const int customPanel = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int decor_content_parent = 2131230784;
+			public const int dark = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int default_activity_button = 2131230785;
+			public const int decor_content_parent = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int design_bottom_sheet = 2131230786;
+			public const int default_activity_button = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int design_menu_item_action_area = 2131230787;
+			public const int design_bottom_sheet = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int design_menu_item_action_area_stub = 2131230788;
+			public const int design_menu_item_action_area = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int design_menu_item_text = 2131230789;
+			public const int design_menu_item_action_area_stub = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int design_navigation_view = 2131230790;
+			public const int design_menu_item_text = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int disableHome = 2131230791;
+			public const int design_navigation_view = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int doubleCircle = 2131230792;
+			public const int disableHome = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int ecg = 2131230793;
+			public const int doubleCircle = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int edit_query = 2131230794;
+			public const int ecg = 2131230794;
 			
 			// aapt resource value: 0x7F08004B
-			public const int end = 2131230795;
+			public const int edit_query = 2131230795;
 			
 			// aapt resource value: 0x7F08004C
-			public const int end_padder = 2131230796;
+			public const int end = 2131230796;
 			
 			// aapt resource value: 0x7F08004D
-			public const int enterAlways = 2131230797;
+			public const int end_padder = 2131230797;
 			
 			// aapt resource value: 0x7F08004E
-			public const int enterAlwaysCollapsed = 2131230798;
+			public const int enterAlways = 2131230798;
 			
 			// aapt resource value: 0x7F08004F
-			public const int exact = 2131230799;
+			public const int enterAlwaysCollapsed = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int exitUntilCollapsed = 2131230800;
-			
-			// aapt resource value: 0x7F080052
-			public const int expanded_menu = 2131230802;
+			public const int exact = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int expand_activities_button = 2131230801;
+			public const int exitUntilCollapsed = 2131230801;
 			
 			// aapt resource value: 0x7F080053
-			public const int fill = 2131230803;
+			public const int expanded_menu = 2131230803;
 			
-			// aapt resource value: 0x7F080056
-			public const int filled = 2131230806;
+			// aapt resource value: 0x7F080052
+			public const int expand_activities_button = 2131230802;
 			
 			// aapt resource value: 0x7F080054
-			public const int fill_horizontal = 2131230804;
-			
-			// aapt resource value: 0x7F080055
-			public const int fill_vertical = 2131230805;
+			public const int fill = 2131230804;
 			
 			// aapt resource value: 0x7F080057
-			public const int @fixed = 2131230807;
+			public const int filled = 2131230807;
+			
+			// aapt resource value: 0x7F080055
+			public const int fill_horizontal = 2131230805;
+			
+			// aapt resource value: 0x7F080056
+			public const int fill_vertical = 2131230806;
 			
 			// aapt resource value: 0x7F080058
-			public const int flyoutcontent_appbar = 2131230808;
+			public const int @fixed = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int flyoutcontent_recycler = 2131230809;
+			public const int flyoutcontent_appbar = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int forever = 2131230810;
+			public const int flyoutcontent_recycler = 2131230810;
+			
+			// aapt resource value: 0x7F08005B
+			public const int forever = 2131230811;
 			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
-			// aapt resource value: 0x7F08005B
-			public const int gearBox = 2131230811;
-			
 			// aapt resource value: 0x7F08005C
-			public const int ghost_view = 2131230812;
+			public const int gearBox = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int globe = 2131230813;
+			public const int ghost_view = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int group_divider = 2131230814;
+			public const int globe = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int half = 2131230815;
+			public const int group_divider = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int home = 2131230816;
+			public const int half = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int homeAsUp = 2131230817;
+			public const int home = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int horizontalPulsingBox = 2131230818;
+			public const int homeAsUp = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int hybrid = 2131230819;
+			public const int horizontalPulsingBox = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int icon = 2131230820;
+			public const int hybrid = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int icon_group = 2131230821;
+			public const int icon = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int icon_only = 2131230822;
+			public const int icon_group = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int ifRoom = 2131230823;
+			public const int icon_only = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int image = 2131230824;
+			public const int ifRoom = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int info = 2131230825;
+			public const int image = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int italic = 2131230826;
+			public const int info = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int item_touch_helper_previous_elevation = 2131230827;
+			public const int italic = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int labeled = 2131230828;
+			public const int item_touch_helper_previous_elevation = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int largeLabel = 2131230829;
+			public const int labeled = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int left = 2131230830;
+			public const int largeLabel = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int light = 2131230831;
+			public const int left = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int line1 = 2131230832;
+			public const int light = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int line3 = 2131230833;
+			public const int line1 = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int listMode = 2131230834;
+			public const int line3 = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int list_item = 2131230835;
+			public const int listMode = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int main_appbar = 2131230836;
+			public const int list_item = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int main_tablayout = 2131230837;
+			public const int main_appbar = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int main_toolbar = 2131230838;
+			public const int main_tablayout = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int main_viewpager = 2131230839;
+			public const int main_toolbar = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int masked = 2131230840;
+			public const int main_viewpager = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int media_actions = 2131230841;
+			public const int masked = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int message = 2131230842;
+			public const int media_actions = 2131230842;
+			
+			// aapt resource value: 0x7F08007B
+			public const int message = 2131230843;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F08007B
-			public const int middle = 2131230843;
-			
 			// aapt resource value: 0x7F08007C
-			public const int mini = 2131230844;
+			public const int middle = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int movieTimer = 2131230845;
+			public const int mini = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int mr_art = 2131230846;
+			public const int movieTimer = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int mr_cast_checkbox = 2131230847;
+			public const int mr_art = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int mr_cast_close_button = 2131230848;
+			public const int mr_cast_checkbox = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int mr_cast_group_icon = 2131230849;
+			public const int mr_cast_close_button = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int mr_cast_group_name = 2131230850;
+			public const int mr_cast_group_icon = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int mr_cast_list = 2131230851;
+			public const int mr_cast_group_name = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int mr_cast_meta = 2131230852;
+			public const int mr_cast_list = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int mr_cast_meta_art = 2131230853;
+			public const int mr_cast_meta = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int mr_cast_meta_subtitle = 2131230854;
+			public const int mr_cast_meta_art = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int mr_cast_meta_title = 2131230855;
+			public const int mr_cast_meta_subtitle = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int mr_cast_route_icon = 2131230856;
+			public const int mr_cast_meta_title = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int mr_cast_route_name = 2131230857;
+			public const int mr_cast_route_icon = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int mr_cast_stop_button = 2131230858;
+			public const int mr_cast_route_name = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int mr_cast_volume_layout = 2131230859;
+			public const int mr_cast_stop_button = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int mr_cast_volume_slider = 2131230860;
+			public const int mr_cast_volume_layout = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int mr_chooser_list = 2131230861;
+			public const int mr_cast_volume_slider = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int mr_chooser_route_desc = 2131230862;
+			public const int mr_chooser_list = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int mr_chooser_route_icon = 2131230863;
+			public const int mr_chooser_route_desc = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int mr_chooser_route_name = 2131230864;
+			public const int mr_chooser_route_icon = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int mr_chooser_title = 2131230865;
+			public const int mr_chooser_route_name = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int mr_close = 2131230866;
+			public const int mr_chooser_title = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int mr_control_divider = 2131230867;
+			public const int mr_close = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int mr_control_playback_ctrl = 2131230868;
+			public const int mr_control_divider = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int mr_control_subtitle = 2131230869;
+			public const int mr_control_playback_ctrl = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int mr_control_title = 2131230870;
+			public const int mr_control_subtitle = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int mr_control_title_container = 2131230871;
+			public const int mr_control_title = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int mr_custom_control = 2131230872;
+			public const int mr_control_title_container = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int mr_default_control = 2131230873;
+			public const int mr_custom_control = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int mr_dialog_area = 2131230874;
+			public const int mr_default_control = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int mr_dialog_header_name = 2131230875;
+			public const int mr_dialog_area = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int mr_expandable_area = 2131230876;
+			public const int mr_dialog_header_name = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int mr_group_expand_collapse = 2131230877;
+			public const int mr_expandable_area = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int mr_group_volume_route_name = 2131230878;
+			public const int mr_group_expand_collapse = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int mr_group_volume_slider = 2131230879;
+			public const int mr_group_volume_route_name = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int mr_media_main_control = 2131230880;
+			public const int mr_group_volume_slider = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int mr_name = 2131230881;
+			public const int mr_media_main_control = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int mr_picker_close_button = 2131230882;
+			public const int mr_name = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int mr_picker_list = 2131230883;
+			public const int mr_picker_close_button = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int mr_picker_route_icon = 2131230884;
+			public const int mr_picker_list = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int mr_picker_route_name = 2131230885;
+			public const int mr_picker_route_icon = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int mr_playback_control = 2131230886;
+			public const int mr_picker_route_name = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int mr_title_bar = 2131230887;
+			public const int mr_playback_control = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int mr_volume_control = 2131230888;
+			public const int mr_title_bar = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int mr_volume_group_list = 2131230889;
+			public const int mr_volume_control = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int mr_volume_item_icon = 2131230890;
+			public const int mr_volume_group_list = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int mr_volume_slider = 2131230891;
+			public const int mr_volume_item_icon = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int mtrl_child_content_container = 2131230892;
+			public const int mr_volume_slider = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int mtrl_internal_children_alpha_tag = 2131230893;
+			public const int mtrl_child_content_container = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int multiply = 2131230894;
+			public const int mtrl_internal_children_alpha_tag = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int navigation_header_container = 2131230895;
+			public const int multiply = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int never = 2131230896;
+			public const int navigation_header_container = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int none = 2131230897;
+			public const int never = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int normal = 2131230898;
+			public const int none = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int notification_background = 2131230899;
+			public const int normal = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int notification_main_column = 2131230900;
+			public const int notification_background = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int notification_main_column_container = 2131230901;
+			public const int notification_main_column = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int outline = 2131230902;
+			public const int notification_main_column_container = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int parallax = 2131230903;
+			public const int outline = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int parentPanel = 2131230904;
+			public const int parallax = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int parent_matrix = 2131230905;
+			public const int parentPanel = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int pin = 2131230906;
+			public const int parent_matrix = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int print = 2131230907;
+			public const int pin = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int progress_circular = 2131230908;
+			public const int print = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int progress_horizontal = 2131230909;
+			public const int progress_circular = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int radio = 2131230910;
+			public const int progress_horizontal = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int rectangle = 2131230911;
+			public const int radio = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int right = 2131230912;
+			public const int rectangle = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int right_icon = 2131230913;
+			public const int right = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int right_side = 2131230914;
+			public const int right_icon = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int rollingBall = 2131230915;
+			public const int right_side = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int satellite = 2131230916;
+			public const int rollingBall = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int save_image_matrix = 2131230917;
+			public const int satellite = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int save_non_transition_alpha = 2131230918;
+			public const int save_image_matrix = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int save_scale_type = 2131230919;
+			public const int save_non_transition_alpha = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int screen = 2131230920;
+			public const int save_scale_type = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int scroll = 2131230921;
-			
-			// aapt resource value: 0x7F0800CD
-			public const int scrollable = 2131230925;
+			public const int screen = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int scrollIndicatorDown = 2131230922;
-			
-			// aapt resource value: 0x7F0800CB
-			public const int scrollIndicatorUp = 2131230923;
-			
-			// aapt resource value: 0x7F0800CC
-			public const int scrollView = 2131230924;
+			public const int scroll = 2131230922;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int search_badge = 2131230926;
+			public const int scrollable = 2131230926;
+			
+			// aapt resource value: 0x7F0800CB
+			public const int scrollIndicatorDown = 2131230923;
+			
+			// aapt resource value: 0x7F0800CC
+			public const int scrollIndicatorUp = 2131230924;
+			
+			// aapt resource value: 0x7F0800CD
+			public const int scrollView = 2131230925;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int search_bar = 2131230927;
+			public const int search_badge = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int search_button = 2131230928;
+			public const int search_bar = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int search_close_btn = 2131230929;
+			public const int search_button = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int search_edit_frame = 2131230930;
+			public const int search_close_btn = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int search_go_btn = 2131230931;
+			public const int search_edit_frame = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int search_mag_icon = 2131230932;
+			public const int search_go_btn = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int search_plate = 2131230933;
+			public const int search_mag_icon = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int search_src_text = 2131230934;
+			public const int search_plate = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int search_voice_btn = 2131230935;
-			
-			// aapt resource value: 0x7F0800D9
-			public const int selected = 2131230937;
+			public const int search_src_text = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int select_dialog_listview = 2131230936;
+			public const int search_voice_btn = 2131230936;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int shellcontent_appbar = 2131230938;
+			public const int selected = 2131230938;
+			
+			// aapt resource value: 0x7F0800D9
+			public const int select_dialog_listview = 2131230937;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int shellcontent_toolbar = 2131230939;
+			public const int shellcontent_appbar = 2131230939;
+			
+			// aapt resource value: 0x7F0800DC
+			public const int shellcontent_toolbar = 2131230940;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F0800DC
-			public const int shortcut = 2131230940;
-			
 			// aapt resource value: 0x7F0800DD
-			public const int showCustom = 2131230941;
+			public const int shortcut = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int showHome = 2131230942;
+			public const int showCustom = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int showTitle = 2131230943;
+			public const int showHome = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int singleCircle = 2131230944;
+			public const int showTitle = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int slicedCircle = 2131230945;
+			public const int singleCircle = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int sliding_tabs = 2131230946;
+			public const int slicedCircle = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int smallLabel = 2131230947;
+			public const int sliding_tabs = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int snackbar_action = 2131230948;
+			public const int smallLabel = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int snackbar_text = 2131230949;
+			public const int snackbar_action = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int snap = 2131230950;
+			public const int snackbar_text = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int snapMargins = 2131230951;
+			public const int snap = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int spacer = 2131230952;
+			public const int snapMargins = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int split_action_bar = 2131230953;
+			public const int spacer = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int src_atop = 2131230954;
+			public const int split_action_bar = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int src_in = 2131230955;
+			public const int src_atop = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int src_over = 2131230956;
+			public const int src_in = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int standard = 2131230957;
+			public const int src_over = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int start = 2131230958;
+			public const int standard = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int status_bar_latest_event_content = 2131230959;
+			public const int start = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int stretch = 2131230960;
+			public const int status_bar_latest_event_content = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int submenuarrow = 2131230961;
+			public const int stretch = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int submit_area = 2131230962;
+			public const int submenuarrow = 2131230962;
+			
+			// aapt resource value: 0x7F0800F3
+			public const int submit_area = 2131230963;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F0800F3
-			public const int tabMode = 2131230963;
-			
 			// aapt resource value: 0x7F0800F4
-			public const int tag_transition_group = 2131230964;
+			public const int tabMode = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int tag_unhandled_key_event_manager = 2131230965;
+			public const int tag_transition_group = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int tag_unhandled_key_listeners = 2131230966;
+			public const int tag_unhandled_key_event_manager = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int terrain = 2131230967;
+			public const int tag_unhandled_key_listeners = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int text = 2131230968;
+			public const int terrain = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int text2 = 2131230969;
-			
-			// aapt resource value: 0x7F0800FE
-			public const int textinput_counter = 2131230974;
-			
-			// aapt resource value: 0x7F0800FF
-			public const int textinput_error = 2131230975;
-			
-			// aapt resource value: 0x7F080100
-			public const int textinput_helper_text = 2131230976;
+			public const int text = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int textSpacerNoButtons = 2131230970;
+			public const int text2 = 2131230970;
 			
-			// aapt resource value: 0x7F0800FB
-			public const int textSpacerNoTitle = 2131230971;
+			// aapt resource value: 0x7F0800FF
+			public const int textinput_counter = 2131230975;
 			
-			// aapt resource value: 0x7F0800FC
-			public const int textStart = 2131230972;
-			
-			// aapt resource value: 0x7F0800FD
-			public const int text_input_password_toggle = 2131230973;
+			// aapt resource value: 0x7F080100
+			public const int textinput_error = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int time = 2131230977;
+			public const int textinput_helper_text = 2131230977;
+			
+			// aapt resource value: 0x7F0800FB
+			public const int textSpacerNoButtons = 2131230971;
+			
+			// aapt resource value: 0x7F0800FC
+			public const int textSpacerNoTitle = 2131230972;
+			
+			// aapt resource value: 0x7F0800FD
+			public const int textStart = 2131230973;
+			
+			// aapt resource value: 0x7F0800FE
+			public const int text_input_password_toggle = 2131230974;
 			
 			// aapt resource value: 0x7F080102
-			public const int title = 2131230978;
+			public const int time = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int titleDividerNoCustom = 2131230979;
+			public const int title = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int title_template = 2131230980;
+			public const int titleDividerNoCustom = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int toolbar = 2131230981;
+			public const int title_template = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int top = 2131230982;
+			public const int toolbar = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int topPanel = 2131230983;
+			public const int top = 2131230983;
 			
 			// aapt resource value: 0x7F080108
-			public const int touch_outside = 2131230984;
+			public const int topPanel = 2131230984;
 			
 			// aapt resource value: 0x7F080109
-			public const int transition_current_scene = 2131230985;
+			public const int touch_outside = 2131230985;
 			
 			// aapt resource value: 0x7F08010A
-			public const int transition_layout_save = 2131230986;
+			public const int transition_current_scene = 2131230986;
 			
 			// aapt resource value: 0x7F08010B
-			public const int transition_position = 2131230987;
+			public const int transition_layout_save = 2131230987;
 			
 			// aapt resource value: 0x7F08010C
-			public const int transition_scene_layoutid_cache = 2131230988;
+			public const int transition_position = 2131230988;
 			
 			// aapt resource value: 0x7F08010D
-			public const int transition_transform = 2131230989;
+			public const int transition_scene_layoutid_cache = 2131230989;
 			
 			// aapt resource value: 0x7F08010E
-			public const int uniform = 2131230990;
+			public const int transition_transform = 2131230990;
 			
 			// aapt resource value: 0x7F08010F
-			public const int unlabeled = 2131230991;
+			public const int uniform = 2131230991;
 			
 			// aapt resource value: 0x7F080110
-			public const int up = 2131230992;
+			public const int unlabeled = 2131230992;
 			
 			// aapt resource value: 0x7F080111
-			public const int useLogo = 2131230993;
+			public const int up = 2131230993;
 			
 			// aapt resource value: 0x7F080112
-			public const int view_offset_helper = 2131230994;
+			public const int useLogo = 2131230994;
 			
 			// aapt resource value: 0x7F080113
-			public const int visible = 2131230995;
+			public const int view_offset_helper = 2131230995;
 			
 			// aapt resource value: 0x7F080114
-			public const int volume_item_container = 2131230996;
+			public const int visible = 2131230996;
 			
 			// aapt resource value: 0x7F080115
-			public const int wide = 2131230997;
+			public const int volume_item_container = 2131230997;
 			
 			// aapt resource value: 0x7F080116
-			public const int withText = 2131230998;
+			public const int wide = 2131230998;
 			
 			// aapt resource value: 0x7F080117
-			public const int wrap_content = 2131230999;
+			public const int withText = 2131230999;
 			
 			// aapt resource value: 0x7F080118
-			public const int zoomingTarget = 2131231000;
+			public const int wrap_content = 2131231000;
+			
+			// aapt resource value: 0x7F080119
+			public const int zoomingTarget = 2131231001;
 			
 			static Id()
 			{
@@ -16516,8 +17233,11 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 0x7F0E00C5
 			public const int CardView_Light = 2131624133;
 			
+			// aapt resource value: 0x7F0E0203
+			public const int collectionViewScrollBars = 2131624451;
+			
 			// aapt resource value: 0x7F0E0204
-			public const int collectionViewStyle = 2131624452;
+			public const int collectionViewTheme = 2131624452;
 			
 			// aapt resource value: 0x7F0E00C6
 			public const int MainTheme = 2131624134;
@@ -16526,952 +17246,949 @@ namespace AppTaxi2020.Prison.Droid
 			public const int MainTheme_Base = 2131624135;
 			
 			// aapt resource value: 0x7F0E00C8
-			public const int NestedScrollBarStyle = 2131624136;
+			public const int Platform_AppCompat = 2131624136;
 			
 			// aapt resource value: 0x7F0E00C9
-			public const int Platform_AppCompat = 2131624137;
+			public const int Platform_AppCompat_Light = 2131624137;
 			
 			// aapt resource value: 0x7F0E00CA
-			public const int Platform_AppCompat_Light = 2131624138;
+			public const int Platform_MaterialComponents = 2131624138;
 			
 			// aapt resource value: 0x7F0E00CB
-			public const int Platform_MaterialComponents = 2131624139;
+			public const int Platform_MaterialComponents_Dialog = 2131624139;
 			
 			// aapt resource value: 0x7F0E00CC
-			public const int Platform_MaterialComponents_Dialog = 2131624140;
+			public const int Platform_MaterialComponents_Light = 2131624140;
 			
 			// aapt resource value: 0x7F0E00CD
-			public const int Platform_MaterialComponents_Light = 2131624141;
+			public const int Platform_MaterialComponents_Light_Dialog = 2131624141;
 			
 			// aapt resource value: 0x7F0E00CE
-			public const int Platform_MaterialComponents_Light_Dialog = 2131624142;
+			public const int Platform_ThemeOverlay_AppCompat = 2131624142;
 			
 			// aapt resource value: 0x7F0E00CF
-			public const int Platform_ThemeOverlay_AppCompat = 2131624143;
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624143;
 			
 			// aapt resource value: 0x7F0E00D0
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624144;
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624144;
 			
 			// aapt resource value: 0x7F0E00D1
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624145;
+			public const int Platform_V21_AppCompat = 2131624145;
 			
 			// aapt resource value: 0x7F0E00D2
-			public const int Platform_V21_AppCompat = 2131624146;
+			public const int Platform_V21_AppCompat_Light = 2131624146;
 			
 			// aapt resource value: 0x7F0E00D3
-			public const int Platform_V21_AppCompat_Light = 2131624147;
+			public const int Platform_V25_AppCompat = 2131624147;
 			
 			// aapt resource value: 0x7F0E00D4
-			public const int Platform_V25_AppCompat = 2131624148;
+			public const int Platform_V25_AppCompat_Light = 2131624148;
 			
 			// aapt resource value: 0x7F0E00D5
-			public const int Platform_V25_AppCompat_Light = 2131624149;
+			public const int Platform_Widget_AppCompat_Spinner = 2131624149;
 			
 			// aapt resource value: 0x7F0E00D6
-			public const int Platform_Widget_AppCompat_Spinner = 2131624150;
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624150;
 			
 			// aapt resource value: 0x7F0E00D7
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624151;
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624151;
 			
 			// aapt resource value: 0x7F0E00D8
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624152;
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624152;
 			
 			// aapt resource value: 0x7F0E00D9
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624153;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624153;
 			
 			// aapt resource value: 0x7F0E00DA
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624154;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624154;
 			
 			// aapt resource value: 0x7F0E00DB
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624155;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624155;
 			
 			// aapt resource value: 0x7F0E00DC
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624156;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624156;
 			
 			// aapt resource value: 0x7F0E00DD
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624157;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624157;
 			
 			// aapt resource value: 0x7F0E00DE
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624158;
-			
-			// aapt resource value: 0x7F0E00DF
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624159;
-			
-			// aapt resource value: 0x7F0E00E5
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624165;
-			
-			// aapt resource value: 0x7F0E00E0
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624160;
-			
-			// aapt resource value: 0x7F0E00E1
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624161;
-			
-			// aapt resource value: 0x7F0E00E2
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624162;
-			
-			// aapt resource value: 0x7F0E00E3
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624163;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624158;
 			
 			// aapt resource value: 0x7F0E00E4
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624164;
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624164;
+			
+			// aapt resource value: 0x7F0E00DF
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624159;
+			
+			// aapt resource value: 0x7F0E00E0
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624160;
+			
+			// aapt resource value: 0x7F0E00E1
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624161;
+			
+			// aapt resource value: 0x7F0E00E2
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624162;
+			
+			// aapt resource value: 0x7F0E00E3
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624163;
+			
+			// aapt resource value: 0x7F0E00E5
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624165;
 			
 			// aapt resource value: 0x7F0E00E6
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624166;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624166;
 			
 			// aapt resource value: 0x7F0E00E7
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624167;
+			public const int TextAppearance_AppCompat = 2131624167;
 			
 			// aapt resource value: 0x7F0E00E8
-			public const int TextAppearance_AppCompat = 2131624168;
+			public const int TextAppearance_AppCompat_Body1 = 2131624168;
 			
 			// aapt resource value: 0x7F0E00E9
-			public const int TextAppearance_AppCompat_Body1 = 2131624169;
+			public const int TextAppearance_AppCompat_Body2 = 2131624169;
 			
 			// aapt resource value: 0x7F0E00EA
-			public const int TextAppearance_AppCompat_Body2 = 2131624170;
+			public const int TextAppearance_AppCompat_Button = 2131624170;
 			
 			// aapt resource value: 0x7F0E00EB
-			public const int TextAppearance_AppCompat_Button = 2131624171;
+			public const int TextAppearance_AppCompat_Caption = 2131624171;
 			
 			// aapt resource value: 0x7F0E00EC
-			public const int TextAppearance_AppCompat_Caption = 2131624172;
+			public const int TextAppearance_AppCompat_Display1 = 2131624172;
 			
 			// aapt resource value: 0x7F0E00ED
-			public const int TextAppearance_AppCompat_Display1 = 2131624173;
+			public const int TextAppearance_AppCompat_Display2 = 2131624173;
 			
 			// aapt resource value: 0x7F0E00EE
-			public const int TextAppearance_AppCompat_Display2 = 2131624174;
+			public const int TextAppearance_AppCompat_Display3 = 2131624174;
 			
 			// aapt resource value: 0x7F0E00EF
-			public const int TextAppearance_AppCompat_Display3 = 2131624175;
+			public const int TextAppearance_AppCompat_Display4 = 2131624175;
 			
 			// aapt resource value: 0x7F0E00F0
-			public const int TextAppearance_AppCompat_Display4 = 2131624176;
+			public const int TextAppearance_AppCompat_Headline = 2131624176;
 			
 			// aapt resource value: 0x7F0E00F1
-			public const int TextAppearance_AppCompat_Headline = 2131624177;
+			public const int TextAppearance_AppCompat_Inverse = 2131624177;
 			
 			// aapt resource value: 0x7F0E00F2
-			public const int TextAppearance_AppCompat_Inverse = 2131624178;
+			public const int TextAppearance_AppCompat_Large = 2131624178;
 			
 			// aapt resource value: 0x7F0E00F3
-			public const int TextAppearance_AppCompat_Large = 2131624179;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131624179;
 			
 			// aapt resource value: 0x7F0E00F4
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131624180;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624180;
 			
 			// aapt resource value: 0x7F0E00F5
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624181;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624181;
 			
 			// aapt resource value: 0x7F0E00F6
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624182;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624182;
 			
 			// aapt resource value: 0x7F0E00F7
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624183;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624183;
 			
 			// aapt resource value: 0x7F0E00F8
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624184;
+			public const int TextAppearance_AppCompat_Medium = 2131624184;
 			
 			// aapt resource value: 0x7F0E00F9
-			public const int TextAppearance_AppCompat_Medium = 2131624185;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624185;
 			
 			// aapt resource value: 0x7F0E00FA
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624186;
+			public const int TextAppearance_AppCompat_Menu = 2131624186;
 			
 			// aapt resource value: 0x7F0E00FB
-			public const int TextAppearance_AppCompat_Menu = 2131624187;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624187;
 			
 			// aapt resource value: 0x7F0E00FC
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624188;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624188;
 			
 			// aapt resource value: 0x7F0E00FD
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624189;
+			public const int TextAppearance_AppCompat_Small = 2131624189;
 			
 			// aapt resource value: 0x7F0E00FE
-			public const int TextAppearance_AppCompat_Small = 2131624190;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131624190;
 			
 			// aapt resource value: 0x7F0E00FF
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131624191;
+			public const int TextAppearance_AppCompat_Subhead = 2131624191;
 			
 			// aapt resource value: 0x7F0E0100
-			public const int TextAppearance_AppCompat_Subhead = 2131624192;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624192;
 			
 			// aapt resource value: 0x7F0E0101
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624193;
+			public const int TextAppearance_AppCompat_Title = 2131624193;
 			
 			// aapt resource value: 0x7F0E0102
-			public const int TextAppearance_AppCompat_Title = 2131624194;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131624194;
 			
 			// aapt resource value: 0x7F0E0103
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131624195;
+			public const int TextAppearance_AppCompat_Tooltip = 2131624195;
 			
 			// aapt resource value: 0x7F0E0104
-			public const int TextAppearance_AppCompat_Tooltip = 2131624196;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624196;
 			
 			// aapt resource value: 0x7F0E0105
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624197;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624197;
 			
 			// aapt resource value: 0x7F0E0106
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624198;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624198;
 			
 			// aapt resource value: 0x7F0E0107
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624199;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624199;
 			
 			// aapt resource value: 0x7F0E0108
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624200;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624200;
 			
 			// aapt resource value: 0x7F0E0109
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624201;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624201;
 			
 			// aapt resource value: 0x7F0E010A
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624202;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624202;
 			
 			// aapt resource value: 0x7F0E010B
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624203;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624203;
 			
 			// aapt resource value: 0x7F0E010C
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624204;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624204;
 			
 			// aapt resource value: 0x7F0E010D
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624205;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131624205;
 			
 			// aapt resource value: 0x7F0E010E
-			public const int TextAppearance_AppCompat_Widget_Button = 2131624206;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624206;
 			
 			// aapt resource value: 0x7F0E010F
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624207;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624207;
 			
 			// aapt resource value: 0x7F0E0110
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624208;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624208;
 			
 			// aapt resource value: 0x7F0E0111
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624209;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624209;
 			
 			// aapt resource value: 0x7F0E0112
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624210;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624210;
 			
 			// aapt resource value: 0x7F0E0113
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624211;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624211;
 			
 			// aapt resource value: 0x7F0E0114
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624212;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624212;
 			
 			// aapt resource value: 0x7F0E0115
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624213;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131624213;
 			
 			// aapt resource value: 0x7F0E0116
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131624214;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624214;
 			
 			// aapt resource value: 0x7F0E0117
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624215;
+			public const int TextAppearance_Compat_Notification = 2131624215;
 			
 			// aapt resource value: 0x7F0E0118
-			public const int TextAppearance_Compat_Notification = 2131624216;
+			public const int TextAppearance_Compat_Notification_Info = 2131624216;
 			
 			// aapt resource value: 0x7F0E0119
-			public const int TextAppearance_Compat_Notification_Info = 2131624217;
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131624217;
 			
 			// aapt resource value: 0x7F0E011A
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131624218;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131624218;
 			
 			// aapt resource value: 0x7F0E011B
-			public const int TextAppearance_Compat_Notification_Line2 = 2131624219;
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624219;
 			
 			// aapt resource value: 0x7F0E011C
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624220;
+			public const int TextAppearance_Compat_Notification_Media = 2131624220;
 			
 			// aapt resource value: 0x7F0E011D
-			public const int TextAppearance_Compat_Notification_Media = 2131624221;
+			public const int TextAppearance_Compat_Notification_Time = 2131624221;
 			
 			// aapt resource value: 0x7F0E011E
-			public const int TextAppearance_Compat_Notification_Time = 2131624222;
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131624222;
 			
 			// aapt resource value: 0x7F0E011F
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131624223;
+			public const int TextAppearance_Compat_Notification_Title = 2131624223;
 			
 			// aapt resource value: 0x7F0E0120
-			public const int TextAppearance_Compat_Notification_Title = 2131624224;
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131624224;
 			
 			// aapt resource value: 0x7F0E0121
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131624225;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624225;
 			
 			// aapt resource value: 0x7F0E0122
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624226;
+			public const int TextAppearance_Design_Counter = 2131624226;
 			
 			// aapt resource value: 0x7F0E0123
-			public const int TextAppearance_Design_Counter = 2131624227;
+			public const int TextAppearance_Design_Counter_Overflow = 2131624227;
 			
 			// aapt resource value: 0x7F0E0124
-			public const int TextAppearance_Design_Counter_Overflow = 2131624228;
+			public const int TextAppearance_Design_Error = 2131624228;
 			
 			// aapt resource value: 0x7F0E0125
-			public const int TextAppearance_Design_Error = 2131624229;
+			public const int TextAppearance_Design_HelperText = 2131624229;
 			
 			// aapt resource value: 0x7F0E0126
-			public const int TextAppearance_Design_HelperText = 2131624230;
+			public const int TextAppearance_Design_Hint = 2131624230;
 			
 			// aapt resource value: 0x7F0E0127
-			public const int TextAppearance_Design_Hint = 2131624231;
+			public const int TextAppearance_Design_Snackbar_Message = 2131624231;
 			
 			// aapt resource value: 0x7F0E0128
-			public const int TextAppearance_Design_Snackbar_Message = 2131624232;
+			public const int TextAppearance_Design_Tab = 2131624232;
 			
 			// aapt resource value: 0x7F0E0129
-			public const int TextAppearance_Design_Tab = 2131624233;
+			public const int TextAppearance_MaterialComponents_Body1 = 2131624233;
 			
 			// aapt resource value: 0x7F0E012A
-			public const int TextAppearance_MaterialComponents_Body1 = 2131624234;
+			public const int TextAppearance_MaterialComponents_Body2 = 2131624234;
 			
 			// aapt resource value: 0x7F0E012B
-			public const int TextAppearance_MaterialComponents_Body2 = 2131624235;
+			public const int TextAppearance_MaterialComponents_Button = 2131624235;
 			
 			// aapt resource value: 0x7F0E012C
-			public const int TextAppearance_MaterialComponents_Button = 2131624236;
+			public const int TextAppearance_MaterialComponents_Caption = 2131624236;
 			
 			// aapt resource value: 0x7F0E012D
-			public const int TextAppearance_MaterialComponents_Caption = 2131624237;
+			public const int TextAppearance_MaterialComponents_Chip = 2131624237;
 			
 			// aapt resource value: 0x7F0E012E
-			public const int TextAppearance_MaterialComponents_Chip = 2131624238;
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131624238;
 			
 			// aapt resource value: 0x7F0E012F
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131624239;
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131624239;
 			
 			// aapt resource value: 0x7F0E0130
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131624240;
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131624240;
 			
 			// aapt resource value: 0x7F0E0131
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131624241;
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131624241;
 			
 			// aapt resource value: 0x7F0E0132
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131624242;
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131624242;
 			
 			// aapt resource value: 0x7F0E0133
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131624243;
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131624243;
 			
 			// aapt resource value: 0x7F0E0134
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131624244;
+			public const int TextAppearance_MaterialComponents_Overline = 2131624244;
 			
 			// aapt resource value: 0x7F0E0135
-			public const int TextAppearance_MaterialComponents_Overline = 2131624245;
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624245;
 			
 			// aapt resource value: 0x7F0E0136
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624246;
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624246;
 			
 			// aapt resource value: 0x7F0E0137
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624247;
+			public const int TextAppearance_MaterialComponents_Tab = 2131624247;
 			
 			// aapt resource value: 0x7F0E0138
-			public const int TextAppearance_MaterialComponents_Tab = 2131624248;
+			public const int TextAppearance_MediaRouter_PrimaryText = 2131624248;
 			
 			// aapt resource value: 0x7F0E0139
-			public const int TextAppearance_MediaRouter_PrimaryText = 2131624249;
+			public const int TextAppearance_MediaRouter_SecondaryText = 2131624249;
 			
 			// aapt resource value: 0x7F0E013A
-			public const int TextAppearance_MediaRouter_SecondaryText = 2131624250;
+			public const int TextAppearance_MediaRouter_Title = 2131624250;
 			
 			// aapt resource value: 0x7F0E013B
-			public const int TextAppearance_MediaRouter_Title = 2131624251;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624251;
 			
 			// aapt resource value: 0x7F0E013C
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624252;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624252;
 			
 			// aapt resource value: 0x7F0E013D
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624253;
-			
-			// aapt resource value: 0x7F0E013E
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624254;
-			
-			// aapt resource value: 0x7F0E0174
-			public const int ThemeOverlay_AppCompat = 2131624308;
-			
-			// aapt resource value: 0x7F0E0175
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624309;
-			
-			// aapt resource value: 0x7F0E0176
-			public const int ThemeOverlay_AppCompat_Dark = 2131624310;
-			
-			// aapt resource value: 0x7F0E0177
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624311;
-			
-			// aapt resource value: 0x7F0E0178
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624312;
-			
-			// aapt resource value: 0x7F0E0179
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624313;
-			
-			// aapt resource value: 0x7F0E017A
-			public const int ThemeOverlay_AppCompat_Light = 2131624314;
-			
-			// aapt resource value: 0x7F0E017B
-			public const int ThemeOverlay_MaterialComponents = 2131624315;
-			
-			// aapt resource value: 0x7F0E017C
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624316;
-			
-			// aapt resource value: 0x7F0E017D
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624317;
-			
-			// aapt resource value: 0x7F0E017E
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624318;
-			
-			// aapt resource value: 0x7F0E017F
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624319;
-			
-			// aapt resource value: 0x7F0E0180
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624320;
-			
-			// aapt resource value: 0x7F0E0181
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624321;
-			
-			// aapt resource value: 0x7F0E0182
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624322;
-			
-			// aapt resource value: 0x7F0E0183
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624323;
-			
-			// aapt resource value: 0x7F0E0184
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624324;
-			
-			// aapt resource value: 0x7F0E0185
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624325;
-			
-			// aapt resource value: 0x7F0E0186
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624326;
-			
-			// aapt resource value: 0x7F0E0187
-			public const int ThemeOverlay_MediaRouter_Dark = 2131624327;
-			
-			// aapt resource value: 0x7F0E0188
-			public const int ThemeOverlay_MediaRouter_Light = 2131624328;
-			
-			// aapt resource value: 0x7F0E013F
-			public const int Theme_AppCompat = 2131624255;
-			
-			// aapt resource value: 0x7F0E0140
-			public const int Theme_AppCompat_CompactMenu = 2131624256;
-			
-			// aapt resource value: 0x7F0E0141
-			public const int Theme_AppCompat_DayNight = 2131624257;
-			
-			// aapt resource value: 0x7F0E0142
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624258;
-			
-			// aapt resource value: 0x7F0E0143
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624259;
-			
-			// aapt resource value: 0x7F0E0146
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624262;
-			
-			// aapt resource value: 0x7F0E0144
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624260;
-			
-			// aapt resource value: 0x7F0E0145
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624261;
-			
-			// aapt resource value: 0x7F0E0147
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624263;
-			
-			// aapt resource value: 0x7F0E0148
-			public const int Theme_AppCompat_Dialog = 2131624264;
-			
-			// aapt resource value: 0x7F0E014B
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624267;
-			
-			// aapt resource value: 0x7F0E0149
-			public const int Theme_AppCompat_Dialog_Alert = 2131624265;
-			
-			// aapt resource value: 0x7F0E014A
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624266;
-			
-			// aapt resource value: 0x7F0E014C
-			public const int Theme_AppCompat_Light = 2131624268;
-			
-			// aapt resource value: 0x7F0E014D
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624269;
-			
-			// aapt resource value: 0x7F0E014E
-			public const int Theme_AppCompat_Light_Dialog = 2131624270;
-			
-			// aapt resource value: 0x7F0E0151
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624273;
-			
-			// aapt resource value: 0x7F0E014F
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624271;
-			
-			// aapt resource value: 0x7F0E0150
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624272;
-			
-			// aapt resource value: 0x7F0E0152
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624274;
-			
-			// aapt resource value: 0x7F0E0153
-			public const int Theme_AppCompat_NoActionBar = 2131624275;
-			
-			// aapt resource value: 0x7F0E0154
-			public const int Theme_Design = 2131624276;
-			
-			// aapt resource value: 0x7F0E0155
-			public const int Theme_Design_BottomSheetDialog = 2131624277;
-			
-			// aapt resource value: 0x7F0E0156
-			public const int Theme_Design_Light = 2131624278;
-			
-			// aapt resource value: 0x7F0E0157
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624279;
-			
-			// aapt resource value: 0x7F0E0158
-			public const int Theme_Design_Light_NoActionBar = 2131624280;
-			
-			// aapt resource value: 0x7F0E0159
-			public const int Theme_Design_NoActionBar = 2131624281;
-			
-			// aapt resource value: 0x7F0E015A
-			public const int Theme_MaterialComponents = 2131624282;
-			
-			// aapt resource value: 0x7F0E015B
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624283;
-			
-			// aapt resource value: 0x7F0E015C
-			public const int Theme_MaterialComponents_Bridge = 2131624284;
-			
-			// aapt resource value: 0x7F0E015D
-			public const int Theme_MaterialComponents_CompactMenu = 2131624285;
-			
-			// aapt resource value: 0x7F0E015E
-			public const int Theme_MaterialComponents_Dialog = 2131624286;
-			
-			// aapt resource value: 0x7F0E0161
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624289;
-			
-			// aapt resource value: 0x7F0E015F
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131624287;
-			
-			// aapt resource value: 0x7F0E0160
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624288;
-			
-			// aapt resource value: 0x7F0E0162
-			public const int Theme_MaterialComponents_Light = 2131624290;
-			
-			// aapt resource value: 0x7F0E0163
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624291;
-			
-			// aapt resource value: 0x7F0E0164
-			public const int Theme_MaterialComponents_Light_Bridge = 2131624292;
-			
-			// aapt resource value: 0x7F0E0165
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624293;
-			
-			// aapt resource value: 0x7F0E0166
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624294;
-			
-			// aapt resource value: 0x7F0E0167
-			public const int Theme_MaterialComponents_Light_Dialog = 2131624295;
-			
-			// aapt resource value: 0x7F0E016A
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624298;
-			
-			// aapt resource value: 0x7F0E0168
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624296;
-			
-			// aapt resource value: 0x7F0E0169
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624297;
-			
-			// aapt resource value: 0x7F0E016B
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624299;
-			
-			// aapt resource value: 0x7F0E016C
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624300;
-			
-			// aapt resource value: 0x7F0E016D
-			public const int Theme_MaterialComponents_NoActionBar = 2131624301;
-			
-			// aapt resource value: 0x7F0E016E
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624302;
-			
-			// aapt resource value: 0x7F0E016F
-			public const int Theme_MediaRouter = 2131624303;
-			
-			// aapt resource value: 0x7F0E0170
-			public const int Theme_MediaRouter_Light = 2131624304;
-			
-			// aapt resource value: 0x7F0E0172
-			public const int Theme_MediaRouter_LightControlPanel = 2131624306;
-			
-			// aapt resource value: 0x7F0E0171
-			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131624305;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624253;
 			
 			// aapt resource value: 0x7F0E0173
-			public const int Theme_Splash = 2131624307;
+			public const int ThemeOverlay_AppCompat = 2131624307;
+			
+			// aapt resource value: 0x7F0E0174
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131624308;
+			
+			// aapt resource value: 0x7F0E0175
+			public const int ThemeOverlay_AppCompat_Dark = 2131624309;
+			
+			// aapt resource value: 0x7F0E0176
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624310;
+			
+			// aapt resource value: 0x7F0E0177
+			public const int ThemeOverlay_AppCompat_Dialog = 2131624311;
+			
+			// aapt resource value: 0x7F0E0178
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624312;
+			
+			// aapt resource value: 0x7F0E0179
+			public const int ThemeOverlay_AppCompat_Light = 2131624313;
+			
+			// aapt resource value: 0x7F0E017A
+			public const int ThemeOverlay_MaterialComponents = 2131624314;
+			
+			// aapt resource value: 0x7F0E017B
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624315;
+			
+			// aapt resource value: 0x7F0E017C
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131624316;
+			
+			// aapt resource value: 0x7F0E017D
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624317;
+			
+			// aapt resource value: 0x7F0E017E
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624318;
+			
+			// aapt resource value: 0x7F0E017F
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624319;
+			
+			// aapt resource value: 0x7F0E0180
+			public const int ThemeOverlay_MaterialComponents_Light = 2131624320;
+			
+			// aapt resource value: 0x7F0E0181
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624321;
+			
+			// aapt resource value: 0x7F0E0182
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624322;
+			
+			// aapt resource value: 0x7F0E0183
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624323;
+			
+			// aapt resource value: 0x7F0E0184
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624324;
+			
+			// aapt resource value: 0x7F0E0185
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624325;
+			
+			// aapt resource value: 0x7F0E0186
+			public const int ThemeOverlay_MediaRouter_Dark = 2131624326;
+			
+			// aapt resource value: 0x7F0E0187
+			public const int ThemeOverlay_MediaRouter_Light = 2131624327;
+			
+			// aapt resource value: 0x7F0E013E
+			public const int Theme_AppCompat = 2131624254;
+			
+			// aapt resource value: 0x7F0E013F
+			public const int Theme_AppCompat_CompactMenu = 2131624255;
+			
+			// aapt resource value: 0x7F0E0140
+			public const int Theme_AppCompat_DayNight = 2131624256;
+			
+			// aapt resource value: 0x7F0E0141
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624257;
+			
+			// aapt resource value: 0x7F0E0142
+			public const int Theme_AppCompat_DayNight_Dialog = 2131624258;
+			
+			// aapt resource value: 0x7F0E0145
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624261;
+			
+			// aapt resource value: 0x7F0E0143
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624259;
+			
+			// aapt resource value: 0x7F0E0144
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624260;
+			
+			// aapt resource value: 0x7F0E0146
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624262;
+			
+			// aapt resource value: 0x7F0E0147
+			public const int Theme_AppCompat_Dialog = 2131624263;
+			
+			// aapt resource value: 0x7F0E014A
+			public const int Theme_AppCompat_DialogWhenLarge = 2131624266;
+			
+			// aapt resource value: 0x7F0E0148
+			public const int Theme_AppCompat_Dialog_Alert = 2131624264;
+			
+			// aapt resource value: 0x7F0E0149
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131624265;
+			
+			// aapt resource value: 0x7F0E014B
+			public const int Theme_AppCompat_Light = 2131624267;
+			
+			// aapt resource value: 0x7F0E014C
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131624268;
+			
+			// aapt resource value: 0x7F0E014D
+			public const int Theme_AppCompat_Light_Dialog = 2131624269;
+			
+			// aapt resource value: 0x7F0E0150
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624272;
+			
+			// aapt resource value: 0x7F0E014E
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624270;
+			
+			// aapt resource value: 0x7F0E014F
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624271;
+			
+			// aapt resource value: 0x7F0E0151
+			public const int Theme_AppCompat_Light_NoActionBar = 2131624273;
+			
+			// aapt resource value: 0x7F0E0152
+			public const int Theme_AppCompat_NoActionBar = 2131624274;
+			
+			// aapt resource value: 0x7F0E0153
+			public const int Theme_Design = 2131624275;
+			
+			// aapt resource value: 0x7F0E0154
+			public const int Theme_Design_BottomSheetDialog = 2131624276;
+			
+			// aapt resource value: 0x7F0E0155
+			public const int Theme_Design_Light = 2131624277;
+			
+			// aapt resource value: 0x7F0E0156
+			public const int Theme_Design_Light_BottomSheetDialog = 2131624278;
+			
+			// aapt resource value: 0x7F0E0157
+			public const int Theme_Design_Light_NoActionBar = 2131624279;
+			
+			// aapt resource value: 0x7F0E0158
+			public const int Theme_Design_NoActionBar = 2131624280;
+			
+			// aapt resource value: 0x7F0E0159
+			public const int Theme_MaterialComponents = 2131624281;
+			
+			// aapt resource value: 0x7F0E015A
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624282;
+			
+			// aapt resource value: 0x7F0E015B
+			public const int Theme_MaterialComponents_Bridge = 2131624283;
+			
+			// aapt resource value: 0x7F0E015C
+			public const int Theme_MaterialComponents_CompactMenu = 2131624284;
+			
+			// aapt resource value: 0x7F0E015D
+			public const int Theme_MaterialComponents_Dialog = 2131624285;
+			
+			// aapt resource value: 0x7F0E0160
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624288;
+			
+			// aapt resource value: 0x7F0E015E
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131624286;
+			
+			// aapt resource value: 0x7F0E015F
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624287;
+			
+			// aapt resource value: 0x7F0E0161
+			public const int Theme_MaterialComponents_Light = 2131624289;
+			
+			// aapt resource value: 0x7F0E0162
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624290;
+			
+			// aapt resource value: 0x7F0E0163
+			public const int Theme_MaterialComponents_Light_Bridge = 2131624291;
+			
+			// aapt resource value: 0x7F0E0164
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624292;
+			
+			// aapt resource value: 0x7F0E0165
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624293;
+			
+			// aapt resource value: 0x7F0E0166
+			public const int Theme_MaterialComponents_Light_Dialog = 2131624294;
+			
+			// aapt resource value: 0x7F0E0169
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624297;
+			
+			// aapt resource value: 0x7F0E0167
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624295;
+			
+			// aapt resource value: 0x7F0E0168
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624296;
+			
+			// aapt resource value: 0x7F0E016A
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624298;
+			
+			// aapt resource value: 0x7F0E016B
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624299;
+			
+			// aapt resource value: 0x7F0E016C
+			public const int Theme_MaterialComponents_NoActionBar = 2131624300;
+			
+			// aapt resource value: 0x7F0E016D
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624301;
+			
+			// aapt resource value: 0x7F0E016E
+			public const int Theme_MediaRouter = 2131624302;
+			
+			// aapt resource value: 0x7F0E016F
+			public const int Theme_MediaRouter_Light = 2131624303;
+			
+			// aapt resource value: 0x7F0E0171
+			public const int Theme_MediaRouter_LightControlPanel = 2131624305;
+			
+			// aapt resource value: 0x7F0E0170
+			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131624304;
+			
+			// aapt resource value: 0x7F0E0172
+			public const int Theme_Splash = 2131624306;
+			
+			// aapt resource value: 0x7F0E0188
+			public const int Widget_AppCompat_ActionBar = 2131624328;
 			
 			// aapt resource value: 0x7F0E0189
-			public const int Widget_AppCompat_ActionBar = 2131624329;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131624329;
 			
 			// aapt resource value: 0x7F0E018A
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624330;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131624330;
 			
 			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624331;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131624331;
 			
 			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624332;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131624332;
 			
 			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624333;
+			public const int Widget_AppCompat_ActionButton = 2131624333;
 			
 			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_ActionButton = 2131624334;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624334;
 			
 			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624335;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131624335;
 			
 			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624336;
+			public const int Widget_AppCompat_ActionMode = 2131624336;
 			
 			// aapt resource value: 0x7F0E0191
-			public const int Widget_AppCompat_ActionMode = 2131624337;
+			public const int Widget_AppCompat_ActivityChooserView = 2131624337;
 			
 			// aapt resource value: 0x7F0E0192
-			public const int Widget_AppCompat_ActivityChooserView = 2131624338;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131624338;
 			
 			// aapt resource value: 0x7F0E0193
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624339;
-			
-			// aapt resource value: 0x7F0E0194
-			public const int Widget_AppCompat_Button = 2131624340;
-			
-			// aapt resource value: 0x7F0E019A
-			public const int Widget_AppCompat_ButtonBar = 2131624346;
-			
-			// aapt resource value: 0x7F0E019B
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624347;
-			
-			// aapt resource value: 0x7F0E0195
-			public const int Widget_AppCompat_Button_Borderless = 2131624341;
-			
-			// aapt resource value: 0x7F0E0196
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624342;
-			
-			// aapt resource value: 0x7F0E0197
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624343;
-			
-			// aapt resource value: 0x7F0E0198
-			public const int Widget_AppCompat_Button_Colored = 2131624344;
+			public const int Widget_AppCompat_Button = 2131624339;
 			
 			// aapt resource value: 0x7F0E0199
-			public const int Widget_AppCompat_Button_Small = 2131624345;
+			public const int Widget_AppCompat_ButtonBar = 2131624345;
+			
+			// aapt resource value: 0x7F0E019A
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624346;
+			
+			// aapt resource value: 0x7F0E0194
+			public const int Widget_AppCompat_Button_Borderless = 2131624340;
+			
+			// aapt resource value: 0x7F0E0195
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624341;
+			
+			// aapt resource value: 0x7F0E0196
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624342;
+			
+			// aapt resource value: 0x7F0E0197
+			public const int Widget_AppCompat_Button_Colored = 2131624343;
+			
+			// aapt resource value: 0x7F0E0198
+			public const int Widget_AppCompat_Button_Small = 2131624344;
+			
+			// aapt resource value: 0x7F0E019B
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624347;
 			
 			// aapt resource value: 0x7F0E019C
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624348;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624348;
 			
 			// aapt resource value: 0x7F0E019D
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624349;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131624349;
 			
 			// aapt resource value: 0x7F0E019E
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624350;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131624350;
 			
 			// aapt resource value: 0x7F0E019F
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624351;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624351;
 			
 			// aapt resource value: 0x7F0E01A0
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624352;
+			public const int Widget_AppCompat_EditText = 2131624352;
 			
 			// aapt resource value: 0x7F0E01A1
-			public const int Widget_AppCompat_EditText = 2131624353;
+			public const int Widget_AppCompat_ImageButton = 2131624353;
 			
 			// aapt resource value: 0x7F0E01A2
-			public const int Widget_AppCompat_ImageButton = 2131624354;
+			public const int Widget_AppCompat_Light_ActionBar = 2131624354;
 			
 			// aapt resource value: 0x7F0E01A3
-			public const int Widget_AppCompat_Light_ActionBar = 2131624355;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624355;
 			
 			// aapt resource value: 0x7F0E01A4
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624356;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624356;
 			
 			// aapt resource value: 0x7F0E01A5
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624357;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624357;
 			
 			// aapt resource value: 0x7F0E01A6
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624358;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624358;
 			
 			// aapt resource value: 0x7F0E01A7
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624359;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624359;
 			
 			// aapt resource value: 0x7F0E01A8
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624360;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624360;
 			
 			// aapt resource value: 0x7F0E01A9
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624361;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624361;
 			
 			// aapt resource value: 0x7F0E01AA
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624362;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624362;
 			
 			// aapt resource value: 0x7F0E01AB
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624363;
+			public const int Widget_AppCompat_Light_ActionButton = 2131624363;
 			
 			// aapt resource value: 0x7F0E01AC
-			public const int Widget_AppCompat_Light_ActionButton = 2131624364;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624364;
 			
 			// aapt resource value: 0x7F0E01AD
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624365;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624365;
 			
 			// aapt resource value: 0x7F0E01AE
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624366;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624366;
 			
 			// aapt resource value: 0x7F0E01AF
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624367;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624367;
 			
 			// aapt resource value: 0x7F0E01B0
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624368;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624368;
 			
 			// aapt resource value: 0x7F0E01B1
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624369;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624369;
 			
 			// aapt resource value: 0x7F0E01B2
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624370;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624370;
 			
 			// aapt resource value: 0x7F0E01B3
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624371;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624371;
 			
 			// aapt resource value: 0x7F0E01B4
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624372;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131624372;
 			
 			// aapt resource value: 0x7F0E01B5
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624373;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624373;
 			
 			// aapt resource value: 0x7F0E01B6
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624374;
+			public const int Widget_AppCompat_Light_SearchView = 2131624374;
 			
 			// aapt resource value: 0x7F0E01B7
-			public const int Widget_AppCompat_Light_SearchView = 2131624375;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624375;
 			
 			// aapt resource value: 0x7F0E01B8
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624376;
+			public const int Widget_AppCompat_ListMenuView = 2131624376;
 			
 			// aapt resource value: 0x7F0E01B9
-			public const int Widget_AppCompat_ListMenuView = 2131624377;
+			public const int Widget_AppCompat_ListPopupWindow = 2131624377;
 			
 			// aapt resource value: 0x7F0E01BA
-			public const int Widget_AppCompat_ListPopupWindow = 2131624378;
+			public const int Widget_AppCompat_ListView = 2131624378;
 			
 			// aapt resource value: 0x7F0E01BB
-			public const int Widget_AppCompat_ListView = 2131624379;
+			public const int Widget_AppCompat_ListView_DropDown = 2131624379;
 			
 			// aapt resource value: 0x7F0E01BC
-			public const int Widget_AppCompat_ListView_DropDown = 2131624380;
+			public const int Widget_AppCompat_ListView_Menu = 2131624380;
 			
 			// aapt resource value: 0x7F0E01BD
-			public const int Widget_AppCompat_ListView_Menu = 2131624381;
+			public const int Widget_AppCompat_PopupMenu = 2131624381;
 			
 			// aapt resource value: 0x7F0E01BE
-			public const int Widget_AppCompat_PopupMenu = 2131624382;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624382;
 			
 			// aapt resource value: 0x7F0E01BF
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624383;
+			public const int Widget_AppCompat_PopupWindow = 2131624383;
 			
 			// aapt resource value: 0x7F0E01C0
-			public const int Widget_AppCompat_PopupWindow = 2131624384;
+			public const int Widget_AppCompat_ProgressBar = 2131624384;
 			
 			// aapt resource value: 0x7F0E01C1
-			public const int Widget_AppCompat_ProgressBar = 2131624385;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624385;
 			
 			// aapt resource value: 0x7F0E01C2
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624386;
+			public const int Widget_AppCompat_RatingBar = 2131624386;
 			
 			// aapt resource value: 0x7F0E01C3
-			public const int Widget_AppCompat_RatingBar = 2131624387;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131624387;
 			
 			// aapt resource value: 0x7F0E01C4
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624388;
+			public const int Widget_AppCompat_RatingBar_Small = 2131624388;
 			
 			// aapt resource value: 0x7F0E01C5
-			public const int Widget_AppCompat_RatingBar_Small = 2131624389;
+			public const int Widget_AppCompat_SearchView = 2131624389;
 			
 			// aapt resource value: 0x7F0E01C6
-			public const int Widget_AppCompat_SearchView = 2131624390;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131624390;
 			
 			// aapt resource value: 0x7F0E01C7
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624391;
+			public const int Widget_AppCompat_SeekBar = 2131624391;
 			
 			// aapt resource value: 0x7F0E01C8
-			public const int Widget_AppCompat_SeekBar = 2131624392;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131624392;
 			
 			// aapt resource value: 0x7F0E01C9
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624393;
+			public const int Widget_AppCompat_Spinner = 2131624393;
 			
 			// aapt resource value: 0x7F0E01CA
-			public const int Widget_AppCompat_Spinner = 2131624394;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131624394;
 			
 			// aapt resource value: 0x7F0E01CB
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624395;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624395;
 			
 			// aapt resource value: 0x7F0E01CC
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624396;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131624396;
 			
 			// aapt resource value: 0x7F0E01CD
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624397;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624397;
 			
 			// aapt resource value: 0x7F0E01CE
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624398;
+			public const int Widget_AppCompat_Toolbar = 2131624398;
 			
 			// aapt resource value: 0x7F0E01CF
-			public const int Widget_AppCompat_Toolbar = 2131624399;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624399;
 			
 			// aapt resource value: 0x7F0E01D0
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624400;
+			public const int Widget_Compat_NotificationActionContainer = 2131624400;
 			
 			// aapt resource value: 0x7F0E01D1
-			public const int Widget_Compat_NotificationActionContainer = 2131624401;
+			public const int Widget_Compat_NotificationActionText = 2131624401;
 			
 			// aapt resource value: 0x7F0E01D2
-			public const int Widget_Compat_NotificationActionText = 2131624402;
+			public const int Widget_Design_AppBarLayout = 2131624402;
 			
 			// aapt resource value: 0x7F0E01D3
-			public const int Widget_Design_AppBarLayout = 2131624403;
+			public const int Widget_Design_BottomNavigationView = 2131624403;
 			
 			// aapt resource value: 0x7F0E01D4
-			public const int Widget_Design_BottomNavigationView = 2131624404;
+			public const int Widget_Design_BottomSheet_Modal = 2131624404;
 			
 			// aapt resource value: 0x7F0E01D5
-			public const int Widget_Design_BottomSheet_Modal = 2131624405;
+			public const int Widget_Design_CollapsingToolbar = 2131624405;
 			
 			// aapt resource value: 0x7F0E01D6
-			public const int Widget_Design_CollapsingToolbar = 2131624406;
+			public const int Widget_Design_FloatingActionButton = 2131624406;
 			
 			// aapt resource value: 0x7F0E01D7
-			public const int Widget_Design_FloatingActionButton = 2131624407;
+			public const int Widget_Design_NavigationView = 2131624407;
 			
 			// aapt resource value: 0x7F0E01D8
-			public const int Widget_Design_NavigationView = 2131624408;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624408;
 			
 			// aapt resource value: 0x7F0E01D9
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624409;
+			public const int Widget_Design_Snackbar = 2131624409;
 			
 			// aapt resource value: 0x7F0E01DA
-			public const int Widget_Design_Snackbar = 2131624410;
+			public const int Widget_Design_TabLayout = 2131624410;
 			
 			// aapt resource value: 0x7F0E01DB
-			public const int Widget_Design_TabLayout = 2131624411;
+			public const int Widget_Design_TextInputLayout = 2131624411;
 			
 			// aapt resource value: 0x7F0E01DC
-			public const int Widget_Design_TextInputLayout = 2131624412;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131624412;
 			
 			// aapt resource value: 0x7F0E01DD
-			public const int Widget_MaterialComponents_BottomAppBar = 2131624413;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624413;
 			
 			// aapt resource value: 0x7F0E01DE
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624414;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131624414;
 			
 			// aapt resource value: 0x7F0E01DF
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131624415;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624415;
 			
 			// aapt resource value: 0x7F0E01E0
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624416;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624416;
 			
 			// aapt resource value: 0x7F0E01E1
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624417;
+			public const int Widget_MaterialComponents_Button = 2131624417;
 			
 			// aapt resource value: 0x7F0E01E2
-			public const int Widget_MaterialComponents_Button = 2131624418;
+			public const int Widget_MaterialComponents_Button_Icon = 2131624418;
 			
 			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_Button_Icon = 2131624419;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624419;
 			
 			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624420;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624420;
 			
 			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624421;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131624421;
 			
 			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_Button_TextButton = 2131624422;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624422;
 			
 			// aapt resource value: 0x7F0E01E7
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624423;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624423;
 			
 			// aapt resource value: 0x7F0E01E8
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624424;
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624424;
 			
 			// aapt resource value: 0x7F0E01E9
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624425;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624425;
 			
 			// aapt resource value: 0x7F0E01EA
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624426;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624426;
 			
 			// aapt resource value: 0x7F0E01EB
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624427;
-			
-			// aapt resource value: 0x7F0E01EC
-			public const int Widget_MaterialComponents_CardView = 2131624428;
-			
-			// aapt resource value: 0x7F0E01F1
-			public const int Widget_MaterialComponents_ChipGroup = 2131624433;
-			
-			// aapt resource value: 0x7F0E01ED
-			public const int Widget_MaterialComponents_Chip_Action = 2131624429;
-			
-			// aapt resource value: 0x7F0E01EE
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624430;
-			
-			// aapt resource value: 0x7F0E01EF
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624431;
+			public const int Widget_MaterialComponents_CardView = 2131624427;
 			
 			// aapt resource value: 0x7F0E01F0
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624432;
+			public const int Widget_MaterialComponents_ChipGroup = 2131624432;
+			
+			// aapt resource value: 0x7F0E01EC
+			public const int Widget_MaterialComponents_Chip_Action = 2131624428;
+			
+			// aapt resource value: 0x7F0E01ED
+			public const int Widget_MaterialComponents_Chip_Choice = 2131624429;
+			
+			// aapt resource value: 0x7F0E01EE
+			public const int Widget_MaterialComponents_Chip_Entry = 2131624430;
+			
+			// aapt resource value: 0x7F0E01EF
+			public const int Widget_MaterialComponents_Chip_Filter = 2131624431;
+			
+			// aapt resource value: 0x7F0E01F1
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131624433;
 			
 			// aapt resource value: 0x7F0E01F2
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131624434;
+			public const int Widget_MaterialComponents_NavigationView = 2131624434;
 			
 			// aapt resource value: 0x7F0E01F3
-			public const int Widget_MaterialComponents_NavigationView = 2131624435;
+			public const int Widget_MaterialComponents_Snackbar = 2131624435;
 			
 			// aapt resource value: 0x7F0E01F4
-			public const int Widget_MaterialComponents_Snackbar = 2131624436;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624436;
 			
 			// aapt resource value: 0x7F0E01F5
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624437;
+			public const int Widget_MaterialComponents_TabLayout = 2131624437;
 			
 			// aapt resource value: 0x7F0E01F6
-			public const int Widget_MaterialComponents_TabLayout = 2131624438;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624438;
 			
 			// aapt resource value: 0x7F0E01F7
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624439;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624439;
 			
 			// aapt resource value: 0x7F0E01F8
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624440;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624440;
 			
 			// aapt resource value: 0x7F0E01F9
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624441;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624441;
 			
 			// aapt resource value: 0x7F0E01FA
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624442;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624442;
 			
 			// aapt resource value: 0x7F0E01FB
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624443;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624443;
 			
 			// aapt resource value: 0x7F0E01FC
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624444;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624444;
 			
 			// aapt resource value: 0x7F0E01FD
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624445;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624445;
 			
 			// aapt resource value: 0x7F0E01FE
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624446;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624446;
 			
 			// aapt resource value: 0x7F0E01FF
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624447;
+			public const int Widget_MaterialComponents_Toolbar = 2131624447;
 			
 			// aapt resource value: 0x7F0E0200
-			public const int Widget_MaterialComponents_Toolbar = 2131624448;
+			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131624448;
 			
 			// aapt resource value: 0x7F0E0201
-			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131624449;
+			public const int Widget_MediaRouter_MediaRouteButton = 2131624449;
 			
 			// aapt resource value: 0x7F0E0202
-			public const int Widget_MediaRouter_MediaRouteButton = 2131624450;
-			
-			// aapt resource value: 0x7F0E0203
-			public const int Widget_Support_CoordinatorLayout = 2131624451;
+			public const int Widget_Support_CoordinatorLayout = 2131624450;
 			
 			static Style()
 			{
@@ -17486,37 +18203,37 @@ namespace AppTaxi2020.Prison.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030032,0x7F030033,0x7F030034,0x7F0300A5,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300B8,0x7F0300BD,0x7F0300BE,0x7F0300C9,0x7F0300F4,0x7F0300F9,0x7F0300FE,0x7F0300FF,0x7F030101,0x7F03010D,0x7F030117,0x7F03013F,0x7F030159,0x7F03016A,0x7F03016E,0x7F03016F,0x7F0301AA,0x7F0301AD,0x7F0301F2,0x7F0301FC }
+			// aapt resource value: { 0x7F030032,0x7F030033,0x7F030034,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300B9,0x7F0300BE,0x7F0300BF,0x7F0300CA,0x7F0300F5,0x7F0300FA,0x7F0300FF,0x7F030100,0x7F030102,0x7F03010E,0x7F030118,0x7F030140,0x7F03015A,0x7F03016B,0x7F03016F,0x7F030170,0x7F0301AB,0x7F0301AE,0x7F0301F3,0x7F0301FD }
 			public static int[] ActionBar = new int[] {
 					2130903090,
 					2130903091,
 					2130903092,
-					2130903205,
 					2130903206,
 					2130903207,
 					2130903208,
 					2130903209,
 					2130903210,
-					2130903224,
-					2130903229,
+					2130903211,
+					2130903225,
 					2130903230,
-					2130903241,
-					2130903284,
-					2130903289,
-					2130903294,
+					2130903231,
+					2130903242,
+					2130903285,
+					2130903290,
 					2130903295,
-					2130903297,
-					2130903309,
-					2130903319,
-					2130903359,
-					2130903385,
-					2130903402,
-					2130903406,
+					2130903296,
+					2130903298,
+					2130903310,
+					2130903320,
+					2130903360,
+					2130903386,
+					2130903403,
 					2130903407,
-					2130903466,
-					2130903469,
-					2130903538,
-					2130903548};
+					2130903408,
+					2130903467,
+					2130903470,
+					2130903539,
+					2130903549};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -17623,14 +18340,14 @@ namespace AppTaxi2020.Prison.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030032,0x7F030033,0x7F030091,0x7F0300F4,0x7F0301AD,0x7F0301FC }
+			// aapt resource value: { 0x7F030032,0x7F030033,0x7F030091,0x7F0300F5,0x7F0301AE,0x7F0301FD }
 			public static int[] ActionMode = new int[] {
 					2130903090,
 					2130903091,
 					2130903185,
-					2130903284,
-					2130903469,
-					2130903548};
+					2130903285,
+					2130903470,
+					2130903549};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -17650,10 +18367,10 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F0300CE,0x7F03010E }
+			// aapt resource value: { 0x7F0300CF,0x7F03010F }
 			public static int[] ActivityChooserView = new int[] {
-					2130903246,
-					2130903310};
+					2130903247,
+					2130903311};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -17661,16 +18378,16 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F03005C,0x7F03005D,0x7F030135,0x7F030136,0x7F030156,0x7F030192,0x7F030193 }
+			// aapt resource value: { 0x10100F2,0x7F03005C,0x7F03005D,0x7F030136,0x7F030137,0x7F030157,0x7F030193,0x7F030194 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
 					2130903132,
 					2130903133,
-					2130903349,
 					2130903350,
-					2130903382,
-					2130903442,
-					2130903443};
+					2130903351,
+					2130903383,
+					2130903443,
+					2130903444};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -17753,21 +18470,21 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300C9,0x7F0300CF,0x7F030130 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300CA,0x7F0300D0,0x7F030131 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903241,
-					2130903247,
-					2130903344};
+					2130903242,
+					2130903248,
+					2130903345};
 			
-			// aapt resource value: { 0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3 }
+			// aapt resource value: { 0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4 }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903456,
 					2130903457,
 					2130903458,
-					2130903459};
+					2130903459,
+					2130903460};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -17796,10 +18513,10 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F03012E,0x7F03012F }
+			// aapt resource value: { 0x7F03012F,0x7F030130 }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903342,
-					2130903343};
+					2130903343,
+					2130903344};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -17810,12 +18527,12 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
-			// aapt resource value: { 0x1010119,0x7F03019D,0x7F0301F0,0x7F0301F1 }
+			// aapt resource value: { 0x1010119,0x7F03019E,0x7F0301F1,0x7F0301F2 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903453,
-					2130903536,
-					2130903537};
+					2130903454,
+					2130903537,
+					2130903538};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -17829,12 +18546,12 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0301ED,0x7F0301EE,0x7F0301EF }
+			// aapt resource value: { 0x1010142,0x7F0301EE,0x7F0301EF,0x7F0301F0 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903533,
 					2130903534,
-					2130903535};
+					2130903535,
+					2130903536};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -17879,7 +18596,7 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F030031,0x7F0300E3,0x7F0300E6,0x7F03011F,0x7F030131,0x7F0301CD }
+			// aapt resource value: { 0x1010034,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F030031,0x7F0300E4,0x7F0300E7,0x7F030120,0x7F030132,0x7F0301CE }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130903085,
@@ -17887,11 +18604,11 @@ namespace AppTaxi2020.Prison.Droid
 					2130903087,
 					2130903088,
 					2130903089,
-					2130903267,
-					2130903270,
-					2130903327,
-					2130903345,
-					2130903501};
+					2130903268,
+					2130903271,
+					2130903328,
+					2130903346,
+					2130903502};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -17926,7 +18643,7 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 10
 			public const int AppCompatTextView_textAllCaps = 10;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002C,0x7F03003F,0x7F030056,0x7F030057,0x7F030058,0x7F030059,0x7F03005A,0x7F03005F,0x7F030060,0x7F030071,0x7F030076,0x7F030097,0x7F030098,0x7F030099,0x7F03009A,0x7F03009B,0x7F03009C,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A2,0x7F0300B1,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300BF,0x7F0300C1,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300FE,0x7F03010C,0x7F030133,0x7F030134,0x7F030137,0x7F030138,0x7F030139,0x7F03013A,0x7F03013B,0x7F03013C,0x7F03013D,0x7F030161,0x7F030162,0x7F030163,0x7F030169,0x7F03016B,0x7F030172,0x7F030173,0x7F030174,0x7F030175,0x7F03018A,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03019A,0x7F03019B,0x7F0301B1,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E3,0x7F0301E4,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030201,0x7F030211,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002C,0x7F03003F,0x7F030056,0x7F030057,0x7F030058,0x7F030059,0x7F03005A,0x7F03005F,0x7F030060,0x7F030071,0x7F030076,0x7F030098,0x7F030099,0x7F03009A,0x7F03009B,0x7F03009C,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A3,0x7F0300B2,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300C0,0x7F0300C2,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300FF,0x7F03010D,0x7F030134,0x7F030135,0x7F030138,0x7F030139,0x7F03013A,0x7F03013B,0x7F03013C,0x7F03013D,0x7F03013E,0x7F030162,0x7F030163,0x7F030164,0x7F03016A,0x7F03016C,0x7F030173,0x7F030174,0x7F030175,0x7F030176,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03019B,0x7F03019C,0x7F0301B2,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E4,0x7F0301E5,0x7F0301FF,0x7F030200,0x7F030201,0x7F030202,0x7F030212,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -17976,7 +18693,6 @@ namespace AppTaxi2020.Prison.Droid
 					2130903136,
 					2130903153,
 					2130903158,
-					2130903191,
 					2130903192,
 					2130903193,
 					2130903194,
@@ -17985,61 +18701,61 @@ namespace AppTaxi2020.Prison.Droid
 					2130903197,
 					2130903198,
 					2130903199,
-					2130903202,
-					2130903217,
-					2130903226,
+					2130903200,
+					2130903203,
+					2130903218,
 					2130903227,
 					2130903228,
-					2130903231,
-					2130903233,
-					2130903236,
+					2130903229,
+					2130903232,
+					2130903234,
 					2130903237,
 					2130903238,
 					2130903239,
 					2130903240,
-					2130903294,
-					2130903308,
-					2130903347,
+					2130903241,
+					2130903295,
+					2130903309,
 					2130903348,
-					2130903351,
+					2130903349,
 					2130903352,
 					2130903353,
 					2130903354,
 					2130903355,
 					2130903356,
 					2130903357,
-					2130903393,
+					2130903358,
 					2130903394,
 					2130903395,
-					2130903401,
-					2130903403,
-					2130903410,
+					2130903396,
+					2130903402,
+					2130903404,
 					2130903411,
 					2130903412,
 					2130903413,
-					2130903434,
+					2130903414,
 					2130903435,
 					2130903436,
 					2130903437,
-					2130903450,
+					2130903438,
 					2130903451,
-					2130903473,
-					2130903512,
+					2130903452,
+					2130903474,
 					2130903513,
 					2130903514,
 					2130903515,
-					2130903517,
+					2130903516,
 					2130903518,
 					2130903519,
 					2130903520,
-					2130903523,
+					2130903521,
 					2130903524,
-					2130903550,
+					2130903525,
 					2130903551,
 					2130903552,
 					2130903553,
-					2130903569,
-					2130903571,
+					2130903554,
+					2130903570,
 					2130903572,
 					2130903573,
 					2130903574,
@@ -18048,7 +18764,8 @@ namespace AppTaxi2020.Prison.Droid
 					2130903577,
 					2130903578,
 					2130903579,
-					2130903580};
+					2130903580,
+					2130903581};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -18413,14 +19130,14 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 120
 			public const int AppCompatTheme_windowNoTitle = 120;
 			
-			// aapt resource value: { 0x7F030035,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300FA }
+			// aapt resource value: { 0x7F030035,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300DC,0x7F0300FB }
 			public static int[] BottomAppBar = new int[] {
 					2130903093,
-					2130903256,
 					2130903257,
 					2130903258,
 					2130903259,
-					2130903290};
+					2130903260,
+					2130903291};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -18440,18 +19157,18 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 5
 			public const int BottomAppBar_hideOnScroll = 5;
 			
-			// aapt resource value: { 0x7F0300C9,0x7F030111,0x7F030113,0x7F030115,0x7F030116,0x7F03011A,0x7F03011B,0x7F03011C,0x7F03011E,0x7F030155 }
+			// aapt resource value: { 0x7F0300CA,0x7F030112,0x7F030114,0x7F030116,0x7F030117,0x7F03011B,0x7F03011C,0x7F03011D,0x7F03011F,0x7F030156 }
 			public static int[] BottomNavigationView = new int[] {
-					2130903241,
-					2130903313,
-					2130903315,
-					2130903317,
+					2130903242,
+					2130903314,
+					2130903316,
 					2130903318,
-					2130903322,
+					2130903319,
 					2130903323,
 					2130903324,
-					2130903326,
-					2130903381};
+					2130903325,
+					2130903327,
+					2130903382};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_elevation = 0;
@@ -18509,7 +19226,7 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F03006E,0x7F03006F,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300AF }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F03006E,0x7F03006F,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300AF,0x7F0300B0 }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
@@ -18519,11 +19236,11 @@ namespace AppTaxi2020.Prison.Droid
 					2130903149,
 					2130903150,
 					2130903151,
-					2130903211,
 					2130903212,
 					2130903213,
 					2130903214,
-					2130903215};
+					2130903215,
+					2130903216};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -18564,7 +19281,7 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030073,0x7F030074,0x7F030075,0x7F030077,0x7F030078,0x7F030079,0x7F03007B,0x7F03007C,0x7F03007D,0x7F03007E,0x7F03007F,0x7F030080,0x7F030085,0x7F030086,0x7F030087,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008E,0x7F03008F,0x7F030090,0x7F0300F8,0x7F030102,0x7F030106,0x7F030183,0x7F030190,0x7F0301E5,0x7F0301E7 }
+			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030073,0x7F030074,0x7F030075,0x7F030077,0x7F030078,0x7F030079,0x7F03007B,0x7F03007C,0x7F03007D,0x7F03007E,0x7F03007F,0x7F030080,0x7F030085,0x7F030086,0x7F030087,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008E,0x7F03008F,0x7F030090,0x7F0300F9,0x7F030103,0x7F030107,0x7F030184,0x7F030191,0x7F0301E6,0x7F0301E8 }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842923,
@@ -18593,22 +19310,22 @@ namespace AppTaxi2020.Prison.Droid
 					2130903182,
 					2130903183,
 					2130903184,
-					2130903288,
-					2130903298,
-					2130903302,
-					2130903427,
-					2130903440,
-					2130903525,
-					2130903527};
+					2130903289,
+					2130903299,
+					2130903303,
+					2130903428,
+					2130903441,
+					2130903526,
+					2130903528};
 			
-			// aapt resource value: { 0x7F030072,0x7F030081,0x7F030082,0x7F030083,0x7F030194,0x7F030195 }
+			// aapt resource value: { 0x7F030072,0x7F030081,0x7F030082,0x7F030083,0x7F030195,0x7F030196 }
 			public static int[] ChipGroup = new int[] {
 					2130903154,
 					2130903169,
 					2130903170,
 					2130903171,
-					2130903444,
-					2130903445};
+					2130903445,
+					2130903446};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -18730,24 +19447,24 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 33
 			public const int Chip_textStartPadding = 33;
 			
-			// aapt resource value: { 0x7F030094,0x7F030095,0x7F0300B0,0x7F0300D0,0x7F0300D1,0x7F0300D2,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F030185,0x7F030187,0x7F0301A5,0x7F0301F2,0x7F0301F3,0x7F0301FD }
+			// aapt resource value: { 0x7F030094,0x7F030095,0x7F0300B1,0x7F0300D1,0x7F0300D2,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F030186,0x7F030188,0x7F0301A6,0x7F0301F3,0x7F0301F4,0x7F0301FE }
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130903188,
 					2130903189,
-					2130903216,
-					2130903248,
+					2130903217,
 					2130903249,
 					2130903250,
 					2130903251,
 					2130903252,
 					2130903253,
 					2130903254,
-					2130903429,
-					2130903431,
-					2130903461,
-					2130903538,
+					2130903255,
+					2130903430,
+					2130903432,
+					2130903462,
 					2130903539,
-					2130903549};
+					2130903540,
+					2130903550};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -18779,10 +19496,10 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F030129,0x7F03012A }
+			// aapt resource value: { 0x7F03012A,0x7F03012B }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903337,
-					2130903338};
+					2130903338,
+					2130903339};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -18838,23 +19555,23 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 2
 			public const int CompoundButton_buttonTintMode = 2;
 			
-			// aapt resource value: { 0x7F03011D,0x7F0301A4 }
+			// aapt resource value: { 0x7F03011E,0x7F0301A5 }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903325,
-					2130903460};
+					2130903326,
+					2130903461};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F030126,0x7F030127,0x7F030128,0x7F03012B,0x7F03012C,0x7F03012D }
+			// aapt resource value: { 0x10100B3,0x7F030127,0x7F030128,0x7F030129,0x7F03012C,0x7F03012D,0x7F03012E }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903334,
 					2130903335,
 					2130903336,
-					2130903339,
+					2130903337,
 					2130903340,
-					2130903341};
+					2130903341,
+					2130903342};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -18891,16 +19608,16 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: { 0x7F03002A,0x7F03002B,0x7F030037,0x7F030096,0x7F0300C2,0x7F0300F1,0x7F030199,0x7F0301E9 }
+			// aapt resource value: { 0x7F03002A,0x7F03002B,0x7F030037,0x7F030097,0x7F0300C3,0x7F0300F2,0x7F03019A,0x7F0301EA }
 			public static int[] DrawerArrowToggle = new int[] {
 					2130903082,
 					2130903083,
 					2130903095,
-					2130903190,
-					2130903234,
-					2130903281,
-					2130903449,
-					2130903529};
+					2130903191,
+					2130903235,
+					2130903282,
+					2130903450,
+					2130903530};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -18926,21 +19643,21 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030035,0x7F030036,0x7F03003E,0x7F0300C9,0x7F0300DC,0x7F0300DD,0x7F0300F8,0x7F030100,0x7F030146,0x7F03016D,0x7F030183,0x7F030190,0x7F03020F }
+			// aapt resource value: { 0x7F030035,0x7F030036,0x7F03003E,0x7F0300CA,0x7F0300DD,0x7F0300DE,0x7F0300F9,0x7F030101,0x7F030147,0x7F03016E,0x7F030184,0x7F030191,0x7F030210 }
 			public static int[] FloatingActionButton = new int[] {
 					2130903093,
 					2130903094,
 					2130903102,
-					2130903241,
-					2130903260,
+					2130903242,
 					2130903261,
-					2130903288,
-					2130903296,
-					2130903366,
-					2130903405,
-					2130903427,
-					2130903440,
-					2130903567};
+					2130903262,
+					2130903289,
+					2130903297,
+					2130903367,
+					2130903406,
+					2130903428,
+					2130903441,
+					2130903568};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -18988,10 +19705,10 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 12
 			public const int FloatingActionButton_useCompatPadding = 12;
 			
-			// aapt resource value: { 0x7F030118,0x7F030132 }
+			// aapt resource value: { 0x7F030119,0x7F030133 }
 			public static int[] FlowLayout = new int[] {
-					2130903320,
-					2130903346};
+					2130903321,
+					2130903347};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -18999,27 +19716,27 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F0300E7,0x7F0300E8,0x7F0300E9,0x7F0300EA,0x7F0300EB,0x7F0300EC }
+			// aapt resource value: { 0x7F0300E8,0x7F0300E9,0x7F0300EA,0x7F0300EB,0x7F0300EC,0x7F0300ED }
 			public static int[] FontFamily = new int[] {
-					2130903271,
 					2130903272,
 					2130903273,
 					2130903274,
 					2130903275,
-					2130903276};
+					2130903276,
+					2130903277};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300E5,0x7F0300ED,0x7F0300EE,0x7F0300EF,0x7F030206 }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300E6,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F030207 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903269,
-					2130903277,
+					2130903270,
 					2130903278,
 					2130903279,
-					2130903558};
+					2130903280,
+					2130903559};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -19069,11 +19786,11 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0300F0 }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F0300F1 }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903280};
+					2130903281};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -19146,17 +19863,24 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300BE,0x7F0300C0,0x7F030147,0x7F03018F }
+			// aapt resource value: { 0x7F030096 }
+			public static int[] ItemsViewRendererTheme = new int[] {
+					2130903190};
+			
+			// aapt resource value: 0
+			public const int ItemsViewRendererTheme_collectionViewStyle = 0;
+			
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300BF,0x7F0300C1,0x7F030148,0x7F030190 }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903230,
-					2130903232,
-					2130903367,
-					2130903439};
+					2130903231,
+					2130903233,
+					2130903368,
+					2130903440};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -19215,11 +19939,11 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x7F030089,0x7F03010A,0x7F03010B }
+			// aapt resource value: { 0x7F030089,0x7F03010B,0x7F03010C }
 			public static int[] LoadingImageView = new int[] {
 					2130903177,
-					2130903306,
-					2130903307};
+					2130903307,
+					2130903308};
 			
 			// aapt resource value: 0
 			public const int LoadingImageView_circleCrop = 0;
@@ -19230,7 +19954,7 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 2
 			public const int LoadingImageView_imageAspectRatioAdjust = 2;
 			
-			// aapt resource value: { 0x7F030029,0x7F030063,0x7F030064,0x7F030065,0x7F030066,0x7F030067,0x7F030068,0x7F030069,0x7F030120,0x7F030121,0x7F030122,0x7F030123,0x7F03013E,0x7F030141,0x7F030207,0x7F030208,0x7F030209,0x7F03020A,0x7F03020B,0x7F03020C,0x7F03020D,0x7F03020E,0x7F030210,0x7F03021D }
+			// aapt resource value: { 0x7F030029,0x7F030063,0x7F030064,0x7F030065,0x7F030066,0x7F030067,0x7F030068,0x7F030069,0x7F030121,0x7F030122,0x7F030123,0x7F030124,0x7F03013F,0x7F030142,0x7F030208,0x7F030209,0x7F03020A,0x7F03020B,0x7F03020C,0x7F03020D,0x7F03020E,0x7F03020F,0x7F030211,0x7F03021E }
 			public static int[] MapAttrs = new int[] {
 					2130903081,
 					2130903139,
@@ -19240,13 +19964,12 @@ namespace AppTaxi2020.Prison.Droid
 					2130903143,
 					2130903144,
 					2130903145,
-					2130903328,
 					2130903329,
 					2130903330,
 					2130903331,
-					2130903358,
-					2130903361,
-					2130903559,
+					2130903332,
+					2130903359,
+					2130903362,
 					2130903560,
 					2130903561,
 					2130903562,
@@ -19254,8 +19977,9 @@ namespace AppTaxi2020.Prison.Droid
 					2130903564,
 					2130903565,
 					2130903566,
-					2130903568,
-					2130903581};
+					2130903567,
+					2130903569,
+					2130903582};
 			
 			// aapt resource value: 0
 			public const int MapAttrs_ambientEnabled = 0;
@@ -19329,7 +20053,7 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 23
 			public const int MapAttrs_zOrderOnTop = 23;
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030035,0x7F030036,0x7F0300B3,0x7F030101,0x7F030103,0x7F030104,0x7F030105,0x7F030107,0x7F030108,0x7F030183,0x7F0301A6,0x7F0301A7 }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030035,0x7F030036,0x7F0300B4,0x7F030102,0x7F030104,0x7F030105,0x7F030106,0x7F030108,0x7F030109,0x7F030184,0x7F0301A7,0x7F0301A8 }
 			public static int[] MaterialButton = new int[] {
 					16843191,
 					16843192,
@@ -19337,16 +20061,16 @@ namespace AppTaxi2020.Prison.Droid
 					16843194,
 					2130903093,
 					2130903094,
-					2130903219,
-					2130903297,
-					2130903299,
+					2130903220,
+					2130903298,
 					2130903300,
 					2130903301,
-					2130903303,
+					2130903302,
 					2130903304,
-					2130903427,
-					2130903462,
-					2130903463};
+					2130903305,
+					2130903428,
+					2130903463,
+					2130903464};
 			
 			// aapt resource value: 3
 			public const int MaterialButton_android_insetBottom = 3;
@@ -19396,10 +20120,10 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 15
 			public const int MaterialButton_strokeWidth = 15;
 			
-			// aapt resource value: { 0x7F0301A6,0x7F0301A7 }
+			// aapt resource value: { 0x7F0301A7,0x7F0301A8 }
 			public static int[] MaterialCardView = new int[] {
-					2130903462,
-					2130903463};
+					2130903463,
+					2130903464};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_strokeColor = 0;
@@ -19407,27 +20131,26 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 1
 			public const int MaterialCardView_strokeWidth = 1;
 			
-			// aapt resource value: { 0x7F030042,0x7F030043,0x7F03007A,0x7F030084,0x7F030088,0x7F030097,0x7F030098,0x7F03009E,0x7F03009F,0x7F0300A1,0x7F0300C8,0x7F0300E4,0x7F030142,0x7F030143,0x7F03015A,0x7F030186,0x7F030196,0x7F0301C9,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301DC,0x7F0301E1,0x7F0301E2,0x7F0301E6 }
+			// aapt resource value: { 0x7F030042,0x7F030043,0x7F03007A,0x7F030084,0x7F030088,0x7F030098,0x7F030099,0x7F03009F,0x7F0300A0,0x7F0300A2,0x7F0300C9,0x7F0300E5,0x7F030143,0x7F030144,0x7F03015B,0x7F030187,0x7F030197,0x7F0301CA,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301DD,0x7F0301E2,0x7F0301E3,0x7F0301E7 }
 			public static int[] MaterialComponentsTheme = new int[] {
 					2130903106,
 					2130903107,
 					2130903162,
 					2130903172,
 					2130903176,
-					2130903191,
 					2130903192,
-					2130903198,
+					2130903193,
 					2130903199,
-					2130903201,
-					2130903240,
-					2130903268,
-					2130903362,
+					2130903200,
+					2130903202,
+					2130903241,
+					2130903269,
 					2130903363,
-					2130903386,
-					2130903430,
-					2130903446,
-					2130903497,
-					2130903502,
+					2130903364,
+					2130903387,
+					2130903431,
+					2130903447,
+					2130903498,
 					2130903503,
 					2130903504,
 					2130903505,
@@ -19437,10 +20160,11 @@ namespace AppTaxi2020.Prison.Droid
 					2130903509,
 					2130903510,
 					2130903511,
-					2130903516,
-					2130903521,
+					2130903512,
+					2130903517,
 					2130903522,
-					2130903526};
+					2130903523,
+					2130903527};
 			
 			// aapt resource value: 0
 			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
@@ -19538,12 +20262,12 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 31
 			public const int MaterialComponentsTheme_textInputStyle = 31;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F0300D7,0x7F03014A }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F0300D8,0x7F03014B }
 			public static int[] MediaRouteButton = new int[] {
 					16843071,
 					16843072,
-					2130903255,
-					2130903370};
+					2130903256,
+					2130903371};
 			
 			// aapt resource value: 1
 			public const int MediaRouteButton_android_minHeight = 1;
@@ -19584,7 +20308,7 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F0300A4,0x7F030107,0x7F030108,0x7F03015B,0x7F03018E,0x7F030202 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F0300A5,0x7F030108,0x7F030109,0x7F03015C,0x7F03018F,0x7F030203 }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -19603,12 +20327,12 @@ namespace AppTaxi2020.Prison.Droid
 					2130903071,
 					2130903072,
 					2130903080,
-					2130903204,
-					2130903303,
+					2130903205,
 					2130903304,
-					2130903387,
-					2130903438,
-					2130903554};
+					2130903305,
+					2130903388,
+					2130903439,
+					2130903555};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -19679,7 +20403,7 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F03016C,0x7F0301A8 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F03016D,0x7F0301A9 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -19688,8 +20412,8 @@ namespace AppTaxi2020.Prison.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130903404,
-					2130903464};
+					2130903405,
+					2130903465};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -19718,20 +20442,20 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300C9,0x7F0300F3,0x7F030111,0x7F030112,0x7F030114,0x7F030116,0x7F030119,0x7F03011C,0x7F030155 }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300CA,0x7F0300F4,0x7F030112,0x7F030113,0x7F030115,0x7F030117,0x7F03011A,0x7F03011D,0x7F030156 }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903241,
-					2130903283,
-					2130903313,
+					2130903242,
+					2130903284,
 					2130903314,
-					2130903316,
-					2130903318,
-					2130903321,
-					2130903324,
-					2130903381};
+					2130903315,
+					2130903317,
+					2130903319,
+					2130903322,
+					2130903325,
+					2130903382};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -19769,15 +20493,15 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 11
 			public const int NavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F03015C }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F03015D }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903388};
+					2130903389};
 			
-			// aapt resource value: { 0x7F03019F }
+			// aapt resource value: { 0x7F0301A0 }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903455};
+					2130903456};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -19791,10 +20515,10 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F03015D,0x7F030160 }
+			// aapt resource value: { 0x7F03015E,0x7F030161 }
 			public static int[] RecycleListView = new int[] {
-					2130903389,
-					2130903392};
+					2130903390,
+					2130903393};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -19802,19 +20526,19 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300DE,0x7F0300DF,0x7F0300E0,0x7F0300E1,0x7F0300E2,0x7F030125,0x7F030182,0x7F030198,0x7F03019E }
+			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300DF,0x7F0300E0,0x7F0300E1,0x7F0300E2,0x7F0300E3,0x7F030126,0x7F030183,0x7F030199,0x7F03019F }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842993,
-					2130903262,
 					2130903263,
 					2130903264,
 					2130903265,
 					2130903266,
-					2130903333,
-					2130903426,
-					2130903448,
-					2130903454};
+					2130903267,
+					2130903334,
+					2130903427,
+					2130903449,
+					2130903455};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_descendantFocusability = 1;
@@ -19849,9 +20573,9 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 10
 			public const int RecyclerView_stackFromEnd = 10;
 			
-			// aapt resource value: { 0x7F03010F }
+			// aapt resource value: { 0x7F030110 }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903311};
+					2130903312};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
@@ -19863,25 +20587,25 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F03008A,0x7F0300A3,0x7F0300B9,0x7F0300F2,0x7F030109,0x7F030124,0x7F030170,0x7F030171,0x7F030188,0x7F030189,0x7F0301A9,0x7F0301AE,0x7F030212 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F03008A,0x7F0300A4,0x7F0300BA,0x7F0300F3,0x7F03010A,0x7F030125,0x7F030171,0x7F030172,0x7F030189,0x7F03018A,0x7F0301AA,0x7F0301AF,0x7F030213 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
 					2130903178,
-					2130903203,
-					2130903225,
-					2130903282,
-					2130903305,
-					2130903332,
-					2130903408,
+					2130903204,
+					2130903226,
+					2130903283,
+					2130903306,
+					2130903333,
 					2130903409,
-					2130903432,
+					2130903410,
 					2130903433,
-					2130903465,
-					2130903470,
-					2130903570};
+					2130903434,
+					2130903466,
+					2130903471,
+					2130903571};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -19973,9 +20697,8 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 8
 			public const int SfBusyIndicator_busyIndicatorViewBoxWidth = 8;
 			
-			// aapt resource value: { 0x7F030176,0x7F030177,0x7F030178,0x7F030179,0x7F03017A,0x7F03017B,0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030180,0x7F030181 }
+			// aapt resource value: { 0x7F030177,0x7F030178,0x7F030179,0x7F03017A,0x7F03017B,0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030180,0x7F030181,0x7F030182 }
 			public static int[] SfRating = new int[] {
-					2130903414,
 					2130903415,
 					2130903416,
 					2130903417,
@@ -19986,7 +20709,8 @@ namespace AppTaxi2020.Prison.Droid
 					2130903422,
 					2130903423,
 					2130903424,
-					2130903425};
+					2130903425,
+					2130903426};
 			
 			// aapt resource value: 0
 			public const int SfRating_ratingControlValue = 0;
@@ -20024,11 +20748,11 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 11
 			public const int SfRating_ratingUnratedStrokeWidth = 11;
 			
-			// aapt resource value: { 0x7F03005E,0x7F0300A0,0x7F030184 }
+			// aapt resource value: { 0x7F03005E,0x7F0300A1,0x7F030185 }
 			public static int[] SignInButton = new int[] {
 					2130903134,
-					2130903200,
-					2130903428};
+					2130903201,
+					2130903429};
 			
 			// aapt resource value: 0
 			public const int SignInButton_buttonSize = 0;
@@ -20039,16 +20763,16 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 2
 			public const int SignInButton_scopeUris = 2;
 			
-			// aapt resource value: { 0x7F030196,0x7F030197 }
+			// aapt resource value: { 0x7F030197,0x7F030198 }
 			public static int[] Snackbar = new int[] {
-					2130903446,
-					2130903447};
+					2130903447,
+					2130903448};
 			
-			// aapt resource value: { 0x101011F,0x7F0300C9,0x7F030144 }
+			// aapt resource value: { 0x101011F,0x7F0300CA,0x7F030145 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
-					2130903241,
-					2130903364};
+					2130903242,
+					2130903365};
 			
 			// aapt resource value: 0
 			public const int SnackbarLayout_android_maxWidth = 0;
@@ -20065,13 +20789,13 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 1
 			public const int Snackbar_snackbarStyle = 1;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F03016A }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F03016B }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903402};
+					2130903403};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -20122,22 +20846,22 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030191,0x7F03019C,0x7F0301AF,0x7F0301B0,0x7F0301B2,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F030203,0x7F030204,0x7F030205 }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030192,0x7F03019D,0x7F0301B0,0x7F0301B1,0x7F0301B3,0x7F0301EB,0x7F0301EC,0x7F0301ED,0x7F030204,0x7F030205,0x7F030206 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903441,
-					2130903452,
-					2130903471,
+					2130903442,
+					2130903453,
 					2130903472,
-					2130903474,
-					2130903530,
+					2130903473,
+					2130903475,
 					2130903531,
 					2130903532,
-					2130903555,
+					2130903533,
 					2130903556,
-					2130903557};
+					2130903557,
+					2130903558};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -20196,9 +20920,8 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F0301B3,0x7F0301B4,0x7F0301B5,0x7F0301B6,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301BA,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0301C6,0x7F0301C7,0x7F0301C8,0x7F0301CA,0x7F0301CB,0x7F0301CC }
+			// aapt resource value: { 0x7F0301B4,0x7F0301B5,0x7F0301B6,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301BA,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0301C6,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CB,0x7F0301CC,0x7F0301CD }
 			public static int[] TabLayout = new int[] {
-					2130903475,
 					2130903476,
 					2130903477,
 					2130903478,
@@ -20220,9 +20943,10 @@ namespace AppTaxi2020.Prison.Droid
 					2130903494,
 					2130903495,
 					2130903496,
-					2130903498,
+					2130903497,
 					2130903499,
-					2130903500};
+					2130903500,
+					2130903501};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -20299,7 +21023,7 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300E6,0x7F0301CD }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300E7,0x7F0301CE }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -20312,8 +21036,8 @@ namespace AppTaxi2020.Prison.Droid
 					16843107,
 					16843108,
 					16843692,
-					2130903270,
-					2130903501};
+					2130903271,
+					2130903502};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -20354,7 +21078,7 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 12
 			public const int TextAppearance_textAllCaps = 12;
 			
-			// aapt resource value: { 0x101009A,0x1010150,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004A,0x7F03004B,0x7F03004C,0x7F0300B4,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300CC,0x7F0300CD,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300FB,0x7F0300FC,0x7F0300FD,0x7F030164,0x7F030165,0x7F030166,0x7F030167,0x7F030168 }
+			// aapt resource value: { 0x101009A,0x1010150,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004A,0x7F03004B,0x7F03004C,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300CD,0x7F0300CE,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300FC,0x7F0300FD,0x7F0300FE,0x7F030165,0x7F030166,0x7F030167,0x7F030168,0x7F030169 }
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
@@ -20367,23 +21091,23 @@ namespace AppTaxi2020.Prison.Droid
 					2130903114,
 					2130903115,
 					2130903116,
-					2130903220,
 					2130903221,
 					2130903222,
 					2130903223,
-					2130903244,
+					2130903224,
 					2130903245,
-					2130903285,
+					2130903246,
 					2130903286,
 					2130903287,
-					2130903291,
+					2130903288,
 					2130903292,
 					2130903293,
-					2130903396,
+					2130903294,
 					2130903397,
 					2130903398,
 					2130903399,
-					2130903400};
+					2130903400,
+					2130903401};
 			
 			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
@@ -20469,11 +21193,11 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 27
 			public const int TextInputLayout_passwordToggleTintMode = 27;
 			
-			// aapt resource value: { 0x1010034,0x7F0300CA,0x7F0300CB }
+			// aapt resource value: { 0x1010034,0x7F0300CB,0x7F0300CC }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130903242,
-					2130903243};
+					2130903243,
+					2130903244};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -20484,37 +21208,37 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F03005B,0x7F030092,0x7F030093,0x7F0300A5,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F03013F,0x7F030140,0x7F030145,0x7F030157,0x7F030158,0x7F03016A,0x7F0301AA,0x7F0301AB,0x7F0301AC,0x7F0301F2,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F03005B,0x7F030092,0x7F030093,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F030140,0x7F030141,0x7F030146,0x7F030158,0x7F030159,0x7F03016B,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F0301F3,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
 					2130903131,
 					2130903186,
 					2130903187,
-					2130903205,
 					2130903206,
 					2130903207,
 					2130903208,
 					2130903209,
 					2130903210,
-					2130903359,
+					2130903211,
 					2130903360,
-					2130903365,
-					2130903383,
+					2130903361,
+					2130903366,
 					2130903384,
-					2130903402,
-					2130903466,
+					2130903385,
+					2130903403,
 					2130903467,
 					2130903468,
-					2130903538,
-					2130903540,
+					2130903469,
+					2130903539,
 					2130903541,
 					2130903542,
 					2130903543,
 					2130903544,
 					2130903545,
 					2130903546,
-					2130903547};
+					2130903547,
+					2130903548};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -20603,13 +21327,13 @@ namespace AppTaxi2020.Prison.Droid
 			// aapt resource value: 28
 			public const int Toolbar_titleTextColor = 28;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F03015E,0x7F03015F,0x7F0301E8 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F03015F,0x7F030160,0x7F0301E9 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903390,
 					2130903391,
-					2130903528};
+					2130903392,
+					2130903529};
 			
 			// aapt resource value: { 0x10100D4,0x7F030035,0x7F030036 }
 			public static int[] ViewBackgroundHelper = new int[] {
@@ -20662,6 +21386,22 @@ namespace AppTaxi2020.Prison.Droid
 			}
 			
 			private Styleable()
+			{
+			}
+		}
+		
+		public partial class Xml
+		{
+			
+			// aapt resource value: 0x7F100000
+			public const int xamarin_essentials_fileprovider_file_paths = 2131755008;
+			
+			static Xml()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Xml()
 			{
 			}
 		}

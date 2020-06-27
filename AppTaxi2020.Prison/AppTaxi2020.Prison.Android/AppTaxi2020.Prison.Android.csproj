@@ -55,11 +55,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Plugin.CurrentActivity">
+      <Version>2.1.0.4</Version>
+    </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator">
-      <Version>17.4.0.51</Version>
+      <Version>18.1.0.59</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfRating">
-      <Version>17.4.0.51</Version>
+      <Version>18.1.0.59</Version>
     </PackageReference>
     <PackageReference Include="Xam.Plugin.Connectivity">
       <Version>4.0.0.190-beta</Version>
@@ -67,16 +70,16 @@
     <PackageReference Include="Xam.Plugin.Geolocator">
       <Version>4.6.2-beta</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.356" />
+    <PackageReference Include="Xamarin.Forms" Version="4.7.0.968" />
     <PackageReference Include="Xamarin.Android.Support.CustomTabs" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.v4" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="28.0.0.3" />
-    <PackageReference Include="Prism.DryIoc.Forms" Version="7.2.0.1422" />
+    <PackageReference Include="Prism.DryIoc.Forms" Version="8.0.0.1740-pre" />
     <PackageReference Include="Xamarin.Forms.Maps">
-      <Version>4.5.0.356</Version>
+      <Version>4.7.0.968</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
@@ -145,6 +148,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-ldpi\ic_launcher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\emi.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

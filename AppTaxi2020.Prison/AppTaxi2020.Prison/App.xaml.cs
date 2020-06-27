@@ -26,6 +26,8 @@ namespace AppTaxi2020.Prison
             SyncfusionLicenseProvider.RegisterLicense("MjE3MTI3QDMxMzcyZTM0MmUzMGtsUXJvczdHUTl3SjV1YTcvZzFhckpHVENKRWMwS2NxK1ZObEp4ZGZMb2s9");
             InitializeComponent();
 
+            Device.SetFlags(new[] { "Shapes_Experimental", "MediaElement_Experimental" });
+
             await NavigationService.NavigateAsync("/TaxiMasterDetailPage/NavigationPage/HomePage");
         }
 

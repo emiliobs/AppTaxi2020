@@ -27,6 +27,7 @@ namespace AppTaxi2020.Prison.ViewModels
         {
             Title = Languages.LogIn;
             IsEnabled = true;
+          
             this._navigationService = navigationService;
             this._apiService = apiService;
         }
@@ -34,7 +35,7 @@ namespace AppTaxi2020.Prison.ViewModels
         public DelegateCommand LoginCommand => _loginCommand ?? (_loginCommand = new DelegateCommand(LoginAsync));
         public DelegateCommand RegisterCommand => _registerCommand ?? (_registerCommand = new DelegateCommand(RegisterAsync));
 
-        public bool IsRunning 
+        public bool IsRunning
         {
             get => _isRunning;
             set => SetProperty(ref _isRunning, value);

@@ -13,10 +13,24 @@
                     <On Platform="iOS">0,20,0,0</On>
                 </OnPlatform>
             </ContentPage.Padding>
-            <StackLayout Padding="20">
-                <Image HeightRequest="150"
+            <StackLayout Padding="10">
+                <RelativeLayout>
+                    <Image x:Name="Logo" Margin="40,0,0,0"  RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=X,Factor=1,Constant=60}"
+                           HeightRequest="140"
+                           HorizontalOptions="Center"
                        Source="taxi"/>
-                <Label FontAttributes="Bold" FontSize="Large" Text="{Binding User.FullName}" TextColor="Black"></Label>
+                    <Image x:Name="Picture"  RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=Logo,Property=Y,Factor=1,Constant=30}"  
+                           Aspect="AspectFill"
+                           HeightRequest="120"                            
+                       Source="{Binding User.PictureFullPath}"
+                           HorizontalOptions="Center"
+                            VerticalOptions="Center">
+                        <Image.Clip>
+                            <EllipseGeometry Center="60 ,60"  RadiusX="50" RadiusY="50"></EllipseGeometry>
+                        </Image.Clip>
+                    </Image>
+                </RelativeLayout>
+                <Label RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=Picture,Property=Y,Factor=1,Constant=110}" FontAttributes="Bold" FontSize="Large" Text="{Binding User.FullName}" TextColor="Black"></Label>
                 <ListView BackgroundColor="Transparent"
                 	      ItemsSource="{Binding Menus}"
                 	      HasUnevenRows="True"

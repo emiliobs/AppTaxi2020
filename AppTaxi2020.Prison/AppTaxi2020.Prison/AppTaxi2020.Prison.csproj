@@ -6,14 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Plugin.Permissions" Version="3.0.0.12" />
-    <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator" Version="17.4.0.51" />
-    <PackageReference Include="Syncfusion.Xamarin.SfRating" Version="17.4.0.51" />
+    <PackageReference Include="Plugin.Permissions" Version="6.0.1" />
+    <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator" Version="18.1.0.59" />
+    <PackageReference Include="Syncfusion.Xamarin.SfRating" Version="18.1.0.59" />
     <PackageReference Include="Xam.Plugin.Connectivity" Version="4.0.0.190-beta" />
     <PackageReference Include="Xam.Plugin.Geolocator" Version="4.6.2-beta" />
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.356" />
-    <PackageReference Include="Prism.DryIoc.Forms" Version="7.2.0.1422" />
-    <PackageReference Include="Xamarin.Forms.Maps" Version="4.5.0.356" />
+    <PackageReference Include="Xamarin.Forms" Version="4.7.0.968" />
+    <PackageReference Include="Prism.DryIoc.Forms" Version="8.0.0.1740-pre" />
+    <PackageReference Include="Xamarin.Forms.Maps" Version="4.7.0.968" />
   </ItemGroup>
 
   <ItemGroup>
