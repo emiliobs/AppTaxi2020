@@ -14,6 +14,8 @@ namespace AppTaxi2020.Prison.Helpers
             DependencyService.Get<ILocalize>().SetLocale(ci);
         }
 
+        public static string Ok => Resource.Ok;
+
         public static string Logout => Resource.Logout;
 
         public static string Culture { get; set; }

@@ -89,6 +89,34 @@ namespace AppTaxi2020.Prison.ViewModels
             {
                 return;
             }
+
+            IsRunning = true;
+            IsEnabled = false;
+
+            var url = App.Current.Resources["UrlAPI"].ToString();
+            var connection = await _apiService.CheckConnectionAsync(url);
+            if (!connection)
+            {
+                IsRunning = false;
+                IsEnabled = true;
+                await App.Current.MainPage.DisplayAlert(Languages.EmailError, Languages.ConnectionError, Languages.Accept);
+                return;
+            }
+
+            User.UserTypeId = Role.Id;
+            User.CultureInfo = Languages.Culture;
+            var response = await _apiService.RegisterUserAsync(url, "/api","/Account", User);
+            IsRunning = false;
+            IsEnabled = true;
+
+            if (!response.IsSuccess)
+            {
+                await App.Current.MainPage.DisplayAlert(Languages.Ok, response.Message, Languages.Accept);
+                return;
+            }
+
+            await App.Current.MainPage.DisplayAlert(Languages.Ok, response.Message, Languages.Accept);
+            await _navigationService.GoBackAsync();
         }
 
         private async Task<bool> ValidateDataAsync()
