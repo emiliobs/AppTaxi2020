@@ -10,8 +10,10 @@
             <!-- Parameters -->
             <!--<x:String x:Key="UrlAPI">https://taxiweb3.azurewebsites.net/</x:String>-->
             <x:String x:Key="UrlAPI">https://apptaxi2020.azurewebsites.net/</x:String>
+            <x:String x:Key="UrlNoImagen">https://apptaxi2020.azurewebsites.net//images/noimage.png</x:String>
             <!--https://apptaxi2020.azurewebsites.net/-->
-
+            <!--https://apptaxi2020.azurewebsites.net//images/noimage.png-->
+            
             <!-- Colors -->
             <Color x:Key="ColorBackgroud">#FFFF05</Color>
             <Color x:Key="ColorPrimary">#3D3D3D</Color>
@@ -31,6 +33,10 @@
 
             <Style TargetType="Label">
                 <Setter Property="TextColor" Value="{StaticResource ColorFont}" />
+            </Style>
+
+            <Style TargetType="Picker">
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorFontInverse}" />
             </Style>
 
             <Style TargetType="Entry">

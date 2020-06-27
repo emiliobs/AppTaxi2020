@@ -2,6 +2,7 @@
 using AppTaxi2020.Common.Models;
 using AppTaxi2020.Common.Services;
 using AppTaxi2020.Prison.Helpers;
+using AppTaxi2020.Prison.Views;
 using Newtonsoft.Json;
 using Prism.Commands;
 using Prism.Mvvm;
@@ -30,6 +31,9 @@ namespace AppTaxi2020.Prison.ViewModels
           
             this._navigationService = navigationService;
             this._apiService = apiService;
+
+            Email = "blanca@yopmail.com";
+            Password = "Eabs123.";
         }
 
         public DelegateCommand LoginCommand => _loginCommand ?? (_loginCommand = new DelegateCommand(LoginAsync));
@@ -126,8 +130,7 @@ namespace AppTaxi2020.Prison.ViewModels
 
         private async void RegisterAsync()
         {
-          
-
+            await _navigationService.NavigateAsync(nameof(RegisterPage));
         }
 
 

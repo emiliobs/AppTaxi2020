@@ -1,4 +1,5 @@
-﻿using AppTaxi2020.Common.Services;
+﻿using AppTaxi2020.Common.Helpers;
+using AppTaxi2020.Common.Services;
 using AppTaxi2020.Prison.ViewModels;
 using AppTaxi2020.Prison.Views;
 using Prism;
@@ -23,10 +24,10 @@ namespace AppTaxi2020.Prison
 
         protected override async void OnInitialized()
         {
-            SyncfusionLicenseProvider.RegisterLicense("MjE3MTI3QDMxMzcyZTM0MmUzMGtsUXJvczdHUTl3SjV1YTcvZzFhckpHVENKRWMwS2NxK1ZObEp4ZGZMb2s9");
+            SyncfusionLicenseProvider.RegisterLicense("Mjc3Mzk0QDMxMzgyZTMxMmUzMGNiYU1RU0dBVTIwcmp0Wk5GTnhYYmxhdE5GUG5PVVN5a1d0QVFuVlRIQWs9");
             InitializeComponent();
 
-            Device.SetFlags(new[] { "Shapes_Experimental", "MediaElement_Experimental" });
+            //Device.SetFlags(new[] { "Shapes_Experimental", "MediaElement_Experimental" });
 
             await NavigationService.NavigateAsync("/TaxiMasterDetailPage/NavigationPage/HomePage");
         }
@@ -36,6 +37,7 @@ namespace AppTaxi2020.Prison
             containerRegistry.RegisterForNavigation<NavigationPage>();
             
             containerRegistry.Register<IGeolocatorService, GeolocatorService>();
+            containerRegistry.Register<IRegexHelper, RegexHelper>();
             containerRegistry.Register<IApiService, ApiService>();
             containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>();
             containerRegistry.RegisterForNavigation<TaxiMasterDetailPage, TaxiMasterDetailPageViewModel>();
@@ -45,6 +47,7 @@ namespace AppTaxi2020.Prison
             containerRegistry.RegisterForNavigation<ReportPage, ReportPageViewModel>();
             containerRegistry.RegisterForNavigation<LoginPage, LoginPageViewModel>();
             containerRegistry.RegisterForNavigation<TripDetailPage, TripDetailPageViewModel>();
+            containerRegistry.RegisterForNavigation<RegisterPage, RegisterPageViewModel>();
         }
     }
 }

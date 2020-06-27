@@ -13,15 +13,16 @@
     <AbsoluteLayout>
         <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,1"
                      AbsoluteLayout.LayoutFlags="All" 
-                     Padding="5">
+                     Padding="5,0,5,15">
             <Image HeightRequest="150"
                    Margin="0,20,0,0"
-                   Source="taxi"/>            
+                   Source="taxi"/>
             <Grid Margin="20" 
                   VerticalOptions="CenterAndExpand">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="3*"/>
+
                 </Grid.ColumnDefinitions>
                 <Label Grid.Column="0" 
                        Grid.Row="0"
@@ -45,7 +46,14 @@
                        IsPassword="True"
                        Placeholder="{i18n:Translate PasswordPlaceHolder}"
                        Text="{Binding Password}"/>
+                <ActivityIndicator  Grid.Row="2" Grid.ColumnSpan="2"          
+                    HorizontalOptions="CenterAndExpand" 
+                    VerticalOptions="CenterAndExpand"             
+                   IsRunning="{Binding IsRunning}"
+                     IsEnabled="{Binding IsEnabled}">   
+                </ActivityIndicator>
             </Grid>
+
             <StackLayout>
                 <Button Command="{Binding LoginCommand}" 
                         IsEnabled="{Binding IsEnabled}"
@@ -55,23 +63,16 @@
                         Text="{i18n:Translate Register}"
                         Style="{StaticResource DangerButton}"/>
             </StackLayout>
-            <ActivityIndicator
-            
-            HorizontalOptions="Center" 
-            VerticalOptions="Center" 
-            IsRunning="{Binding IsRunning}"
-             IsEnabled="{Binding IsEnabled}">
-            </ActivityIndicator>
+
         </StackLayout>
-        
+
         <!--busyindicator:SfBusyIndicator AnimationType="Gear" 
                                        AbsoluteLayout.LayoutBounds=".5,.5,.5,.5"
                 	                   AbsoluteLayout.LayoutFlags="All"
                 	                   BackgroundColor="{StaticResource ColorAccent}"
                 	                   HorizontalOptions="Center"
                 	                   TextColor="{StaticResource ColorFontInverse}"
-                	                   IsVisible="{Binding IsRunning}"
-                                        
+                	                   IsVisible="{Binding IsRunning}"                                        
                 	                   Title="{i18n:Translate Loading}"
                 	                   VerticalOptions="Center"
                 	                   ViewBoxWidth="80"
