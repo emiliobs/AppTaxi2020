@@ -7,12 +7,15 @@ using AppTaxi2020.Common.Models;
 using AppTaxi2020.Common.Services;
 using AppTaxi2020.Prison.Helpers;
 using Xamarin.Forms;
-
+using Plugin.Media.Abstractions;
+using Plugin.Media;
+using System.IO;
 
 namespace AppTaxi2020.Prison.ViewModels
 {
     public class RegisterPageViewModel : ViewModelBase
     {
+        private readonly IFilesHelper _filesHelper;
         private readonly INavigationService _navigationService;
         private readonly IRegexHelper _regexHelper;
         private readonly IApiService _apiService;
@@ -22,13 +25,16 @@ namespace AppTaxi2020.Prison.ViewModels
         private ObservableCollection<Role> _roles;
         private bool _isRunning;
         private bool _isEnabled;      
+        private MediaFile _file;
         private DelegateCommand _registerCommand;
+        private DelegateCommand _changeImageCommand;
 
-        public RegisterPageViewModel(
+        public RegisterPageViewModel( IFilesHelper filesHelper,
             INavigationService navigationService,
             IRegexHelper regexHelper,
             IApiService apiService) : base(navigationService)
         {
+            this._filesHelper = filesHelper;
             _navigationService = navigationService;
             _regexHelper = regexHelper;
             _apiService = apiService;
@@ -42,6 +48,7 @@ namespace AppTaxi2020.Prison.ViewModels
         }
 
         public DelegateCommand RegisterCommand => _registerCommand ?? (_registerCommand = new DelegateCommand(RegisterAsync));
+        public DelegateCommand ChangeImageCommand => _changeImageCommand ?? (_changeImageCommand = new DelegateCommand(ChangeImageAsync));
 
         public ImageSource Image
         {
@@ -80,7 +87,48 @@ namespace AppTaxi2020.Prison.ViewModels
         }
 
       
+        private async void ChangeImageAsync()
+        {
+            await CrossMedia.Current.Initialize();
 
+            string source = await Application.Current.MainPage.DisplayActionSheet(
+                Languages.PictureSource,
+                Languages.Cancel,
+                null,
+                Languages.FromGallery,
+                Languages.FromCamera);
+
+            if (source == Languages.Cancel)
+            {
+                _file = null;
+                return;
+            }
+
+            if (source == Languages.FromCamera)
+            {
+                _file = await CrossMedia.Current.TakePhotoAsync(
+                    new StoreCameraMediaOptions
+                    {
+                        Directory = "Sample",
+                        Name = "test.jpg",
+                        PhotoSize = PhotoSize.Small,
+                    }
+                );
+            }
+            else
+            {
+                _file = await CrossMedia.Current.PickPhotoAsync();
+            }
+
+            if (_file != null)
+            {
+                Image = ImageSource.FromStream(() =>
+                {
+                    System.IO.Stream stream = _file.GetStream();
+                    return stream;
+                });
+            }
+        }
 
         private async void RegisterAsync()
         {
@@ -92,31 +140,40 @@ namespace AppTaxi2020.Prison.ViewModels
 
             IsRunning = true;
             IsEnabled = false;
-
-            var url = App.Current.Resources["UrlAPI"].ToString();
-            var connection = await _apiService.CheckConnectionAsync(url);
+            string url = App.Current.Resources["UrlAPI"].ToString();
+            bool connection = await _apiService.CheckConnectionAsync(url);
             if (!connection)
             {
                 IsRunning = false;
                 IsEnabled = true;
-                await App.Current.MainPage.DisplayAlert(Languages.EmailError, Languages.ConnectionError, Languages.Accept);
+                await App.Current.MainPage.DisplayAlert(Languages.Error, Languages.ConnectionError, Languages.Accept);
                 return;
             }
 
+            byte[] imageArray = null;
+            if (_file != null)
+            {
+                imageArray = _filesHelper.ReadFully(_file.GetStream());
+            }
+
+            User.PictureArray = imageArray;
+
+
             User.UserTypeId = Role.Id;
             User.CultureInfo = Languages.Culture;
-            var response = await _apiService.RegisterUserAsync(url, "/api","/Account", User);
+            Response response = await _apiService.RegisterUserAsync(url, "/api", "/Account", User);
             IsRunning = false;
             IsEnabled = true;
 
             if (!response.IsSuccess)
             {
-                await App.Current.MainPage.DisplayAlert(Languages.Ok, response.Message, Languages.Accept);
+                await App.Current.MainPage.DisplayAlert(Languages.Error, response.Message, Languages.Accept);
                 return;
             }
 
             await App.Current.MainPage.DisplayAlert(Languages.Ok, response.Message, Languages.Accept);
             await _navigationService.GoBackAsync();
+
         }
 
         private async Task<bool> ValidateDataAsync()

@@ -27,6 +27,9 @@
                         <ffimageloading:CachedImage.Transformations>
                             <fftransformations:CircleTransformation />
                         </ffimageloading:CachedImage.Transformations>
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ChangeImageCommand}"/>
+                        </ffimageloading:CachedImage.GestureRecognizers>
                     </ffimageloading:CachedImage>
 
                     <Grid>                     
@@ -142,6 +145,7 @@
                 </StackLayout>
                  
             </ScrollView>
+
             <Button Command="{Binding RegisterCommand}"
                     IsEnabled="{Binding IsEnabled}"
                     Text="{i18n:Translate Register}"/>

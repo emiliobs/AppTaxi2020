@@ -156,6 +156,188 @@ namespace AppTaxi2020.Prison.Droid
 			global::Plugin.Geolocator.Resource.Styleable.GradientColor_android_startY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Plugin.Geolocator.Resource.Styleable.GradientColor_android_tileMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Plugin.Geolocator.Resource.Styleable.GradientColor_android_type = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Plugin.Media.Resource.Attribute.alpha = global::AppTaxi2020.Prison.Droid.Resource.Attribute.alpha;
+			global::Plugin.Media.Resource.Attribute.coordinatorLayoutStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Plugin.Media.Resource.Attribute.font = global::AppTaxi2020.Prison.Droid.Resource.Attribute.font;
+			global::Plugin.Media.Resource.Attribute.fontProviderAuthority = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Plugin.Media.Resource.Attribute.fontProviderCerts = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderCerts;
+			global::Plugin.Media.Resource.Attribute.fontProviderFetchStrategy = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Plugin.Media.Resource.Attribute.fontProviderFetchTimeout = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Plugin.Media.Resource.Attribute.fontProviderPackage = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderPackage;
+			global::Plugin.Media.Resource.Attribute.fontProviderQuery = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontProviderQuery;
+			global::Plugin.Media.Resource.Attribute.fontStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontStyle;
+			global::Plugin.Media.Resource.Attribute.fontVariationSettings = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontVariationSettings;
+			global::Plugin.Media.Resource.Attribute.fontWeight = global::AppTaxi2020.Prison.Droid.Resource.Attribute.fontWeight;
+			global::Plugin.Media.Resource.Attribute.keylines = global::AppTaxi2020.Prison.Droid.Resource.Attribute.keylines;
+			global::Plugin.Media.Resource.Attribute.layout_anchor = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.Media.Resource.Attribute.layout_anchorGravity = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.Media.Resource.Attribute.layout_behavior = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.Media.Resource.Attribute.layout_dodgeInsetEdges = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Plugin.Media.Resource.Attribute.layout_insetEdge = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_insetEdge;
+			global::Plugin.Media.Resource.Attribute.layout_keyline = global::AppTaxi2020.Prison.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.Media.Resource.Attribute.statusBarBackground = global::AppTaxi2020.Prison.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.Media.Resource.Attribute.ttcIndex = global::AppTaxi2020.Prison.Droid.Resource.Attribute.ttcIndex;
+			global::Plugin.Media.Resource.Color.browser_actions_bg_grey = global::AppTaxi2020.Prison.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Plugin.Media.Resource.Color.browser_actions_divider_color = global::AppTaxi2020.Prison.Droid.Resource.Color.browser_actions_divider_color;
+			global::Plugin.Media.Resource.Color.browser_actions_text_color = global::AppTaxi2020.Prison.Droid.Resource.Color.browser_actions_text_color;
+			global::Plugin.Media.Resource.Color.browser_actions_title_color = global::AppTaxi2020.Prison.Droid.Resource.Color.browser_actions_title_color;
+			global::Plugin.Media.Resource.Color.notification_action_color_filter = global::AppTaxi2020.Prison.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.Media.Resource.Color.notification_icon_bg_color = global::AppTaxi2020.Prison.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.Media.Resource.Color.ripple_material_light = global::AppTaxi2020.Prison.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.Media.Resource.Color.secondary_text_default_material_light = global::AppTaxi2020.Prison.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.Media.Resource.Dimension.browser_actions_context_menu_max_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Plugin.Media.Resource.Dimension.browser_actions_context_menu_min_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Plugin.Media.Resource.Dimension.compat_button_inset_horizontal_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Plugin.Media.Resource.Dimension.compat_button_inset_vertical_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Plugin.Media.Resource.Dimension.compat_button_padding_horizontal_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Plugin.Media.Resource.Dimension.compat_button_padding_vertical_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Plugin.Media.Resource.Dimension.compat_control_corner_material = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Plugin.Media.Resource.Dimension.compat_notification_large_icon_max_height = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Plugin.Media.Resource.Dimension.compat_notification_large_icon_max_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Plugin.Media.Resource.Dimension.notification_action_icon_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.Media.Resource.Dimension.notification_action_text_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.Media.Resource.Dimension.notification_big_circle_margin = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.Media.Resource.Dimension.notification_content_margin_start = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.Media.Resource.Dimension.notification_large_icon_height = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.Media.Resource.Dimension.notification_large_icon_width = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.Media.Resource.Dimension.notification_main_column_padding_top = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.Media.Resource.Dimension.notification_media_narrow_margin = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.Media.Resource.Dimension.notification_right_icon_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.Media.Resource.Dimension.notification_right_side_padding_top = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.Media.Resource.Dimension.notification_small_icon_background_padding = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.Media.Resource.Dimension.notification_small_icon_size_as_large = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.Media.Resource.Dimension.notification_subtext_size = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.Media.Resource.Dimension.notification_top_pad = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.Media.Resource.Dimension.notification_top_pad_large_text = global::AppTaxi2020.Prison.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.Media.Resource.Drawable.notification_action_background = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.Media.Resource.Drawable.notification_bg = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.Media.Resource.Drawable.notification_bg_low = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.Media.Resource.Drawable.notification_bg_low_normal = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.Media.Resource.Drawable.notification_bg_low_pressed = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.Media.Resource.Drawable.notification_bg_normal = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.Media.Resource.Drawable.notification_bg_normal_pressed = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.Media.Resource.Drawable.notification_icon_background = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.Media.Resource.Drawable.notification_template_icon_bg = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.Media.Resource.Drawable.notification_template_icon_low_bg = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.Media.Resource.Drawable.notification_tile_bg = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.Media.Resource.Drawable.notify_panel_notification_icon_bg = global::AppTaxi2020.Prison.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.Media.Resource.Id.actions = global::AppTaxi2020.Prison.Droid.Resource.Id.actions;
+			global::Plugin.Media.Resource.Id.action_container = global::AppTaxi2020.Prison.Droid.Resource.Id.action_container;
+			global::Plugin.Media.Resource.Id.action_divider = global::AppTaxi2020.Prison.Droid.Resource.Id.action_divider;
+			global::Plugin.Media.Resource.Id.action_image = global::AppTaxi2020.Prison.Droid.Resource.Id.action_image;
+			global::Plugin.Media.Resource.Id.action_text = global::AppTaxi2020.Prison.Droid.Resource.Id.action_text;
+			global::Plugin.Media.Resource.Id.all = global::AppTaxi2020.Prison.Droid.Resource.Id.all;
+			global::Plugin.Media.Resource.Id.async = global::AppTaxi2020.Prison.Droid.Resource.Id.async;
+			global::Plugin.Media.Resource.Id.blocking = global::AppTaxi2020.Prison.Droid.Resource.Id.blocking;
+			global::Plugin.Media.Resource.Id.bottom = global::AppTaxi2020.Prison.Droid.Resource.Id.bottom;
+			global::Plugin.Media.Resource.Id.browser_actions_header_text = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_header_text;
+			global::Plugin.Media.Resource.Id.browser_actions_menu_items = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_menu_items;
+			global::Plugin.Media.Resource.Id.browser_actions_menu_item_icon = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Plugin.Media.Resource.Id.browser_actions_menu_item_text = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Plugin.Media.Resource.Id.browser_actions_menu_view = global::AppTaxi2020.Prison.Droid.Resource.Id.browser_actions_menu_view;
+			global::Plugin.Media.Resource.Id.center = global::AppTaxi2020.Prison.Droid.Resource.Id.center;
+			global::Plugin.Media.Resource.Id.center_horizontal = global::AppTaxi2020.Prison.Droid.Resource.Id.center_horizontal;
+			global::Plugin.Media.Resource.Id.center_vertical = global::AppTaxi2020.Prison.Droid.Resource.Id.center_vertical;
+			global::Plugin.Media.Resource.Id.chronometer = global::AppTaxi2020.Prison.Droid.Resource.Id.chronometer;
+			global::Plugin.Media.Resource.Id.clip_horizontal = global::AppTaxi2020.Prison.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.Media.Resource.Id.clip_vertical = global::AppTaxi2020.Prison.Droid.Resource.Id.clip_vertical;
+			global::Plugin.Media.Resource.Id.end = global::AppTaxi2020.Prison.Droid.Resource.Id.end;
+			global::Plugin.Media.Resource.Id.fill = global::AppTaxi2020.Prison.Droid.Resource.Id.fill;
+			global::Plugin.Media.Resource.Id.fill_horizontal = global::AppTaxi2020.Prison.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.Media.Resource.Id.fill_vertical = global::AppTaxi2020.Prison.Droid.Resource.Id.fill_vertical;
+			global::Plugin.Media.Resource.Id.forever = global::AppTaxi2020.Prison.Droid.Resource.Id.forever;
+			global::Plugin.Media.Resource.Id.icon = global::AppTaxi2020.Prison.Droid.Resource.Id.icon;
+			global::Plugin.Media.Resource.Id.icon_group = global::AppTaxi2020.Prison.Droid.Resource.Id.icon_group;
+			global::Plugin.Media.Resource.Id.info = global::AppTaxi2020.Prison.Droid.Resource.Id.info;
+			global::Plugin.Media.Resource.Id.italic = global::AppTaxi2020.Prison.Droid.Resource.Id.italic;
+			global::Plugin.Media.Resource.Id.left = global::AppTaxi2020.Prison.Droid.Resource.Id.left;
+			global::Plugin.Media.Resource.Id.line1 = global::AppTaxi2020.Prison.Droid.Resource.Id.line1;
+			global::Plugin.Media.Resource.Id.line3 = global::AppTaxi2020.Prison.Droid.Resource.Id.line3;
+			global::Plugin.Media.Resource.Id.none = global::AppTaxi2020.Prison.Droid.Resource.Id.none;
+			global::Plugin.Media.Resource.Id.normal = global::AppTaxi2020.Prison.Droid.Resource.Id.normal;
+			global::Plugin.Media.Resource.Id.notification_background = global::AppTaxi2020.Prison.Droid.Resource.Id.notification_background;
+			global::Plugin.Media.Resource.Id.notification_main_column = global::AppTaxi2020.Prison.Droid.Resource.Id.notification_main_column;
+			global::Plugin.Media.Resource.Id.notification_main_column_container = global::AppTaxi2020.Prison.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.Media.Resource.Id.right = global::AppTaxi2020.Prison.Droid.Resource.Id.right;
+			global::Plugin.Media.Resource.Id.right_icon = global::AppTaxi2020.Prison.Droid.Resource.Id.right_icon;
+			global::Plugin.Media.Resource.Id.right_side = global::AppTaxi2020.Prison.Droid.Resource.Id.right_side;
+			global::Plugin.Media.Resource.Id.start = global::AppTaxi2020.Prison.Droid.Resource.Id.start;
+			global::Plugin.Media.Resource.Id.tag_transition_group = global::AppTaxi2020.Prison.Droid.Resource.Id.tag_transition_group;
+			global::Plugin.Media.Resource.Id.tag_unhandled_key_event_manager = global::AppTaxi2020.Prison.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Plugin.Media.Resource.Id.tag_unhandled_key_listeners = global::AppTaxi2020.Prison.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Plugin.Media.Resource.Id.text = global::AppTaxi2020.Prison.Droid.Resource.Id.text;
+			global::Plugin.Media.Resource.Id.text2 = global::AppTaxi2020.Prison.Droid.Resource.Id.text2;
+			global::Plugin.Media.Resource.Id.time = global::AppTaxi2020.Prison.Droid.Resource.Id.time;
+			global::Plugin.Media.Resource.Id.title = global::AppTaxi2020.Prison.Droid.Resource.Id.title;
+			global::Plugin.Media.Resource.Id.top = global::AppTaxi2020.Prison.Droid.Resource.Id.top;
+			global::Plugin.Media.Resource.Integer.status_bar_notification_info_maxnum = global::AppTaxi2020.Prison.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.Media.Resource.Layout.browser_actions_context_menu_page = global::AppTaxi2020.Prison.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Plugin.Media.Resource.Layout.browser_actions_context_menu_row = global::AppTaxi2020.Prison.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Plugin.Media.Resource.Layout.notification_action = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_action;
+			global::Plugin.Media.Resource.Layout.notification_action_tombstone = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.Media.Resource.Layout.notification_template_custom_big = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.Media.Resource.Layout.notification_template_icon_group = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.Media.Resource.Layout.notification_template_part_chronometer = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.Media.Resource.Layout.notification_template_part_time = global::AppTaxi2020.Prison.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.Media.Resource.String.status_bar_notification_info_overflow = global::AppTaxi2020.Prison.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification_Info = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification_Time = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification_Title = global::AppTaxi2020.Prison.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Plugin.Media.Resource.Style.Widget_Compat_NotificationActionContainer = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Plugin.Media.Resource.Style.Widget_Compat_NotificationActionText = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Plugin.Media.Resource.Style.Widget_Support_CoordinatorLayout = global::AppTaxi2020.Prison.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Plugin.Media.Resource.Styleable.ColorStateListItem = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.Media.Resource.Styleable.ColorStateListItem_alpha = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.Media.Resource.Styleable.ColorStateListItem_android_alpha = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.Media.Resource.Styleable.ColorStateListItem_android_color = global::AppTaxi2020.Prison.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_keylines = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::AppTaxi2020.Prison.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.Media.Resource.Styleable.FontFamily = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_font = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_fontStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_fontWeight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_font = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_fontStyle = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_fontWeight = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_ttcIndex = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderAuthority = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderCerts = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderPackage = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderQuery = global::AppTaxi2020.Prison.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.Media.Resource.Styleable.GradientColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor;
+			global::Plugin.Media.Resource.Styleable.GradientColorItem = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColorItem;
+			global::Plugin.Media.Resource.Styleable.GradientColorItem_android_color = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Plugin.Media.Resource.Styleable.GradientColorItem_android_offset = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_centerColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_centerX = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_centerY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_endColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_endX = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_endY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_gradientRadius = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_startColor = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_startX = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_startY = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_tileMode = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_type = global::AppTaxi2020.Prison.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Plugin.Media.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::AppTaxi2020.Prison.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::Plugin.Permissions.Resource.Attribute.alpha = global::AppTaxi2020.Prison.Droid.Resource.Attribute.alpha;
 			global::Plugin.Permissions.Resource.Attribute.coordinatorLayoutStyle = global::AppTaxi2020.Prison.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Plugin.Permissions.Resource.Attribute.font = global::AppTaxi2020.Prison.Droid.Resource.Attribute.font;
@@ -15028,52 +15210,55 @@ namespace AppTaxi2020.Prison.Droid
 			public const int navigation_empty_icon = 2131165547;
 			
 			// aapt resource value: 0x7F07016C
-			public const int notification_action_background = 2131165548;
+			public const int noimage = 2131165548;
 			
 			// aapt resource value: 0x7F07016D
-			public const int notification_bg = 2131165549;
+			public const int notification_action_background = 2131165549;
 			
 			// aapt resource value: 0x7F07016E
-			public const int notification_bg_low = 2131165550;
+			public const int notification_bg = 2131165550;
 			
 			// aapt resource value: 0x7F07016F
-			public const int notification_bg_low_normal = 2131165551;
+			public const int notification_bg_low = 2131165551;
 			
 			// aapt resource value: 0x7F070170
-			public const int notification_bg_low_pressed = 2131165552;
+			public const int notification_bg_low_normal = 2131165552;
 			
 			// aapt resource value: 0x7F070171
-			public const int notification_bg_normal = 2131165553;
+			public const int notification_bg_low_pressed = 2131165553;
 			
 			// aapt resource value: 0x7F070172
-			public const int notification_bg_normal_pressed = 2131165554;
+			public const int notification_bg_normal = 2131165554;
 			
 			// aapt resource value: 0x7F070173
-			public const int notification_icon_background = 2131165555;
+			public const int notification_bg_normal_pressed = 2131165555;
 			
 			// aapt resource value: 0x7F070174
-			public const int notification_template_icon_bg = 2131165556;
+			public const int notification_icon_background = 2131165556;
 			
 			// aapt resource value: 0x7F070175
-			public const int notification_template_icon_low_bg = 2131165557;
+			public const int notification_template_icon_bg = 2131165557;
 			
 			// aapt resource value: 0x7F070176
-			public const int notification_tile_bg = 2131165558;
+			public const int notification_template_icon_low_bg = 2131165558;
 			
 			// aapt resource value: 0x7F070177
-			public const int notify_panel_notification_icon_bg = 2131165559;
+			public const int notification_tile_bg = 2131165559;
 			
 			// aapt resource value: 0x7F070178
-			public const int taxi = 2131165560;
+			public const int notify_panel_notification_icon_bg = 2131165560;
 			
 			// aapt resource value: 0x7F070179
-			public const int taxi_splash = 2131165561;
+			public const int taxi = 2131165561;
 			
 			// aapt resource value: 0x7F07017A
-			public const int tooltip_frame_dark = 2131165562;
+			public const int taxi_splash = 2131165562;
 			
 			// aapt resource value: 0x7F07017B
-			public const int tooltip_frame_light = 2131165563;
+			public const int tooltip_frame_dark = 2131165563;
+			
+			// aapt resource value: 0x7F07017C
+			public const int tooltip_frame_light = 2131165564;
 			
 			static Drawable()
 			{
@@ -21394,7 +21579,10 @@ namespace AppTaxi2020.Prison.Droid
 		{
 			
 			// aapt resource value: 0x7F100000
-			public const int xamarin_essentials_fileprovider_file_paths = 2131755008;
+			public const int file_paths = 2131755008;
+			
+			// aapt resource value: 0x7F100001
+			public const int xamarin_essentials_fileprovider_file_paths = 2131755009;
 			
 			static Xml()
 			{

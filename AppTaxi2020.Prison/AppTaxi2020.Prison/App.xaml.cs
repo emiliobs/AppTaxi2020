@@ -36,6 +36,7 @@ namespace AppTaxi2020.Prison
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             
+            containerRegistry.Register<IFilesHelper, FilesHelper>();
             containerRegistry.Register<IGeolocatorService, GeolocatorService>();
             containerRegistry.Register<IRegexHelper, RegexHelper>();
             containerRegistry.Register<IApiService, ApiService>();

@@ -21,8 +21,8 @@ namespace AppTaxi2020.Prison.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
-            FFImageLoading.Forms.Platform.CachedImageRenderer.Init(true);
-            
+            Xamarin.Essentials.Platform.Init(this, bundle);
+            FFImageLoading.Forms.Platform.CachedImageRenderer.Init(true);            
             new SfBusyIndicatorRenderer();
             new SfRatingRenderer();
             CrossCurrentActivity.Current.Init(this, bundle);

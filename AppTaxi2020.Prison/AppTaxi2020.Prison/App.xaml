@@ -8,9 +8,13 @@
         <ResourceDictionary>
             
             <!-- Parameters -->
-            <!--<x:String x:Key="UrlAPI">https://taxiweb3.azurewebsites.net/</x:String>-->
+            <!-- Parameters -->
+            <x:String x:Key="UrlAPI">https://taxiweb3.azurewebsites.net/</x:String>
+            <x:String x:Key="UrlNoImagen">https://TaxiWeb3.azurewebsites.net/images/noimage.png</x:String>
+            
+            <!--<x:String x:Key="UrlAPI">https://taxiweb3.azurewebsites.net/</x:String>--><!--
             <x:String x:Key="UrlAPI">https://apptaxi2020.azurewebsites.net/</x:String>
-            <x:String x:Key="UrlNoImagen">https://apptaxi2020.azurewebsites.net//images/noimage.png</x:String>
+            <x:String x:Key="UrlNoImagen">https://apptaxi2020.azurewebsites.net//images/noimage.png</x:String>-->
             <!--https://apptaxi2020.azurewebsites.net/-->
             <!--https://apptaxi2020.azurewebsites.net//images/noimage.png-->
             
