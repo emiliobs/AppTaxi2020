@@ -17,8 +17,8 @@
             <Image HeightRequest="150"
                    Margin="0,20,0,0"
                    Source="taxi"/>
-            <Grid Margin="20" 
-                  VerticalOptions="CenterAndExpand">
+            <StackLayout VerticalOptions="CenterAndExpand">
+             <Grid Margin="20">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="3*"/>
@@ -53,7 +53,14 @@
                      IsEnabled="{Binding IsEnabled}">   
                 </ActivityIndicator>-->
             </Grid>
-
+            </StackLayout>
+            <Label FontAttributes="Bold" HorizontalOptions="Center" 
+                   Text="{i18n:Translate ForgotPassword}" 
+                   TextColor="{StaticResource ColorAccent}">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ForgotPasswordCommand}" ></TapGestureRecognizer>
+                </Label.GestureRecognizers>
+            </Label>
             <StackLayout>
                 <Button Command="{Binding LoginCommand}" 
                         IsEnabled="{Binding IsEnabled}"
@@ -63,9 +70,7 @@
                         Text="{i18n:Translate Register}"
                         Style="{StaticResource DangerButton}"/>
             </StackLayout>
-
-        </StackLayout>
-
+        </StackLayout>       
         <busyindicator:SfBusyIndicator AnimationType="Gear" 
                                        AbsoluteLayout.LayoutBounds=".5,.5,.5,.5"
                 	                   AbsoluteLayout.LayoutFlags="All"

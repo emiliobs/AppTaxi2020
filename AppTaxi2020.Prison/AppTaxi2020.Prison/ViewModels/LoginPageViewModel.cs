@@ -22,7 +22,8 @@ namespace AppTaxi2020.Prison.ViewModels
         private string _password;
         private DelegateCommand _loginCommand;
         private DelegateCommand _registerCommand;
-
+        private DelegateCommand _forgotPasswordCommand;
+      
 
         public LoginPageViewModel(INavigationService navigationService , IApiService apiService)  :base(navigationService)
         {
@@ -33,11 +34,12 @@ namespace AppTaxi2020.Prison.ViewModels
             this._apiService = apiService;
 
             Email = "blanca@yopmail.com";
-            Password = "Eabs123.";
+            Password = "Blanca123.";
         }
 
         public DelegateCommand LoginCommand => _loginCommand ?? (_loginCommand = new DelegateCommand(LoginAsync));
         public DelegateCommand RegisterCommand => _registerCommand ?? (_registerCommand = new DelegateCommand(RegisterAsync));
+        public DelegateCommand ForgotPasswordCommand => _forgotPasswordCommand ?? (_forgotPasswordCommand = new DelegateCommand(ForgotPasswordAsync));
 
         public bool IsRunning
         {
@@ -59,6 +61,11 @@ namespace AppTaxi2020.Prison.ViewModels
             set => SetProperty(ref _password,value);
         }
 
+
+        private async void ForgotPasswordAsync()
+        {
+            await _navigationService.NavigateAsync(nameof(RemenberPasswordPage));
+        }
         private async void LoginAsync()
         {
             if (string.IsNullOrWhiteSpace(Email))

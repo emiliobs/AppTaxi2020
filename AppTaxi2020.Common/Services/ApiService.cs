@@ -176,6 +176,36 @@ namespace AppTaxi2020.Common.Services
                 };
             }
         }
+        
+        public async Task<Response> RecoverPasswordAsync(string urlBase, string servicePrefix, string controller, EmailRequest emailRequest)
+        {
+            try
+            {
+                var request = JsonConvert.SerializeObject(emailRequest);
+                var content = new StringContent(request, Encoding.UTF8, "application/json");
+                var client = new HttpClient
+                {
+                    BaseAddress = new Uri(urlBase),
+                };
+
+                var url = $"{servicePrefix}{controller}";
+                var response = await client.PostAsync(url, content);
+                var answer = await response.Content.ReadAsStringAsync();
+                var result = JsonConvert.DeserializeObject<Response>(answer);
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+
+                return new Response 
+                {
+                   IsSuccess = false,
+                   Message = ex.Message,
+                };
+            }
+        }
+
     }
 }
 
