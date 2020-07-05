@@ -303,4 +303,7 @@
   <data name="ForgotPassword" xml:space="preserve">
     <value>¿Olvidó la contraseña?</value>
   </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Cambiar contraseña</value>
+  </data>
 </root>

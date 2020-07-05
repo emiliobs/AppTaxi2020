@@ -29,8 +29,18 @@ namespace AppTaxi2020.Common.Models
 
         public string FullNameWithDocument => $"{FirstName} {LastName} - {Document}";
 
+        //
+
         public string PictureFullPath => string.IsNullOrEmpty(PicturePath)
-              ? "https://TaxiWeb3.azurewebsites.net//images/noimage.png"
-              : $"https://zulutaxi.blob.core.windows.net/users/{PicturePath}";
+             ? "http://192.168.0.11:8055//images/noimage.png"
+             : $"http://192.168.0.11:8055{PicturePath.Substring(1)}";
+
+             //: $"http://192.168.0.11:8055/images/Users/b254c445-7a1b-4774-8473-398ac18d6e78.jpg";
+
+        // return $"https://localhost:44308{this.ImageUrl.Substring(1)}";
+
+        //public string PictureFullPath => string.IsNullOrEmpty(PicturePath)
+        //      ? "https://TaxiWeb3.azurewebsites.net//images/noimage.png"
+        //      : $"https://zulutaxi.blob.core.windows.net/users/{PicturePath}";
     }
 }

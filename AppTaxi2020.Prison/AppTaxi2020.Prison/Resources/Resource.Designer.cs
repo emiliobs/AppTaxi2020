@@ -115,6 +115,15 @@ namespace AppTaxi2020.Prison.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Change Password.
+        /// </summary>
+        public static string ChangePassword {
+            get {
+                return ResourceManager.GetString("ChangePassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Check Plaque.
         /// </summary>
         public static string CheckPlaque {
@@ -561,6 +570,15 @@ namespace AppTaxi2020.Prison.Resources {
         public static string ReportAnIncident {
             get {
                 return ResourceManager.GetString("ReportAnIncident", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string Save {
+            get {
+                return ResourceManager.GetString("Save", resourceCulture);
             }
         }
         

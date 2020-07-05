@@ -34,7 +34,7 @@ namespace AppTaxi2020.Prison.ViewModels
             this._apiService = apiService;
 
             Email = "blanca@yopmail.com";
-            Password = "Blanca123.";
+            Password = "Eabs123.";
         }
 
         public DelegateCommand LoginCommand => _loginCommand ?? (_loginCommand = new DelegateCommand(LoginAsync));

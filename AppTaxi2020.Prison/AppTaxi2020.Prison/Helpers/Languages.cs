@@ -17,6 +17,10 @@ namespace AppTaxi2020.Prison.Helpers
 
         public static string Culture { get; set; }
 
+        public static string Save => Resource.Save;
+
+        public static string ChangePassword => Resource.ChangePassword;
+
         public static string PasswordRecover => Resource.PasswordRecover;
 
         public static string ForgotPassword => Resource.ForgotPassword;

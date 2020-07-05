@@ -87,17 +87,6 @@
                                Grid.Column="1"
                                Placeholder="{i18n:Translate AddressPlaceHolder}"
                                Text="{Binding User.Address}"/>
-                        <Label Grid.Row="4"
-                               Grid.Column="0"
-                               Text="{i18n:Translate Email}"
-                               VerticalOptions="Center"/>
-                        
-                        <Entry Grid.Row="4"
-                               Grid.Column="1"
-                               Keyboard="Email"
-                               Placeholder="{i18n:Translate EmailPlaceHolder}"
-                               Text="{Binding User.Email}"/>
-
                         <Label Grid.Row="5"
                                Grid.Column="0"
                                Text="{i18n:Translate Phone}"
@@ -107,6 +96,15 @@
                                Keyboard="Telephone"
                                Placeholder="{i18n:Translate PhonePlaceHolder}"
                                Text="{Binding User.Phone}"/>
+                        <Label Grid.Row="4"
+                               Grid.Column="0"
+                               Text="{i18n:Translate Email}"
+                               VerticalOptions="Center"/>                        
+                        <Entry Grid.Row="4"
+                               Grid.Column="1"
+                               Keyboard="Email"
+                               Placeholder="{i18n:Translate EmailPlaceHolder}"
+                               Text="{Binding User.Email}"/>              
 
                         <Label Grid.Row="6"
                                Grid.Column="0"
