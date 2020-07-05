@@ -8,6 +8,9 @@ namespace AppTaxi2020.Common.Services
 {
     public interface IApiService
     {
+
+        Task<Response> PutAsync<T>(string urlBase, string servicePrefix, string controller, T model, string tokenType, string accessToken);
+
         Task<Response> RegisterUserAsync(string urlBase, string servicePrefix, string controller, UserRequest userRequest);
 
         Task<Response> GetTaxiAsync(string plaque, string urlBase, string servicePrefix, string controller);

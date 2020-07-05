@@ -574,7 +574,7 @@ namespace AppTaxi2020.Prison.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Save.
         /// </summary>
         public static string Save {
             get {
@@ -633,6 +633,15 @@ namespace AppTaxi2020.Prison.Resources {
         public static string User {
             get {
                 return ResourceManager.GetString("User", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to User Updated.
+        /// </summary>
+        public static string UserUpdated {
+            get {
+                return ResourceManager.GetString("UserUpdated", resourceCulture);
             }
         }
     }

@@ -306,4 +306,10 @@
   <data name="ChangePassword" xml:space="preserve">
     <value>Cambiar contraseña</value>
   </data>
+  <data name="Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="UserUpdated" xml:space="preserve">
+    <value>Usuario actualizado</value>
+  </data>
 </root>
