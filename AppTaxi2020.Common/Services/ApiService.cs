@@ -210,44 +210,43 @@ namespace AppTaxi2020.Common.Services
         {
             try
             {
-                var request = JsonConvert.SerializeObject(model);
-                var content = new StringContent(request, Encoding.UTF8, "application/json");
-                var client = new HttpClient
+                string request = JsonConvert.SerializeObject(model);
+                StringContent content = new StringContent(request, Encoding.UTF8, "application/json");
+                HttpClient client = new HttpClient
                 {
                     BaseAddress = new Uri(urlBase)
                 };
 
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(tokenType, accessToken);
-                var url = $"{servicePrefix}{controller}";
-                var response = await client.PutAsync(url,content);
-                var answer = await response.Content.ReadAsStringAsync();
+                string url = $"{servicePrefix}{controller}";
+                HttpResponseMessage response = await client.PutAsync(url, content);
+                string answer = await response.Content.ReadAsStringAsync();
                 if (!response.IsSuccessStatusCode)
                 {
-                    return new Response 
+                    return new Response
                     {
-                      IsSuccess = false,
-                      Message = answer,
+                        IsSuccess = false,
+                        Message = answer,
                     };
                 }
 
-                var obj = JsonConvert.DeserializeObject<T>(answer);
-                return new Response 
+                T obj = JsonConvert.DeserializeObject<T>(answer);
+                return new Response
                 {
-                   IsSuccess = true,
-                   Result = obj,
+                    IsSuccess = true,
+                    Result = obj,
                 };
-
             }
             catch (Exception ex)
             {
-
-                return new Response 
+                return new Response
                 {
                     IsSuccess = false,
                     Message = ex.Message,
                 };
             }
         }
+
     }
 }
 

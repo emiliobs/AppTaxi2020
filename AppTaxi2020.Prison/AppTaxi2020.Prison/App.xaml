@@ -9,8 +9,8 @@
             
             <!-- Parameters -->
             <!-- Parameters -->
-            <x:String x:Key="UrlAPI">http://192.168.0.11:8055/</x:String>
-            <x:String x:Key="UrlNoImagen">http://192.168.0.11:8055/images/noimage.png</x:String>
+            <x:String x:Key="UrlAPI">http://192.168.0.10:8055/</x:String>
+            <x:String x:Key="UrlNoImagen">http://192.168.0.10:8055/images/noimage.png</x:String>
             
             <!--<x:String x:Key="UrlAPI">https://taxiweb3.azurewebsites.net/</x:String>--><!--
             <x:String x:Key="UrlAPI">https://apptaxi2020.azurewebsites.net/</x:String>

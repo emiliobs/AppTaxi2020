@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>18e21405-6d80-49e0-8d4e-494fedbf62e0</UserSecretsId>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+	
   </PropertyGroup>
 
   <ItemGroup>

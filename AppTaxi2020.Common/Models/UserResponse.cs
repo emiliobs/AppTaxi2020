@@ -32,8 +32,8 @@ namespace AppTaxi2020.Common.Models
         //
 
         public string PictureFullPath => string.IsNullOrEmpty(PicturePath)
-             ? "http://192.168.0.11:8055//images/noimage.png"
-             : $"http://192.168.0.11:8055{PicturePath.Substring(1)}";
+             ? "http://192.168.0.10:8055//images/noimage.png"
+             : $"http://192.168.0.10:8055{PicturePath.Substring(1)}";
 
              //: $"http://192.168.0.11:8055/images/Users/b254c445-7a1b-4774-8473-398ac18d6e78.jpg";
 
